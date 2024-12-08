@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0124;1;67"
-     xml:id="p.grenf.1.67"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0124;1;67" xml:id="p.grenf.1.67" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,11 +38,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="38220" xml:lang="en">
-            <date>VI/VII spc</date>
-            <placeName>Hermoupolis Magna?</placeName>
-            <ref n="stud.pal;3;317" type="reprint-from">StudPal3,317</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.grenf/1/67">P.Grenf. 1 67</ref> = <ref target="https://papyri.info/pub/stud.pal/3/317">SPP III 317</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="stauros"/> Θεοτίμῳ <expan>προνοητ<ex cert="low">ῇ</ex></expan> <g type="stauros"/> Ἐρύθριος σὺν <expan>θ<ex>εῷ</ex></expan> <app type="editorial"><lem resp="BL 1.185"><expan>ἐξπελλε<ex>υτής</ex></expan></lem><rdg><expan>ἐξπελλά<ex>τωρ</ex></expan></rdg></app> 
 

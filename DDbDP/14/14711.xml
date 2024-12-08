@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;16;13073"
-     xml:id="sb.16.13073"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;16;13073" xml:id="sb.16.13073" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="14711" xml:lang="en">
-            <date>AD 51</date>
-            <placeName>Nilopolis Arsinoites</placeName>
-            <ref n="p.lond;2;279,pgxxvii" type="reprint-from">PLond2,279</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/16/13073">SB 16 13073</ref> = <ref target="https://papyri.info/pub/p.lond/2/279,pgxxvii">P.Lond. II 279 descr.</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">ἔ</supplied><unclear>τους</unclear> δωδεκάτου Τιβερίου 
 

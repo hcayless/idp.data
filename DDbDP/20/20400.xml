@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0181;6;992"
-     xml:id="p.oxy.6.992"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0181;6;992" xml:id="p.oxy.6.992" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="20400" xml:lang="en">
-            <date>AD 413</date>
-            <placeName>Oxyrhynchus</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.oxy/6/992">P.Oxy. 6 992</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1/6"/>Ἰουλιανὸς Δωροθέῳ. παρασχοῦ Μαρίᾳ <choice><reg>γυναικὶ</reg><orig>γυνὴ</orig></choice> <choice><reg>Πεκολαρίου</reg><orig>Πεκολαρίω</orig></choice> οἴνο<supplied reason="lost">υ</supplied> <expan>δι<ex>πλοῦν</ex></expan> <num value="1">α</num> ἐν λοχίαις αὐτῆς <expan>σεσημ<ex>είωμαι</ex></expan> οἴνου διπλοῦν <num value="1">α</num>. <expan><ex>ἔτους</ex></expan> <num value="89">πθ</num>  <choice><reg><num value="58">νη</num></reg><orig><num value="48">μη</num></orig></choice> Φαρμοῦθι <num value="22">κβ</num>. </ab></div>
       </body>

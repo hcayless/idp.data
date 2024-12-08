@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0100;;4"
-     xml:id="p.diog.4"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0100;;4" xml:id="p.diog.4" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="15715" xml:lang="en">
-            <date>AD 212-17</date>
-            <placeName>Antinoopolis</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.diog/4">P.Diog. 4</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Μᾶρκος Λουκρήτιος Διογένης <unclear>Μά</unclear>ρ<supplied reason="lost">κο</supplied><unclear>υ</unclear> <unclear>Λο</unclear>υκρητ<unclear>ί</unclear>ου Μίνορος <unclear>Ἁδριά</unclear>νι<unclear>ο</unclear>ς 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0131;2;220"
-     xml:id="p.heid.2.220"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0131;2;220" xml:id="p.heid.2.220" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="14253" xml:lang="en">
-            <date>AD 195</date>
-            <placeName>Theogonis</placeName>
-            <ref n="sb;6;9540" type="reprint-from">SB6,9540</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.heid/2/220">P.Heid. II 220</ref> = <ref target="https://papyri.info/pub/sb/6/9540">SB 6 9540</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>ἔτους <num value="3">γ</num> Λουκίου Σεπτιμίου 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;1;842"
-     xml:id="sb.1.842"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;1;842" xml:id="sb.1.842" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="29363" xml:lang="en">
-            <date>II/III spc</date>
-            <placeName>?</placeName>
-            <note xml:lang="en">l</note>
-         </head>
+         <head><ref>C.Étiq. Mom. 90</ref> = <ref target="https://papyri.info/pub/sb/1/842">SB 1 842</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" quantity="1" unit="character"/><unclear>ω</unclear>ν Ἀνου<unclear>β</unclear>ί<unclear>ω</unclear>νος δὶς <gap reason="lost" extent="unknown" unit="character"/>σας ἐτελεύ<supplied reason="lost">τησεν</supplied>. </ab></div>
       </body>

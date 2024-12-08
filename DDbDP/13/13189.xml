@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0205;4;185v"
-     xml:id="p.stras.4.185v"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0205;4;185v" xml:id="p.stras.4.185v" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,10 +44,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="13189" xml:lang="en">
-            <date>AD 55</date>
-            <placeName>Arsinoite</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.stras/4/185v">P.Strasb. 4 185 V</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
 
     <lb n="1"/><expan><ex>ἔτος</ex></expan> <num value="2">β</num> Τραινοῦ Ἁδριανοῦ Καίσαρος τοῦ Κυρίου 

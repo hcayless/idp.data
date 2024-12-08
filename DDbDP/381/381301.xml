@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,18 +29,16 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2020-10-13T05:59:47-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2020-09-14T06:02:44-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Use lower case in lin1, 2, 5</change>
+          <change when="2020-10-13T05:59:47-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2020-09-14T06:02:44-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Use lower case in lin1, 2, 5</change>
           <change when="2020-09-12T03:09:56-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.petr.kleon/78">P.Petr. Kleon 78</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="a" subtype="fragment" type="textpart">
+<div n="a" subtype="fragment" type="textpart" xml:id="fragment_a"><head>Fragment a</head>
 <div n="r" type="textpart"><ab>
     <lb n="1"/><expan>ὑπ<ex>όμνημα</ex></expan> παρὰ Κλέωνος Τῦβι <num value="27">κζ</num>
 
@@ -82,7 +78,7 @@
     <lb n="14"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div> 
 </div>
-<div n="b" subtype="fragment" type="textpart">
+<div n="b" subtype="fragment" type="textpart" xml:id="fragment_b"><head>Fragment b</head>
 <div n="r" type="textpart"><ab> 
     <lb n="15"/><gap reason="lost" extent="unknown" unit="line"/>
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;1;69"
-     xml:id="p.flor.1.69"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;1;69" xml:id="p.flor.1.69" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,12 +26,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2012-11-19T06:37:35.922-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2012-11-19T06:37:35.904-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine.</change>
-          <change when="2012-04-10T15:07:08.891-04:00"
-                 who="https://papyri.info/editor/users/pheilpor">Typo corrected (another "Latin" question mark).</change>
+          <change when="2012-11-19T06:37:35.922-05:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2012-11-19T06:37:35.904-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine.</change>
+          <change when="2012-04-10T15:07:08.891-04:00" who="https://papyri.info/editor/users/pheilpor">Typo corrected (another "Latin" question mark).</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-11-29" who="https://papyri.info/editor/users/gabrielbodard">converted app type=BL|SoSOL to editorial</change>
@@ -48,11 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="10961" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Arsinoite</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,1" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/1/69">P.Flor. 1 69</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,1" type="textpart" xml:id="_r_1"><head>r,1</head><ab>
 
     <lb n="1"/><num value="71">οα</num> 
 
@@ -105,7 +94,7 @@
     <lb n="24"/><num value="8">η</num>, <expan>ναυπηγ<ex>οῖς</ex></expan> <num value="4">δ</num> ἐξηλοῦσι σανίδε<unclear>ς</unclear> <unclear>πλ</unclear>ατείας ἑτέρου τοίχου 
 
     <lb n="25"/>τοῦ <expan>προκ<ex>ειμένου</ex></expan> πλοίου, <unclear>ἐ</unclear>κ <expan><ex>δραχμῶν</ex></expan> <num value="7">ζ</num>, <expan><ex>δραχμαὶ</ex></expan> <num value="28">κη</num>. 
-</ab></div><div n="r,2" type="textpart"><ab>
+</ab></div><div n="r,2" type="textpart" xml:id="_r_2"><head>r,2</head><ab>
 
     <lb n="1"/><num value="9">θ</num> <gap reason="lost" extent="unknown" unit="character"/> 
 
@@ -156,7 +145,7 @@
     <lb n="24"/>Χοιὰκ <num value="4">δ</num> <gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="25"/><num value="5">ε</num> <gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 1,69,v reprinted in <ref n="p.flor;2;123" type="reprint-in">PFlor 2,123</ref></note></ab></div></div>
       </body>

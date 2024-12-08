@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0223;;8" xml:id="p.vind.worp.8" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0223;;8" xml:id="p.vind.worp.8" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -38,15 +36,11 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>AD 161-166</date>
-            <placeName>Memphis</placeName>
-            <ref n="p.charite;;13" type="reprint-in">P.Charite 13</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,1" type="textpart"><ab>
+         <head><ref>P.Charite 13 Z. 1 - 11</ref> = <ref>P.Charite 13 Z. 12 - 23</ref> = <ref>P.Vindob.Worp 8, Z. 33 - 35 (= Z. 12 - 14)</ref> = <ref>P.Charite 13 Z. 24 - 45</ref> = <ref>P.Vindob.Worp 8, Z. 36 - 49</ref> = <ref target="https://papyri.info/pub/p.vind.worp/8">P.Vindob.Worp 8, Z. 22 - 32</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,1" type="textpart" xml:id="_r_1"><head>r,1</head><ab>
 
     <lb n="1"/><note xml:lang="en">PVindobWorp 8,r reprinted in <ref n="cpr;17A;7" type="reprint-in">CPR 17A,7</ref></note>
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><note xml:lang="en">PVindobWorp 8,v reprinted in <ref n="p.charite;;13" type="reprint-in">PCharite 13</ref></note></ab></div></div>
       </body>

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;6;9553_4"
-     xml:id="sb.6.9553_4"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;6;9553_4" xml:id="sb.6.9553_4" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,11 +38,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="5786" xml:lang="en">
-            <date>144 BC?</date>
-            <placeName>Memnoneia</placeName>
-            <note xml:lang="en">o</note>
-         </head>
+         <head><ref>DAHT 5786</ref> = <ref>O.Cair.Cat. 9672</ref> = <ref target="https://papyri.info/pub/sb/6/9553_4">SB 6 9553 (4)</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
 
     <lb n="1"/>ἔτους <num value="51">ν<unclear>α</unclear></num> <expan>Παῦ<ex>νι</ex></expan> <num value="29">κθ</num> <expan>με<ex>μέτρηκεν</ex></expan> εἰς 

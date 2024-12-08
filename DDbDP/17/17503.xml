@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0181;17;2120"
-     xml:id="p.oxy.17.2120"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0181;17;2120" xml:id="p.oxy.17.2120" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="17503" xml:lang="en">
-            <date>AD 221</date>
-            <placeName>Oxy&lt;Hermopolite</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.oxy/17/2120">P.Oxy. 17 2120</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Αὐρήλ<supplied reason="lost">ιο</supplied>ς Ἱέρ<supplied reason="lost">αξ ὁ καὶ Μέλας </supplied><gap reason="lost" quantity="5" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/> καὶ ὡς χρηματίζω, Ἀλεξανδρεὺς 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0128;1;73"
-     xml:id="p.hamb.1.73"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0128;1;73" xml:id="p.hamb.1.73" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="28697" xml:lang="en">
-            <date>II spc</date>
-            <placeName>?</placeName>
-            <ref n="sb;3;6273" type="reprint-from">SB3,6273</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.hamb/1/73">P.Hamb. 1 73</ref> = <ref target="https://papyri.info/pub/sb/3/6273">SB III 6273</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>ἐν τῇ βιβλιοθήκῃ <gap reason="lost" extent="unknown" unit="character"/> 
 

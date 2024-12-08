@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0149;;68"
-     xml:id="p.leid.inst.68"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0149;;68" xml:id="p.leid.inst.68" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="35179" xml:lang="en">
-            <date>V/VI spc</date>
-            <placeName>?</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.leid.inst/1/68">P.Leid.Inst. 1 68</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
@@ -69,7 +61,7 @@
     <lb n="9"/><expan>πρ<ex>ὸς</ex></expan> Ἀπαίων ἀπὸ <expan>νο<ex>μισματίου</ex></expan> <num value="1">α</num> <gap reason="lost" quantity="3" unit="character"/> <num value="5">ε</num> <num value="1/4" rend="tick">δ</num> <num value="1/48" rend="tick"><unclear>μη</unclear></num> <gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="10"/><expan>λοι<ex>πὰ</ex></expan> <expan>ἀ<ex>ρτάβαι</ex></expan> <num value="80">π</num> ἅμα <expan><unclear>ν</unclear>ο<ex>μισματίοις</ex></expan> <gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><g type="stauros"/> <expan>πρ<ex>ὸς</ex></expan> Ἀβρααμίο<unclear>υ</unclear> Φ<unclear>ῖβ</unclear> ἀπ<unclear>ὸ</unclear> <supplied reason="lost"><expan>νο<ex>μισματίων</ex></expan></supplied> ε<unclear>π</unclear><gap reason="illegible" quantity="2" unit="character"/><unclear>ηο</unclear> ἀπὸ <gap reason="lost" extent="unknown" unit="character"/> 
 

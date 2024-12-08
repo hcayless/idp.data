@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0181;60;4061"
-     xml:id="p.oxy.60.4061"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0181;60;4061" xml:id="p.oxy.60.4061" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="22545" xml:lang="en">
-            <date>AD 163</date>
-            <placeName>Oxyrhynchus</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.oxy/60/4061">P.Oxy. 60 4061</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" quantity="15" unit="character"/><supplied reason="lost"> Καλπουρνίῳ Ἀρτ</supplied><unclear>εμι</unclear>δώρῳ τῷ κ<supplied reason="lost">α</supplied><unclear>ὶ</unclear> <supplied reason="lost">Πτολ</supplied><unclear>ε</unclear><supplied reason="lost">μαίῳ </supplied><gap reason="lost" quantity="17" unit="character"/> 
 

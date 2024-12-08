@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0205;1;11" xml:id="p.stras.1.11" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0205;1;11" xml:id="p.stras.1.11" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +42,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="18666a 18666b" xml:lang="en">
-            <date>AD 268</date>
-            <placeName>Hermoupolis Magna</placeName>
-         </head>
+         <head><ref>P.Strasb. 1 11 Z. 9 - 15</ref> = <ref target="https://papyri.info/pub/p.stras/1/11">P.Strasb. 1 11 Z. 1 - 8</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><handShift new="m1"/> Ἀθηνόδ<unclear>ω</unclear>ρος διὰ Ἑρμοῦ τοῖς ἀπὸ 
 

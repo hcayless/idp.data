@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0088;;82"
-     xml:id="p.cair.isid.82"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0088;;82" xml:id="p.cair.isid.82" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -51,11 +46,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="10413" xml:lang="en">
-            <date>AD 318</date>
-            <placeName>Karanis</placeName>
-            <ref type="reprint-from">SB6,9268</ref>
-         </head>
+         <head><ref>SB VI 9268</ref> = <ref target="https://papyri.info/pub/p.cair.isid/82">P.Cair. Isid. 82</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>συνέθ<supplied reason="lost">εντο πρ</supplied>ὸς ἀλλ<supplied reason="lost">ήλο</supplied>υς Αὐρήλιοι <hi rend="diaeresis">Ἰ</hi>σίδω
 

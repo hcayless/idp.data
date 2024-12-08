@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0131;4;338"
-     xml:id="p.heid.4.338"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0131;4;338" xml:id="p.heid.4.338" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,10 +45,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="21116" xml:lang="en">
-            <date>AD 62</date>
-            <placeName>Hermoupolis Magna</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.heid/4/338">P.Heid. 4 338</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><handShift new="m1"/> <expan>Φρ<ex>ουρίου</ex></expan> <expan>Λιβ<ex>ός</ex></expan>, <num value="4">δ</num> <expan><ex>ἔτους</ex></expan> Γαίου. 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0132;1;29"
-     xml:id="p.hels.1.29"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0132;1;29" xml:id="p.hels.1.29" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,11 +43,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="5164" xml:lang="en">
-            <date>161/160 BC</date>
-            <placeName>Herakleopolite</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.hels/1/29">P.Hels. 1 29</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
@@ -81,7 +73,7 @@
     <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> <expan><ex>τάλαντα</ex></expan> <num value="14">ιδ</num>  <num value="285">σπε</num> <num value="3"><expan><ex>τριώβολον</ex></expan></num> <expan><ex>γίνεται</ex></expan> <expan><ex>τάλαντα</ex></expan> <num value="29">κθ</num>  <num value="4000">Δ</num> <num value="3"><expan><ex>τριώβολον</ex></expan></num> 
 
     <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> ἐν</supplied>εστῶτος <expan><ex>ἔτους</ex></expan> <num value="21">κ<unclear>α</unclear></num> ἀναφέρεται 
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="13"/><gap reason="lost" extent="unknown" unit="line"/> 
 
@@ -124,7 +116,7 @@
     <lb n="32"/><num value="7">ζ</num> <num value="41">μα</num><gap reason="illegible" quantity="2" unit="character"/> <expan><ex>γίνεται</ex></expan> <expan><ex>τάλαντα</ex></expan> <num value="10">ι</num>  <num value="547">φμ<unclear>ζ</unclear></num> 
 
     <lb n="33"/><expan><ex>λοιπὸν</ex></expan> <expan><ex>τάλαντα</ex></expan> <num value="6">ϛ</num>  <num value="2240">Βσμ</num> 
-</ab></div><div n="3" type="textpart"><ab>
+</ab></div><div n="3" type="textpart" xml:id="_3"><head>3</head><ab>
 
     <lb n="33"/><gap reason="lost" extent="unknown" unit="line"/> 
 

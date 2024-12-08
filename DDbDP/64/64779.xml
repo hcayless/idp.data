@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,23 +29,19 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2013-10-16T16:40:45.21-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2013-10-16T16:40:45.203-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - AcceptText - See Sosin's comments.</change>
-          <change when="2013-10-16T16:40:45.186-04:00"
-                 who="https://papyri.info/editor/users/joshuad.sosin">Vote - AcceptText - Accept. Lin16=&gt; 16. vac.?lin; lin16=&gt; &lt;:Θέωνος|reg|Θίωνος:&gt;; lin32=&gt; Φλαου ί(¨)ῳ; lin36-44 all perpendicular; that alone does not fully capture the situation, but we lack markup to do so completely.</change>
-          <change when="2012-09-02T03:06:58.12-04:00"
-                 who="https://papyri.info/editor/users/PaulvdLaan">Entered Greek text from P.Rain.Unterricht 81. lin22--&gt; added iv.column, otherwise would not fit into Leiden+ grammar; lin30--&gt; changed underdot in jota subscriptum (ᾳ)΄</change>
+          <change when="2013-10-16T16:40:45.21-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2013-10-16T16:40:45.203-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - AcceptText - See Sosin's comments.</change>
+          <change when="2013-10-16T16:40:45.186-04:00" who="https://papyri.info/editor/users/joshuad.sosin">Vote - AcceptText - Accept. Lin16=&gt; 16. vac.?lin; lin16=&gt; &lt;:Θέωνος|reg|Θίωνος:&gt;; lin32=&gt; Φλαου ί(¨)ῳ; lin36-44 all perpendicular; that alone does not fully capture the situation, but we lack markup to do so completely.</change>
+          <change when="2012-09-02T03:06:58.12-04:00" who="https://papyri.info/editor/users/PaulvdLaan">Entered Greek text from P.Rain.Unterricht 81. lin22--&gt; added iv.column, otherwise would not fit into Leiden+ grammar; lin30--&gt; changed underdot in jota subscriptum (ᾳ)΄</change>
           <change when="2012-08-28T09:07:55-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref>LDAB 64779</ref> = <ref target="https://papyri.info/pub/p.rain.unterricht/81">P.Rain. Unterricht 81</ref></head>
          <div type="commentary" subtype="frontmatter" xml:space="preserve"><p>The verso is written in inverse position. </p></div>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart">
+<div n="r" type="textpart" xml:id="_r"><head>r</head>
 <div n="i" subtype="column" type="textpart"><ab>
 <lb n="1"/>Ὡράμμων <unclear>Νεμεσί</unclear><supplied reason="lost">ωνος</supplied>
 <lb n="2"/>Ὡριγένης Ἀπολ<unclear>λω</unclear>ν<supplied reason="lost">ί</supplied><unclear>ου</unclear>
@@ -78,7 +72,7 @@
 <lb n="21"/>ω Ὡράμμ
 </ab></div></div>
 
-<div n="v" type="textpart">
+<div n="v" type="textpart" xml:id="_v"><head>v</head>
 <div n="iv" subtype="column" type="textpart"><ab>
 <lb n="22"/>Ἰσὰκ Ὡράμμωνος
 <lb n="23"/>ὁμολογῶ <expan>ἑκουσ<ex>ίᾳ</ex></expan>

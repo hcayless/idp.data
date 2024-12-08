@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;20;15044"
-     xml:id="sb.20.15044"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;20;15044" xml:id="sb.20.15044" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>AD 18</date>
-            <placeName>Elephantine</placeName>
-            <ref n="p.eleph.wagner;1;67a" type="reprint-in">P.Eleph.Wagner 67a</ref>
-         </head>
+         <head><ref>O.Eleph. DAIK 67 Appendice (S. 48)</ref> = <ref target="https://papyri.info/pub/sb/20/15044">SB 20 15044</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>διαγεγράφηκεν
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;12;10817"
-     xml:id="sb.12.10817"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;12;10817" xml:id="sb.12.10817" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="30230" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Panopolis</placeName>
-            <note xml:lang="en">l</note>
-         </head>
+         <head><ref>Short Texts 2 472</ref> = <ref>DAHT 30230</ref> = <ref>C.Étiq. Mom. 1606</ref> = <ref target="https://papyri.info/pub/sb/12/10817">SB XII 10817</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="ellipsis" quantity="1" unit="line"><desc>Demotic</desc></gap> 
 

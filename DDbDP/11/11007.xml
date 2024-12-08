@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;2;150"
-     xml:id="p.flor.2.150"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;2;150" xml:id="p.flor.2.150" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -51,11 +46,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11007" xml:lang="en">
-            <date>AD 267</date>
-            <placeName>Theadelphia</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/2/150">P.Flor. 2 150</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><expan>π<ex>αρὰ</ex></expan> Ἀλυπίου 
 
@@ -90,7 +82,7 @@
     <lb n="15"/><handShift new="m1"/> Ἡρωνείνῳ <expan>φροντ<ex>ιστῇ</ex></expan> Θαρσώ. 
 
     <lb n="16"/><expan><ex>ἔτους</ex></expan> <num value="13">ιγ</num> <supplied reason="lost">Ἐπ</supplied>εὶφ <num value="17">ιζ</num> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><expan>π<ex>αρὰ</ex></expan> Ἀλυπίου Ἡρωνείνῳ <expan>φροντ<ex>ιστῇ</ex></expan> Θρασ<unclear>ώ</unclear> 
 

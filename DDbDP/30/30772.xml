@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0082;;38"
-     xml:id="p.bour.38"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0082;;38" xml:id="p.bour.38" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="30772" xml:lang="en">
-            <date>III-IV spc</date>
-            <placeName>?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.bour/38">P.Bour. 38</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">Π</supplied>τολεμαῖος Πεθέως καὶ Ο<gap reason="lost" extent="unknown" unit="character"/> 
 

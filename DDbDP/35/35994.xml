@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;16;12401"
-     xml:id="sb.16.12401"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;16;12401" xml:id="sb.16.12401" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +36,10 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>AD 590</date>
-            <placeName>Hermopolite</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref>SB 22 15595</ref> = <ref target="https://papyri.info/pub/sb/16/12401">SB XVI 12401 und SB XVI 12402</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 <note xml:lang="en">SB 16,12401 recto reprinted in SB 22,15595</note>
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="15"/><g type="chirho"/> <supplied reason="omitted"><expan>χ<ex>ει</ex>ρ<ex>όγραφον</ex></expan></supplied> <expan>γενόμε<ex>νον</ex></expan> <expan>πα<ex>ρʼ</ex></expan> <expan>Ἀνούφ<ex>ιος</ex></expan> Ἰωά<supplied reason="lost">ννου </supplied><gap reason="lost" extent="unknown" unit="character"/> <expan><supplied reason="lost">Πα</supplied>χὼ<ex>ν</ex></expan> <num value="6">ϛ</num> <expan>ἰνδ<ex>ικτίονος</ex></expan> <supplied reason="lost"><num value="9">θ</num></supplied>. </ab></div></div>
       </body>

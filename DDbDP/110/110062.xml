@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -33,21 +31,18 @@
       <revisionDesc>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
-          <change when="2011-07-13T14:31:03.373-04:00"
-                 who="https://papyri.info/editor/users/joshuad.sosin">Finalized - ready</change>
-          <change when="2011-07-13T14:31:03.369-04:00"
-                 who="https://papyri.info/editor/users/joshuad.sosin">Vote - Accept-Straight-to-FInalization - Accept. Lin4--&gt;κ; lin9--&gt; (|Ἡρακλ|) (Πεκύσι(ος)); add comm: 'Ed. pr.: Ἡρακλ[(  )]; Lin10--&gt; &amp;lt;:Κω̣ν̣σταντί̣νου (ὑπ(ὲρ)) Ψα.3 Ἀ̣ντωνίου|ed:F. Mitthof, APF 54 (2008) 273|(Κω̣ν̣σταντί̣νο(υ)) (υἱο(ῦ)) (Ἀντωνίο(υ)):&amp;gt; ; lin12--&gt; [&lt;#ἕν=1#&gt;] [.?]; lin16--&gt; &amp;lt;:Κωνσταντ̣ίνου (ὑπ(ὲρ))|ed:F. Mitthof, APF 54 (2008) 273|(Κωνσταντ̣ίνο(υ)) (υ(ἱοῦ)):&amp;gt; (note: APF has -ντί̣ν- 2x for -ντ̣ίν-, a typo); lin23--&gt; &amp;lt;:Κωνσταντίνου (ὑπ(ὲρ))|ed:F. Mitthof, APF 54 (2008) 273|(Κωνσταντίνο(υ)) (υ(ἱοῦ)):&amp;gt; ; lin23 remove note; </change>
-          <change when="2011-06-29T03:44:19.204-04:00"
-                 who="https://papyri.info/editor/users/a-blomley">Submitted on the 29th of June 2011.</change>
+          <change when="2011-07-13T14:31:03.373-04:00" who="https://papyri.info/editor/users/joshuad.sosin">Finalized - ready</change>
+          <change when="2011-07-13T14:31:03.369-04:00" who="https://papyri.info/editor/users/joshuad.sosin">Vote - Accept-Straight-to-FInalization - Accept. Lin4--&gt;κ; lin9--&gt; (|Ἡρακλ|) (Πεκύσι(ος)); add comm: 'Ed. pr.: Ἡρακλ[(  )]; Lin10--&gt; &amp;lt;:Κω̣ν̣σταντί̣νου (ὑπ(ὲρ)) Ψα.3 Ἀ̣ντωνίου|ed:F. Mitthof, APF 54 (2008) 273|(Κω̣ν̣σταντί̣νο(υ)) (υἱο(ῦ)) (Ἀντωνίο(υ)):&amp;gt; ; lin12--&gt; [&lt;#ἕν=1#&gt;] [.?]; lin16--&gt; &amp;lt;:Κωνσταντ̣ίνου (ὑπ(ὲρ))|ed:F. Mitthof, APF 54 (2008) 273|(Κωνσταντ̣ίνο(υ)) (υ(ἱοῦ)):&amp;gt; (note: APF has -ντί̣ν- 2x for -ντ̣ίν-, a typo); lin23--&gt; &amp;lt;:Κωνσταντίνου (ὑπ(ὲρ))|ed:F. Mitthof, APF 54 (2008) 273|(Κωνσταντίνο(υ)) (υ(ἱοῦ)):&amp;gt; ; lin23 remove note; </change>
+          <change when="2011-06-29T03:44:19.204-04:00" who="https://papyri.info/editor/users/a-blomley">Submitted on the 29th of June 2011.</change>
           <change when="2011-06-16T06:34:19-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.berl.cohen/20">P.Berl. Cohen 20</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 
-<div n="A" subtype="part" type="textpart"><ab> 
+<div n="A" subtype="part" type="textpart" xml:id="part_A"><head>Part A</head><ab> 
 <lb n="1"/><supplied reason="lost"><g type="stauros"/> δέ</supplied><unclear>δω</unclear><supplied reason="lost">κ</supplied>εν <expan>ὀν<ex>όματος</ex></expan> <abbr>Ἡρακλ</abbr> <expan>Πεκ<supplied reason="lost">ύσ</supplied>ι<ex>ος</ex></expan>
 <lb n="2"/><supplied reason="lost"><expan>δ<ex>ιὰ</ex></expan> <expan>το<ex>ῦ</ex></expan> </supplied><expan><supplied reason="lost">ἀ</supplied>δελ<ex>φοῦ</ex></expan> <expan><unclear>Κω</unclear>νσταντίνο<ex>υ</ex></expan> εἰς <expan>λόγ<ex>ον</ex></expan>
 <lb n="3"/><expan><supplied reason="lost">δημο</supplied>σί<ex>ων</ex></expan> <expan>ἀννων<ex>ῶν</ex></expan> <expan>κ<ex>αὶ</ex></expan> κα<supplied reason="lost">νο</supplied>νικ<supplied reason="lost">ῶν</supplied>
@@ -58,7 +53,7 @@
 <lb n="8"/><expan><ex>ἐ</ex><unclear>σ</unclear><ex>η</ex>μ<ex>ειώ</ex>θην</expan> <gap reason="illegible" quantity="2" unit="character"/> <expan>διαστ<ex>ολεὺς</ex></expan> <g type="stauros"/> διʼ ἐμοῦ Κολλούθου <expan>συ<ex>μ</ex>φ<ex>ωνῶ</ex></expan> <g type="stauros"/>
 </ab></div> 
 
-<div n="B" subtype="part" type="textpart"><ab> 
+<div n="B" subtype="part" type="textpart" xml:id="part_B"><head>Part B</head><ab> 
 <lb n="9" xml:id="div2-lb1"/><g type="stauros"/> <unclear>δ</unclear>έ<unclear>δ</unclear>ωκ<unclear>ε</unclear>ν <expan>ὀν<ex>όματος</ex></expan> <abbr>Ἡρακλ</abbr> <expan>Πεκύσι<ex>ος</ex></expan> <expan>δ<ex>ιὰ</ex></expan> <expan>το<ex>ῦ</ex></expan> <expan>ἀδ<supplied reason="lost">ε</supplied>λ<ex>φοῦ</ex></expan>
 <lb n="10"/><app type="editorial"><lem resp="F. Mitthof, APF 54 (2008) 273">Κ<unclear>ων</unclear>σταντ<unclear>ί</unclear>νου <expan>ὑπ<ex>ὲρ</ex></expan> Ψα<gap reason="illegible" quantity="3" unit="character"/> <unclear>Ἀ</unclear>ντωνίου</lem><rdg><expan>Κ<unclear>ων</unclear>σταντ<unclear>ί</unclear>νο<ex>υ</ex></expan> <expan>υἱο<ex>ῦ</ex></expan> <expan>Ἀντωνίο<ex>υ</ex></expan></rdg></app> ἀπὸ <expan>Θύν<ex>εως</ex></expan>
 <lb n="11"/><supplied reason="lost">εἰς</supplied> <expan><unclear>λ</unclear>όγ<ex>ον</ex></expan> <expan>δημοσί<ex>ων</ex></expan> <expan>ἀννων<supplied reason="lost"><ex>ῶν</ex></supplied></expan> <expan>κ<ex>αὶ</ex></expan> <expan>κ<supplied reason="lost">ανονικ<ex>ῶν</ex></supplied></expan>
@@ -67,7 +62,7 @@
 <lb n="14"/><g type="stauros"/> διʼ ἐμ<unclear>ο</unclear>ῦ Κο<unclear>λλ</unclear><supplied reason="lost">ούθου <expan>συ<ex>μ</ex>φ<ex>ωνῶ</ex></expan> <g type="stauros"/></supplied>
 </ab></div>
 
-<div n="C" subtype="part" type="textpart"><ab> 
+<div n="C" subtype="part" type="textpart" xml:id="part_C"><head>Part C</head><ab> 
 <lb n="15"/><g type="stauros"/> δ<unclear>έ</unclear>δω<unclear>κ</unclear>εν <expan>ὀν<ex>όματος</ex></expan> <expan>Θεοδώρ<ex>ου</ex></expan> <expan>Πεκύσι<ex>ος</ex></expan>
 <lb n="16"/><expan>δ<ex>ιὰ</ex></expan> <expan>το<ex>ῦ</ex></expan> <expan><unclear>ἀ</unclear>δελ<ex>φοῦ</ex></expan> <app type="editorial"><lem resp="F. Mitthof, APF 54 (2008) 273">Κωνσταν<unclear>τ</unclear>ίνου <expan>ὑπ<ex>ὲρ</ex></expan></lem><rdg><expan>Κωνσταν<unclear>τ</unclear>ίνο<ex>υ</ex></expan> <expan>υ<ex>ἱοῦ</ex></expan></rdg></app>
 <lb n="17"/><expan><unclear>Π</unclear>εκύσι<ex>ος</ex></expan> <abbr>Κουληρα</abbr> ἀπὸ <expan>Θύνε<ex>ως</ex></expan>
@@ -77,7 +72,7 @@
 <lb n="21"/><expan><ex>ἐ</ex>σ<ex>η</ex>μ<ex>ειώθην</ex></expan> <expan>διαστ<ex>ολεὺς</ex></expan> <g type="stauros"/> διʼ ἐμοῦ <expan>Κολλο<ex>ύ</ex>θου</expan> <expan>σ<ex>υ</ex>μφ<ex>ωνῶ</ex></expan> <g type="stauros"/>
 </ab></div>
 
-<div n="D" subtype="part" type="textpart"><ab>
+<div n="D" subtype="part" type="textpart" xml:id="part_D"><head>Part D</head><ab>
 <lb n="22"/><g type="stauros"/> δέδωκε<supplied reason="lost">ν</supplied> <expan><supplied reason="lost">ὀν</supplied><ex>όματος</ex></expan> <abbr>Θεοδ</abbr> <expan>Ἡλιοδώρ<ex>ου</ex></expan>
 <lb n="23"/><expan>δ<ex>ιὰ</ex></expan> <expan>το<ex>ῦ</ex></expan> <expan>ἀδελ<ex>φοῦ</ex></expan> <app type="editorial"><lem resp="F. Mitthof, APF 54 (2008) 273">Κωνσταντίνου <expan>ὑπ<ex>ὲρ</ex></expan></lem><rdg><expan>Κωνσταντίνο<ex>υ</ex></expan> <expan>υ<ex>ἱοῦ</ex></expan></rdg></app> Κωνσ
 <lb n="24"/>ἀπὸ <expan>Θύν<ex>εως</ex></expan> εἰς <expan>λόγ<ex>ον</ex></expan> <expan>δημοσί<ex>ων</ex></expan> <expan>ἀννων<ex>ῶν</ex></expan> <expan>κ<ex>αὶ</ex></expan>

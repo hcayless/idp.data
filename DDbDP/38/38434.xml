@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;20;14171"
-     xml:id="sb.20.14171"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;20;14171" xml:id="sb.20.14171" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="38434" xml:lang="en">
-            <date>VI spc</date>
-            <placeName>?</placeName>
-            <ref n="p.lond;3;1312" type="reprint-from">PLond 3,1312</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/20/14171">SB 20 14171</ref> = <ref target="https://papyri.info/pub/p.lond/3/1312">P.Lond. III 1312 descr., S. LXXII</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="stauros"/> <expan>π<ex>αρὰ</ex></expan> Καλλινίκου <expan>προνοητ<ex>οῦ</ex></expan>
 

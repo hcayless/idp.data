@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;12;10864"
-     xml:id="sb.12.10864"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;12;10864" xml:id="sb.12.10864" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="4371" xml:lang="en">
-            <date>III sac</date>
-            <placeName>Magdola</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/sb/12/10864">SB 12 10864</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/>Χοιάχ. <num value="2881">Βωπα</num> <num value="5"><expan><ex>πεντώβολον</ex></expan></num> <expan><ex>τέταρτον</ex></expan> <num value="1/4"/> <expan><ex>ὧν</ex></expan> 
 
@@ -69,7 +61,7 @@
     <lb n="10"/>καὶ παρʼ Ἑριέως Στοτοήτιος 
 
     <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/>μ 
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="1"/>ἔχεις μετὰ αὐτ<gap reason="lost" extent="unknown" unit="character"/> 
 

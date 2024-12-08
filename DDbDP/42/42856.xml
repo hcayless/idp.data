@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;1;9"
-     xml:id="p.flor.1.9"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;1;9" xml:id="p.flor.1.9" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,12 +26,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2024-01-22T06:50:41-05:00"
-                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2024-01-22T06:10:16-05:00"
-                 who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Looks good.</change>
-          <change when="2024-01-22T04:47:57-05:00"
-                 who="http://papyri.info/editor/users/ngonis">Submit - Entered text from print edition.</change>
+          <change when="2024-01-22T06:50:41-05:00" who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2024-01-22T06:10:16-05:00" who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Looks good.</change>
+          <change when="2024-01-22T04:47:57-05:00" who="http://papyri.info/editor/users/ngonis">Submit - Entered text from print edition.</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2010-05-05" who="https://papyri.info/editor/users/gabrielbodard">changed schema; added xml:space=preserve; indented; moved title/@n to idno</change>
@@ -47,12 +39,9 @@
    </teiHeader>
    <text>
       <body>
-         <head n="42856" xml:lang="en">
-            <date>AD 255</date>
-            <placeName>Arsinoite</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.flor/1/9">P.Flor. 1 9</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart"><ab>
+<div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
     <lb n="1"/>Αὐρηλίωι Ἀπολλωνιωι <expan><ex>δεκαδάρχηι</ex></expan>
 
     <lb n="2"/>παρὰ Αὐρηλίου Σάκεως Μαξίμου
@@ -98,13 +87,13 @@
     <lb n="22"/>Εὐτυχῶν Σεβαστῶν, Τυβι <num value="22">κβ</num>.
 </ab></div>
               
-              <div n="v" type="textpart"><ab>
+              <div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
     <lb n="1"/><note xml:lang="en">P.Flor. 1.9,v: reprint in <ref n="p.flor;2;171" type="reprint-in">P.Flor. 2.171</ref></note></ab></div>
               
-              <div n="Fr,pg26-27" type="textpart"><ab>
+              <div n="Fr,pg26-27" type="textpart" xml:id="_Fr_pg26-27"><head>Fr,pg26-27</head><ab>
     <lb n="1"/><note xml:lang="en">P.Flor. 1.9,Fr,pg26-27: reprint in P.Prag.Varcl.NS 3: reprint in <ref n="sb;20;14197" type="reprint-in">SB 20,14197</ref></note></ab></div>
               
-              <div n="Fr,pg27" type="textpart"><ab>
+              <div n="Fr,pg27" type="textpart" xml:id="_Fr_pg27"><head>Fr,pg27</head><ab>
     <lb n="1"/><note xml:lang="en">P.Flor. 1.9,Fr,pg27: reprint in <ref n="p.flor;1;9pg27" type="reprint-in">P.Flor. 1.9pg27</ref></note></ab></div>
          </div>
       </body>

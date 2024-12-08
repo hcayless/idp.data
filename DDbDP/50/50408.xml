@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0045;;25"
-     xml:id="o.theb.25"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0045;;25" xml:id="o.theb.25" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,10 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="50408" xml:lang="en">
-            <date>149/138 BC</date>
-            <placeName>Memnoneia</placeName>
-         </head>
+         <head><ref>DAHT 50408</ref> = <ref target="https://papyri.info/pub/o.theb/25">O.Theb. 25</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>ἔτους <num value="32">λβ</num> Παῦνι <num value="1">α</num> <expan>με<ex>μέτρηκε</ex></expan> <num value="32">λβ</num> <expan><ex>ἔτους</ex></expan> 
 

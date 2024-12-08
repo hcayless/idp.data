@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0050;;924"
-     xml:id="o.wilck.924"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0050;;924" xml:id="o.wilck.924" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="77400" xml:lang="en">
-            <date>AD 165</date>
-            <placeName>Thebes</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.wilck/924">O.Wilck. 924</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Πεμψᾶις καὶ <expan><ex>μέτοχοι</ex></expan> <expan>ἐπ<ex>ιτηρηταὶ</ex></expan> <expan>τέλ<ex>ους</ex></expan> <expan>θησ<ex>αυροῦ</ex></expan> 
 

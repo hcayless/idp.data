@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0152;1;30"
-     xml:id="p.lille.1.30"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0152;1;30" xml:id="p.lille.1.30" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="3232" xml:lang="en">
-            <date>246-`222 BC</date>
-            <placeName>Ghoran</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.lille/1/30">P.Lille 1 30</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Δαιπάτου <gap reason="lost" quantity="7" unit="character"/> <add place="above"><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <num value="1/2">𐅵</num> <num value="1/4" rend="tick">δ</num> <num value="1/16" rend="tick">ιϛ</num> <expan><ex>ὧν</ex></expan></add> σπορίμου <num value="100">ρ</num> 
 

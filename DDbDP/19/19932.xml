@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0154;4;1542"
-     xml:id="p.lond.4.1542"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0154;4;1542" xml:id="p.lond.4.1542" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -32,19 +27,13 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2017-11-20T14:59:25-05:00"
-                 who="https://papyri.info/editor/users/berkes.lajos">Finalized - ready</change>
-          <change when="2017-07-10T05:28:45-04:00"
-                 who="https://papyri.info/editor/users/anne.boudhors">Vote - AcceptText - lin8=&gt; &lt;:ὑπογράφειν</change>
-          <change when="2017-06-06T05:53:36-04:00"
-                 who="https://papyri.info/editor/users/esthergarel">Vote - AcceptText - Inverser le rapport des langues&#xD;
+          <change when="2017-11-20T14:59:25-05:00" who="https://papyri.info/editor/users/berkes.lajos">Finalized - ready</change>
+          <change when="2017-07-10T05:28:45-04:00" who="https://papyri.info/editor/users/anne.boudhors">Vote - AcceptText - lin8=&gt; &lt;:ὑπογράφειν</change>
+          <change when="2017-06-06T05:53:36-04:00" who="https://papyri.info/editor/users/esthergarel">Vote - AcceptText - Inverser le rapport des langues
 lin6=&gt; πεδιάς ; lin11=&gt; ϩⲛ ⲡⲧⲱϣ  ; lin12=&gt; &lt;:τῆς=grc|reg|τοῦ:&gt; &lt;:(κοινότ(ητος))|reg|(κοινωτ(ητος)):&gt; </change>
-          <change when="2015-01-04T14:38:56.646-05:00"
-                 who="https://papyri.info/editor/users/Georg">word separation made better</change>
-          <change when="2014-03-10T07:19:55-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Return-Straight-to-Sender - As requested.</change>
-          <change when="2012-01-05T08:59:17.917-05:00"
-                 who="https://papyri.info/editor/users/Georg">Coptic lines added</change>
+          <change when="2015-01-04T14:38:56.646-05:00" who="https://papyri.info/editor/users/Georg">word separation made better</change>
+          <change when="2014-03-10T07:19:55-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Return-Straight-to-Sender - As requested.</change>
+          <change when="2012-01-05T08:59:17.917-05:00" who="https://papyri.info/editor/users/Georg">Coptic lines added</change>
           <change when="2012-01-05T08:59:17-05:00" who="https://papyri.info/editor/users/Georg">Submit - Coptic lines added</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
@@ -59,11 +48,8 @@ lin6=&gt; πεδιάς ; lin11=&gt; ϩⲛ ⲡⲧⲱϣ  ; lin12=&gt; &lt;:τῆς
    </teiHeader>
    <text>
       <body>
-         <head n="19932" xml:lang="en">
-            <date>AD 705-</date>
-            <placeName>Aphrodito, Aphroditopolis</placeName>
-         </head>
-         <div xml:lang="cop" type="edition" xml:space="preserve"><div n="rrp" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.lond/4/1542">P.Lond. 4 1542</ref></head>
+         <div xml:lang="cop" type="edition" xml:space="preserve"><div n="rrp" type="textpart" xml:id="_rrp"><head>rrp</head><ab>
 
     <lb n="00"/><note xml:lang="en">PLond 4,1542,r,1-7 reprinted in <ref n="cpr;3;43" type="reprint-in">CPR 3,43</ref></note>
 
@@ -103,7 +89,7 @@ lin6=&gt; πεδιάς ; lin11=&gt; ϩⲛ ⲡⲧⲱϣ  ; lin12=&gt; &lt;:τῆς
 
     <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> ⲡ<choice><reg xml:lang="grc">ἐπικείμενος</reg><orig><supplied reason="lost">ⲉⲡⲓ</supplied>ⲕⲓⲙⲉⲛⲟⲥ</orig></choice> ⲉⲧ<choice><reg xml:lang="grc">παριστάναι</reg><orig>ⲡⲁⲣϩⲓⲥⲧⲁ</orig></choice> ϩⲛ ⲡⲧⲱϣ ⲛⲕⲟⲉⲓⲥ <choice><reg xml:lang="grc">παριστάναι</reg><orig>ⲡⲁⲣϩⲓⲥⲧⲁ</orig></choice> ⲛⲙⲟϥ ⲛⲁⲛ ⲉⲡⲛⲧⲓⲙⲉ
 <lb n="11"/><gap reason="lost" extent="unknown" unit="line"/>
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 <lb n="2"/><foreign xml:lang="grc"><expan>ὁμ<ex>ο</ex>λ<ex>ογία</ex></expan> <expan>γεν<ex>αμένη</ex></expan> <expan>Φοιβάμωνο<ex>ς</ex></expan> Εἱερεμίας <space extent="unknown" unit="character"/> <expan><ex>ὑπὲρ</ex></expan> <choice><reg xml:lang="grc">τῆς</reg><orig>τοῦ</orig></choice> <choice><reg><expan>κοινότ<ex>ητος</ex></expan></reg><orig><expan>κοινώτ<ex>ητος</ex></expan></orig></choice> <expan>κώμη<ex>ς</ex></expan> Ἀφ<supplied reason="lost">ροδιτώ</supplied></foreign> 
 </ab></div></div>
       </body>

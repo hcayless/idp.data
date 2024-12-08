@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,12 +27,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2024-02-06T06:39:51-05:00"
-                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2024-01-12T14:39:06-05:00"
-                 who="http://papyri.info/editor/users/ngonis">Vote - Accept-Straight-to-Finalization - lin1 πρὸσ =&gt; πρὸς || lin8 [.1] renders [?] — add question mark. || Lines 9–14 and 16ff. are indented. || lin17 =&gt; &lt;:κτήσει|reg|κτήσι:&gt; | &lt;#β=2#&gt;: add supralinear bar.</change>
-          <change when="2024-01-12T03:49:41-05:00"
-                 who="http://papyri.info/editor/users/gclaytor">Submit - Entered Hagedorn's re-ed, should be renamed zpe;153;143</change>
+          <change when="2024-02-06T06:39:51-05:00" who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2024-01-12T14:39:06-05:00" who="http://papyri.info/editor/users/ngonis">Vote - Accept-Straight-to-Finalization - lin1 πρὸσ =&gt; πρὸς || lin8 [.1] renders [?] — add question mark. || Lines 9–14 and 16ff. are indented. || lin17 =&gt; &lt;:κτήσει|reg|κτήσι:&gt; | &lt;#β=2#&gt;: add supralinear bar.</change>
+          <change when="2024-01-12T03:49:41-05:00" who="http://papyri.info/editor/users/gclaytor">Submit - Entered Hagedorn's re-ed, should be renamed zpe;153;143</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-10-31" who="https://papyri.info/editor/users/gabrielbodard">changed type=inWord to break=no</change>
@@ -50,13 +45,9 @@
    </teiHeader>
    <text>
       <body>
-         <head n="10474" xml:lang="en">
-            <date>AD 175/6?</date>
-            <placeName>Theadelphia</placeName>
-            <ref n="p.col;5;1v_5" type="reprint-from">P.Col. 5 1v_5</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/zpe/153/143">ZPE 153 (2005) S. 143</ref> = <ref target="https://papyri.info/pub/p.col/5/1v_5">P.Col. 5 1 Verso 5</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="1" subtype="column" type="textpart"><ab>
+<div n="1" subtype="column" type="textpart" xml:id="column_1"><head>Column 1</head><ab>
     <lb n="1"/>Ἀκείους ἀπὸ Ναρμούθεως τῶν <expan>προκ<ex>ειμένων</ex></expan>.  ὧ<unclear>ν</unclear> <expan><ex>ἄρουραι</ex></expan> <num value="17">ιζ</num> καὶ πρὸς
 
     <lb n="2"/><abbr><gap reason="illegible" quantity="3" unit="character"/></abbr> <abbr><unclear>κο</unclear>ιλω<unclear>μ</unclear></abbr> καὶ <expan>ὑποδοχ<ex>εῖον</ex></expan> καὶ <expan>ἐποίκ<ex>ιον</ex></expan> <expan>συνπ<ex>επτωκὸς</ex></expan> καὶ <expan>ἐλ<ex>άινα</ex></expan> φυτὰ 
@@ -85,7 +76,7 @@
 
     <lb n="14" rend="indent"/>καὶ <space extent="unknown" unit="character"/> <abbr>ὀφειλ</abbr> <gap reason="illegible" quantity="2" unit="character"/><unclear>ζ</unclear><gap reason="illegible" quantity="2" unit="character"/>θ. 
 </ab></div>
-<div n="2" subtype="column" type="textpart"><ab>
+<div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head><ab>
     <lb n="15" rend="outdent"/><expan>Αὐτοδ<ex>ίκης</ex></expan>, <expan>κολ<ex>λήματος</ex></expan> <num value="39">λθ</num>. 
 
     <lb n="16"/>φυτῶν ὄντων ἐν <expan><ex>ἀρούραις</ex></expan> <num value="11">ια</num> <num value="1/2">𐅵</num> <num value="1/4">δ</num> <num value="1/16"><hi rend="supraline">ιϛ</hi></num> <num value="1/32"><hi rend="supraline">λβ</hi></num> <num value="1/64"><hi rend="supraline">ξδ</hi></num> <abbr>ε<gap reason="illegible" quantity="1" unit="character"/></abbr> <abbr><gap reason="illegible" quantity="3" unit="character"/>δεχ</abbr> αἱ <expan>π<ex>ροκείμεναι</ex></expan> 

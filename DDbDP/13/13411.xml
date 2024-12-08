@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0205;7;605"
-     xml:id="p.stras.7.605"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0205;7;605" xml:id="p.stras.7.605" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="13411" xml:lang="en">
-            <date>AD 118-38</date>
-            <placeName>Arsinoite</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.stras/7/605">P.Strasb. 7 605</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> Αὐτοκρά</supplied><unclear>τ</unclear>ορ<supplied reason="lost">ο</supplied>ς Καίσαρος Τραια<unclear>ν</unclear>οῦ Ἁ<unclear>δρ</unclear><supplied reason="lost">ιανοῦ  </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 

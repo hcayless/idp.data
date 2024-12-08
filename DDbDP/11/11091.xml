@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;2;219"
-     xml:id="p.flor.2.219"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;2;219" xml:id="p.flor.2.219" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11091" xml:lang="en">
-            <date>AD 253</date>
-            <placeName>Theadelphia</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.flor/2/219">P.Flor. 2 219</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ὡρίων Ἡρωνεί<supplied reason="lost">νῳ τ</supplied>ῷ 
 

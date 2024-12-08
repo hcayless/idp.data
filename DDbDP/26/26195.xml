@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0193;;9"
-     xml:id="p.quseir.9"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0193;;9" xml:id="p.quseir.9" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="26195" xml:lang="en">
-            <date>I/II spc</date>
-            <placeName>Leukos Limen</placeName>
-         </head>
+         <head><ref>SB 20 14275 Nr. 9</ref> = <ref target="https://papyri.info/pub/p.quseir/9">P.Quseir 9</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="2"/><gap reason="illegible" quantity="2" unit="line"/> 
 

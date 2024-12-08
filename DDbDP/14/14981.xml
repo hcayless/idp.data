@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0240;4;pg116-8"
-     xml:id="stud.pal.4.pg116-8"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;4;pg116-8" xml:id="stud.pal.4.pg116-8" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,12 +47,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="14981" xml:lang="en">
-            <date>AD 109-110</date>
-            <placeName>Arsinoite</placeName>
-            <ref n="p.fay;;260" type="reprint-from">PFay260</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/stud.pal/4/pg116-8">SPP 4 S. 116 - 117</ref> = <ref target="https://papyri.info/pub/p.fay/260">P.Fay. 260 descr.</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/>ἔτους <choice><reg>τρεισκαιδεκάτου</reg><orig>τρισκαι<supplied reason="lost">δεκά</supplied>του</orig></choice> Αὐτοκράτορο<supplied reason="lost">ς Καίσαρος Νέρουα</supplied> 
 
@@ -140,7 +131,7 @@
     <lb n="41"/><handShift new="m3" cert="low"/> <expan>πρόκ<ex cert="low">ειται</ex></expan> ἔγραψα <expan>ὑπ<ex>ὲρ</ex></expan> <supplied reason="omitted">αὐτῶν</supplied> Ἥρων Νειλ<gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="42"/><expan>ἀναγέγ<ex>ραπται</ex></expan> διʼ <app type="editorial"><lem resp="BL 1.408"><unclear>Ἀφ</unclear>ρ<unclear>οδ</unclear>ι<gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ς</lem><rdg><abbr>Η</abbr> Εὐη<supplied reason="lost">μερί</supplied>ασ</rdg></app> <expan>γρ<ex>αφείου</ex></expan> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><figure><figDesc>stamp</figDesc></figure> </ab></div></div>
       </body>

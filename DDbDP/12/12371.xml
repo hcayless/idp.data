@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0170;2;99"
-     xml:id="p.mil.vogl.2.99"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0170;2;99" xml:id="p.mil.vogl.2.99" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -53,10 +48,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="12371" xml:lang="en">
-            <date>AD 119</date>
-            <placeName>Tebtynis?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.mil.vogl/2/99">P.Mil. Vogl. 2 99</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">ἔτους τετάρτου Αὐτοκράτορος Καίσ</supplied>α<supplied reason="lost">ρ</supplied>ος Τραιανοῦ Ἁδ<supplied reason="lost">ριανοῦ Σε</supplied>β<unclear>α</unclear><supplied reason="lost">στ</supplied><unclear>ο</unclear>ῦ Τ<unclear>ῦ</unclear>βι <supplied reason="lost">δευτέρᾳ, ἐν </supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> τῆς Πολέμωνος μερίδος τοῦ Ἀρσινοίτου νομοῦ.</supplied> 
 

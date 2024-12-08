@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0187;3;21f"
-     xml:id="p.petr.3.21f"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0187;3;21f" xml:id="p.petr.3.21f" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,11 +42,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="2913" xml:lang="en">
-            <date>226 BC</date>
-            <placeName>Gurob</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="F" type="textpart"><ab>
+         <head><ref>P.Petr. I 28 (1)</ref> = <ref>P.Bodl. I MS. Gr. class. c. 45 (P) descr.</ref> = <ref target="https://papyri.info/pub/p.petr/3/21f">P.Petr. 3 21 (f)</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="F" type="textpart" xml:id="_F"><head>F</head><ab>
 
     <lb n="1"/><supplied reason="lost">βασιλεύοντος Πτολεμαίου τοῦ Πτολεμαίου</supplied> καὶ Ἀρσινόης θεῶν Ἀδελφῶν <expan><ex>ἔτους</ex></expan> <num value="22">κβ</num> ἐφʼ ἱερέως Ἀλεξικράτου τοῦ <choice><reg>Θεογένους</reg><orig>Θεογενου</orig></choice> Ἀλεξάνδρου καὶ θεῶν Ἀδελφῶν καὶ θεῶν Εὐεργετῶν, καν<supplied reason="lost">ηφό</supplied>ρου Ἀρσινόης Φιλαδέλ<supplied reason="lost">φου Βερε</supplied>
 

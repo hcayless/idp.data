@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0245;2;166a"
-     xml:id="upz.2.166a"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0245;2;166a" xml:id="upz.2.166a" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,12 +42,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="3567" xml:lang="en">
-            <date>152 BC</date>
-            <placeName>Thebes</placeName>
-            <ref n="p.paris;;15bis,a" type="reprint-from">dupl=UPZ2,166B;rp=PParis15bis</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="Aduplrp" type="textpart"><ab>
+         <head><ref>DAHT 3567</ref> = <ref>P.Tor, S. 145 (unten)</ref> = <ref target="https://papyri.info/pub/upz/2/166a">UPZ 2 166 A</ref> = <ref target="https://papyri.info/pub/p.paris/15bis,a">P.Par. 15 bis a</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="Aduplrp" type="textpart" xml:id="_Aduplrp"><head>Aduplrp</head><ab>
 
     <lb n="1"/><supplied reason="lost">ἔτ</supplied>ους <num value="29">κθ</num> Φαμενὼθ <num value="9">θ</num> <expan>τέ<ex>τακται</ex></expan> ἐπὶ τὴν ἐν Ἑρμώνθει <expan>τρά<ex>πεζαν</ex></expan>, ἐφʼ ἧς Διονύσιος, εἰκοστῆς <expan>ἐγκυ<ex>κλίου</ex></expan> κατὰ τὴν παρʼ Ἀσκληπιάδου 
 καὶ Κρ<supplied reason="lost">ά</supplied>του τῶν πρὸς τῆι ὠνῆ<supplied reason="lost">ι</supplied> διαγραφήν, ὑ<supplied reason="lost">φʼ ἣν</supplied> ὑπογράφει Πτολεμαῖος ὁ ἀντιγραφεύς, 

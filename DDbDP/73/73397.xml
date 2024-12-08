@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0018;;51"
-     xml:id="o.cair.51"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0018;;51" xml:id="o.cair.51" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="73397" xml:lang="en">
-            <date>AD 87</date>
-            <placeName>Memnoneia</placeName>
-         </head>
+         <head><ref>O.Cair. Cat. 9580</ref> = <ref target="https://papyri.info/pub/o.cair/51">O.Cair. GPW 51</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan><unclear>διαγε</unclear>γρά<ex>φασιν</ex></expan> <expan>Ἁρ<unclear>υ</unclear><supplied reason="lost">ώ</supplied>θη<ex>ς</ex></expan> <expan>Πετεμενώ<ex>φιος</ex></expan> καὶ 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0125;;19a"
-     xml:id="p.gron.19a"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0125;;19a" xml:id="p.gron.19a" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,10 +43,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="29212" xml:lang="en">
-            <date>II spc</date>
-            <placeName>?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.gron/19a">P.Gron. 19 A</ref></head>
          <div type="edition" xml:lang="grc" xml:space="preserve"><ab>
 
     <lb n="1"/><gap quantity="10" reason="lost" unit="character"/><supplied reason="lost"> Ἡρω</supplied>νιανῷ τῷ <unclear>φ</unclear><supplied reason="lost">ιλ</supplied>

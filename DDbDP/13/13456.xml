@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0206;2;293"
-     xml:id="p.tebt.2.293"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0206;2;293" xml:id="p.tebt.2.293" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -51,11 +46,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="13456" xml:lang="en">
-            <date>ca. AD 187</date>
-            <placeName>Tebtynis</placeName>
-            <ref n="chr.wilck;;75" type="reprint-from">WChr75</ref>
-         </head>
+         <head><ref>Sel. Pap. II 338</ref> = <ref target="https://papyri.info/pub/p.tebt/2/293">P.Tebt. 2 293</ref> = <ref target="https://papyri.info/pub/chr.wilck/75">W.Chr. 75</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>παρὰ Κρονίωνος Πακήβκεως τοῦ Ἁρπο
 

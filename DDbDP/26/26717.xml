@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;16;12236"
-     xml:id="sb.16.12236"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;16;12236" xml:id="sb.16.12236" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="26717" xml:lang="en">
-            <date>II/III spc</date>
-            <placeName>Oxyrhynchus?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/16/12236">SB 16 12236</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><app type="editorial"><lem><abbr><expan>κ<ex>ατ</ex></expan>οικ</abbr> <abbr>λογ</abbr></lem><rdg><expan>κο<ex>σκινευτικοῦ</ex></expan> <expan><ex>πυροῦ ἀρταβῶν</ex></expan> <expan>λόγ<ex>ου</ex></expan></rdg></app> καὶ ὑπὸ Σεπτιμίου Εὐδ<supplied reason="lost">αίμονος </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 

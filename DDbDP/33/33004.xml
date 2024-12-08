@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;18;13285"
-     xml:id="sb.18.13285"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;18;13285" xml:id="sb.18.13285" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>AD 323-642</date>
-            <placeName>?</placeName>
-            <note xml:lang="en">o</note>
-         </head>
+         <head><ref>O.Bodl. 2 2117</ref> = <ref target="https://papyri.info/pub/sb/18/13285">SB XVIII 13285</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Πρ<gap reason="illegible" quantity="1" unit="character"/><unclear>σ</unclear><gap reason="illegible" quantity="1" unit="character"/> γε<unclear>ω</unclear><gap reason="lost" extent="unknown" unit="character"/> 
 

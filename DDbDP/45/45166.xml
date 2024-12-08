@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0043;;20"
-     xml:id="o.tebt.pad.20"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0043;;20" xml:id="o.tebt.pad.20" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,10 +42,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="45166" xml:lang="en">
-            <date>AD 215-6</date>
-            <placeName>Tebtynis</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.tebt.pad/20">O.Tebt. Pad. 20</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><num value="24">κδ</num> <expan><ex>ἔτους</ex></expan> <expan>ἀριθ<ex>μήσεως</ex></expan> <abbr>Πα</abbr>. <expan>διέ<unclear>γρ</unclear><ex>αψε</ex></expan> 
 

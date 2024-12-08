@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0240;8;819"
-     xml:id="stud.pal.8.819"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;8;819" xml:id="stud.pal.8.819" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="39463" xml:lang="en">
-            <date>VII spc</date>
-            <placeName>?</placeName>
-            <note xml:lang="en">perg</note>
-         </head>
+         <head><ref target="https://papyri.info/pub/stud.pal/8/819">SPP 8 819</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="stauros"/> <expan>παρ<ex>έσ</ex>χ<ex>ε</ex></expan> <expan>Φοιβά<ex>μμων</ex></expan> <expan>νοτ<ex>άριος</ex></expan> <expan>δ<ex>ιὰ</ex></expan> <expan>Θεοφανία<ex>ς</ex></expan> ἀπ<add place="above">ὸ</add> <expan>δημο<ex>σίου</ex></expan> 
 

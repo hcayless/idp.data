@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0254;;119b"
-     xml:id="p.bingen.119b"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0254;;119b" xml:id="p.bingen.119b" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="78080" xml:lang="en">
-            <date>IV spc</date>
-            <placeName>Kellis</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="FrB,r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.bingen/119b">P.Bingen 119 B</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="FrB,r" type="textpart" xml:id="_FrB_r"><head>FrB,r</head><ab>
 
     <lb n="1"/><expan>γ<ex>ίνεται</ex></expan> ὁμοῦ <expan><ex>ἀρτάβαι</ex></expan> <num value="161">ρξα</num><num value="1/2">𐅵</num>
 
@@ -125,7 +117,7 @@
     <lb n="36"/>ὁμοίως <expan><ex>ἀρτάβαι</ex></expan> <num value="7">ζ</num><num value="1/2">𐅵</num>
 
     <lb n="37"/><expan>γί<ex>νονται</ex></expan> <expan><ex>ἀρτάβαι</ex></expan> <num value="127">ρκζ</num><num value="1/2">𐅵</num>
-</ab></div><div n="FrB,v" type="textpart"><ab>
+</ab></div><div n="FrB,v" type="textpart" xml:id="_FrB_v"><head>FrB,v</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><num value="368"><unclear>τ</unclear>ξη</num>
 

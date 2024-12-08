@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0050;;391"
-     xml:id="o.wilck.391"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0050;;391" xml:id="o.wilck.391" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="76907" xml:lang="en">
-            <date>AD 44</date>
-            <placeName>Thebes</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.wilck/391">O.Wilck. 391</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>διέγρ<ex>αψεν</ex></expan> <expan>Φαῆρι<ex>ς</ex></expan> <expan>Ὀννώ<ex>φριος</ex></expan> <expan>ὑπ<ex>ὲρ</ex></expan> <expan>χω<ex>ματικοῦ</ex></expan> <num value="4">δ</num> <expan><ex>ἔτους</ex></expan> 
 

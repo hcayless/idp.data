@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0018;;76"
-     xml:id="o.cair.76"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0018;;76" xml:id="o.cair.76" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,10 +42,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="73422" xml:lang="en">
-            <date>AD 60</date>
-            <placeName>Hermonthis</placeName>
-         </head>
+         <head><ref>O.Cair. Cat. 9623</ref> = <ref target="https://papyri.info/pub/o.cair/76">O.Cair. GPW 76</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">Ψεναμοῦνις Πεκύσ</supplied>ιος προστάτης θεοῦ 
 

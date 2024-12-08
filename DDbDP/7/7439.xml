@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0187;3;40"
-     xml:id="p.petr.3.40"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0187;3;40" xml:id="p.petr.3.40" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,9 +41,9 @@
    </teiHeader>
    <text>
       <body>
-            <head xml:lang="en"/>
+            <head><ref target="https://papyri.info/pub/p.petr/3/40">P.Petr. 3 40</ref></head>
             <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart">
+<div n="r" type="textpart" xml:id="_r"><head>r</head>
     <div n="1" subtype="column" type="textpart"><ab>
 
     <lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> <app type="editorial"><lem resp="BL cf. 3.146"><expan>δι<ex>οίκησις</ex></expan></lem><rdg/></app> διὰ γραμματέω</supplied>ς Α<unclear>ρτο</unclear><gap reason="lost" extent="unknown" unit="character"/> 
@@ -255,7 +250,7 @@
 </ab></div>
 </div>
                 
-<div n="v" type="textpart">
+<div n="v" type="textpart" xml:id="_v"><head>v</head>
     <div n="1" subtype="column" type="textpart"><ab>
 
     <lb n="101"/><num value="299">σϙθ</num> 

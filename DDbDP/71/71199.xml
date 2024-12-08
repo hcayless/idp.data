@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0014;2;501"
-     xml:id="o.bodl.2.501"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0014;2;501" xml:id="o.bodl.2.501" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="71199" xml:lang="en">
-            <date>AD 85</date>
-            <placeName>Thebes</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.bodl/2/501">O.Bodl. 2 501</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>δια<unclear>γεγρ</unclear><ex>άφασιν</ex></expan> <gap reason="illegible" quantity="3" unit="character"/><abbr><unclear>ε</unclear>ρσι</abbr> <expan>Πετεμ<unclear>ε</unclear><ex>νώφιος</ex></expan> καὶ <expan>Φαῆ<ex>ρις</ex></expan> 
 

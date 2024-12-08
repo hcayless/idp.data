@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0042;1;494"
-     xml:id="o.stras.1.494"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0042;1;494" xml:id="o.stras.1.494" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="76082" xml:lang="en">
-            <date>I-II spc</date>
-            <placeName>Thebaid</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.stras/1/494">O.Strasb. 1 494</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>Πασήμιο<ex>ς</ex></expan> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 

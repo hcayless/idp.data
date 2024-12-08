@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;1;88"
-     xml:id="p.flor.1.88"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;1;88" xml:id="p.flor.1.88" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,14 +26,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2023-04-21T10:28:36-04:00"
-                 who="http://papyri.info/editor/users/mgerhardt">Finalized - Ready.</change>
-          <change when="2023-04-21T10:27:20-04:00"
-                 who="http://papyri.info/editor/users/mgerhardt">Vote - Accept-Straight-to-Finalization - Fine.</change>
-          <change when="2023-04-21T10:26:59-04:00"
-                 who="http://papyri.info/editor/users/mgerhardt">Submit - lin26: τύχειν -&gt; τυχεῖν </change>
-          <change when="2023-04-19T08:43:27-04:00"
-                 who="http://papyri.info/editor/users/mgerhardt">Commit - lin26: τύχειν -&gt; τυχεῖν </change>
+          <change when="2023-04-21T10:28:36-04:00" who="http://papyri.info/editor/users/mgerhardt">Finalized - Ready.</change>
+          <change when="2023-04-21T10:27:20-04:00" who="http://papyri.info/editor/users/mgerhardt">Vote - Accept-Straight-to-Finalization - Fine.</change>
+          <change when="2023-04-21T10:26:59-04:00" who="http://papyri.info/editor/users/mgerhardt">Submit - lin26: τύχειν -&gt; τυχεῖν </change>
+          <change when="2023-04-19T08:43:27-04:00" who="http://papyri.info/editor/users/mgerhardt">Commit - lin26: τύχειν -&gt; τυχεῖν </change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-11-29" who="https://papyri.info/editor/users/gabrielbodard">converted app type=BL|SoSOL to editorial</change>
@@ -51,11 +42,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="10964" xml:lang="en">
-            <date>AD 253</date>
-            <placeName>Arsinoite</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/1/88">P.Flor. 1 88</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/>Αὐτοκράτωρ Κ<supplied reason="lost">αῖσαρ </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 
@@ -116,7 +104,7 @@
     <lb n="28"/>αὐτοῦ διὰ τρε<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="29"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="3" unit="character"/>και<gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 1,88,v reprinted in <ref n="p.flor;2;254" type="reprint-in">PFlor 2,254</ref></note></ab></div></div>
       </body>

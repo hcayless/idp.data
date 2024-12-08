@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;16;12686"
-     xml:id="sb.16.12686"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;16;12686" xml:id="sb.16.12686" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="17447" xml:lang="en">
-            <date>AD 67-69</date>
-            <placeName>?</placeName>
-            <ref n="p.stras;6;502" type="reprint-from">PStras6,502</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/16/12686">SB 16 12686</ref> = <ref target="https://papyri.info/pub/p.stras/6/502">P.Strasb. VI 502</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>ἔτους <num value="13">ιγ</num> Νέρωνος Κλαυδίου Καίσαρος Σεβαστοῦ 
 

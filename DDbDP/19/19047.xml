@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0089;1;67116"
-     xml:id="p.cair.masp.1.67116"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0089;1;67116" xml:id="p.cair.masp.1.67116" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="19047" xml:lang="en">
-            <date>AD 548</date>
-            <placeName>Aphrodito, Aphroditopolis</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.cair.masp/1/67116">P.Cair. Masp. 1 67116</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><g type="stauros"/> τῷ θαυμασιωτάτῳ Διο<unclear>σ</unclear><supplied reason="lost">κόρῳ Ἀ</supplied>πολλῶτος, <space extent="unknown" unit="character"/> <expan>π<ex>αρὰ</ex></expan> Βί<supplied reason="lost">κτορος Ἀ</supplied>πολλῶτος λινο<add place="above">ύ</add>φο<add place="above">υ</add> <expan>χαίρ<ex>ειν</ex></expan>. 
 
@@ -69,7 +61,7 @@
     <lb n="9"/>μὴ <choice><reg>εἰδότος</reg><orig>εἰδώτος</orig></choice> <g type="rho-cross"/>. 
 
     <lb n="10"/><g type="stauros"/> διʼ ἐμοῦ Πιλάτο<add place="above">υ</add> <expan>νο<unclear>μικ</unclear><ex>οῦ</ex></expan> <expan><unclear>ἐγ</unclear><supplied reason="lost">ρά</supplied><unclear>φ</unclear><ex>η</ex></expan> <g type="rho-cross"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><g type="stauros"/> πιτ<supplied reason="lost">τ</supplied><unclear>ά</unclear><supplied reason="lost">κιον</supplied> <expan>π<ex>αρὰ</ex></expan> Βίκ<unclear>τ</unclear><supplied reason="lost">ο</supplied><unclear>ρο</unclear><supplied reason="lost">ς</supplied> <unclear>Ἀπολ</unclear><supplied reason="lost">λῶ</supplied><unclear>τος</unclear> <expan><unclear>λι</unclear>ν<unclear>ο</unclear><supplied reason="lost">ύ</supplied><unclear>φ</unclear><ex>ου</ex></expan> <expan>χ<supplied reason="lost">ρ</supplied><ex>υσοῦ</ex></expan> <expan>νο<ex>μισμάτιον</ex></expan> <num value="1"><unclear>α</unclear></num> <expan><unclear>π</unclear><ex>αρὰ</ex></expan> <supplied reason="lost"><num value="2">β</num> <expan>χρ<ex>υσοχοϊκῷ</ex></expan></supplied> </ab></div></div>
       </body>

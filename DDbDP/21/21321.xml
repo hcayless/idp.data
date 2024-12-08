@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0232;;23"
-     xml:id="pap.choix.23"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0232;;23" xml:id="pap.choix.23" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="21321" xml:lang="en">
-            <date>AD 296</date>
-            <placeName>?</placeName>
-            <ref n="p.mert;2;86" type="reprint-from">PMert2,86</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/pap.choix/23">Pap. Choix 23</ref> = <ref target="https://papyri.info/pub/p.mert/2/86">P.Merton 2 86</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Νεῖλος Χαιρήμονι <choice><reg>μοσχομαγείρῳ</reg><orig>μοσχομαγίρῳ</orig></choice> <expan>χ<ex>αίρειν</ex></expan>. 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0053;;7"
-     xml:id="p.achm.7"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0053;;7" xml:id="p.achm.7" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,16 +26,11 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2024-03-23T04:21:06-04:00"
-                 who="http://papyri.info/editor/users/mgerhardt">Finalized - Ready.</change>
-          <change when="2024-03-22T10:29:54-04:00"
-                 who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
-          <change when="2022-04-20T10:11:48-04:00"
-                 who="https://papyri.info/editor/users/mgerhardt">Finalized - Ready.</change>
-          <change when="2022-04-20T10:03:50-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Looks good.</change>
-          <change when="2022-02-07T06:51:37-05:00"
-                 who="https://papyri.info/editor/users/paulpeters">Submit - Eingabe von Korrekturen nach W. Clarysse, CdE 95 (2020) 182. Für die Bearbeitung wurden die XML-Daten aus Z. &lt;lb n="1"/&gt; gelöscht: &lt;note xml:lang="en"&gt;PAchm 7,Bour 41a, i.e. PBour 41a, reprinted in &lt;ref n="p.bour;;41a2_3" type="reprint-in"&gt;PBour 41a2-3&lt;/ref&gt;&lt;/note&gt;</change>
+          <change when="2024-03-23T04:21:06-04:00" who="http://papyri.info/editor/users/mgerhardt">Finalized - Ready.</change>
+          <change when="2024-03-22T10:29:54-04:00" who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2022-04-20T10:11:48-04:00" who="https://papyri.info/editor/users/mgerhardt">Finalized - Ready.</change>
+          <change when="2022-04-20T10:03:50-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Looks good.</change>
+          <change when="2022-02-07T06:51:37-05:00" who="https://papyri.info/editor/users/paulpeters">Submit - Eingabe von Korrekturen nach W. Clarysse, CdE 95 (2020) 182. Für die Bearbeitung wurden die XML-Daten aus Z. &lt;lb n="1"/&gt; gelöscht: &lt;note xml:lang="en"&gt;PAchm 7,Bour 41a, i.e. PBour 41a, reprinted in &lt;ref n="p.bour;;41a2_3" type="reprint-in"&gt;PBour 41a2-3&lt;/ref&gt;&lt;/note&gt;</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-10-31" who="https://papyri.info/editor/users/gabrielbodard">changed type=inWord to break=no</change>
@@ -55,14 +45,9 @@
    </teiHeader>
    <text>
       <body>
-         <head n="20270 17949a" xml:lang="en">
-            <date>AD 197</date>
-            <placeName>Panopolis</placeName>
-            <ref n="sb;1;4636" type="reprint-from">SB 1 4636</ref>
-            <ref n="p.bour;;41a_1" type="reprint-from">P.Bour. 41a_1</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.achm/7">P.Achm. 7</ref> = <ref target="https://papyri.info/pub/sb/1/4636">SB I 4636 (Z. 9 - 64)</ref> = <ref target="https://papyri.info/pub/p.bour/41a_1">P.Bour. 41a_1</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="BN135B2" type="textpart">
+<div n="BN135B2" type="textpart" xml:id="_BN135B2"><head>BN135B2</head>
 <div n="1" subtype="column" type="textpart"><ab>
     <lb n="1"/><gap reason="illegible" extent="unknown" unit="line"/> 
 </ab></div>
@@ -203,7 +188,7 @@
     <lb n="65"/>αρ<gap reason="illegible" quantity="3" unit="character"/>ω<gap reason="illegible" quantity="1" unit="character"/>κα<gap reason="lost" extent="unknown" unit="character"/> 
 </ab></div>
 </div>
-<div n="BN135B12" type="textpart">
+<div n="BN135B12" type="textpart" xml:id="_BN135B12"><head>BN135B12</head>
 <div n="1" subtype="column" type="textpart"><ab>
     <lb n="66"/> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> <expan>μη<ex>τρὸς</ex></expan> </supplied><expan><supplied reason="lost">Σεν</supplied>χεμσ<ex>νέως</ex></expan> <expan><ex>ἐτῶν</ex></expan> <num value="46">μϛ</num> <expan><ex>δραχμαὶ</ex></expan> <num value="200">σ</num> 
 
@@ -331,7 +316,7 @@
     <lb n="121"/><gap reason="lost" extent="unknown" unit="character"/> <expan>μη<ex>τρὸς</ex></expan> Σενπιγηρι<gap reason="lost" extent="unknown" unit="character"/> 
 </ab></div>
 </div>
-<div n="BN135B17" type="textpart">
+<div n="BN135B17" type="textpart" xml:id="_BN135B17"><head>BN135B17</head>
 <div n="A" subtype="fragment" type="textpart"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
@@ -401,7 +386,7 @@
     <lb n="2"/><gap reason="lost" extent="unknown" unit="line"/> 
 </ab></div>
 </div>
-<div n="Bour41a" type="textpart">
+<div n="Bour41a" type="textpart" xml:id="_Bour41a"><head>Bour41a</head>
 <div n="1" subtype="column" type="textpart"><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ᾶθις <expan>ν<ex>έωτερος</ex></expan> <expan>Ψενσενπαχού<ex>μιος</ex></expan> <expan>μη<ex>τρὸς</ex></expan> Σε<gap reason="lost" extent="unknown" unit="character"/> 

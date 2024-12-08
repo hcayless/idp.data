@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0235;;12"
-     xml:id="psi.congr.xx.12"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0235;;12" xml:id="psi.congr.xx.12" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="29528" xml:lang="en">
-            <date>II/III spc</date>
-            <placeName>Arsinoiton Polis, Krokodilopolis, Ptolemais Euergetis?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/psi.congr.xx/12">PSI Congr. 20 12</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>ἐπιβολ<ex>ὴ</ex></expan> <app type="editorial"><lem resp="BL 10.249"><expan>ἀ<ex>νὰ</ex></expan> <expan><ex>πυροῦ ἀρτάβας</ex></expan> <num value="4">δ</num> <num value="2/3">𐅷</num></lem><rdg><expan><ex>μοναρτάβου</ex></expan> <num value="4">δ</num> <g type="unintelligible"/></rdg></app> <expan><ex>ἀρουρ  </ex></expan> <gap reason="lost" extent="unknown" unit="character"/> 
 <milestone rend="paragraphos" unit="undefined"/>

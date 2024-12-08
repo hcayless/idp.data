@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;1;5282"
-     xml:id="sb.1.5282"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;1;5282" xml:id="sb.1.5282" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>AD 323-642</date>
-            <placeName>Arsinoite?</placeName>
-            <ref n="stud.pal;8;1320" type="reprint-from">cfSPP8,1320</ref>
-         </head>
+         <head><ref>SPP 20 24</ref> = <ref target="https://papyri.info/pub/sb/1/5282">Z. 3 - 8: SB I 5282</ref> = <ref target="https://papyri.info/pub/stud.pal/8/1320">Z. 3 - 8: SB I 5282</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="00"/><note xml:lang="en">SB 1,5282 reprinted in StudPal 20,24 </note></ab></div>
       </body>

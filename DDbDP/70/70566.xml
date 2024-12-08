@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0012;;14"
-     xml:id="o.ashm.shelt.14"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0012;;14" xml:id="o.ashm.shelt.14" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="70566" xml:lang="en">
-            <date>AD 116?</date>
-            <placeName>Thebes</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.ashm.shelt/14">O.Ashm. Shelt. 14</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>Ἰμούθ<ex>ης</ex></expan> καὶ <expan>μ<ex>έτοχοι</ex></expan> Π<unclear>ετε</unclear>φεῖ <expan>ὁμ<ex>οίως</ex></expan> διὰ 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0089;2;67164"
-     xml:id="p.cair.masp.2.67164"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0089;2;67164" xml:id="p.cair.masp.2.67164" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="18920" xml:lang="en">
-            <date>AD 569</date>
-            <placeName>Antinoopolis</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.cair.masp/2/67164">P.Cair. Masp. 2 67164</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="rho-cross"/> Αὐρή<supplied reason="lost">λ</supplied>ιος Κόλλουθος Λιλοῦτος, ἐκ μ<supplied reason="lost">η</supplied>τ<supplied reason="lost">ρ</supplied><unclear>ὸ</unclear>ς Μαρίας, λ<unclear>αχ</unclear><supplied reason="lost">αν</supplied>οπώλης, ὁρμώμενος 
 

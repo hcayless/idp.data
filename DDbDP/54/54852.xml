@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0242;;527"
-     xml:id="t.mom.louvre.527"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0242;;527" xml:id="t.mom.louvre.527" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="54852" xml:lang="en">
-            <date>III spc</date>
-            <placeName>?</placeName>
-            <note xml:lang="en">l</note>
-         </head>
+         <head><ref>C.Étiq. Mom. 954</ref> = <ref target="https://papyri.info/pub/t.mom.louvre/527">T.Mom. Louvre 527</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ταλόνι 
 

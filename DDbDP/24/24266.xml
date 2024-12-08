@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0262;1;289"
-     xml:id="p.eleph.wagner.1.289"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0262;1;289" xml:id="p.eleph.wagner.1.289" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="24266" xml:lang="en">
-            <date>AD 152</date>
-            <placeName>Elephantine</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.eleph.wagner/1/289">O.Eleph. DAIK 289</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Στλάκκιος <expan>μισθ<ex>ωτὴς</ex></expan> <expan>ἱερ<ex>ᾶς</ex></expan> <expan>πύλ<ex>ης</ex></expan> <expan>Σοή<ex>νης</ex></expan>
 

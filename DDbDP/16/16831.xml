@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0202;;7"
-     xml:id="p.select.7"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0202;;7" xml:id="p.select.7" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -35,12 +30,9 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
-          <change when="2014-12-12T10:00:56.433-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2014-12-12T10:00:56.426-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
-          <change when="2014-11-19T06:16:35.035-05:00"
-                 who="https://papyri.info/editor/users/GAJC%20v%20Loon">BL-entries added</change>
+          <change when="2014-12-12T10:00:56.433-05:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2014-12-12T10:00:56.426-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2014-11-19T06:16:35.035-05:00" who="https://papyri.info/editor/users/GAJC%20v%20Loon">BL-entries added</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-10-31" who="https://papyri.info/editor/users/gabrielbodard">changed type=inWord to break=no</change>
@@ -55,12 +47,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="16831" xml:lang="en">
-            <date>AD 314</date>
-            <placeName>Oxyrhynchus</placeName>
-            <ref type="reprint-from">dupl=B</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="Adupl" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.select/7">P.Select 7</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="Adupl" type="textpart" xml:id="_Adupl"><head>Adupl</head><ab>
 
     <lb n="1"/><supplied reason="lost">Αὐρηλίᾳ</supplied> <unclear>Τ</unclear>άϊτι τῇ καὶ <app type="editorial"><lem resp="BL 12.114">Τεχωσαρίῳ</lem><rdg>Τεχωσαρίῃ</rdg></app> Χωσίωνος ἀπ<unclear>ὸ</unclear> <unclear>τ</unclear>ῆς <expan>λαμ<ex>πρᾶς</ex></expan> καὶ <expan>λαμ<ex>προτάτης</ex></expan> 
 
@@ -103,7 +91,7 @@
     <lb n="20"/><unclear>ἔγρ</unclear><supplied reason="lost">αψ</supplied><unclear>α</unclear> <unclear>ὑ</unclear>πὲρ αὐ<unclear>τ</unclear>ο<unclear>ῦ</unclear> <unclear>μ</unclear>ὴ εἰδότ<unclear>ος</unclear> <unclear>γρά</unclear>μματα. 
 
     <lb n="21"/><handShift new="m3"/> <supplied reason="lost">δ</supplied><unclear>ι</unclear>ʼ ἐ<unclear>μ</unclear><supplied reason="lost">ο</supplied><unclear>ῦ</unclear> Φιλονίκου ἐγρά<unclear>φ</unclear>η. 
-</ab></div><div n="B" type="textpart"><ab>
+</ab></div><div n="B" type="textpart" xml:id="_B"><head>B</head><ab>
 
     <lb n="1"/>Αὐρη<unclear>λ</unclear><supplied reason="lost">ίᾳ Τά</supplied><unclear>ϊτι</unclear> <unclear>τ</unclear><supplied reason="lost">ῇ κ</supplied><unclear>αὶ</unclear> <app type="editorial"><lem resp="BL 12.114"><unclear>Τ</unclear><supplied reason="lost">εχωσαρίῳ</supplied></lem><rdg><unclear>Τ</unclear><supplied reason="lost">εχωσαρίῃ</supplied></rdg></app> <unclear>Χωσίων</unclear><supplied reason="lost">ος ἀπὸ τῆς <expan>λαμ<ex>πρᾶς</ex></expan> καὶ</supplied> <expan><unclear>λ</unclear>αμ<ex>προτάτης</ex></expan> 
 

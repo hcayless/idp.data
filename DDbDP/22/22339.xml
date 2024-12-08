@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0007;;277"
-     xml:id="chr.mitt.277"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0007;;277" xml:id="chr.mitt.277" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="22339" xml:lang="en">
-            <date>AD 388</date>
-            <placeName>Hermoupolis Magna</placeName>
-            <ref n="p.lips;1;22" type="reprint-from">PLips22</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/chr.mitt/277">M.Chr. 277</ref> = <ref target="https://papyri.info/pub/p.lips/1/22">P.Lips. 1 22</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">ὑπατείας τοῦ </supplied><expan><supplied reason="lost">δεσ</supplied>πότ<ex>ο</ex>υ</expan> ἡμῶν Θεοδοσ<supplied reason="lost">ί</supplied>ου τοῦ αἰων<supplied reason="lost">ί</supplied>ου 
 

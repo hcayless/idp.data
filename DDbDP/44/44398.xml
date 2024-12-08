@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,31 +29,21 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2020-06-10T16:14:35-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2020-06-10T16:09:51-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Super thanks. Fine</change>
-          <change when="2020-06-10T11:15:18-04:00"
-                 who="https://papyri.info/editor/users/m.zellmann-rohrer">Submit - corrected data entry error l. 104 Τιήτις -&gt; Τιήιτις, addition of original l. 130, which had been omitted in entry, and adjustment of following line numbers</change>
-          <change when="2020-06-10T11:15:06-04:00"
-                 who="https://papyri.info/editor/users/m.zellmann-rohrer">Commit - corrected data entry error l. 104 Τιήτις -&gt; Τιήιτις, addition of original l. 130, which had been omitted in entry, and adjustment of following line numbers</change>
-          <change when="2013-03-26T14:39:11.474-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2013-03-26T14:39:11.451-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine.</change>
-          <change when="2012-03-03T12:32:27.159-05:00"
-                 who="https://papyri.info/editor/users/a-blomley">Submitted on the 3rd of March 2012.</change>
+          <change when="2020-06-10T16:14:35-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2020-06-10T16:09:51-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Super thanks. Fine</change>
+          <change when="2020-06-10T11:15:18-04:00" who="https://papyri.info/editor/users/m.zellmann-rohrer">Submit - corrected data entry error l. 104 Τιήτις -&gt; Τιήιτις, addition of original l. 130, which had been omitted in entry, and adjustment of following line numbers</change>
+          <change when="2020-06-10T11:15:06-04:00" who="https://papyri.info/editor/users/m.zellmann-rohrer">Commit - corrected data entry error l. 104 Τιήτις -&gt; Τιήιτις, addition of original l. 130, which had been omitted in entry, and adjustment of following line numbers</change>
+          <change when="2013-03-26T14:39:11.474-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2013-03-26T14:39:11.451-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine.</change>
+          <change when="2012-03-03T12:32:27.159-05:00" who="https://papyri.info/editor/users/a-blomley">Submitted on the 3rd of March 2012.</change>
           <change when="2012-02-16T11:33:53-05:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>III sac?</date>
-            <placeName>Gurob</placeName>
-         </head>
+         <head><ref>DAHT 44398</ref> = <ref>P.Petr. III 59 (c) (1) + P.Petr. III 59 (c) (2)</ref> = <ref target="https://papyri.info/pub/p.count/19">P.Count 19</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="1" subtype="fragment" type="textpart">
+<div n="1" subtype="fragment" type="textpart" xml:id="fragment_1"><head>Fragment 1</head>
 <div n="r" type="textpart">
 <div n="1" subtype="column" type="textpart"><ab>
 <lb n="1"/><expan>Τάμουνι<ex>ς</ex></expan> Πετοσίριος 
@@ -132,7 +120,7 @@
 </ab></div>
 </div>
 </div>
-<div n="2" subtype="fragment" type="textpart">
+<div n="2" subtype="fragment" type="textpart" xml:id="fragment_2"><head>Fragment 2</head>
 <div n="1" subtype="column" type="textpart"><ab>
 <lb n="65"/>Θάησις <expan>γυ<ex>νή</ex></expan>
 <lb n="66"/>Θάιβις <expan>μή<ex>τηρ</ex></expan>
@@ -156,7 +144,7 @@
 <lb n="84"/><gap reason="lost" quantity="4" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>ετ</unclear>α<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="84"/><gap reason="lost" extent="unknown" unit="line"/></ab></div>
 </div>
-<div n="3" subtype="fragment" type="textpart">
+<div n="3" subtype="fragment" type="textpart" xml:id="fragment_3"><head>Fragment 3</head>
 <div n="1" subtype="column" type="textpart"><ab>
 <lb n="85"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="7" unit="character"/>
 <lb n="86"/><gap reason="lost" extent="unknown" unit="character"/>τις <expan>γυ<ex>νή</ex></expan>

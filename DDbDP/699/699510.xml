@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,10 +29,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2018-01-04T12:28:20-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2017-10-09T17:26:01-04:00"
-                 who="https://papyri.info/editor/users/berkes.lajos">Vote - Accept-Straight-to-Finalization - lin3: [/*N.N.*/  =&gt; [.?] [</change>
+          <change when="2018-01-04T12:28:20-05:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2017-10-09T17:26:01-04:00" who="https://papyri.info/editor/users/berkes.lajos">Vote - Accept-Straight-to-Finalization - lin3: [/*N.N.*/  =&gt; [.?] [</change>
           <change when="2017-10-09T09:19:09-04:00" who="https://papyri.info/editor/users/ngonis">Submit - Entered text from edition.</change>
           <change when="2017-10-09T09:18:32-04:00" who="https://papyri.info/editor/users/ngonis">Commit - The alternative reading of the date in l. 7 (κ̣̄ζ̣̄), suggested by P. Heilporn and mentioned in the commentary, is preferable to ed.'s ῑ̣ζ̣̄ (point agreed with R. Duttenhöfer). Change the order? || Add 'alternative' date: 23 Dec. 175.</change>
           <change when="2017-10-09T09:08:16-04:00" who="http://papyri.info/editor">Automated creation from template</change>
@@ -42,7 +38,7 @@
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/o.bankes/37">O.Bankes 37</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <expan>πράκ<ex>τωρ</ex></expan> <expan>ἀργ<ex>υρικῶν</ex></expan> <expan>Ἐλεφ<ex>αντίνης</ex></expan>· 

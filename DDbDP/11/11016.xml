@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;2;159"
-     xml:id="p.flor.2.159"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;2;159" xml:id="p.flor.2.159" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,14 +40,10 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11016" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Theadelphia</placeName>
-            <ref type="reprint-in">verso = SB 6.9467v</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/2/159">P.Flor. 2 159 R Z. 2 - 9</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 <note xml:lang="en">Verso reprinted in SB 6.9467v</note>
-</ab></div><div n="r" type="textpart"><ab>
+</ab></div><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>σεως Ἑρμεια <app type="editorial"><lem resp="BL 3.56"><choice><reg>ἐπικτηνίτη</reg><orig>ἐπικτηνείτη</orig></choice></lem><rdg>ἐπι<gap reason="illegible" quantity="2" unit="character"/>ην κτη</rdg></app> 
 

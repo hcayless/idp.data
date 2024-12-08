@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0096;2;79"
-     xml:id="p.coll.youtie.2.79"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0096;2;79" xml:id="p.coll.youtie.2.79" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="10592" xml:lang="en">
-            <date>AD 311</date>
-            <placeName>?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.coll.youtie/2/79">P.Coll. Youtie 2 79</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" quantity="32" unit="character"/><unclear>η</unclear>ν αυτ<gap reason="lost" extent="unknown" unit="character"/>ν Εὐπ<unclear>ο</unclear><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><unclear>ν</unclear>ος γὰρ βο<unclear>υ</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 

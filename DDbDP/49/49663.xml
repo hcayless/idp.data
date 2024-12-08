@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0181;66;4537"
-     xml:id="p.oxy.66.4537"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0181;66;4537" xml:id="p.oxy.66.4537" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="49663" xml:lang="en">
-            <date>VI/VII spc</date>
-            <placeName>Oxyrhynchus</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.oxy/66/4537">P.Oxy. 66 4537</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="stauros"/> <expan>μετρήσ<ex>εις</ex></expan> τοῦ <choice><reg><expan>ἀνορυχθ<ex>έντος</ex></expan></reg><orig><expan>ἀνωρυχθ<ex>έντος</ex></expan></orig></choice> νέου <expan>λάκκ<ex>ου</ex></expan>
 

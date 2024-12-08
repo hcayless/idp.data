@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -34,24 +32,21 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
-          <change when="2018-03-31T08:07:02-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2018-02-02T06:19:29-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
-          <change when="2018-01-31T10:17:33-05:00"
-                 who="https://papyri.info/editor/users/PaulvdLaan">Submit - Entered Greek text from BGU 20.2876. General remark: Inserted  (in the form of |alt| or |reg|) several remarks made by edd. in the comentary, if they seemed to me opportune. Not all their observations have been taken in account, e.g. about some vestigia in the left intercolumnium and other remarks, being often too complicated, speculative, uncertain.&#xD;
-Col1lin3: changed in the |alt|-version [ca.16] into [ca.15] because of edd. suggestion [τ]οῦ ( although ca.16 is as approximative as ca.15, so original 16 could be maintained as well). lin11:don’t know what to do with superlinear stroke after [.1]; lin12:  tried to fit edd. suggestion παρ' Ἰ̣σ̣[ιδώρου] into available dots and brackets, but their number does not correspond with παρι̣σ̣[.4].1[.2].4ι̣[ο]ς.&#xD;
-Col2lin11: Leiden+ does not accept diaeresis in abbrev.; lin17 &amp; 20: put capital Γ =3, being the regular way in numbering the books of the Iliad; Leiden+ does not accept supralinear stroke on capital; don't know what to do with stroke under Γ; lin18: put acutus on [[Ἰλιάδας]]; &#xD;
-Col3alin3: used Roman d for 1/4.&#xD;
+          <change when="2018-03-31T08:07:02-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2018-02-02T06:19:29-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2018-01-31T10:17:33-05:00" who="https://papyri.info/editor/users/PaulvdLaan">Submit - Entered Greek text from BGU 20.2876. General remark: Inserted  (in the form of |alt| or |reg|) several remarks made by edd. in the comentary, if they seemed to me opportune. Not all their observations have been taken in account, e.g. about some vestigia in the left intercolumnium and other remarks, being often too complicated, speculative, uncertain.
+Col1lin3: changed in the |alt|-version [ca.16] into [ca.15] because of edd. suggestion [τ]οῦ ( although ca.16 is as approximative as ca.15, so original 16 could be maintained as well). lin11:don’t know what to do with superlinear stroke after [.1]; lin12:  tried to fit edd. suggestion παρ' Ἰ̣σ̣[ιδώρου] into available dots and brackets, but their number does not correspond with παρι̣σ̣[.4].1[.2].4ι̣[ο]ς.
+Col2lin11: Leiden+ does not accept diaeresis in abbrev.; lin17 &amp; 20: put capital Γ =3, being the regular way in numbering the books of the Iliad; Leiden+ does not accept supralinear stroke on capital; don't know what to do with stroke under Γ; lin18: put acutus on [[Ἰλιάδας]]; 
+Col3alin3: used Roman d for 1/4.
 Col3blin1 &amp; 4 (bis): used Roman d for 1/4.</change>
           <change when="2018-01-28T15:43:56-05:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/bgu/20/2876">BGU 20 2876</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
- <div n="1" subtype="column" type="textpart"><ab>
+ <div n="1" subtype="column" type="textpart" xml:id="column_1"><head>Column 1</head><ab>
 
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" quantity="22" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/>
@@ -75,7 +70,7 @@ Col3blin1 &amp; 4 (bis): used Roman d for 1/4.</change>
 <lb n="17"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab> </div>
 
- <div n="2" subtype="column" type="textpart"><ab>
+ <div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" quantity="4" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/>Ἑρμ<unclear>η</unclear><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -100,7 +95,7 @@ Col3blin1 &amp; 4 (bis): used Roman d for 1/4.</change>
 <lb n="20"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab> </div>
 
-<div n="3" subtype="column" type="textpart">
+<div n="3" subtype="column" type="textpart" xml:id="column_3"><head>Column 3</head>
 
 <div n="a" subtype="part" type="textpart"><ab>
 

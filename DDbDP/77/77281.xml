@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0050;;802"
-     xml:id="o.wilck.802"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0050;;802" xml:id="o.wilck.802" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="77281" xml:lang="en">
-            <date>AD 108</date>
-            <placeName>Thebes</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.wilck/802">O.Wilck. 802</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>μέτρη<ex>μα</ex></expan> <expan>θησαυρ<ex>οῦ</ex></expan> <expan>μητροπ<ex>όλεως</ex></expan> 
 

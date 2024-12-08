@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0050;;742"
-     xml:id="o.wilck.742"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0050;;742" xml:id="o.wilck.742" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="56511" xml:lang="en">
-            <date>146/135 BC</date>
-            <placeName>Diospolis Major</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.wilck/742">O.Wilck. 742</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>ἔτους <num value="35">λε</num> Π<supplied reason="lost">αῦ</supplied>νι <num value="29">κθ</num> 
 

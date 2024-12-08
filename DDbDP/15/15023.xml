@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0240;20;51"
-     xml:id="stud.pal.20.51"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;20;51" xml:id="stud.pal.20.51" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="15023" xml:lang="en">
-            <date>AD 238</date>
-            <placeName>Arsinoite</placeName>
-            <ref n="sb;1;5125" type="reprint-from">SB1,5125;SB1,5147</ref>
-         </head>
+         <head><ref>Z. 15 - 18: SB I 5147</ref> = <ref target="https://papyri.info/pub/stud.pal/20/51">SPP 20 51</ref> = <ref target="https://papyri.info/pub/sb/1/5125">SB I 5125</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>ὁμολογεῖ Αὐ<supplied reason="lost">ρή</supplied>λιος Ἰσχυρᾶς Θεογ<supplied reason="lost">εί</supplied>τονος μητρὸς 
 

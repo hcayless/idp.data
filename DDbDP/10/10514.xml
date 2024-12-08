@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0094;7;160"
-     xml:id="p.col.7.160"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0094;7;160" xml:id="p.col.7.160" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,12 +37,9 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
-          <change when="2013-01-12T16:45:46.834-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2013-01-12T16:45:46.809-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine.</change>
-          <change when="2013-01-12T09:32:21.535-05:00"
-                 who="https://papyri.info/editor/users/nikos">l. 60  &lt;:χοιρέου|reg|χυρέου:&gt; -&gt;  &lt;:χοιρείου|reg|χυρέου:&gt; and l. 76 χοιρέου -&gt; &lt;:χοιρείου|reg|χοιρέου:&gt;. The right form is χοιρείου.</change>
+          <change when="2013-01-12T16:45:46.834-05:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2013-01-12T16:45:46.809-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine.</change>
+          <change when="2013-01-12T09:32:21.535-05:00" who="https://papyri.info/editor/users/nikos">l. 60  &lt;:χοιρέου|reg|χυρέου:&gt; -&gt;  &lt;:χοιρείου|reg|χυρέου:&gt; and l. 76 χοιρέου -&gt; &lt;:χοιρείου|reg|χοιρέου:&gt;. The right form is χοιρείου.</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-12-13" who="https://papyri.info/editor/users/Faith">Automatic insertion of lb tags into origs to match existing lb tags in the reg</change>
@@ -66,11 +58,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="10514" xml:lang="en">
-            <date>AD 345-354</date>
-            <placeName>Karanis</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart">
+         <head><ref target="https://papyri.info/pub/p.col/7/160">P.Col. 7 160</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head>
 <div n="1" type="textpart"><ab>
 
     <lb n="1"/><handShift new="m1"/> Παχὼν <num value="30">λ</num> <g type="slanting-stroke"/> <g type="slanting-stroke"/>. <expan>παρ<ex>ήνεγκεν</ex></expan> Ἀι<unclear>ῶν</unclear> Σα<unclear>ρ</unclear>απίωνος 
@@ -229,7 +218,7 @@
 
     <lb n="77"/>μόνας. Θεόγνωστος διʼ ἐμοῦ Χρήστου σεσημείωμαι. 
 </ab></div>
-</div><div n="v" type="textpart">
+</div><div n="v" type="textpart" xml:id="_v"><head>v</head>
 <div n="1" type="textpart"><ab>
 
     <lb n="78"/><handShift new="m8"/> διέγρα<unclear>ψεν</unclear> Ἀ<supplied reason="lost">ιῶν Σαραπίωνος </supplied> <gap reason="lost" extent="unknown" unit="character"/>

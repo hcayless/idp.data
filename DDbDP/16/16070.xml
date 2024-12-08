@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;12;10791"
-     xml:id="sb.12.10791"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;12;10791" xml:id="sb.12.10791" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="16070" xml:lang="en">
-            <date>AD 156</date>
-            <placeName>Oxyrhynchus</placeName>
-            <ref n="p.oxy;3;595" type="reprint-from">POxy3,595</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/12/10791">SB 12 10791</ref> = <ref target="https://papyri.info/pub/p.oxy/3/595">P.Oxy. III 595 descr.</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>παρὰ Ἀμμωνίου καὶ Διδύμου καὶ μετόχων <expan>σιτολ<ex>όγων</ex></expan> 
 

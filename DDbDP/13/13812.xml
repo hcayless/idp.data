@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0238;8;918"
-     xml:id="psi.8.918"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0238;8;918" xml:id="psi.8.918" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,10 +42,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="13812" xml:lang="en">
-            <date>AD 38/9</date>
-            <placeName>Tebtynis</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/psi/8/918">PSI 8 918</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="filled-circle"/> Μάρων Ἡρακλείδου <choice><reg>ὁμολογῶ</reg><orig>ὁμολογῶι</orig></choice> πεπρακέναι κατὰ <choice><reg><supplied reason="omitted">τήν</supplied>δε</reg><orig>δε</orig></choice> τὴν πρᾶσιν <surplus>ταύτην</surplus> ἀπὸ τῆς ἐνεστώσης ἡμέρας 
 ἐπὶ τὸν ἅπαντα χρόνον Ἡρακλείδηι νεωτέρω<unclear>ι</unclear> Μάρωνος τὸν ὑπάρχοντά μοι ἀ<unclear>μ</unclear>πελ<unclear>ῶ</unclear>να Σεκκυ<unclear>ω</unclear> <choice><reg>λεγόμενον</reg><orig>λογουμεν<gap reason="lost" quantity="2" unit="character"/></orig></choice> 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;18.1;2741"
-     xml:id="bgu.18.1.2741"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;18.1;2741" xml:id="bgu.18.1.2741" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,10 +44,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="69816" xml:lang="en">
-            <date>86 BC</date>
-            <placeName>Herakleopolite</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/bgu/18.1/2741">BGU 18 .1 2741</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="x"/> <expan>Ἀ<unclear>σ</unclear>κλη<hi rend="superscript">π</hi><ex>ιάδῃ</ex></expan> <expan><ex>ἔτους</ex></expan> <num value="31">λα</num> <expan>Με<hi rend="superscript">χ</hi><ex>εὶρ</ex></expan> <num value="18">ιη</num> <handShift new="m2"/><expan>ἀντίγρ<ex>αφον</ex></expan> <expan><ex>ἔτους</ex></expan> <num value="31">λα</num> <unclear>Με</unclear>χ<unclear>ε</unclear>ὶρ <num value="18">ιη</num>
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;1;21"
-     xml:id="p.flor.1.21"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;1;21" xml:id="p.flor.1.21" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="10948" xml:lang="en">
-            <date>AD 239</date>
-            <placeName>Arsinoite</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/1/21">P.Flor. 1 21</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/>Αὐρηλίοις Κορακιῶνι <choice><reg>ἐκ</reg><orig>ἐγ</orig></choice> μέρους <expan>κ<unclear>οσ</unclear><ex>μητεύσαντι</ex></expan> καὶ Ἡρακλείδῃ 
 
@@ -91,7 +83,7 @@
     <lb n="19"/><expan><ex>ἔτους</ex></expan> <num value="3">γ</num> Αὐτοκράτορος Καίσαρος Μάρκου Ἀντωνίου 
 
     <lb n="20"/>Γορδιανοῦ Εὐσεβοῦς Εὐτυ<unclear>χ</unclear>οῦς Σεβαστοῦ Χύακ <num value="2">β</num>. 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 1,21,v reprinted in <ref n="p.flor;3;338" type="reprint-in">PFlor 3,338</ref></note></ab></div></div>
       </body>

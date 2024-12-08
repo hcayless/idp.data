@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0094;3;49"
-     xml:id="p.col.3.49"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0094;3;49" xml:id="p.col.3.49" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -51,11 +46,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="1765" xml:lang="en">
-            <date>252 BC</date>
-            <placeName>Philadelphia</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.col/3/49">P.Col. 3 49</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/>βασιλεύοντος Πτολεμαίου το<supplied reason="lost">ῦ</supplied> 
 
@@ -106,7 +98,7 @@
     <lb n="24" break="no"/>στοῦ ἔτους πυρῶν ἀρτάβας 
 
     <lb n="25"/><num value="4">δ</num> <num value="1/2">𐅵</num>. 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="26"/><handShift new="m2"/> <note xml:lang="en">Writing inverse to main text</note> πρὸς 
 

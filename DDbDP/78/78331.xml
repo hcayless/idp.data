@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0282;;73"
-     xml:id="o.heid.73"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0282;;73" xml:id="o.heid.73" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="78331" xml:lang="en">
-            <date>AD 141</date>
-            <placeName>Thebes</placeName>
-            <ref type="reprint-from">P.Heid. 3.264</ref>
-         </head>
+         <head><ref>P.Heid. III 264</ref> = <ref target="https://papyri.info/pub/o.heid/73">O.Heid. 73</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>με<ex>μέτρηται</ex></expan> εἰς <expan>θ<unclear>ησα</unclear><ex>υρὸν</ex></expan> <expan><unclear>μη</unclear><ex>τροπόλεως</ex></expan> 
 <expan>γενή<ex>ματος</ex></expan> <num value="4">δ</num> <expan><ex>ἔτους</ex></expan> Ἀντω<supplied reason="omitted">νί</supplied>νου

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0014;2;510"
-     xml:id="o.bodl.2.510"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0014;2;510" xml:id="o.bodl.2.510" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="71208" xml:lang="en">
-            <date>AD 96</date>
-            <placeName>Memnoneia</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.bodl/2/510">O.Bodl. 2 510</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>δι<ex>αγέγραφε</ex></expan> Π<unclear>α</unclear>ήσις <expan>Φθ<unclear>ομώ</unclear><ex>νθου</ex></expan> <expan>Ἁρφ<unclear>μ</unclear>ό<ex>ιτος</ex></expan> <expan>ὑπ<ex>ὲρ</ex></expan> <expan>λαο<ex>γραφίας</ex></expan> <expan><unclear>Μ</unclear><supplied reason="lost">εμνο<ex>νείων</ex></supplied></expan> 
 

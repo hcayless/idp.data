@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0190;NS;1a"
-     xml:id="p.prag.varcl.NS.1a"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0190;NS;1a" xml:id="p.prag.varcl.NS.1a" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="14167" xml:lang="en">
-            <date>AD 246?</date>
-            <placeName>Theadelphia</placeName>
-            <ref type="reprint-from">SB6,9407,1</ref>
-         </head>
+         <head><ref>SB 6 9407</ref> = <ref target="https://papyri.info/pub/p.prag.varcl/NS/1a">p.prag.varcl;NS;1a</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><num value="1">α</num><gap reason="illegible" quantity="1" unit="character"/><num value="1">α</num> 
 

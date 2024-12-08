@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0206;5;1151"
-     xml:id="p.tebt.5.1151"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0206;5;1151" xml:id="p.tebt.5.1151" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,20 +26,14 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2022-11-13T16:17:17-05:00"
-                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
-          <change when="2022-11-13T14:50:26-05:00"
-                 who="http://papyri.info/editor/users/ngonis">Vote - Accept-Straight-to-Finalization - Fine.</change>
-          <change when="2022-11-13T08:57:02-05:00"
-                 who="http://papyri.info/editor/users/dkaltsas">Submit - l. 222: corrected typo in ταλάντου.&#xD;
+          <change when="2022-11-13T16:17:17-05:00" who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+          <change when="2022-11-13T14:50:26-05:00" who="http://papyri.info/editor/users/ngonis">Vote - Accept-Straight-to-Finalization - Fine.</change>
+          <change when="2022-11-13T08:57:02-05:00" who="http://papyri.info/editor/users/dkaltsas">Submit - l. 222: corrected typo in ταλάντου.
 Added omitted l. 223. </change>
-          <change when="2015-01-26T10:00:02.164-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2015-01-26T10:00:02.134-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
-          <change when="2015-01-26T07:28:59.784-05:00"
-                 who="https://papyri.info/editor/users/GAJC%20v%20Loon">14 αε &gt; ιε, 69 ξγε &gt; χλε, 72 αδ &gt; ιδ, 124 κεπε &gt; Βφπε, 125 σβε &gt; Βκε 155 σοε (270 + 5) &gt; σοε (275) (automatic re-numbering)&#xD;
-Data Entry Error&#xD;
+          <change when="2015-01-26T10:00:02.164-05:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2015-01-26T10:00:02.134-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2015-01-26T07:28:59.784-05:00" who="https://papyri.info/editor/users/GAJC%20v%20Loon">14 αε &gt; ιε, 69 ξγε &gt; χλε, 72 αδ &gt; ιδ, 124 κεπε &gt; Βφπε, 125 σβε &gt; Βκε 155 σοε (270 + 5) &gt; σοε (275) (automatic re-numbering)
+Data Entry Error
 </change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
@@ -62,12 +51,8 @@ Data Entry Error&#xD;
    </teiHeader>
    <text>
       <body>
-         <head n="3748" xml:lang="en">
-            <date>112 BC</date>
-            <placeName>Tebtynis</placeName>
-            <ref n="p.tebt;1;112" type="reprint-from">P.Tebt. 1,112</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.tebt/5/1151">P.Tebt. 5 1151</ref> = <ref target="https://papyri.info/pub/p.tebt/1/112">P.Tebt. I 112</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/><g type="unintelligible"/> <num value="2060">Βξ</num> <expan><ex>ὧν</ex></expan>
 
@@ -114,7 +99,7 @@ Data Entry Error&#xD;
     <lb n="21"/><expan>λαχά<ex>νων</ex></expan> <num value="15">ιε</num>, <abbr>ἐξε</abbr> <num value="15">ιε</num>, <expan>ἐλ<ex>αίου</ex></expan> <num value="55">νε</num>, <abbr>Ἡρα</abbr> <expan>χρή<ex>ους</ex></expan> <num value="125">ρκε</num>,
 
     <lb n="22"/><expan>βα<ex>λανεῖ</ex></expan> <num value="10">ι</num>, θυμιάματος <num value="5">ε</num>, <expan><ex>γίνονται</ex></expan> <num value="280">σπ</num>.
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="23"/><g type="check"/> ψιάθου χόρτου <num value="120">ρκ</num>,
 
@@ -155,7 +140,7 @@ Data Entry Error&#xD;
     <lb n="41"/>Ἀκουσιλάωι <expan>κω<ex>μο</ex>γρ<ex>αμματεῖ</ex></expan> <expan>Ἀπόλλω<ex>νος</ex></expan> <expan>πό<ex>λεως</ex></expan> <expan>πίστεω<ex>ς</ex></expan> <num value="150">ρν</num>,
 
     <lb n="42"/><del rend="erasure"><expan>κράμβη<ex>ς</ex></expan> <num value="10">ι</num> κύθρας <num value="10">ι</num></del>
-</ab></div><div n="3" type="textpart"><ab>
+</ab></div><div n="3" type="textpart" xml:id="_3"><head>3</head><ab>
 
     <lb n="43"/><gap reason="lost" quantity="4" unit="character"/>αι ἕως λόγου <num value="450">υν</num>,
 
@@ -210,7 +195,7 @@ Data Entry Error&#xD;
     <lb n="67"/><expan><ex>γίνονται</ex></expan> <num value="2700">Βψ</num>, <expan>λο<ex>ιπαὶ</ex></expan> <num value="1000">Α</num><gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="68"/>παρὰ <gap reason="lost" extent="unknown" unit="character"/>
-</ab></div><div n="4" type="textpart"><ab>
+</ab></div><div n="4" type="textpart" xml:id="_4"><head>4</head><ab>
 
     <lb n="69"/>λοιπαὶ <num value="635">χ<unclear>λ</unclear><supplied reason="lost">ε</supplied></num><supplied reason="lost">. <gap reason="illegible" extent="unknown" unit="character"/></supplied>
 
@@ -272,7 +257,7 @@ Data Entry Error&#xD;
 <expan>Ἀσκλη<ex>πιάδηι</ex></expan> Βακχίου <num value="200">σ</num>,
 
     <lb n="95"/><gap reason="lost" quantity="3" unit="character"/> <num value="5"><unclear>ε</unclear></num>, <choice><reg>θρύων</reg><orig>θροίων</orig></choice>  <num value="5">ε</num>, γναφεῖ <num value="10">ι</num>, <abbr>πα</abbr> <num value="100">ρ</num>, <expan><ex>γίνονται</ex></expan> <num value="390">τϙ</num>.
-</ab></div><div n="5" type="textpart"><ab>
+</ab></div><div n="5" type="textpart" xml:id="_5"><head>5</head><ab>
 
     <lb n="96"/><gap reason="lost" quantity="5" unit="line"/>
 
@@ -333,7 +318,7 @@ Data Entry Error&#xD;
 <expan><ex>τάλαντον</ex></expan> <num value="1">α</num>  <num value="2585">Βφ<supplied reason="lost">πε</supplied></num><supplied reason="lost">,</supplied>
 
     <lb n="125"/>λοιπαὶ <expan><ex>τάλαντον</ex></expan> <num value="1">α</num> <num value="1995">Αϡϙε</num>, ἀνθʼ <expan>ὧ<ex>ν</ex></expan> <expan>ὑπ<ex>άρχουσι</ex></expan> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num> <num value="2025">Βκ<supplied reason="lost">ε</supplied></num>.
-</ab></div><div n="6" type="textpart"><ab>
+</ab></div><div n="6" type="textpart" xml:id="_6"><head>6</head><ab>
 
     <lb n="126"/><num value="18">ιη</num>. <gap reason="lost" quantity="9" unit="character"/> <expan>ἀργυ<ex>ρίου</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="20">κ</num>, <expan><unclear>χα</unclear><ex>λκοῦ</ex></expan> <expan><ex>τάλαντον</ex></expan>
 <supplied reason="lost"><num value="1">α</num> <num value="2025">Βκε</num> <expan><ex>ὧν</ex></expan></supplied>
@@ -385,7 +370,7 @@ Data Entry Error&#xD;
     <lb n="149"/><gap reason="lost" extent="unknown" unit="character"/> <expan>χα<ex>λκοῦ</ex></expan> <num value="150"><unclear>ρν</unclear></num>,
 
     <lb n="150"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ε <expan><ex>ὧν</ex></expan> <expan>ἀνήλ<ex>ωνται</ex></expan>
-</ab></div><div n="7" type="textpart"><ab>
+</ab></div><div n="7" type="textpart" xml:id="_7"><head>7</head><ab>
 
     <lb n="151"/><gap reason="lost" quantity="3" unit="line"/>
 
@@ -434,7 +419,7 @@ Data Entry Error&#xD;
     <lb n="173"/><gap reason="illegible" quantity="5" unit="character"/><gap reason="lost" quantity="4" unit="character"/> <expan>στεφά<ex>νου</ex></expan> <num value="40">μ</num>, <expan><ex>γίνονται</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="174"/>Κεφα<unclear>λ</unclear>ᾷ <gap reason="lost" extent="unknown" unit="character"/>
-</ab></div><div n="8" type="textpart"><ab>
+</ab></div><div n="8" type="textpart" xml:id="_8"><head>8</head><ab>
 
     <lb n="175"/><supplied reason="lost">Ἀπολλωνί</supplied>ου τοῦ <expan>ἡγου<ex>μένου</ex></expan> <num value="1800">Αω</num>
 
@@ -482,7 +467,7 @@ Data Entry Error&#xD;
     <lb n="200"/>καὶ <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> <unclear>θ</unclear>υρωρ <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
 
     <lb n="201"/><gap reason="illegible" quantity="4" unit="character"/>ου ωρου <num value="195">ρϙε</num>
-</ab></div><div n="9" type="textpart"><ab>
+</ab></div><div n="9" type="textpart" xml:id="_9"><head>9</head><ab>
 
     <lb n="202"/><num value="26">κϛ</num>. ἀπὸ τῶν <expan>λελοιπογρ<ex>αφημένων</ex></expan> <unclear>ἐ</unclear><supplied reason="lost">ν</supplied>
 
@@ -531,7 +516,7 @@ Data Entry Error&#xD;
     <lb n="224"/>Σαραπίωνι <abbr>με</abbr> <abbr>γρ</abbr>
 
     <lb n="225"/>τῆς κατὰ <expan>φύ<ex>λλον</ex></expan> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num>
-</ab></div><div n="10" type="textpart"><ab>
+</ab></div><div n="10" type="textpart" xml:id="_10"><head>10</head><ab>
 
     <lb n="226"/><supplied reason="lost">Μ</supplied>άρωνι <expan>ὑπογρ<ex>αφεῖ</ex></expan> <expan>ὁμοί<ex>ως</ex></expan> <num value="500">φ</num>,
 
@@ -581,7 +566,7 @@ Data Entry Error&#xD;
 <num value="1">α</num> <num value="1880">Αωπ</num>
 
     <lb n="247"/><gap reason="lost" quantity="8" unit="character"/> <num value="1800">Αω</num>
-</ab></div><div n="11" type="textpart"><ab>
+</ab></div><div n="11" type="textpart" xml:id="_11"><head>11</head><ab>
 
     <lb n="248"/>καὶ <expan>δεδα<ex>νεισμέναι</ex></expan>
 
@@ -630,7 +615,7 @@ Data Entry Error&#xD;
     <lb n="268"/><expan>ῥαφάνω<ex>ν</ex></expan> εἰς <abbr>ἐξε</abbr> <num value="10">ι</num>, <expan>φοινί<ex>κων</ex></expan> <num value="5">ε</num>, <choice><reg>θρύων</reg><orig>θροίων</orig></choice> <expan><ex>5</ex></expan>,
 
     <lb n="269"/>ἄρτων <num value="3">γ</num> <num value="75">οε</num>, <expan>οἴν<ex>ου</ex></expan> τῆι <num value="29">κθ</num>
-</ab></div><div n="12" type="textpart"><ab>
+</ab></div><div n="12" type="textpart" xml:id="_12"><head>12</head><ab>
 
     <lb n="270"/>καὶ τῇ <num value="30">λ</num> εἰς <expan>θεράπει<ex>αν</ex></expan> <num value="5">ε</num> <num value="65">ξε</num>,
 
@@ -684,7 +669,7 @@ Data Entry Error&#xD;
     <lb n="291"/><expan>Ἀνή<ex>λωνται</ex></expan> <expan>δοχῆ<ex>ς</ex></expan> <choice><reg>Μέλανος</reg><orig>Μέλαν</orig></choice> <expan>γρ<ex>αμματέως</ex></expan> καὶ Μάρωνος
 
     <lb n="292"/>το<unclear>ῦ</unclear> <expan>γρ<ex>αμματέως</ex></expan> <expan>Σαρα<ex>πίωνος</ex></expan>
-</ab></div><div n="13" type="textpart"><ab>
+</ab></div><div n="13" type="textpart" xml:id="_13"><head>13</head><ab>
 
     <lb n="293"/>ἄρτων <num value="8">η</num> <num value="200"><unclear>σ</unclear></num>
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0033;4;1128"
-     xml:id="o.mich.4.1128"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0033;4;1128" xml:id="o.mich.4.1128" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,12 +41,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="4249" xml:lang="en">
-            <date>II/I sac</date>
-            <placeName>Karanis</placeName>
-            <ref n="sb;14;11515(o)" type="reprint-from">SB14,11515</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/o.mich/4/1128">O.Mich. IV 1128</ref> = <ref target="https://papyri.info/pub/sb/14/11515(o)">SB 14 11515</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/><gap reason="lost" quantity="1" unit="character"/><supplied reason="lost"> <expan>τι<ex>μῆς</ex></expan> πυ</supplied>ροῦ <expan>νέ<ex>ου</ex></expan> <num value="405">υε</num> 
 
@@ -68,7 +59,7 @@
     <lb n="7"/><choice><reg>Θασώτι</reg><orig>Θασώτει</orig></choice> <num value="100">ρ</num> 
 
     <lb n="8"/><choice><reg>Θασώτι</reg><orig>Θασώτει</orig></choice> <expan>τι<ex>μῆς</ex></expan> <expan><ex>πυροῦ</ex></expan> <num value="1600">Α<unclear>χ</unclear></num>. 
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="1"/><space extent="unknown" unit="character"/> 
 

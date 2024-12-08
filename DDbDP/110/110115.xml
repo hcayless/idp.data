@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -33,20 +31,17 @@
       <revisionDesc>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
-          <change when="2011-07-13T13:55:01.74-04:00"
-                 who="https://papyri.info/editor/users/joshuad.sosin">Finalized - ready</change>
-          <change when="2011-07-13T13:55:01.736-04:00"
-                 who="https://papyri.info/editor/users/joshuad.sosin">Vote - Accept-Straight-to-FInalization - Accept. Passim: we do not know the units or gender and so, plurals notwithstanding, prefer edition's (γίνεται), which might be right or wrong. Lin21--&gt;Ἀπολ[λ][.?]</change>
-          <change when="2011-05-12T09:36:07.305-04:00"
-                 who="https://papyri.info/editor/users/sriethmueller">Entered from Word Document, May 12.</change>
+          <change when="2011-07-13T13:55:01.74-04:00" who="https://papyri.info/editor/users/joshuad.sosin">Finalized - ready</change>
+          <change when="2011-07-13T13:55:01.736-04:00" who="https://papyri.info/editor/users/joshuad.sosin">Vote - Accept-Straight-to-FInalization - Accept. Passim: we do not know the units or gender and so, plurals notwithstanding, prefer edition's (γίνεται), which might be right or wrong. Lin21--&gt;Ἀπολ[λ][.?]</change>
+          <change when="2011-05-12T09:36:07.305-04:00" who="https://papyri.info/editor/users/sriethmueller">Entered from Word Document, May 12.</change>
           <change when="2011-04-26T13:16:36-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.iand.zen/67">P.Iand. Zen. 67</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="A" subtype="fragment" type="textpart"><ab>
+<div n="A" subtype="fragment" type="textpart" xml:id="fragment_A"><head>Fragment A</head><ab>
 <lb n="1"/>Κρότωι <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/>Κιλικᾶι <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="3"/>Ἄγρωνι <gap reason="lost" extent="unknown" unit="character"/>
@@ -57,7 +52,7 @@
 <lb n="8"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
 
-<div n="B" subtype="fragment" type="textpart"> 
+<div n="B" subtype="fragment" type="textpart" xml:id="fragment_B"><head>Fragment B</head> 
 <div n="I" subtype="column" type="textpart"><ab>
 <lb n="8"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>π<gap reason="illegible" quantity="4" unit="character"/>
@@ -88,7 +83,7 @@
 </ab></div>
 </div>
 
-<div n="C" subtype="fragment" type="textpart"> 
+<div n="C" subtype="fragment" type="textpart" xml:id="fragment_C"><head>Fragment C</head> 
 <div n="I" subtype="column" type="textpart"><ab>
 <lb n="28"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="28"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>

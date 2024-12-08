@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0117;3;144"
-     xml:id="p.gen.3.144"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0117;3;144" xml:id="p.gen.3.144" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,10 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="29439" xml:lang="en">
-            <date>II spc</date>
-            <placeName>Herakleopolite?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.gen/3/144">P.Gen. 3 144</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ἑρμεῖνος <choice><reg>Ἀμμωνίῳ</reg><orig>Ἀμμονίῳ</orig></choice> καὶ Ἡραΐδι
 

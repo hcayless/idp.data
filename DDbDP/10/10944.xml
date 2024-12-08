@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;1;16"
-     xml:id="p.flor.1.16"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;1;16" xml:id="p.flor.1.16" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,12 +26,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2012-11-19T05:23:50.784-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2012-11-19T05:23:50.761-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Check linebreak in 25/26. Fine. Yes recto ref is fine as is.</change>
-          <change when="2012-04-07T12:20:08.259-04:00"
-                 who="https://papyri.info/editor/users/pheilpor">Typo corrected. </change>
+          <change when="2012-11-19T05:23:50.784-05:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2012-11-19T05:23:50.761-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Check linebreak in 25/26. Fine. Yes recto ref is fine as is.</change>
+          <change when="2012-04-07T12:20:08.259-04:00" who="https://papyri.info/editor/users/pheilpor">Typo corrected. </change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-11-29" who="https://papyri.info/editor/users/gabrielbodard">converted app type=BL|SoSOL to editorial</change>
@@ -52,11 +44,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="10944" xml:lang="en">
-            <date>AD 239</date>
-            <placeName>Euhemeria</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/1/16">P.Flor. 1 16</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><expan><unclear>Α</unclear><supplied reason="lost">ὐρηλ<ex>ίᾳ</ex></supplied></expan><supplied reason="lost"> Δη</supplied>μητ<unclear>ρ</unclear>ί<supplied reason="lost">ᾳ</supplied> <unclear>στ</unclear>ολάτᾳ 
 
@@ -133,7 +122,7 @@
     <lb n="37"/>Ἀ<unclear>ντ</unclear>ωνίου Γο<supplied reason="lost">ρ</supplied><unclear>δ</unclear>ιανοῦ Εὐ<supplied reason="lost">σε</supplied>βοῦς Εὐ<unclear>τυχ</unclear>οῦς 
 
     <lb n="37,ms"/>Σεβαστοῦ Μεχεὶρ <num value="29">κθ</num> <unclear>ἀ</unclear>ν<unclear>υπόγρα</unclear>φ<unclear>ο</unclear>ν. 
-</ab></div><div n="r" type="textpart"><ab>
+</ab></div><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 1,16,r reprinted in <ref n="p.flor;1;97" type="reprint-in">PFlor 1,97</ref></note></ab></div></div>
       </body>

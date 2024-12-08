@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0209;;19"
-     xml:id="p.theon.19"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0209;;19" xml:id="p.theon.19" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,10 +47,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="15878" xml:lang="en">
-            <date>AD 159</date>
-            <placeName>?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.theon/19">P.Theon. 19</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ἀνουβίων προστάτ<unclear>ης</unclear> 
 

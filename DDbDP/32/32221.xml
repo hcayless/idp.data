@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0263;1;58"
-     xml:id="p.louvre.1.58"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0263;1;58" xml:id="p.louvre.1.58" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="32221" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Soknopaiou Nesos</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.louvre/1/58">P.Louvre 1 58</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/>κ<gap reason="lost" extent="unknown" unit="character"/>
 <milestone rend="paragraphos" unit="undefined"/>
@@ -67,7 +59,7 @@
     <lb n="8"/>Σεν<unclear>θ</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="9"/><expan><ex>ἀρουρ-  </ex></expan> <num value="1">α</num> <num value="1/2">𐅵</num> <gap reason="illegible" quantity="1" unit="character"/>
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 <lb n="10"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><unclear>τ</unclear><gap reason="lost" extent="unknown" unit="character"/>

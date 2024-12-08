@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0218;;10v"
-     xml:id="p.vind.bosw.10v"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0218;;10v" xml:id="p.vind.bosw.10v" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="17301" xml:lang="en">
-            <date>IV spc</date>
-            <placeName>?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.vind.bosw/10v">P.Vindob. Bosw. 10 V</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
 
     <lb n="1"/>ακρη 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0117;2;87"
-     xml:id="p.gen.2.87"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0117;2;87" xml:id="p.gen.2.87" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="4245" xml:lang="en">
-            <date>145/144 BC</date>
-            <placeName>?</placeName>
-            <ref n="sb;14;11475" type="reprint-from">SB14,11475</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.gen/2/87">P.Gen. 2 87</ref> = <ref target="https://papyri.info/pub/sb/14/11475">SB XIV 11475</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>βασιλευόντων Πτολεμαίου κ<supplied reason="lost">α</supplied>ὶ Κλεοπ<supplied reason="lost">άτρας θεῶν εὐεργετῶν τῶν ἐκ Πτολεμαίου καὶ Κλεοπάτρας</supplied>
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0171;3.1;103"
-     xml:id="p.muench.3.1.103"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0171;3.1;103" xml:id="p.muench.3.1.103" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,10 +43,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="35465" xml:lang="en">
-            <date>V/VI spc</date>
-            <placeName>Hermoupolis Magna</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.muench/3.1/103">P.Münch. 3 103</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="stauros"/> τῶν κληρονόμου<unclear>ς</unclear> Ε<hi rend="diaeresis">ἰ</hi>ρημ<hi rend="diaeresis">ί</hi>ου ἀπὸ Ἑρμοῦ πόλεως Φο<hi rend="diaeresis"><unclear>ι</unclear></hi>βάμμ<unclear>ωνι</unclear> <gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="3" unit="character"/> 
 

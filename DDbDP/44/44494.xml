@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0258;;14"
-     xml:id="p.thomas.14"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0258;;14" xml:id="p.thomas.14" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,11 +45,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="44494" xml:lang="en">
-            <date>II spc</date>
-            <placeName>Karanis</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.thomas/14">P.Thomas 14</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><unclear>Δ</unclear>ίδυμος Ἁτρῆτ<unclear>ι</unclear> τῷ τιμι<supplied reason="omitted">ωτ</supplied>άτῳ
 
@@ -90,7 +82,7 @@
 
     <lb n="17" break="no"/>ταί σε οἱ ἐμοὶ πάντες κατʼ ὄν<supplied reason="lost">ο</supplied>μα
 <lb n="17"/><gap reason="lost" extent="unknown" unit="line"/>
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/>Ἁτρῆτι οἰ<surplus>π</surplus>νοπωλήτῃ <g type="x"/> Ὡρ<unclear>ί</unclear><supplied reason="lost" cert="low">ωνος </supplied></ab></div></div>
       </body>

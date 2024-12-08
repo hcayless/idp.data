@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0263;1;19"
-     xml:id="p.louvre.1.19"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0263;1;19" xml:id="p.louvre.1.19" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,12 +42,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11831" xml:lang="en">
-            <date>AD 216</date>
-            <placeName>Soknopaiou Nesos</placeName>
-            <ref n="sb;1;7" type="reprint-from">SB 1,7</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.louvre/1/19">P.Louvre 1 19</ref> = <ref target="https://papyri.info/pub/sb/1/7">SB I 7</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/>ἔτους πέμπτου καὶ εἰκοστοῦ Αὐτοκράτορος Καίσαρος
 
@@ -87,7 +78,7 @@
     <lb n="16" break="no"/>το<unclear>ς</unclear> ἢ καὶ ἐ<unclear>κ</unclear> τῶν ὑπα<unclear>ρ</unclear>χ<unclear>ό</unclear><supplied reason="lost">ντω</supplied><unclear>ν</unclear> <choice><reg>αὐτῷ</reg><orig>αὐτοῦ</orig></choice> πάντων κα
 
     <lb n="17" break="no"/>θάπερ ἐκ δ<unclear>ί</unclear><supplied reason="lost">κ</supplied>ης.
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="18"/>Σώτας ἀπὸ Σοκνοπα<unclear>ί</unclear>ου Νήσου <expan><ex>δραχμαὶ</ex></expan> <num value="72">οβ</num> καὶ <expan>λαχ<ex>ανοσπέρμου</ex></expan> μέτρα <num value="7">ζ</num> <num value="1/2">𐅵</num>.</ab></div></div>
       </body>

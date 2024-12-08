@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0245;2;161"
-     xml:id="upz.2.161"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0245;2;161" xml:id="upz.2.161" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,12 +36,8 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>III sac</date>
-            <placeName>Thebes</placeName>
-            <ref type="reprint-from">PParis70</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart"><ab>
+         <head><ref>P.Tor. Choach. 11 bis</ref> = <ref>P.Par. 15</ref> = <ref target="https://papyri.info/pub/upz/2/161">UPZ II 161</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/><note xml:lang="en">UPZ 2,161 reprinted in <ref n="p.tor.choach;;11bis" type="reprint-in">PTorChoach 11bis</ref></note></ab></div></div>
       </body>

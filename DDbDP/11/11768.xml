@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0154;3;1221"
-     xml:id="p.lond.3.1221"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0154;3;1221" xml:id="p.lond.3.1221" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,11 +38,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11768" xml:lang="en">
-            <date>AD 105</date>
-            <placeName>Theadelphia</placeName>
-            <ref type="reprint-from">pg24-5</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.lond/3/1221">P.Lond. 3 1221 (S. 24)</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ἀκουσιλάῳ <app type="editorial"><lem resp="BL 8.187"><supplied reason="lost">καὶ μ</supplied>ετόχοις</lem><rdg><gap reason="lost" quantity="3" unit="character"/>ε<unclear>β</unclear>χο<unclear>υς</unclear></rdg></app> 
 

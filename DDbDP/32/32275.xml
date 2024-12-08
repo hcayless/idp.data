@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0026;;39"
-     xml:id="o.fay.39"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0026;;39" xml:id="o.fay.39" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="32275" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Euhemeria</placeName>
-         </head>
+         <head><ref>C.Pap.Jud. III 472a</ref> = <ref target="https://papyri.info/pub/o.fay/39">O.Fay. 39</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>θησ<ex>αυροῦ</ex></expan> <expan>κώ<ex>μης</ex></expan> <expan>Εὐημε<ex>ρείας</ex></expan> <expan>γενη<ex>μάτων</ex></expan> <num value="1">α</num> <expan><ex>ἔτους</ex></expan>, 
 

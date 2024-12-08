@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,12 +38,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="41024" xml:lang="en">
-            <date>AD 600</date>
-            <placeName>Arsinoite</placeName>
-            <ref type="reprint-from">pg212;lins8-15=BL 1.237</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.lond/1/113_5C">P.Lond. 1 113 5 c (S. 212)</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><g type="stauros"/> ἐν ὀνόματι τοῦ κυρίου καὶ δεσπότου 
 
@@ -76,7 +70,7 @@
     <lb n="14"/><supplied reason="lost">γνώμῃ ἐγγυᾶσθαι καὶ ἀναδεδέχθαι </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="15"/><gap reason="lost" extent="unknown" unit="line"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="14"/><g type="stauros"/> ἐγγύη <unclear>Ο</unclear><supplied reason="lost">ὐ</supplied><unclear>ε</unclear><supplied reason="lost">ναφρ</supplied>ίου υἱο<supplied reason="lost" cert="low">ῦ <hi rend="diaeresis">Ἰ</hi><unclear>ε</unclear>ρεμίου καὶ Ἀβραὰμ υἱοῦ Παπνουθίου</supplied> 
 

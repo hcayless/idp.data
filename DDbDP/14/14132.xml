@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;6;9247"
-     xml:id="sb.6.9247"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;6;9247" xml:id="sb.6.9247" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,10 +43,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="14132" xml:lang="en">
-            <date>AD 169/70</date>
-            <placeName>Karanis</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/6/9247">SB 6 9247</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Οὐαλ<supplied reason="lost">έ</supplied>ριος ὁ κ<supplied reason="lost">αὶ</supplied> Ἥρων Διοσκόρου 
 

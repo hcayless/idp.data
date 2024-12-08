@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0262;1;46"
-     xml:id="p.eleph.wagner.1.46"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0262;1;46" xml:id="p.eleph.wagner.1.46" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,10 +26,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2017-11-29T11:48:38-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2017-11-29T11:08:46-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2017-11-29T11:48:38-05:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2017-11-29T11:08:46-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
           <change when="2017-10-01T06:30:05-04:00" who="https://papyri.info/editor/users/ngonis">Submit - Entered editorial corrections to lines 1 and 4.</change>
           <change when="2017-10-01T06:29:29-04:00" who="https://papyri.info/editor/users/ngonis">Commit - Added editorial corrections to lines 1 and 4; changed Πε [.?] to Πε[.?] in l. 3 (I think it should be Πε[.?] [.?], but I don't like what appears in Preview), and (γίνεται) to (γίνονται) in l. 4.</change>
           <change when="2017-10-01T06:27:31-04:00" who="https://papyri.info/editor/users/ngonis">Commit - Added editorial corrections to lines 1 and 4; changed Πε [.?] to Πε[.?] [.?] in l. 3, and (γίνεται) to (γίνονται) in l. 4.</change>
@@ -48,10 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="24226" xml:lang="en">
-            <date>AD 168/9</date>
-            <placeName>Elephantine</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.eleph.wagner/1/46">O.Eleph. DAIK 46</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Στέφανος <unclear>κ</unclear><supplied reason="lost">αὶ <app type="editorial"><lem resp="R. Duttenhöfer, ZPE 202 (2017) 233">Ἡρώδης</lem><rdg>οἱ σὺν <expan>αὐτ<ex>ῷ</ex></expan></rdg></app> <expan>ἐπιτ<ex>ηρηταὶ</ex></expan></supplied>
 

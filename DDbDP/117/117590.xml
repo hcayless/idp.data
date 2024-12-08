@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -34,23 +32,19 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
-          <change when="2017-04-21T11:43:06-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2017-01-01T09:58:37-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
-          <change when="2011-11-16T07:13:53.558-05:00"
-                 who="https://papyri.info/editor/users/sriethmueller">Entered on November 16th,&#xD;
+          <change when="2017-04-21T11:43:06-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2017-01-01T09:58:37-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2011-11-16T07:13:53.558-05:00" who="https://papyri.info/editor/users/sriethmueller">Entered on November 16th,
 Best regards</change>
-          <change when="2011-11-16T07:12:48-05:00"
-                 who="https://papyri.info/editor/users/sriethmueller">General - I was quite unsure how to mark Text II on the verso: whether using "(1-8,minf, inverse)" or writing a comment. I decided to take use of the latter possibility.</change>
+          <change when="2011-11-16T07:12:48-05:00" who="https://papyri.info/editor/users/sriethmueller">General - I was quite unsure how to mark Text II on the verso: whether using "(1-8,minf, inverse)" or writing a comment. I decided to take use of the latter possibility.</change>
           <change when="2011-11-15T06:15:44-05:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/cpr/28/10">CPR 28 10</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart"><ab>
+<div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Δ<unclear>ι</unclear>ονυσίου <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> κνήκου <expan><ex cert="low">ἀρτάβαι</ex></expan> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -60,7 +54,7 @@ Best regards</change>
 <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <space extent="unknown" unit="character"/> <expan><ex>γίνονται</ex></expan> <num value="300"><unclear>τ</unclear></num><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> Θ</supplied><unclear>μ</unclear>οι<unclear>ο</unclear>ύθεως <unclear>β</unclear><gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
-<div n="v" type="textpart">
+<div n="v" type="textpart" xml:id="_v"><head>v</head>
 <div n="text" subtype="i" type="textpart"><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><handShift new="m2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">το</supplied><unclear>ῦ</unclear> <num value="21"><unclear>κα</unclear></num> <expan><ex>ἔτους</ex></expan> <num value="600">χ</num>

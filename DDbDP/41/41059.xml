@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;1;315"
-     xml:id="bgu.1.315"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;1;315" xml:id="bgu.1.315" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -35,14 +30,10 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
-          <change when="2021-11-05T11:57:31-04:00"
-                 who="https://papyri.info/editor/users/ngonis">Finalized - done</change>
-          <change when="2021-11-05T11:53:43-04:00"
-                 who="https://papyri.info/editor/users/ngonis">Vote - Accept-Straight-to-Finalization - √</change>
-          <change when="2021-10-03T11:26:18-04:00"
-                 who="https://papyri.info/editor/users/mgerhardt">Vote - Accept-Straight-to-Finalization - Fine.</change>
-          <change when="2021-09-25T16:38:54-04:00"
-                 who="https://papyri.info/editor/users/ngonis">Submit - Entered combined BL correction to lin4.</change>
+          <change when="2021-11-05T11:57:31-04:00" who="https://papyri.info/editor/users/ngonis">Finalized - done</change>
+          <change when="2021-11-05T11:53:43-04:00" who="https://papyri.info/editor/users/ngonis">Vote - Accept-Straight-to-Finalization - √</change>
+          <change when="2021-10-03T11:26:18-04:00" who="https://papyri.info/editor/users/mgerhardt">Vote - Accept-Straight-to-Finalization - Fine.</change>
+          <change when="2021-09-25T16:38:54-04:00" who="https://papyri.info/editor/users/ngonis">Submit - Entered combined BL correction to lin4.</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-11-29" who="https://papyri.info/editor/users/gabrielbodard">converted app type=BL|SoSOL to editorial</change>
@@ -55,11 +46,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="41059" xml:lang="en">
-            <date>AD 627?</date>
-            <placeName>Arsinoite</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/bgu/1/315">BGU 1 315</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><g type="stauros"/> ἐν ὀνόματι <expan>το<ex>ῦ</ex></expan> <expan>κυρίο<ex>υ</ex></expan> καὶ δεσπότου <expan>Ἰησο<ex>ῦ</ex></expan> <expan>Χριστο<ex>ῦ</ex></expan> 
 
@@ -110,7 +98,7 @@
     <lb n="24"/>καὶ <expan>ἐπερ<ex>ωτηθέντες</ex></expan> <expan>ὡμ<ex>ολογήσαμεν</ex></expan> <g type="stauros"/> 
 
   <lb n="25"/><handShift new="m2"/> <g type="stauros"/> <app type="editorial"><lem resp="BL 9.18"><unclear>Χμ</unclear>γ</lem><rdg/></app> <foreign xml:lang="la">di emu Georgiu</foreign> <g type="unintelligible"/> <add place="above"><g type="unintelligible"/><hi rend="tall">x</hi></add> Φ  
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><g type="stauros"/> <expan>κομπρόμισσ<ex>ον</ex></expan> <expan>γενόμε<ex>νον</ex></expan> <expan>μεταξ<ex>ὺ</ex></expan> <expan>Α<supplied reason="lost">ὐρ<ex>ηλίου</ex></supplied></expan><supplied reason="lost"> ἄπα</supplied> Ἰ<supplied reason="lost">ου</supplied>λίου κν<supplied reason="lost">αφέως υἱοῦ</supplied> Ἰ<supplied reason="lost">ωσ</supplied>ὴφ κ<supplied reason="lost">αὶ </supplied><gap reason="lost" extent="unknown" unit="character"/> </ab></div></div>
       </body>

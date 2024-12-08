@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0009;22;45"
-     xml:id="cpr.22.45"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0009;22;45" xml:id="cpr.22.45" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="70275" xml:lang="en">
-            <date>VIII spc</date>
-            <placeName>?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/cpr/22/45">CPR 22 45</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>δ<ex>ιὰ</ex></expan> <expan>Μ<unclear>η</unclear>ν<ex>ᾶ</ex></expan> <gap reason="illegible" quantity="4" unit="character"/> <expan><unclear>π</unclear>ρε<ex>σβυτέρου</ex></expan> <gap reason="illegible" quantity="4" unit="character"/>
 

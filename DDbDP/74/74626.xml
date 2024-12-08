@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0271;;102"
-     xml:id="o.kell.102"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0271;;102" xml:id="o.kell.102" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="74626" xml:lang="en">
-            <date>?</date>
-            <placeName>Kellis</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/o.kell/102">O.Kellis 102</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><num value="11">ια</num> <expan>Φαρμοῦ<ex>θι</ex></expan>· <expan>δ<ex>ιὰ</ex></expan> Ψεννουβ
 
@@ -58,7 +50,7 @@
     <lb n="5"/>ὑπὸ <expan>γένημ<ex>α</ex></expan> εἰς τὰ <expan>κάστ<ex>ρα</ex></expan>·
 
     <lb n="6"/><expan>δ<ex>ιὰ</ex></expan> Πέτρου <abbr><unclear>π</unclear>αντ</abbr> <expan>κτῆ<ex>νος</ex></expan> <num value="1">α</num>·
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="7"/>εἰς Μῶθιν ὑπὸ <expan>κριθ<ex>ήν</ex></expan>·
 

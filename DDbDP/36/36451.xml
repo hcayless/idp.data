@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0041;;310"
-     xml:id="o.sarga.310"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0041;;310" xml:id="o.sarga.310" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="36451" xml:lang="en">
-            <date>VI/VII spc</date>
-            <placeName>Wadi Sarga</placeName>
-            <ref n="sb;18;13497" type="reprint-from">SB 18 13497</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.sarga/310">O.Sarga 310</ref> = <ref target="https://papyri.info/pub/sb/18/13497">SB 18 13497</ref></head>
          <div type="edition" xml:lang="grc" xml:space="preserve"><ab>
     <lb n="1"/><g type="rho-cross"/> Παο͂πε <g type="dipunct"/>  <num value="8">η</num> <g type="dipunct"/> Τσυμο<unclear>υ</unclear>λοτ 
 

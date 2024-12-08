@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0037;2;77"
-     xml:id="o.ont.mus.2.77"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0037;2;77" xml:id="o.ont.mus.2.77" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="75094" xml:lang="en">
-            <date>AD 35</date>
-            <placeName>Thebes</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.ont.mus/2/77">O.Ont. Mus. 2 77</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>διαγέγρ<ex cert="low">αφε</ex></expan> Πα<gap reason="illegible" quantity="1" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> <expan>ὑπ<ex>ὲρ</ex></expan> <expan>χω<ex>ματικοῦ</ex></expan></supplied> 
 

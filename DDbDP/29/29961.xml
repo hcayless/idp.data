@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0029;;155"
-     xml:id="o.leid.155"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0029;;155" xml:id="o.leid.155" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="29961" xml:lang="en">
-            <date>II/III spc</date>
-            <placeName>Thebes</placeName>
-            <ref n="sb;10;10313" type="reprint-from">SB10,10313</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.leid/155">O.Leid. 155</ref> = <ref target="https://papyri.info/pub/sb/10/10313">SB X 10313</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ἐπεὶφ <num value="5">ε</num> τοῦ <num value="6">ϛ</num> <expan><ex>ἔτους</ex></expan> ὑπὲρ τ<unclear>έ</unclear><supplied reason="lost">λους </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 

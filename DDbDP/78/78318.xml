@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0282;;19"
-     xml:id="o.heid.19"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0282;;19" xml:id="o.heid.19" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="78318a 78318b 78318c" xml:lang="en">
-            <date>196 or 108 BC</date>
-            <placeName>?</placeName>
-            <ref type="reprint-from">P.Heid. 3.249</ref>
-         </head>
+         <head><ref>P.Heid. III 249</ref> = <ref target="https://papyri.info/pub/o.heid/19">O.Heid. 19</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>ἔτους <num value="9">θ</num> <unclear>Φ</unclear><supplied reason="lost">α</supplied>ρμοῦθι <num value="6"><unclear>ϛ</unclear></num>.
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;6;9368"
-     xml:id="sb.6.9368"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;6;9368" xml:id="sb.6.9368" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="45067" xml:lang="en">
-            <date>AD 577/8/592/3</date>
-            <placeName>Oxyrhynchus?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/6/9368">SB 6 9368</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost"><g type="stauros"/> <expan>ἐδόθ<ex>η</ex></expan> <expan>δ<ex>ιὰ</ex></expan> τοῦ <expan>περιβλ<ex>έπτου</ex></expan> </supplied><expan><supplied reason="lost">κό</supplied>με<ex>τος</ex></expan> Φοιβάμμωνος <expan>διοικ<ex>ητοῦ</ex></expan> Ἀναστασίας τῆς <expan>μεγαλοπρε<ex>πεστάτης</ex></expan> <expan>ἰλλου<ex>στρίας</ex></expan> ἐμοὶ Βίκτορι 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;3;372"
-     xml:id="p.flor.3.372"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;3;372" xml:id="p.flor.3.372" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,12 +36,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11174" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Theadelphia</placeName>
-            <ref type="reprint-from">v=SB16,12493</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/3/372">P.Flor. 3 372 Z. 1 - 15</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/>Ἡρωνῖνος <gap reason="lost" extent="unknown" unit="character"/> 
 
@@ -78,7 +69,7 @@
     <lb n="14"/>συνηρμένου ὀφίλ<unclear>ω</unclear><gap reason="lost" extent="unknown" unit="character"/> 
 <milestone rend="paragraphos" unit="undefined"/>
     <lb n="15"/><expan><ex>δραχμαὶ</ex></expan> <num value="32">λβ</num> 
-</ab></div><div n="vrp" type="textpart"><ab>
+</ab></div><div n="vrp" type="textpart" xml:id="_vrp"><head>vrp</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 3,372,v reprinted in <ref n="sb;16;12493" type="reprint-in">SB 16,12493</ref></note></ab></div></div>
       </body>

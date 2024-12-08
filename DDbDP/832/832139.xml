@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,20 +29,17 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2022-10-05T08:39:33-04:00"
-                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2022-10-04T16:20:05-04:00"
-                 who="http://papyri.info/editor/users/james.cowey">General - Renamed. Must be checked against the edition before finalization.</change>
-          <change when="2022-10-04T16:09:19-04:00"
-                 who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Looks good.</change>
+          <change when="2022-10-05T08:39:33-04:00" who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2022-10-04T16:20:05-04:00" who="http://papyri.info/editor/users/james.cowey">General - Renamed. Must be checked against the edition before finalization.</change>
+          <change when="2022-10-04T16:09:19-04:00" who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Looks good.</change>
           <change when="2022-09-06T05:56:55-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/aegyptus/98/140_2">Aegyptus 98 (2018) S. 140 Nr. 2</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart">
+<div n="r" type="textpart" xml:id="_r"><head>r</head>
 <div n="i" subtype="column" type="textpart"><ab>
     <lb n="1"/>Μαρεῖνος Ἡρακλείδου <num value="19">ιθ</num> <expan><ex>ἔτους</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="13">ιγ</num> <expan>σ<ex>υμβολικὰ</ex></expan> <num value="3"><expan><ex>τριώβολον</ex></expan></num>
 

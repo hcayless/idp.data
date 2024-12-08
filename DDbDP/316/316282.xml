@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -35,22 +33,18 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
-          <change when="2015-04-20T03:22:50.972-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2015-04-20T03:22:50.963-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
-          <change when="2015-04-15T10:05:50.361-04:00"
-                 who="https://papyri.info/editor/users/Federica%20Micucci">Text entry</change>
-          <change when="2015-04-15T09:20:33.713-04:00"
-                 who="https://papyri.info/editor/users/Federica%20Micucci">Text entry</change>
+          <change when="2015-04-20T03:22:50.972-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2015-04-20T03:22:50.963-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2015-04-15T10:05:50.361-04:00" who="https://papyri.info/editor/users/Federica%20Micucci">Text entry</change>
+          <change when="2015-04-15T09:20:33.713-04:00" who="https://papyri.info/editor/users/Federica%20Micucci">Text entry</change>
           <change when="2015-04-15T08:10:36-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/psi/16/1644">PSI 16 1644</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="A" subtype="part" type="textpart"><ab>
+<div n="A" subtype="part" type="textpart" xml:id="part_A"><head>Part A</head><ab>
 <lb n="1"/>ῥύσεως <num value="8">η</num> <expan><hi rend="diaeresis">ἰ</hi>νδ<ex>ικτίωνος</ex></expan>
 <lb n="2"/>δι’ Ἀπολλῶ <expan>ἀμπ<ex>ελουργοῦ</ex></expan> <expan>δι<ex>πλᾶ</ex></expan> <num value="420">υκ</num>
 <lb n="3"/><expan>διδι<ex>πλᾶ</ex></expan> <num value="7">ζ</num> <app type="editorial"><lem resp="N. Gonis, ZPE 191 (2014) 200"><expan>διχ<ex>ώνια</ex></expan></lem><rdg><expan>δίχ<ex>ωρα</ex></expan></rdg></app> <num value="2">β</num>
@@ -62,7 +56,7 @@
 <lb n="9"/>ε<unclear>κκ</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="9"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="B" subtype="part" type="textpart">
+<div n="B" subtype="part" type="textpart" xml:id="part_B"><head>Part B</head>
 <div n="r" type="textpart"><ab>
 <lb n="10"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>ι<gap reason="illegible" quantity="1" unit="character"/> <g type="slanting-stroke"/><g type="slanting-stroke"/> <gap reason="illegible" quantity="4" unit="character"/> <expan>δι<ex>πλᾶ</ex></expan> <num value="183">ρπγ</num>

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0197;5;47v"
-     xml:id="p.ross.georg.5.47v"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0197;5;47v" xml:id="p.ross.georg.5.47v" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,10 +38,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="39988" xml:lang="en">
-            <date>AD 685-705</date>
-            <placeName>?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.ross.georg/5/47v">P.Ross. Georg. 5 47 V</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
 
     <lb n="1"/><g type="stauros"/> <expan>στίχ<ex>οι</ex></expan> <expan>ὀφειλ<ex>η</ex>μ<ex>άτων</ex></expan> <expan>ζητηθ<ex>έντων</ex></expan> <expan>παρ<ex>ὰ</ex></expan> <expan>τ<ex>ῶν</ex></expan> <expan>ἑξῆ<ex>ς</ex></expan>. 

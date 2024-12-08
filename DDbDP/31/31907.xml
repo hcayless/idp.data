@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0008;;500"
-     xml:id="chr.wilck.500"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0008;;500" xml:id="chr.wilck.500" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="31907" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Oxyrhynchus</placeName>
-            <ref n="p.lips;1;30" type="reprint-from">P.Lips. 1,30</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/chr.wilck/500">W.Chr. 500</ref> = <ref target="https://papyri.info/pub/p.lips/1/30">P.Lips. 1 30</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> κα</supplied>θήκοντα τε<supplied reason="lost">λ</supplied>ούσῃ ἔν τε ἐπισήμοις ἡμέραις 
 

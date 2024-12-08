@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,18 +29,16 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2020-12-22T06:54:24-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2020-12-11T07:43:32-05:00"
-                 who="https://papyri.info/editor/users/andrea.bernini82">Vote - Accept-Straight-to-Finalization - In fr. 1 l. 2, lower case would be better. In fr. 1, l. 11, the sigma should be corrected.</change>
+          <change when="2020-12-22T06:54:24-05:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2020-12-11T07:43:32-05:00" who="https://papyri.info/editor/users/andrea.bernini82">Vote - Accept-Straight-to-Finalization - In fr. 1 l. 2, lower case would be better. In fr. 1, l. 11, the sigma should be corrected.</change>
           <change when="2020-07-13T11:59:29-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/tyche/31/44_9">Tyche 31 (2016) S. 44 Nr. 9</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart">
+<div n="r" type="textpart" xml:id="_r"><head>r</head>
 <div n="1" subtype="fragment" type="textpart"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
 
@@ -84,7 +80,7 @@
     <lb n="16"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
 </div>
-<div n="v" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
     <lb n="17"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
 </ab></div></div>
       </body>

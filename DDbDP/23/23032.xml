@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0195;2;132"
-     xml:id="p.rein.2.132"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0195;2;132" xml:id="p.rein.2.132" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,11 +42,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="23032" xml:lang="en">
-            <date>AD 182/214</date>
-            <placeName>Thebes</placeName>
-            <note xml:lang="en">o</note>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.rein/2/132">P.Rein. 2 132</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Φαμενὼθ <num value="3">γ</num> τοῦ <num value="22">κβ</num> <expan><ex>ἔτους</ex></expan> <expan>ὀνόματο<ex>ς</ex></expan> 
 

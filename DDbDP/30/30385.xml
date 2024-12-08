@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0181;36;2783"
-     xml:id="p.oxy.36.2783"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0181;36;2783" xml:id="p.oxy.36.2783" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="30385" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Oxyrhynchus</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref>Tibiletti, Lettere private 9</ref> = <ref target="https://papyri.info/pub/p.oxy/36/2783">P.Oxy. 36 2783</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/>Ἀπολλώνιος Ἀρτεμᾷ τῷ ἀδελφῷ χαίρειν. 
 
@@ -109,7 +101,7 @@
     <lb n="28"/>πολλὰ <choice><reg>γράφειν</reg><orig>γράφιν</orig></choice>, ἐρρῶσθαί σε <choice><reg><supplied reason="omitted">εὔ</supplied>χομαι</reg><orig>χομαι</orig></choice>. 
 
     <lb n="29,ms" rend="perpendicular"/> τὸν τυφλὸν ὁ ἀδελφός σου <choice><reg>ἠνάγκασέ</reg><orig>ἀνήκασαί</orig></choice> <choice><reg>με</reg><orig>μαι</orig></choice> πωλῆσαι· 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="30"/>Ἀρτεμᾷ <expan>π<ex>αρὰ</ex></expan> Ἀπολλωνίου. </ab></div></div>
       </body>

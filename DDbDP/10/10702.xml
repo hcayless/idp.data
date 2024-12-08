@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0100;;30"
-     xml:id="p.diog.30"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0100;;30" xml:id="p.diog.30" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="10702" xml:lang="en">
-            <date>AD 222-35</date>
-            <placeName>Philadelphia?</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="ctr" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.diog/30">P.Diog. 30</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="ctr" type="textpart" xml:id="_ctr"><head>ctr</head><ab>
 
     <lb n="1"/><supplied reason="lost"><expan><ex>ἔτους</ex></expan></supplied> <gap reason="illegible" quantity="1" unit="character"/> <supplied reason="lost">Α</supplied>ὐτοκρ<unclear>ά</unclear><supplied reason="lost">τ</supplied><unclear>ο</unclear>ρ<unclear>ος</unclear> <unclear>Κ</unclear>αί<unclear>σ</unclear>αρ<unclear>ο</unclear>ς Μάρκου <supplied reason="lost">Α</supplied><unclear>ὐρηλ</unclear><supplied reason="lost">ίου</supplied> 
 
@@ -99,7 +91,7 @@
     <lb n="23"/>ω<gap reason="illegible" quantity="4" unit="character"/> <unclear>ἔ</unclear>γρα<unclear>ψα</unclear> <unclear>ὑ</unclear>π<unclear>ὲρ</unclear> <unclear>αὐτῶν</unclear> φα<unclear>μέν</unclear>ω<unclear>ν</unclear> <unclear>μὴ</unclear> 
 
     <lb n="24"/>εἰδέν<unclear>αι</unclear> <supplied reason="lost">γ</supplied>ράμ<unclear>ματα</unclear>. 
-</ab></div><div n="Fr" type="textpart"><ab>
+</ab></div><div n="Fr" type="textpart" xml:id="_Fr"><head>Fr</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ν</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 

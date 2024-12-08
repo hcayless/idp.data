@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0092;4;59618"
-     xml:id="p.cair.zen.4.59618"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0092;4;59618" xml:id="p.cair.zen.4.59618" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="1250" xml:lang="en">
-            <date>III sac</date>
-            <placeName>Philadelphia</placeName>
-         </head>
+         <head><ref>C.Pap.Jud. I 16</ref> = <ref target="https://papyri.info/pub/p.cair.zen/4/59618">P.Cair. Zen. 4 59618</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ν</unclear>ι<unclear>σ</unclear>ασνακτου ιοσιου<gap reason="lost" extent="unknown" unit="character"/> 
 

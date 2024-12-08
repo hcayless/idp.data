@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;4;1025"
-     xml:id="bgu.4.1025"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;4;1025" xml:id="bgu.4.1025" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,12 +44,8 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>IV spc</date>
-            <placeName>Hermoupolis Magna</placeName>
-            <ref n="chr.wilck;;422" type="reprint-from">col16=WChr422</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="15" type="textpart"><ab>
+         <head><ref>P.Aktenbuch Paginae 15-16</ref> = <ref target="https://papyri.info/pub/bgu/4/1025">BGU IV 1025</ref> = <ref target="https://papyri.info/pub/chr.wilck/422">W.Chr. 422</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="15" type="textpart" xml:id="_15"><head>15</head><ab>
 
     <lb n="1"/><handShift new="m2"/> Αὐρήλιος Αἰλι<supplied reason="lost">α</supplied>νὸς <unclear>Ἑρμοῦ</unclear> βουλευτὴς Ἑρ<supplied reason="lost">μουπόλεως</supplied> 
 
@@ -99,7 +90,7 @@
     <lb n="21"/>Εὐδόξιος συμφωνε<unclear>ῖ</unclear> <unclear>μ</unclear><supplied reason="lost">οι</supplied>. 
 
     <lb n="22"/>ἔσχον <choice><reg>τὸ</reg><orig>τὰ</orig></choice> <choice><reg>ἴσον</reg><orig>εἴσον</orig></choice>. Σιλβανὸς σ<supplied reason="lost">εσημείωμαι</supplied>. 
-</ab></div><div n="16" type="textpart"><ab>
+</ab></div><div n="16" type="textpart" xml:id="_16"><head>16</head><ab>
 
     <lb n="1"/><note xml:lang="en">BGU 4,1025,16 reprinted in <ref n="chr.wilck;;422" type="reprint-in">WChr 422</ref></note></ab></div></div>
       </body>

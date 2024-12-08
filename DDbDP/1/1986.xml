@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0163;1;87"
-     xml:id="p.mich.1.87"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0163;1;87" xml:id="p.mich.1.87" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,10 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="1986" xml:lang="en">
-            <date>III sac</date>
-            <placeName>Philadelphia</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.mich/1/87">P.Mich. 1 87</ref></head>
          <div type="edition" xml:lang="grc" xml:space="preserve"><ab>
     <lb n="1"/>Ζήνωνι χαίρειν Κάλλιππος. <choice><reg>ἐπικοιμᾶι</reg><orig>ἐπι<unclear>κ</unclear>ωι<unclear>μ</unclear><supplied reason="lost">αῖ</supplied></orig></choice> <supplied reason="lost">σὺ</supplied> περιορῶν <add place="above">με</add> ἐν τῶι <choice><reg>δεσμωτηρίωι</reg><orig>δεζμωτηρίωι</orig></choice>; φρόντισον περὶ 
 

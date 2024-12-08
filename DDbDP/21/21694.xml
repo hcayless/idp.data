@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0057;2;107"
-     xml:id="p.amh.2.107"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0057;2;107" xml:id="p.amh.2.107" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,11 +44,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="21694" xml:lang="en">
-            <date>AD 185</date>
-            <placeName>Hermoupolis Magna</placeName>
-            <ref n="chr.wilck;;417" type="reprint-from">WChr417</ref>
-         </head>
+         <head><ref>Sel. Pap. II 387</ref> = <ref target="https://papyri.info/pub/p.amh/2/107">P.Amh. 2 107</ref> = <ref target="https://papyri.info/pub/chr.wilck/417">W.Chr. 417</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Δαμαρίωνι στρατηγῶι <expan>Ἑρμοπολ<ex>ίτου</ex></expan> 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0181;46;3272"
-     xml:id="p.oxy.46.3272"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0181;46;3272" xml:id="p.oxy.46.3272" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="15739" xml:lang="en">
-            <date>ca. AD 61</date>
-            <placeName>Oxyrhynchus</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.oxy/46/3272">P.Oxy. 46 3272</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1" rend="inverse"/> <gap reason="lost" atLeast="6" atMost="8" unit="character"/><supplied reason="lost"> κωμο</supplied>γραμματεὺς <choice><reg>Ταλαὼ</reg><orig>Ταλαὼι</orig></choice> 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;12;10781v"
-     xml:id="sb.12.10781v"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;12;10781v" xml:id="sb.12.10781v" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,11 +42,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="16064" xml:lang="en">
-            <date>AD 122/3</date>
-            <placeName>Oxyrhynchus</placeName>
-            <ref n="p.oxy;3;592" type="reprint-from">POxy3,592</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/12/10781v">SB 12 10781 V</ref> = <ref target="https://papyri.info/pub/p.oxy/3/592">P.Oxy. III 592 descr.</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ωι Διονυσίου 

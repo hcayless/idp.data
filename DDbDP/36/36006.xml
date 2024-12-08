@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;16;12542"
-     xml:id="sb.16.12542"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;16;12542" xml:id="sb.16.12542" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>VI spc</date>
-            <placeName>Aphrodito, Aphroditopolis</placeName>
-            <ref n="chla;47;1437|p.mich;13;660|p.mich;13;661" type="reprint-from">P.Mich. 13,661 cf. P.Mich. 13,660; Ch.L.A. 47,1437</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/16/12542">P.Mich. XIII 660 + SB XVI 12542 (= P.Mich. XIII 661 + P.Palau inv. 70)</ref> = <ref target="https://papyri.info/pub/chla/47/1437">ChLA 47 1437</ref> = <ref target="https://papyri.info/pub/p.mich/13/660">P.Mich. XIII 660 + SB XVI 12542 (= P.Mich. XIII 661 + P.Palau inv. 70)</ref> = <ref target="https://papyri.info/pub/p.mich/13/661">P.Mich. XIII 660 + SB XVI 12542 (= P.Mich. XIII 661 + P.Palau inv. 70)</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab><note xml:lang="en">full document: Ch.L.A. 47,1437 reprinted in P.Mich. 13,660+SB 16,12542</note>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> ἀ</supplied>ναιρεθέντος Ἡρακλίου καὶ κατῆλθον ἐπὶ τῷ προσελθεῖν π<gap reason="lost" quantity="5" unit="character"/> καὶ γνωρίσασα ἕνα <num value="1"/> τῶν φονευσ<supplied reason="lost">άντων τ</supplied><unclear>ὸ</unclear>ν ἐμὸν ἄνδρα 

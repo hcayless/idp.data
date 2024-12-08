@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0254;;132"
-     xml:id="p.bingen.132"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0254;;132" xml:id="p.bingen.132" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,11 +45,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="78091" xml:lang="en">
-            <date>AD 541</date>
-            <placeName>Aphroditopolite</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.bingen/132">P.Bingen 132</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><g type="stauros"/> <expan><ex>ἔτους</ex></expan> βασιλείας τοῦ θειοτάτου ἡ<supplied reason="lost">μῶν</supplied>
 
@@ -109,7 +101,7 @@
     <lb n="26"/><supplied reason="lost">μ</supplied>ὴ εἰδότος <g type="stauros"/>
 
     <lb n="27"/><handShift new="m3"/> <g type="stauros"/> διʼ ἐμοῦ Ἰερημίο<unclear>υ</unclear> <expan>ἐ<unclear>γρ</unclear><ex>άφη</ex></expan>.
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="28"/><handShift new="m1"/> <expan>μί<ex>σθωσις</ex></expan> <gap reason="lost" quantity="5" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ς τοπ<gap reason="illegible" quantity="1" unit="character"/> ε<gap reason="illegible" quantity="2" unit="character"/> Πανοπτου.</ab></div></div>
       </body>

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;3;340"
-     xml:id="p.flor.3.340"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;3;340" xml:id="p.flor.3.340" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="8864" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Arsinoite</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/3/340">P.Flor. 3 340</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/>καὶ ἐν ἄλλῳ <expan>τόπ<ex>ῳ</ex></expan> <choice><reg>ψιλὸς</reg><orig>ψειλὸς</orig></choice> τόπος πρὸς τῷ βαλ<supplied reason="lost">ανείῳ </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 
@@ -82,7 +74,7 @@
     <lb n="15"/>τόπου μύλαιον <choice><reg>ἐκ</reg><orig>ἐγ<g type="apostrophe"/></orig></choice> μέρους κατὰ πεντ<add place="above"><unclear>α</unclear></add><supplied reason="lost" cert="low">μοιρίαν </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="16"/><unclear>κα</unclear><supplied reason="lost">ὶ </supplied><gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 3,340,v reprinted in <ref n="p.flor;2;143" type="reprint-in">PFlor 2,143</ref></note></ab></div></div>
       </body>

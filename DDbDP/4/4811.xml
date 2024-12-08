@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;7;1561"
-     xml:id="bgu.7.1561"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;7;1561" xml:id="bgu.7.1561" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="4811" xml:lang="en">
-            <date>III sac</date>
-            <placeName>Philadelphia</placeName>
-            <note xml:lang="en">o</note>
-         </head>
+         <head><ref target="https://papyri.info/pub/bgu/7/1561">BGU 7 1561</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ἡφαιστιάδος <expan>με<ex>τρηταὶ</ex></expan> <num value="111">ρια</num> <num value="1/2">𐅵</num> <num value="1/6" rend="tick">ϛ</num> 
 

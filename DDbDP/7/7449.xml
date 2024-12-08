@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,16 +29,14 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2020-08-29T17:52:42-04:00"
-                who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-            <change when="2020-08-29T16:57:38-04:00"
-                who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+            <change when="2020-08-29T17:52:42-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+            <change when="2020-08-29T16:57:38-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
             <change when="2020-08-29T16:18:42-04:00" who="http://papyri.info/editor">Automated creation from template</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <head xml:lang="en"/>
+            <head><ref>P.Petr. III 44 (1)</ref> = <ref>P.Lond. III 542 descr.</ref> = <ref target="https://papyri.info/pub/p.petr/2/13_16">P.Petr. 2 13 (16)</ref></head>
             <div xml:lang="grc" type="edition" xml:space="preserve">
 <ab>
     <lb n="1"/>π<gap reason="lost" extent="unknown" unit="character"/>οη<gap reason="illegible" quantity="2" unit="character"/>ωι τα<gap reason="lost" extent="unknown" unit="character"/>σοδ<gap reason="lost" extent="unknown" unit="character"/> 

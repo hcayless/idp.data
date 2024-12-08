@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,18 +29,16 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2020-09-10T17:52:42-04:00"
-                who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-            <change when="2020-09-10T16:57:38-04:00"
-                who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+            <change when="2020-09-10T17:52:42-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+            <change when="2020-09-10T16:57:38-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
             <change when="2020-09-10T16:18:42-04:00" who="http://papyri.info/editor">Automated creation from template</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <head xml:lang="en"/>
+            <head><ref>Kol. III 11 - IV 45: W.Chr. 387, Sel. Pap. II 348</ref> = <ref target="https://papyri.info/pub/p.petr/3/43_2">P.Petr. 3 43 (2)</ref></head>
             <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart">
+<div n="r" type="textpart" xml:id="_r"><head>r</head>
 <div n="1" subtype="column" type="textpart"><ab>
 
     <lb n="1"/><gap reason="illegible" quantity="1" unit="line"/> 
@@ -355,7 +351,7 @@
     <lb n="11"/><gap reason="lost" extent="unknown" unit="line"/> 
 </ab></div>
 </div>
-<div n="v" type="textpart">
+<div n="v" type="textpart" xml:id="_v"><head>v</head>
 <div n="1" subtype="column" type="textpart"><ab>
     
     <lb n="1"/><gap reason="illegible" quantity="6" unit="line"/> 

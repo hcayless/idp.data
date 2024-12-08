@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0007;;318rpdupl"
-     xml:id="chr.mitt.318rpdupl"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0007;;318rpdupl" xml:id="chr.mitt.318rpdupl" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="22342" xml:lang="en">
-            <date>AD 295</date>
-            <placeName>Hermoupolis Magna</placeName>
-            <ref n="p.lips;1;29" type="reprint-from">P.Lips 29; dupl=inv479unpubl</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/chr.mitt/318rpdupl">M.Chr. 318</ref> = <ref target="https://papyri.info/pub/p.lips/1/29">P.Lips. 1 29</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">Αὐρηλία Εὐστόργις </supplied><gap reason="lost" quantity="55" unit="character"/> 
 

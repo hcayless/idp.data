@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0181;55;3812"
-     xml:id="p.oxy.55.3812"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0181;55;3812" xml:id="p.oxy.55.3812" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,10 +44,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="31913" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Oxyrhynchus</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.oxy/55/3812">P.Oxy. 55 3812</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Εὐνό<hi rend="diaeresis">ϊ</hi>ος Ὡριγένει τῷ τιμιωτάτῳ πλεῖστα χαίρ<supplied reason="lost">ει</supplied><unclear>ν</unclear>. 
 

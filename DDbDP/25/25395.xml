@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0025;;34"
-     xml:id="o.erem.34"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0025;;34" xml:id="o.erem.34" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="25395" xml:lang="en">
-            <date>?</date>
-            <placeName>Syene</placeName>
-            <ref n="sb;18;13211" type="reprint-from">SB18,13211</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.erem/34">O.Erem. 34</ref> = <ref target="https://papyri.info/pub/sb/18/13211">SB 18 13211</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ἰ<unclear>οῦστο</unclear>ς Λ<supplied reason="lost">ο</supplied>λλίῳ <expan>χ<ex>αίρειν</ex></expan>.  τοὺς ἥλους, 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;1;93dupl"
-     xml:id="p.flor.1.93dupl"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;1;93dupl" xml:id="p.flor.1.93dupl" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,10 +26,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2020-12-05T15:27:39-05:00"
-                 who="https://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
-          <change when="2020-12-05T09:10:11-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2020-12-05T15:27:39-05:00" who="https://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+          <change when="2020-12-05T09:10:11-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
           <change when="2020-12-04T05:13:16-05:00" who="https://papyri.info/editor/users/nikos">Submit - l. 24 ἀκολύτως → ἀκωλύτως obvious regularization</change>
           <change when="2020-12-04T05:12:45-05:00" who="https://papyri.info/editor/users/nikos">Commit - l. 24 ἀκολύτως → ἀκωλύτως obvious regularization</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
@@ -52,11 +45,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="23587" xml:lang="en">
-            <date>AD 569</date>
-            <placeName>Antinoopolis</placeName>
-            <ref n="chr.mitt;;297" type="reprint-from">dupl=PLond5,1713;MChr297</ref>
-         </head>
+         <head><ref>FIRA III 22</ref> = <ref target="https://papyri.info/pub/p.flor/1/93dupl">P.Flor. 1 93</ref> = <ref target="https://papyri.info/pub/chr.mitt/297">M.Chr. 297</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><app type="editorial"><lem resp="BL 1.147"><supplied reason="lost">χ</supplied><unclear>μ</unclear>γ θ<g type="unintelligible"/></lem><rdg><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="4" unit="character"/></rdg></app> 
 

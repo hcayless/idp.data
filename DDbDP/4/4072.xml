@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0059;;pg88b"
-     xml:id="p.anag.pg88b"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0059;;pg88b" xml:id="p.anag.pg88b" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="4072" xml:lang="en">
-            <date>III/II sac</date>
-            <placeName>Magdola</placeName>
-            <ref n="sb;16;12275" type="reprint-from">SB16,12275</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.anag/pg88b">SB 16 12275</ref> = <ref target="https://papyri.info/pub/sb/16/12275">SB 16 12275</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><add place="above">α</add> 
 

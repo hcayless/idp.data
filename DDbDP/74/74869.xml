@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0030;;5"
-     xml:id="o.lund.5"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0030;;5" xml:id="o.lund.5" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="74869" xml:lang="en">
-            <date>AD 137</date>
-            <placeName>Memnoneia</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.lund/5">O.Lund. 5</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">Ἱέρα</supplied>ξ καὶ <expan>Πορεγέβθι<ex>ς</ex></expan> <expan>πράκ<ex>τορες</ex></expan> <expan>ἀργ<ex>υρικῶν</ex></expan> <expan>Μεμ<ex>νονείων</ex></expan> <expan>δι<ex>ὰ</ex></expan> <expan>Ὥρ<ex>ου</ex></expan> 
 

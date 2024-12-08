@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,16 +29,14 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2023-08-16T11:54:16-04:00"
-                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2023-08-16T10:24:02-04:00"
-                 who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Not chirho but stauros in lin1</change>
+          <change when="2023-08-16T11:54:16-04:00" who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2023-08-16T10:24:02-04:00" who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Not chirho but stauros in lin1</change>
           <change when="2023-07-07T05:25:18-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref>P.Lond. 3 1330 (b) (S. LXXIV) descr.</ref> = <ref target="https://papyri.info/pub/zpe/223/163_13">ZPE 223 (2022) S. 163 Nr. 13</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <ab>
     <lb n="1"/><supplied reason="lost"><g type="stauros"/> βασιλείας τοῦ θειοτά</supplied>του ἡμῶν δεσπότου Φλαυΐου <choice><reg>Ἰουστινιανοῦ</reg><orig>Ἰωστινιανοῦ</orig></choice> τοῦ

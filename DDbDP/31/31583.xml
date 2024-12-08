@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0164;;86"
-     xml:id="p.michael.86"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0164;;86" xml:id="p.michael.86" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="31583" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Panopolis</placeName>
-            <note xml:lang="en">o</note>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.michael/86">P.Michael. 86</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>δὸς Κ<unclear>ο</unclear>λά<unclear>ν</unclear>
 

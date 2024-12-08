@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;3;776"
-     xml:id="bgu.3.776"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;3;776" xml:id="bgu.3.776" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,11 +45,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="25636" xml:lang="en">
-            <date>I spc</date>
-            <placeName>Arsinoite</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart"><ab>
+         <head><ref>Kol. I, Z. 12: C.Pap.Jud. II 434</ref> = <ref target="https://papyri.info/pub/bgu/3/776">BGU 3 776</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <num value="10">ι</num> <num value="1/2">𐅵</num> ἐν <expan>σι<ex>τικοῖς</ex></expan> <app type="editorial"><lem>οὗ τὸ</lem><rdg>οὔτ<unclear>ε</unclear></rdg></app> 
 
@@ -89,7 +81,7 @@
     <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/>αβου <expan>σι<ex>τικ   </ex></expan> ἀντὶ <abbr>φ<gap reason="illegible" quantity="1" unit="character"/></abbr> 
 
     <lb n="15"/><gap reason="illegible" quantity="4" unit="line"/> 
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="1"/>Πάπου τοῦ Πασίων<supplied reason="lost">ος </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 

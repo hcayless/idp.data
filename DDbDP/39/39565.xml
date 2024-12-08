@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0240;8;1326"
-     xml:id="stud.pal.8.1326"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;8;1326" xml:id="stud.pal.8.1326" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="39565" xml:lang="en">
-            <date>VII spc</date>
-            <placeName>Arsinoite?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/stud.pal/8/1326">SPP 8 1326</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><abbr><gap reason="illegible" quantity="1" unit="character"/></abbr> ἀπὸ <expan>χ<ex>ωρίου</ex></expan> <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> <choice><reg><expan>χω<ex>ρίου</ex></expan></reg><orig><expan>χο<ex>ρίου</ex></expan></orig></choice> <abbr>Φεβιχ</abbr> <expan>Με<ex>γάλης</ex></expan> 
 

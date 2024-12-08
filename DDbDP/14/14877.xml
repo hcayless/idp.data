@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;20;14381" xml:id="sb.20.14381" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;20;14381" xml:id="sb.20.14381" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,11 +47,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="14877a 14877b" xml:lang="en">
-            <date>AD 68</date>
-            <placeName>Philadelphia</placeName>
-            <ref n="bgu;7;1599" type="reprint-from">BGU 7,1599 part 1,col. 2</ref>
-         </head>
+         <head><ref>SB 20 14381 Z. 11 - 15</ref> = <ref>BGU VII 1599 (Kol. II, Z. 11 - 15)</ref> = <ref target="https://papyri.info/pub/sb/20/14381">SB 20 14381 Z. 1 - 10</ref> = <ref target="https://papyri.info/pub/bgu/7/1599">BGU VII 1599 (Kol. I - II, Z. 1 - 10)</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>ἔτους <num value="15">ιε</num> Τιβερίου Κλαυδ<supplied reason="lost">ίο</supplied>υ Καίσαρος Σεβαστοῦ
 

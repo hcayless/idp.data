@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;1;5576"
-     xml:id="sb.1.5576"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;1;5576" xml:id="sb.1.5576" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,18 +36,15 @@
    </teiHeader>
    <text>
       <body>
-         <head n="23195" xml:lang="en">
-            <date>AD 749</date>
-            <placeName>Thebes</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="A" type="textpart"><ab>
+         <head><ref>KRU 41</ref> = <ref>P.Lond. Copt. 1011 descr.</ref> = <ref target="https://papyri.info/pub/sb/1/5576">SB 1 5576</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="A" type="textpart" xml:id="_A"><head>A</head><ab>
 
     <lb n="1"/><g type="stauros"/> ἐν ὀνόματι τῆς ἁγίας καὶ ζωοποιοῦ 
 
     <lb n="2"/>ὁμοουσίου τριάδος πατρὸς καὶ υἱοῦ 
 
     <lb n="3"/>καὶ ἁγίου πνεύματος. <g type="stauros"/> <expan>ἐγρ<ex>άφη</ex></expan> <expan>μ<ex>ηνὸς</ex></expan> <expan>Παχ<ex>ὼν</ex></expan> <num value="4">δ</num>, <expan>ἰνδ<ex>ικτίωνος</ex></expan> <num value="2">β</num>. 
-</ab></div><div n="B" type="textpart"><ab>
+</ab></div><div n="B" type="textpart" xml:id="_B"><head>B</head><ab>
 
     <lb n="1"/><g type="stauros"/> διʼ ἐμοῦ <expan>Ἀριστοφ<ex>άνου</ex></expan> Ἰωάννου ἐγένετο <g type="stauros"/>. </ab></div></div>
       </body>

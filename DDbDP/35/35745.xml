@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;20;14217"
-     xml:id="sb.20.14217"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;20;14217" xml:id="sb.20.14217" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="35745" xml:lang="en">
-            <date>V spc</date>
-            <placeName>Herakleopolite?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/20/14217">SB 20 14217</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ἄπα Ὧλ <expan>συμμ<ex>ά</ex>χ<ex>ῳ</ex></expan>. δ<supplied reason="lost">ὸς </supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> δηναρίων μυριάδας</supplied>
 

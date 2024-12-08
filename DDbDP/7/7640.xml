@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0187;2;4"
-     xml:id="p.petr.2.4"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0187;2;4" xml:id="p.petr.2.4" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -32,26 +27,16 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2018-11-27T05:49:22-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2018-11-27T05:30:39-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
-          <change when="2018-11-27T05:05:09-05:00"
-                 who="https://papyri.info/editor/users/ThomasBackhuys">Submit - 8,2 l. 8: deleted superfluous accent on ἕκστ]_ὸ_ν</change>
-          <change when="2018-11-27T05:04:53-05:00"
-                 who="https://papyri.info/editor/users/ThomasBackhuys">Commit - 8,2 l. 8: deleted superfluous accent on ἕκστ]_ὸ_ν</change>
-          <change when="2014-12-12T05:34:24.121-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2014-12-12T05:34:24.096-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
-          <change when="2014-12-12T05:00:36.674-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">div.4lin2: corrected bad diacriticals in τἀντίγραφα</change>
-          <change when="2013-05-09T05:38:37.648-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2013-05-09T05:38:37.573-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine.</change>
-          <change when="2013-05-06T10:49:05.001-04:00"
-                 who="https://papyri.info/editor/users/giuditta%20mirizio">fixed line breaks</change>
+          <change when="2018-11-27T05:49:22-05:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2018-11-27T05:30:39-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2018-11-27T05:05:09-05:00" who="https://papyri.info/editor/users/ThomasBackhuys">Submit - 8,2 l. 8: deleted superfluous accent on ἕκστ]_ὸ_ν</change>
+          <change when="2018-11-27T05:04:53-05:00" who="https://papyri.info/editor/users/ThomasBackhuys">Commit - 8,2 l. 8: deleted superfluous accent on ἕκστ]_ὸ_ν</change>
+          <change when="2014-12-12T05:34:24.121-05:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2014-12-12T05:34:24.096-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2014-12-12T05:00:36.674-05:00" who="https://papyri.info/editor/users/james.cowey">div.4lin2: corrected bad diacriticals in τἀντίγραφα</change>
+          <change when="2013-05-09T05:38:37.648-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2013-05-09T05:38:37.573-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine.</change>
+          <change when="2013-05-06T10:49:05.001-04:00" who="https://papyri.info/editor/users/giuditta%20mirizio">fixed line breaks</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-11-29" who="https://papyri.info/editor/users/gabrielbodard">converted app type=BL|SoSOL to editorial</change>
@@ -67,11 +52,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="7640"
-               xml:lang="en">
-            <ref type="reprint-in">P.Petr. 2 4,1 = SB 18 13881</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="2,ctr,r" type="textpart"><ab>
+         <head><ref>P.Petr. III 42 C (4)</ref> = <ref>P.Lond. III 511 (a) + (b) descr.</ref> = <ref>C.Ptol.Sklav. II 217</ref> = <ref target="https://papyri.info/pub/p.petr/2/4">P.Petr. 2 4 (2)</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="2,ctr,r" type="textpart" xml:id="_2_ctr_r"><head>2,ctr,r</head><ab>
 
     <lb n="1"/>Ἀπολλώνιος Κλέωνι χαίρειν. ἔγραψά σοι τῆι <num value="17">ιζ</num> 
 
@@ -108,10 +90,10 @@
     <lb n="17"/><supplied reason="lost">Π</supplied>ετεχῶντ<supplied reason="lost">ι </supplied><gap reason="lost" quantity="12" unit="character"/>εισ<gap reason="lost" quantity="2" unit="character"/>ζ<gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="2" unit="character"/> 
 
     <lb n="18"/><app type="editorial"><lem resp="BL 7.159"><supplied reason="lost">Φ</supplied>ανήσει</lem><rdg><gap reason="lost" quantity="2" unit="character"/>ανησει</rdg></app> <gap reason="lost" quantity="26" unit="character"/> 
-</ab></div><div n="2,ctr,v" type="textpart"><ab>
+</ab></div><div n="2,ctr,v" type="textpart" xml:id="_2_ctr_v"><head>2,ctr,v</head><ab>
 
     <lb n="1"/>Κλέωνι 
-</ab></div><div n="2,Fr" type="textpart"><ab>
+</ab></div><div n="2,Fr" type="textpart" xml:id="_2_Fr"><head>2,Fr</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>γ<gap reason="illegible" quantity="1" unit="character"/>ατοπ<gap reason="illegible" quantity="2" unit="character"/> αὐτοῦ Πετε<gap reason="lost" extent="unknown" unit="character"/> 
 
@@ -128,13 +110,13 @@
     <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>ου επιδ<gap reason="illegible" quantity="1" unit="character"/>ν<gap reason="illegible" quantity="2" unit="character"/>τι αὐτοῖς διδο<gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>στομωματ<gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="9,Frrp" type="textpart"><ab>
+</ab></div><div n="9,Frrp" type="textpart" xml:id="_9_Frrp"><head>9,Frrp</head><ab>
 
     <lb n="1"/><note xml:lang="en">P.Petr. 2,4,9,Fr reprinted in SB 18 13881 </note>
-</ab></div><div n="10rp" type="textpart"><ab>
+</ab></div><div n="10rp" type="textpart" xml:id="_10rp"><head>10rp</head><ab>
 
     <lb n="1"/><note xml:lang="en">P.Petr. 2,4,10 reprinted in P.Petr. 2,13,3 </note>
-</ab></div><div n="11,Fr" type="textpart"><ab>
+</ab></div><div n="11,Fr" type="textpart" xml:id="_11_Fr"><head>11,Fr</head><ab>
 
     <lb n="1"/>εἰς τὸ αὐτὸ ἀωίλια <num value="2884">Βωπδ</num> 
 

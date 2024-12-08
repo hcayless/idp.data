@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0154;2;363"
-     xml:id="p.lond.2.363"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0154;2;363" xml:id="p.lond.2.363" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="25628" xml:lang="en">
-            <date>I/II spc</date>
-            <placeName>Arsinoite</placeName>
-            <ref type="reprint-from">pg170-171</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.lond/2/363">P.Lond. 2 363 (S. 170)</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><app type="editorial"><lem resp="BL 1.258"> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> <expan>στρα<ex>τηγῷ</ex></expan></supplied></lem><rdg><gap reason="lost" extent="unknown" unit="character"/><note xml:lang="en">om</note></rdg></app> <expan><supplied reason="lost">Ἀρ</supplied>σι<ex>νοίτου</ex></expan> <app type="editorial"><lem><expan>Θε<ex>μίστου</ex></expan> καὶ <expan>Π<unclear>ολ</unclear><ex>έμωνος</ex></expan></lem><rdg>Θε<unclear>μίσ</unclear>τ<unclear>ου</unclear></rdg></app> <expan>μερίδ<ex>ων</ex></expan> 
 

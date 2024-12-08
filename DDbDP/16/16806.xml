@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0205;6;594a"
-     xml:id="p.stras.6.594a"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0205;6;594a" xml:id="p.stras.6.594a" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,10 +42,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="16806" xml:lang="en">
-            <date>AD 293/4</date>
-            <placeName>Antinoopolis</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.stras/6/594a">P.Strasb. 6 594 a</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
 
     <lb n="1"/><expan>Αὐρ<ex>ηλία</ex></expan> <supplied reason="lost">Κυρι</supplied>λλοῦς Ἱέρακος <unclear>ἀν</unclear><supplied reason="lost">αγραφομένη ἐπʼ </supplied><expan><supplied reason="lost">ἀμ</supplied>φ<supplied reason="lost">όδ<ex>ου</ex></supplied></expan> <unclear>Φ</unclear><supplied reason="lost">ρο</supplied>υρίου <expan>Ἀπ<supplied reason="lost">ηλ<ex>ιώτου</ex></supplied></expan><supplied reason="lost"> χωρὶς κυρίου <expan>χρη<ex>ματίζουσα</ex></expan> τέκνων δικαίῳ</supplied> 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0009;7;12"
-     xml:id="cpr.7.12"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0009;7;12" xml:id="cpr.7.12" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="15826" xml:lang="en">
-            <date>AD 239-41</date>
-            <placeName>Herakleopolite</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/cpr/7/12">CPR 7 12</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Α<unclear>ὐ</unclear><supplied reason="lost">ρ</supplied>ηλίῳ <subst><add place="inline">Διονυσολέοντι</add><del rend="corrected">διουυσλοεοντι</del></subst> 
 

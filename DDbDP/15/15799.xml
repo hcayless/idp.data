@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0180;;8"
-     xml:id="p.oxy.hels.8"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0180;;8" xml:id="p.oxy.hels.8" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,10 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="15799" xml:lang="en">
-            <date>9 BC</date>
-            <placeName>Oxyrhynchus</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.oxy.hels/8">P.Oxy. Hels. 8</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="2"/><unclear>τριάκοντα</unclear> πέντε <num value="235"/> <expan>αἶ<supplied reason="lost">γ<ex>ας</ex></supplied></expan> δ<unclear>έκα</unclear> <num value="10"/> <expan><ex>πρόβατα</ex></expan> <num value="235">σλε</num> <expan>αἶγ<ex>ες</ex></expan> <num value="10">ι</num> <expan><ex>ἔτους</ex></expan> <num value="21">κα</num> Καίσαρ<unclear>ος</unclear> <expan>Τῦβ<ex>ι</ex></expan> <num value="28">κη</num> 
 

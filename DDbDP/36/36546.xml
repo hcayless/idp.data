@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0144;10;421Appendix1"
-     xml:id="p.koeln.10.421Appendix1"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0144;10;421Appendix1" xml:id="p.koeln.10.421Appendix1" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="36546" xml:lang="en">
-            <date>VI spc</date>
-            <placeName>Aphrodite</placeName>
-            <ref n="p.cair.masp;3;67333" type="reprint-from">P.Cair.Masp. 3,67333</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.koeln/10/421Appendix1">P.Köln 10 421 Appendice 1 (S. 199-202)</ref> = <ref target="https://papyri.info/pub/p.cair.masp/3/67333">P.Cair. Masp. III 67333</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><gap reason="lost" quantity="4" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>

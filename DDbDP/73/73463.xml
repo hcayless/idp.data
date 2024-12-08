@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0018;;115"
-     xml:id="o.cair.115"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0018;;115" xml:id="o.cair.115" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="73463" xml:lang="en">
-            <date>II spc</date>
-            <placeName>Thebes</placeName>
-         </head>
+         <head><ref>O.Cair. Cat. 9618</ref> = <ref target="https://papyri.info/pub/o.cair/115">O.Cair. GPW 115</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>μέ<ex>τρημα</ex></expan> <expan>θησ<ex>αυροῦ</ex></expan> <expan>κ<unclear>ωμ</unclear><ex>ῶν</ex></expan> <expan>γενή<ex>ματος</ex></expan> <num value="15">ιε</num> <supplied reason="lost"><expan><ex>ἔτους</ex></expan> </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 

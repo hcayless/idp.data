@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0154;4;1545"
-     xml:id="p.lond.4.1545"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0154;4;1545" xml:id="p.lond.4.1545" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="39823" xml:lang="en">
-            <date>VIII spc</date>
-            <placeName>Aphrodito, Aphroditopolis</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="Fr1,rrp" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.lond/4/1545">P.Lond. 4 1545</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="Fr1,rrp" type="textpart" xml:id="_Fr1_rrp"><head>Fr1,rrp</head><ab>
 
     <lb n="1"/><note xml:lang="en">PLond 4,1545,Fr1,r reprinted in <ref n="cpr;3;95" type="reprint-in">CPR 3,95</ref></note></ab></div></div>
       </body>

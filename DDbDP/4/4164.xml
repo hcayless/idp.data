@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;16;12775"
-     xml:id="sb.16.12775"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;16;12775" xml:id="sb.16.12775" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="4164" xml:lang="en">
-            <date>145/144 BC</date>
-            <placeName>Apollonopolis Magna</placeName>
-            <note xml:lang="en">o</note>
-         </head>
+         <head><ref>DAHT 4164</ref> = <ref target="https://papyri.info/pub/sb/16/12775">SB 16 12775</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Διονύσιος <supplied reason="lost">ἐξ</supplied><unclear>ε</unclear>ιλ<unclear>η</unclear>φὼ<supplied reason="lost">ς</supplied> <unclear>ἐ</unclear>π<unclear>ὶ</unclear> 
 

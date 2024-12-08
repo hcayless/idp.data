@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0187;2;14"
-     xml:id="p.petr.2.14"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0187;2;14" xml:id="p.petr.2.14" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,12 +26,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2024-05-12T08:04:20-04:00"
-                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2024-05-11T03:56:47-04:00"
-                 who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
-          <change when="2024-05-10T10:57:13-04:00"
-                 who="http://papyri.info/editor/users/nadineriegler">Submit - Korrektur laut KorrTyche (Workshop Wien)</change>
+          <change when="2024-05-12T08:04:20-04:00" who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2024-05-11T03:56:47-04:00" who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2024-05-10T10:57:13-04:00" who="http://papyri.info/editor/users/nadineriegler">Submit - Korrektur laut KorrTyche (Workshop Wien)</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-12-13" who="https://papyri.info/editor/users/Faith">Automatic insertion of lb tags into origs to match existing lb tags in the reg</change>
@@ -52,16 +44,12 @@
    </teiHeader>
    <text>
       <body>
-         <head n="7458" xml:lang="en">
-            <date>256/5 BC</date>
-            <placeName>Gurob</placeName>
-            <ref type="reprint-from">cf. P.Petr. 3 42 G8</ref>
-         </head>
+         <head><ref>P.Petr. III 46 (2)</ref> = <ref target="https://papyri.info/pub/p.petr/2/14">P.Petr. 2 14 (2)</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="1rp" type="textpart"><ab>
+<div n="1rp" type="textpart" xml:id="_1rp"><head>1rp</head><ab>
     <lb n="1"/><note xml:lang="en">P.Petr. 2 14,1 reprinted in P.Petr. 3 46,1 </note>
 </ab></div>
-<div n="2,a" type="textpart"><ab>
+<div n="2,a" type="textpart" xml:id="_2_a"><head>2,a</head><ab>
     <lb n="1"/>καλῶς <app type="editorial"><lem>ἂν</lem><rdg/></app> <choice><reg>οὖ<supplied reason="omitted">ν</supplied></reg><orig>οὐ</orig></choice> ποιήσαις 
 
     <lb n="2"/><choice><reg>ἀποστείλας</reg><orig>ἀποστίλας</orig></choice> <add place="above">τὴν ταχίστην</add> τοὺς ἐκ τοῦ 
@@ -106,12 +94,12 @@
 
     <lb n="21"/><choice><reg>οὐκέτι</reg><orig>οὐκέτει</orig></choice> ἐπακούει τὸ εἰς 
 </ab></div>
-<div n="2,b" type="textpart"><ab>
+<div n="2,b" type="textpart" xml:id="_2_b"><head>2,b</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="2"/><gap reason="illegible" quantity="5" unit="line"/> 
 </ab></div>
-<div n="3rp" type="textpart"><ab>
+<div n="3rp" type="textpart" xml:id="_3rp"><head>3rp</head><ab>
     <lb n="1"/><note xml:lang="en">P.Petr. 2 14,3 reprinted in <ref n="p.petr;3;46" type="reprint-in">P.Petr. 3 46,3</ref></note>
 </ab></div></div>
       </body>

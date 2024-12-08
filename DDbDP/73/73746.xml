@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0020;3;563"
-     xml:id="o.claud.3.563"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0020;3;563" xml:id="o.claud.3.563" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,10 +42,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="73746" xml:lang="en">
-            <date>AD 136-8</date>
-            <placeName>Mons Claudianus</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.claud/3/563">O.Claud. 3 563</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><choice><reg>Ἀσκληπιάδης</reg><orig><supplied reason="lost">Ἀ</supplied>σκλφιάδης</orig></choice> Ἀντωνίῳ <gap reason="lost" quantity="6" unit="character"/>
 

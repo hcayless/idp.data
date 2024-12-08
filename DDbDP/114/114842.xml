@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,20 +27,14 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2024-10-14T07:48:14-04:00"
-                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2024-10-14T07:29:00-04:00"
-                 who="http://papyri.info/editor/users/simoeis">Vote - Accept-Straight-to-Finalization - Absolutely right. Nice observation.</change>
-          <change when="2024-07-18T08:59:39-04:00"
-                 who="http://papyri.info/editor/users/G.%20Papaioannou">Submit - Fr.B VI 13 ind(ictione) -&gt; indict(ione). -ict- is visible in both the plate (Taf. 23) and the online image. This is the second instance of indict(ion-) in Italian papyri (and in Latin papyri in  general), the other one being P.Ital. I 18+19 17 indict(ione). P.Ital. I 7 7 indict(ione) is another instance but the document is preserved on an inscription. ind(iction-) is the preferred mode of abbreviation in papyri.&#xD;
+          <change when="2024-10-14T07:48:14-04:00" who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2024-10-14T07:29:00-04:00" who="http://papyri.info/editor/users/simoeis">Vote - Accept-Straight-to-Finalization - Absolutely right. Nice observation.</change>
+          <change when="2024-07-18T08:59:39-04:00" who="http://papyri.info/editor/users/G.%20Papaioannou">Submit - Fr.B VI 13 ind(ictione) -&gt; indict(ione). -ict- is visible in both the plate (Taf. 23) and the online image. This is the second instance of indict(ion-) in Italian papyri (and in Latin papyri in  general), the other one being P.Ital. I 18+19 17 indict(ione). P.Ital. I 7 7 indict(ione) is another instance but the document is preserved on an inscription. ind(iction-) is the preferred mode of abbreviation in papyri.
 I cannot find the Meta tab to add a link to the BnF images: https://archivesetmanuscrits.bnf.fr/ark:/12148/cc62376f.</change>
-          <change when="2018-05-30T08:19:39-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2016-10-06T08:22:05-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
-          <change when="2016-09-08T08:42:44-04:00"
-                 who="https://papyri.info/editor/users/GiulioIovine">Submit - Fixed line-breaks till Fr.B,II&#xD;
-&#xD;
+          <change when="2018-05-30T08:19:39-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2016-10-06T08:22:05-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2016-09-08T08:42:44-04:00" who="https://papyri.info/editor/users/GiulioIovine">Submit - Fixed line-breaks till Fr.B,II
+
 There is a problem with *competenti* (search 'officio', second attestation): the word resists to XML and Leiden+</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
@@ -57,13 +49,9 @@ There is a problem with *competenti* (search 'officio', second attestation): the
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>AD 552-75</date>
-            <placeName>Ravenna</placeName>
-            <ref n="chla;17;653" type="reprint-from">ChLA 17 653 + ChLA 29 878</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.ital/1/4_5new">p.ital;1;4_5new</ref> = <ref target="https://papyri.info/pub/chla/17/653">chla;17;653</ref></head>
          <div xml:lang="la" type="edition" xml:space="preserve">
-<div n="A" subtype="fragment" type="textpart"><ab>
+<div n="A" subtype="fragment" type="textpart" xml:id="fragment_A"><head>Fragment A</head><ab>
     <lb n="1"/><gap reason="lost" quantity="100" unit="character"/><choice><reg><supplied reason="lost">superscrip</supplied>tionem</reg><orig><supplied reason="lost">superscrib</supplied>tionem</orig></choice> meam <choice><reg>graecis</reg><orig>g<supplied reason="lost">r</supplied><unclear>ec</unclear>i<unclear>s</unclear></orig></choice> <choice><reg>litt<supplied reason="lost">e<lb n="2" break="no"/>ris</supplied></reg><orig>le<unclear>tt</unclear><supplied reason="lost">e<lb n="2" break="no"/>ris</supplied></orig></choice> <gap reason="lost" quantity="100" unit="character"/> <supplied reason="lost">signaculu</supplied>m <choice><reg>superscripti<lb n="3" break="no"/><supplied reason="lost">onem</supplied></reg><orig>superscribti<lb n="3" break="no"/><supplied reason="lost">onem</supplied></orig></choice> <supplied reason="lost">meam</supplied> <gap reason="lost" quantity="90" unit="character"/> <choice><reg cert="low"><supplied reason="lost">superscriptione</supplied>m</reg><orig><supplied reason="lost">superscribtione</supplied><unclear>m</unclear></orig></choice> meam, et in
 
     <lb n="4" break="no"/><supplied reason="lost">fra</supplied> <choice><reg>subscripsi</reg><orig><supplied reason="lost">suscribsi</supplied></orig></choice> <gap reason="lost" quantity="100" unit="character"/><choice><reg><supplied reason="lost">sub</supplied>scripsi</reg><orig><supplied reason="lost">su</supplied>scribsi</orig></choice>. Leontius <expan>v<ex>ir</ex></expan> <expan>h<ex>onestus</ex></expan> <expan>d<ex>ixit</ex></expan>: 
@@ -84,7 +72,7 @@ There is a problem with *competenti* (search 'officio', second attestation): the
 
     <lb n="12"/><gap reason="lost" quantity="100" unit="character"/><supplied reason="lost"> ab intesta</supplied>to vice codicellorum meorum 
 
-    <lb n="13"/><gap reason="lost" quantity="110" unit="character"/><unclear>q</unclear><gap reason="lost" quantity="9" unit="character"/><unclear>s</unclear><gap reason="lost" quantity="9" unit="character"/></ab></div><div n="FrB,I" type="textpart"><ab>
+    <lb n="13"/><gap reason="lost" quantity="110" unit="character"/><unclear>q</unclear><gap reason="lost" quantity="9" unit="character"/><unclear>s</unclear><gap reason="lost" quantity="9" unit="character"/></ab></div><div n="FrB,I" type="textpart" xml:id="_FrB_I"><head>FrB,I</head><ab>
 
     <lb n="1"/><gap reason="lost" quantity="45" unit="character"/>o <unclear>E</unclear><supplied reason="lost">lio</supplied> <unclear>I</unclear>ohanne, Aurelio Verino, Hernilio Bono princ<supplied reason="lost">ipalibus</supplied><gap reason="lost" quantity="40" unit="character"/> 
 
@@ -110,7 +98,7 @@ There is a problem with *competenti* (search 'officio', second attestation): the
 
     <lb n="12"/><gap reason="lost" quantity="30" unit="character"/><supplied reason="lost"> signaculum vel</supplied><choice><reg><supplied reason="lost">sup</supplied>erscriptionem</reg><orig><supplied reason="lost">sup</supplied>e<unclear>r</unclear>scribtionem</orig></choice> in hoc testamento infixum vidimus <gap reason="lost" quantity="50" unit="character"/> 
 </ab></div>
-<div n="B" subtype="fragment" type="textpart">
+<div n="B" subtype="fragment" type="textpart" xml:id="fragment_B"><head>Fragment B</head>
 <div n="II" subtype="column" type="textpart"><ab>
     <lb n="1"/><gap reason="lost" quantity="115" unit="character"/> ex <expan>num<ex>erarius</ex></expan> <choice><reg><expan>ill<ex>ustris</ex></expan></reg><orig><expan>inl<ex>ustris</ex></expan></orig></choice> <expan>pot<ex>estatis</ex></expan>, sanus, sana mente integroque consilio, 
 

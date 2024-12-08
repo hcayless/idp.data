@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0045;;29"
-     xml:id="o.theb.29"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0045;;29" xml:id="o.theb.29" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,10 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="76401" xml:lang="en">
-            <date>88/87 BC?</date>
-            <placeName>Thebes</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.theb/29">O.Theb. 29</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><choice><reg>Σαραπίω<supplied reason="omitted">ν</supplied></reg><orig>Σαραπίω</orig></choice>  Σελούλει χα
 

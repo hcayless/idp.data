@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0050;;670"
-     xml:id="o.wilck.670"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0050;;670" xml:id="o.wilck.670" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="77180" xml:lang="en">
-            <date>II spc</date>
-            <placeName>Thebes</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.wilck/670">O.Wilck. 670</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Πανίσκος καὶ <expan><ex>μέτοχοι</ex></expan> <expan>ἀπαι<ex>τηταὶ</ex></expan> <expan>μερισ<ex>μοῦ</ex></expan> <expan>τέλ<ex>ους</ex></expan> <num value="2">β</num> <expan><ex>ἔτους</ex></expan> 
 

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -37,7 +35,7 @@
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/o.heid/227">O.Heid. 227</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <ab>
 <lb n="1"/>Ὧρος <expan>πράκ<ex>τωρ</ex></expan> <expan>ἀ<supplied reason="lost">ργ<ex>υρικῶν</ex></supplied></expan> <supplied reason="lost"><expan>Ἀγο<ex>ρῶν</ex></expan></supplied> <expan><unclear>Β</unclear>ο<ex>ρρᾶ</ex></expan> Ψεν<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>

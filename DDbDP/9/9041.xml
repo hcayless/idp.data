@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;1;298"
-     xml:id="bgu.1.298"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;1;298" xml:id="bgu.1.298" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="9041" xml:lang="en">
-            <date>AD 174/5</date>
-            <placeName>Arsinoite</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/bgu/1/298">BGU 1 298</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ἀσκληπιάδῃ <expan>βασιλ<ex>ικῷ</ex></expan> <expan>γρ<ex>αμματεῖ</ex></expan> <expan>Ἡρακλ<ex>είδου</ex></expan> 
 

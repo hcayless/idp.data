@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0199;;27"
-     xml:id="p.sakaon.27"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0199;;27" xml:id="p.sakaon.27" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="13043" xml:lang="en">
-            <date>AD 312-29</date>
-            <placeName>Theadelphia</placeName>
-            <ref type="reprint-from">PThead45</ref>
-         </head>
+         <head><ref>P.Thead. 45</ref> = <ref target="https://papyri.info/pub/p.sakaon/27">P.Sakaon 27</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Αὐρήλιοι Χαιρήμων <supplied reason="lost">καὶ </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 

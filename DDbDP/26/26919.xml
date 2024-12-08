@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0226;1;17v"
-     xml:id="p.wisc.1.17v"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0226;1;17v" xml:id="p.wisc.1.17v" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,10 +43,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="26919" xml:lang="en">
-            <date>AD 106</date>
-            <placeName>Oxyrhynchus</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.wisc/1/17v">P.Wisc. 1 17 V</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
 
     <lb n="1"/><g type="check"/> Παν<unclear>ί</unclear><supplied reason="lost">σκος</supplied> 

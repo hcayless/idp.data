@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0042;1;335"
-     xml:id="o.stras.1.335"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0042;1;335" xml:id="o.stras.1.335" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="75925" xml:lang="en">
-            <date>AD 96-8</date>
-            <placeName>Thebes?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.stras/1/335">O.Strasb. 1 335</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost"><expan>μέ<ex>τρημα</ex></expan> εἰς </supplied><expan><supplied reason="lost">θ</supplied>η<ex>σαυρὸν</ex></expan> <expan>μητροπ<ex>όλεως</ex></expan> 
 

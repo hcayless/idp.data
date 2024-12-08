@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;20;15113"
-     xml:id="sb.20.15113"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;20;15113" xml:id="sb.20.15113" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,15 +39,11 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>146 BC</date>
-            <placeName>Herakleopolite</placeName>
-            <ref type="reprint-from">P.Gen. 3.131</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref>P.Gen. 3 131</ref> = <ref target="https://papyri.info/pub/sb/20/15113">SB XX 15113</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/>Τήρης Ἡ<unclear>ρ</unclear>ακλεί<unclear>δ</unclear>ει χαίρειν.
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><supplied reason="lost">Τήρ</supplied><unclear>ης</unclear> Ἡ<unclear>ρ</unclear>ακλείδει χαίρειν.
 

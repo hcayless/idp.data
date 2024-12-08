@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;6;9365"
-     xml:id="sb.6.9365"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;6;9365" xml:id="sb.6.9365" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="14163" xml:lang="en">
-            <date>AD-259</date>
-            <placeName>Theadelphia</placeName>
-            <ref n="p.flor;3;335" type="reprint-from">PFlor3,335</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/6/9365">SB 6 9365</ref> = <ref target="https://papyri.info/pub/p.flor/3/335">P.Flor. III 335</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">ἐν</supplied>ορμίου                          <expan><ex>δραχμαὶ</ex></expan> <num value="5">ε</num> <gap reason="lost" quantity="1" unit="character"/> 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;22;15619"
-     xml:id="sb.22.15619"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;22;15619" xml:id="sb.22.15619" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="47268" xml:lang="en">
-            <date>ca. AD 425</date>
-            <placeName>Alabastrine</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/sb/22/15619">SB 22 15619</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
@@ -75,7 +67,7 @@
     <lb n="11"/>καὶ ἀ<unclear>π</unclear>έσχον τὴν τιμὴν ἐκ πλήρους <expan>χρ<ex>υσοῦ</ex></expan> <expan>νο<ex>μισμάτια</ex></expan> <num value="8">η</num> καὶ<choice><reg>στοιχεῖ</reg><orig>στυχ<supplied reason="lost">ει</supplied>μ</orig></choice> μοι π<unclear>άν</unclear>τα τὰ ἐγγ<supplied reason="lost">εγραμμένα</supplied>.
 
     <lb n="12"/>Αὐρήλιος Ἀροοῦς ἀπὸ Θελβόνθεως <choice><reg>ἀξιωθεὶς</reg><orig>ἀξιωθὶς</orig></choice> ἔγραψα ὑπὲρ αὐτῆ<supplied reason="omitted">ς</supplied> γράμματα <choice><reg>μὴ</reg><orig>μο<unclear>ὶ</unclear></orig></choice> <unclear>εἰδυ</unclear><supplied reason="lost">ίας.</supplied>
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> </supplied> <choice><reg>ἕκτον</reg><orig>ἕκτων</orig></choice> μέρος <expan>χρ<ex>υσοῦ</ex></expan> <expan>νο<ex>μισμάτια</ex></expan> <num value="8"><unclear>η</unclear></num></ab></div></div>
       </body>

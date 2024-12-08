@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0029;;168"
-     xml:id="o.leid.168"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0029;;168" xml:id="o.leid.168" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="32278" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Thebes</placeName>
-            <ref n="sb;10;10353" type="reprint-from">SB10,10353</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.leid/168">O.Leid. 168</ref> = <ref target="https://papyri.info/pub/sb/10/10353">SB X 10353</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Μεχεὶρ <num value="25">κε</num> <expan>Νήσω<ex>ν</ex></expan> <expan>ὀνό<ex>ματος</ex></expan> Πεκύσιος <expan>ὁμ<ex>οίως</ex></expan> 
 

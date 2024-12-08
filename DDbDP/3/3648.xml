@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0206;1;12"
-     xml:id="p.tebt.1.12"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0206;1;12" xml:id="p.tebt.1.12" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="3648" xml:lang="en">
-            <date>118 BC</date>
-            <placeName>Tebtynis</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.tebt/1/12">P.Tebt. 1 12</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/><supplied reason="lost">Μεγ</supplied>χῆς Ἡρώδει τῶι ἀδελφῶι <supplied reason="lost">χαίρε</supplied>ιν 
 
@@ -102,7 +94,7 @@
     <lb n="25"/>Ἀθεμμεῖ τῶι <gap reason="lost" quantity="2" unit="character"/><abbr><gap reason="illegible" quantity="1" unit="character"/></abbr> ἀναβῆναι.  καὶ σὺ περὶ ὧν ἐὰν 
 
     <lb n="26"/><supplied reason="lost">βούλ</supplied>ηι διασάφησον, τὰ δʼ ἄλλα <choice><reg>χαριεῖ</reg><orig>χαιριεῖ</orig></choice> σαυτοῦ <expan>ἐπιμ<ex>ελόμενος</ex></expan>. 
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="1"/><note xml:lang="en">PTebt 1,12,2 reprinted in <ref n="p.tebt;1;97" type="reprint-in">PTebt 1,97</ref></note></ab></div></div>
       </body>

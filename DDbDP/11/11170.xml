@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;3;322"
-     xml:id="p.flor.3.322"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;3;322" xml:id="p.flor.3.322" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,14 +26,11 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2014-12-19T13:04:20.482-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2014-12-19T13:04:20.474-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
-          <change when="2014-12-19T10:28:44.399-05:00"
-                 who="https://papyri.info/editor/users/GAJC%20v%20Loon">21 ιαϛ &gt; ριϛ (automatic re-numbering)&#xD;
-65 αδ &gt; ιδ (automatic re-numbering)&#xD;
-Data Entry Error&#xD;
+          <change when="2014-12-19T13:04:20.482-05:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2014-12-19T13:04:20.474-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2014-12-19T10:28:44.399-05:00" who="https://papyri.info/editor/users/GAJC%20v%20Loon">21 ιαϛ &gt; ριϛ (automatic re-numbering)
+65 αδ &gt; ιδ (automatic re-numbering)
+Data Entry Error
 </change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
@@ -55,12 +47,8 @@ Data Entry Error&#xD;
    </teiHeader>
    <text>
       <body>
-         <head n="11170" xml:lang="en">
-            <date>AD 258?</date>
-            <placeName>Theadelphia</placeName>
-            <ref type="reprint-from">r=PFlor2,278v</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/3/322">P.Flor. 3 322</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/><num value="115">ριε</num> 
 
@@ -97,7 +85,7 @@ Data Entry Error&#xD;
     <lb n="17"/>καὶ <expan>ἐλοιπογρα<ex>φήθη</ex></expan> 
 
     <lb n="18"/><gap reason="lost" extent="unknown" unit="line"/> 
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="18"/><num value="116">ριϛ</num> 
 
@@ -148,7 +136,7 @@ Data Entry Error&#xD;
     <lb n="41"/>ἀκολουθοῦν<supplied reason="lost">τες </supplied><gap reason="lost" extent="unknown" unit="character"/> <expan><ex>δραχμαὶ</ex></expan> <gap reason="illegible" quantity="2" unit="character"/> 
 
     <lb n="42"/>συντιθοῦν<supplied reason="lost">τες </supplied><gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="3" type="textpart"><ab>
+</ab></div><div n="3" type="textpart" xml:id="_3"><head>3</head><ab>
 
     <lb n="43"/><num value="117">ριζ</num> 
 
@@ -207,7 +195,7 @@ Data Entry Error&#xD;
     <lb n="70"/><supplied reason="lost"><expan><ex>γίνονται</ex></expan> τοῦ κλήρου <expan><ex>δραχμαὶ</ex></expan> <num value="65">ξε</num></supplied> <num value="5"><expan><ex>πεντώβολον</ex></expan></num> 
 
     <lb n="71"/><supplied reason="lost"><expan>οἰκ<ex>έται</ex></expan> καὶ <app type="editorial"><lem resp="BL 3.57"><expan>μετρη<ex>ματιαῖοι</ex></expan></lem><rdg><abbr>μετη</abbr></rdg></app></supplied> <num value="7">ζ</num> 
-</ab></div><div n="4" type="textpart"><ab>
+</ab></div><div n="4" type="textpart" xml:id="_4"><head>4</head><ab>
 
     <lb n="72"/><num value="118">ριη</num> 
 
@@ -294,7 +282,7 @@ Data Entry Error&#xD;
     <lb n="113"/>α<gap reason="lost" extent="unknown" unit="character"/> <num value="2227">Βσκζ</num> <num value="4"><expan><ex>τετρώβολον</ex></expan></num> 
 
     <lb n="114"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="5" type="textpart"><ab>
+</ab></div><div n="5" type="textpart" xml:id="_5"><head>5</head><ab>
 
     <lb n="115"/><num value="119">ριθ</num> 
 
@@ -359,7 +347,7 @@ Data Entry Error&#xD;
     <lb n="145"/><expan>Σιλβαν<ex>ὸς</ex></expan> <expan>βουκόλ<ex>ος</ex></expan> <expan><ex>πυροῦ ἀρτάβη</ex></expan> <num value="1">α</num> 
 
     <lb n="146"/><expan>Σαραπίω<ex>ν</ex></expan> <expan><supplied reason="lost">βου</supplied>κόλ<ex>ος</ex></expan> <expan><ex>πυροῦ ἀρτάβη</ex></expan> <num value="1">α</num> 
-</ab></div><div n="6" type="textpart"><ab>
+</ab></div><div n="6" type="textpart" xml:id="_6"><head>6</head><ab>
 
     <lb n="147"/><num value="120">ρκ</num> 
 
@@ -411,7 +399,7 @@ Data Entry Error&#xD;
     <lb n="170"/><expan>γ<ex>ίνονται</ex></expan> <expan>ἐπ<ex>ὶ τὸ αὐτὸ</ex></expan> ἄρτοι <num value="590">φϙ</num> <expan>ζεύγ<ex>η</ex></expan> <num value="295">σϙε</num> 
 
     <lb n="171"/><abbr>λοιπ</abbr> ἀπο<gap reason="illegible" quantity="2" unit="character"/> <subst><add place="inline"><expan>ζ<supplied reason="omitted">ε</supplied>ύγ<ex>η</ex></expan></add><del rend="corrected">ζυγ</del></subst> <num value="25">κε</num> 
-</ab></div><div n="7" type="textpart"><ab>
+</ab></div><div n="7" type="textpart" xml:id="_7"><head>7</head><ab>
 
     <lb n="172"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> </ab></div></div>
       </body>

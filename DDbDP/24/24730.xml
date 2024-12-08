@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0029;;174"
-     xml:id="o.leid.174"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0029;;174" xml:id="o.leid.174" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="24730" xml:lang="en">
-            <date>AD 3</date>
-            <placeName>Koptos</placeName>
-            <ref n="o.wilck;;1320" type="reprint-from">OWilck1320</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.leid/174">O.Leid. 174</ref> = <ref target="https://papyri.info/pub/o.wilck/1320">O.Wilck. 1320</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>διαγέγρα<ex>φε</ex></expan> δ<unclear>ιὰ</unclear> <gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <expan>τραπ<ex>έζης</ex></expan> 
 

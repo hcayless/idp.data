@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,20 +29,17 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2013-04-18T09:52:05.215-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2013-04-18T09:52:05.199-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine.</change>
-          <change when="2013-04-18T09:30:59.909-04:00"
-                 who="https://papyri.info/editor/users/Arthur%20Verhoogt">Entered text. Checked.</change>
+          <change when="2013-04-18T09:52:05.215-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2013-04-18T09:52:05.199-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine.</change>
+          <change when="2013-04-18T09:30:59.909-04:00" who="https://papyri.info/editor/users/Arthur%20Verhoogt">Entered text. Checked.</change>
           <change when="2013-04-18T09:19:20-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.sorb/3/98">P.Sorb. 3 98</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="A" type="textpart">
+<div n="A" type="textpart" xml:id="_A"><head>A</head>
 <div n="r" type="textpart"><ab>
 <lb n="1"/><gap reason="lost" quantity="10" unit="character"/><supplied reason="lost"> Ἀρ</supplied><unclear>ισ</unclear>τάρ<unclear>χ</unclear><supplied reason="lost">ωι</supplied> χαίρειν. γέγ<supplied reason="lost">ραφ </supplied><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/>τα<gap reason="lost" quantity="4" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> π<unclear>α</unclear>ρὰ Σίμωνος τοῦ γεωμέτρου <gap reason="lost" extent="unknown" unit="character"/>
@@ -56,7 +51,7 @@
 <lb n="8"/><unclear>π</unclear>αντὸς τοῦ χρόνου <gap reason="lost" extent="unknown" unit="character"/>
 </ab></div> 
 </div> 
-<div n="B" type="textpart">
+<div n="B" type="textpart" xml:id="_B"><head>B</head>
 <div n="r" type="textpart"><ab>
 <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> κα<unclear>ὶ</unclear> <unclear>ὑ</unclear>π<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> τοὺς τόπ<supplied reason="lost">ους </supplied><gap reason="lost" extent="unknown" unit="character"/>
@@ -65,7 +60,7 @@
 <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> ἐκφόρια πραχ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
 </div> 
-<div n="A" type="textpart">
+<div n="A" type="textpart" xml:id="_A"><head>A</head>
 <div n="v" type="textpart"><ab>
 <lb n="14"/><expan><ex>ἔτους</ex></expan> <num value="38">λη</num> <gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="3" unit="character"/> <unclear>η</unclear> <gap reason="lost" extent="unknown" unit="character"/> Ἀριστάρχωι
 <lb n="14"/><gap reason="illegible" quantity="4" unit="line"><desc>vestiges</desc></gap>

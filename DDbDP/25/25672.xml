@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0181;2;299"
-     xml:id="p.oxy.2.299"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0181;2;299" xml:id="p.oxy.2.299" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,10 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="25672" xml:lang="en">
-            <date>I spc</date>
-            <placeName>Oxyrhynchus</placeName>
-         </head>
+         <head><ref>Sel. Pap. I 108</ref> = <ref>C.Pap. Hengstl 107</ref> = <ref target="https://papyri.info/pub/p.oxy/2/299">P.Oxy. 2 299</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ὧρος Ἀπίωνι τῷ <choice><reg>τιμιωτάτωι</reg><orig>τειμειωτάτωι</orig></choice> χαίρειν. 
 

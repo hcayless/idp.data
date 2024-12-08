@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;2;255"
-     xml:id="p.flor.2.255"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;2;255" xml:id="p.flor.2.255" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,11 +43,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11141" xml:lang="en">
-            <date>AD 259</date>
-            <placeName>Theadelphia</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/2/255">P.Flor. 2 255</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
@@ -79,7 +71,7 @@
     <lb n="9"/><handShift new="m1"/> <num value="7">ζ</num> <expan><ex>ἔτους</ex></expan> 
 
     <lb n="10"/>Ἁθὺρ <num value="15">ιε</num> 
-</ab></div><div n="r" type="textpart"><ab>
+</ab></div><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 2,255,r reprinted in <ref n="p.flor;1;5" type="reprint-in">PFlor 1,5</ref></note></ab></div></div>
       </body>

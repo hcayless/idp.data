@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;10;10270_45"
-     xml:id="sb.10.10270_45"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;10;10270_45" xml:id="sb.10.10270_45" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,11 +47,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="16737" xml:lang="en">
-            <date>AD 221-23</date>
-            <placeName>Panopolite</placeName>
-            <note xml:lang="en">o</note>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/10/10270_45">SB 10 10270 Nr. 45</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
 
     <lb n="1"/><handShift new="m37"/> <expan>Αὐρήλ<ex>ιος</ex></expan> Πανίσκος Πκαῦφι <choice><reg><expan>ὀρ<supplied reason="omitted">ν</supplied>ιθοτρό<ex>φῳ</ex></expan></reg><orig>ὀριθοτρο</orig></choice> 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0279;6;315"
-     xml:id="chla.6.315"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0279;6;315" xml:id="chla.6.315" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,15 +37,11 @@
    </teiHeader>
    <text>
       <body>
-         <head n="44782" xml:lang="en">
-            <date>ca. AD 208</date>
-            <placeName>Dura</placeName>
-            <ref type="reprint-in">Rom.Mil.Rec. 7</ref>
-         </head>
-         <div xml:lang="la" type="edition" xml:space="preserve"><div n="FrA" type="textpart"><ab>
+         <head><ref>Frag. a) - f): P.Dura 60</ref> = <ref>Rom.Mil.Rec. 98</ref> = <ref>CPL 327</ref> = <ref>CEL I 178</ref> = <ref target="https://papyri.info/pub/chla/6/315">ChLA 6 315</ref></head>
+         <div xml:lang="la" type="edition" xml:space="preserve"><div n="FrA" type="textpart" xml:id="_FrA"><head>FrA</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>meoru<unclear>m</unclear> 
-</ab></div><div n="FrB" type="textpart"><ab>
+</ab></div><div n="FrB" type="textpart" xml:id="_FrB"><head>FrB</head><ab>
 
     <lb n="1"/>Marius Maximus <expan>trib<ex>unis</ex></expan> et <expan>praef<ex>ectis</ex></expan> et praepositis <expan>n<ex>umerorum</ex></expan> salute<unclear>m</unclear>. <gap reason="lost" extent="unknown" unit="character"/>
 
@@ -77,7 +68,7 @@
     <lb n="12"/>Ed<supplied reason="lost">da</supplied>na 
 
     <lb n="13"/>B<unclear>i</unclear><supplied reason="lost">blada</supplied> 
-</ab></div><div n="FrC" type="textpart"><ab>
+</ab></div><div n="FrC" type="textpart" xml:id="_FrC"><head>FrC</head><ab>
 
     <lb n="1"/><supplied reason="lost">Marius M</supplied>aximus <expan>tri<supplied reason="lost">b<ex>unis</ex></supplied></expan> <gap reason="lost" extent="unknown" unit="character"/>  
 
@@ -98,7 +89,7 @@
     <lb n="9"/>tiu<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="10"/>com<gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="FrD" type="textpart"><ab>
+</ab></div><div n="FrD" type="textpart" xml:id="_FrD"><head>FrD</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 
@@ -119,7 +110,7 @@
     <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> q</supplied><unclear>u</unclear>antit<unclear>at</unclear>e solos bi<unclear>n</unclear><supplied reason="lost">os</supplied> aureos 
 
     <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><unclear>s</unclear>
-</ab></div><div n="FrE" type="textpart"><ab>
+</ab></div><div n="FrE" type="textpart" xml:id="_FrE"><head>FrE</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>p<gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 
@@ -128,12 +119,12 @@
     <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ade<gap reason="illegible" quantity="1" unit="character"/>a<gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>act<gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="FrF" type="textpart"><ab>
+</ab></div><div n="FrF" type="textpart" xml:id="_FrF"><head>FrF</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> praef</supplied>ectis <expan>n<ex cert="low">umerorum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>am prae<gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="FrG" type="textpart"><ab>
+</ab></div><div n="FrG" type="textpart" xml:id="_FrG"><head>FrG</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 
@@ -142,37 +133,37 @@
     <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>e<gap reason="illegible" quantity="1" unit="character"/>ur<gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="FrH" type="textpart"><ab>
+</ab></div><div n="FrH" type="textpart" xml:id="_FrH"><head>FrH</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>quid<gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="FrI" type="textpart"><ab>
+</ab></div><div n="FrI" type="textpart" xml:id="_FrI"><head>FrI</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>mittas<gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>h<gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="FrJ" type="textpart"><ab>
+</ab></div><div n="FrJ" type="textpart" xml:id="_FrJ"><head>FrJ</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ir<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="FrK" type="textpart"><ab>
+</ab></div><div n="FrK" type="textpart" xml:id="_FrK"><head>FrK</head><ab>
 
     <lb n="1"/><gap reason="illegible" extent="unknown" unit="line"/>
-</ab></div><div n="FrL" type="textpart"><ab>
+</ab></div><div n="FrL" type="textpart" xml:id="_FrL"><head>FrL</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>c</unclear>ias <gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
-</ab></div><div n="FrM" type="textpart"><ab>
+</ab></div><div n="FrM" type="textpart" xml:id="_FrM"><head>FrM</head><ab>
 
     <lb n="1"/><gap reason="illegible" extent="unknown" unit="line"/>
-</ab></div><div n="FrN" type="textpart"><ab>
+</ab></div><div n="FrN" type="textpart" xml:id="_FrN"><head>FrN</head><ab>
 
     <lb n="1"/><gap reason="illegible" extent="unknown" unit="line"/></ab></div></div>
       </body>

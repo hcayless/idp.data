@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0138;3;28"
-     xml:id="p.iand.3.28"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0138;3;28" xml:id="p.iand.3.28" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,10 +44,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11483" xml:lang="en">
-            <date>AD 104</date>
-            <placeName>Theadelphia</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.iand/3/28">P.Iand. 3 28</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">Κλαυδίωι Ἐράσ</supplied><unclear>ω</unclear>ι σ<supplied reason="lost">τ</supplied>ρα<unclear>τ</unclear>ηγ<supplied reason="lost">ῶι</supplied> <expan>Ἀρσ<supplied reason="lost">ι<ex>νοίτου</ex></supplied></expan><supplied reason="lost"> Θεμίστου μερίδος</supplied> 
 

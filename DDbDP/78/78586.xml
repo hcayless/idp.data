@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0181;65;4486" xml:id="p.oxy.65.4486" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0181;65;4486" xml:id="p.oxy.65.4486" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,11 +41,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="78586 78587 78588" xml:lang="en">
-            <date>II/III spc</date>
-            <placeName>Oxyrhynchus</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart"><ab>
+         <head><ref>P.Oxy. 65 4486 R Z. 5 - 8</ref> = <ref>P.Oxy. 65 4486 V</ref> = <ref target="https://papyri.info/pub/p.oxy/65/4486">P.Oxy. 65 4486 R Z. 1 - 4</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/>ἀρχεφόδωι Τακόνα. <del rend="erasure"><supplied reason="lost">π</supplied><unclear>εμ</unclear></del>
 
@@ -56,7 +51,7 @@
     <lb n="3"/>ὀνηλάτην ἐντυχόντος
 
     <lb n="4"/><choice><reg>Σαραπίωνος ἐνάρχου ἐξηγητοῦ</reg><orig>Σαραπιωνι <subst><add place="inline"> εναρχ</add><del rend="corrected">ωεναρ<gap reason="illegible" quantity="1" unit="character"/></del></subst> χ<unclear> ε</unclear>ξηγητη</orig></choice>.
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="5"/>ἀρχεφόδωι Τυνχινφάγων.
 

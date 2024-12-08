@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0042;1;625"
-     xml:id="o.stras.1.625"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0042;1;625" xml:id="o.stras.1.625" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="76207" xml:lang="en">
-            <date>II spc</date>
-            <placeName>Thebaid</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/o.stras/1/625">O.Strasb. 1 625</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
@@ -98,7 +90,7 @@
     <lb n="22"/><expan>ὁ<ex>μοίως</ex></expan> <expan>Ἐπώνυχο<ex>ς</ex></expan> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ιου <expan>γό<ex>μοι</ex></expan> <num value="2">β</num> <expan><ex>γίνονται</ex></expan> <expan>γό<ex>μοι</ex></expan> <num value="37">λζ</num> 
 
     <lb n="23"/><handShift new="m1" cert="low"/> <expan>ὁ<ex>μοίως</ex></expan> <unclear>Θ</unclear>ύνεως <expan>Παμών<unclear>θ</unclear><ex>ου</ex></expan> <abbr>Κουκ</abbr> <expan>γόμ<ex>οι</ex></expan> <num value="6">ϛ</num>. 
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 

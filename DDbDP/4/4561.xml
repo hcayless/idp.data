@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;6;1302"
-     xml:id="bgu.6.1302"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;6;1302" xml:id="bgu.6.1302" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,10 +43,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="4561" xml:lang="en">
-            <date>ca. I sac</date>
-            <placeName>?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/bgu/6/1302">BGU 6 1302</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><choice><reg>Κολλούθης</reg><orig>Κολλούθηι</orig></choice> Νεκτερώιτι <choice><reg>κεραμεῖ</reg><orig>κερ<unclear>αμ</unclear>ῖ</orig></choice> 
 

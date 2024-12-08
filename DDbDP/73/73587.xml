@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0019;;108"
-     xml:id="o.camb.108"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0019;;108" xml:id="o.camb.108" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="73587" xml:lang="en">
-            <date>III spc</date>
-            <placeName>?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.camb/108">O.Camb. 108</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan><unclear>Π</unclear>λ<ex>ήνεις</ex></expan> <unclear>δ</unclear>ύο <num value="2"/> <expan>Σενφθουμ<unclear>ώ</unclear><ex>νθου</ex></expan> <expan>Πε<unclear>τ</unclear><ex>ε</ex>χώ<ex>νσιος</ex></expan> <expan><ex>πυροῦ</ex></expan> <num value="1/6" rend="tick">ϛ</num> <num value="1/24" rend="tick"><unclear>κδ</unclear></num>. 
 

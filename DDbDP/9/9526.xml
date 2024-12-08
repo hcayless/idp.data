@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;7;1636"
-     xml:id="bgu.7.1636"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;7;1636" xml:id="bgu.7.1636" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,14 +40,11 @@
    </teiHeader>
    <text>
       <body>
-         <head n="9526" xml:lang="en">
-            <date>AD 155/6</date>
-            <placeName>Philadelphia</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/bgu/7/1636">BGU 7 1636</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/><gap reason="illegible" quantity="8" unit="line"/> 
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="1"/>Δ<unclear>ι</unclear>ονυσοδωριανῆ<unclear>ς</unclear> <expan>οὐσί<ex>ας</ex></expan>   <expan><ex>ἄρουραι</ex></expan> <num value="12">ιβ</num> 
 
@@ -95,7 +87,7 @@
     <lb n="19"/><expan><ex>γίνονται</ex></expan> πυροῦ <expan><ex>ἀρτάβαι</ex></expan> <num value="3508">Γφη</num> <num value="1/48" rend="tick">μη</num> <expan>κρι<ex>θῆς</ex></expan> <expan><ex>ἀρτάβαι</ex></expan> <num value="848">ωμη</num> <num value="1/12" rend="tick">ιβ</num> <expan><ex>πενταρταβιείας</ex></expan> <expan>κ<unclear>ρ</unclear><ex>ιθῆς</ex></expan> <expan><ex>ἀρτάβαι</ex></expan> <num value="42">μβ</num> 
 
     <lb n="20"/><expan>κρι<ex>θῆς</ex></expan> <expan><ex>ἀρτάβαι</ex></expan> <num value="890">ωϙ</num> <num value="1/2">𐅵</num> 
-</ab></div><div n="3" type="textpart"><ab>
+</ab></div><div n="3" type="textpart" xml:id="_3"><head>3</head><ab>
 
     <lb n="21"/>Δ<gap reason="illegible" quantity="2" unit="character"/>και<gap reason="illegible" quantity="1" unit="character"/>σακ<gap reason="illegible" quantity="2" unit="character"/> π<unclear>υ</unclear>ρο<unclear>ῦ</unclear> <expan><ex>ἀρτάβαι</ex></expan> <num value="272">σοβ</num> <num value="1/3" rend="tick">γ</num> <num value="1/24" rend="tick">κδ</num>, ὧν 
 

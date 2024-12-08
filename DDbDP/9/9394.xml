@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;3;880"
-     xml:id="bgu.3.880"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;3;880" xml:id="bgu.3.880" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="9394" xml:lang="en">
-            <date>AD 197</date>
-            <placeName>Arsinoite</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/bgu/3/880">BGU 3 880</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>ἔτους <choice><reg>πέμπτου</reg><orig>πέμτου</orig></choice> Λουκίου Σεπτιμίο<supplied reason="lost">υ</supplied> 
 

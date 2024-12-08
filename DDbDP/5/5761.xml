@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;6;9367_23"
-     xml:id="sb.6.9367_23"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;6;9367_23" xml:id="sb.6.9367_23" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,11 +47,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="5761" xml:lang="en">
-            <date>163 BC</date>
-            <placeName>Diospolis Major?</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="Nr23" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/sb/6/9367_23">SB 6 9367 Nr. 23</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="Nr23" type="textpart" xml:id="_Nr23"><head>Nr23</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> βασιλέω<supplied reason="lost">ς </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 </ab></div></div>

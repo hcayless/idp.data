@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0134;;77"
-     xml:id="p.herm.77"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0134;;77" xml:id="p.herm.77" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="35432" xml:lang="en">
-            <date>V spc</date>
-            <placeName>Oxyrhynchite?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.herm/77">P.Herm. 77</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="stauros"/> ἐμέτρησεν Ἀπολλὼς <expan>προ<ex>νοητὴς</ex></expan> Νίκης <expan><ex>ὑπὲρ</ex></expan> <expan>ἐμβολ<ex>ῆς</ex></expan> <num value="5">ε</num> <expan>ἰνδ<ex>ικτίονος</ex></expan> 
 

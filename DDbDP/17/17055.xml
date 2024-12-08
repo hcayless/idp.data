@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0200;;38"
-     xml:id="p.sarap.38"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0200;;38" xml:id="p.sarap.38" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="17055" xml:lang="en">
-            <date>AD 128</date>
-            <placeName>Hermopolite</placeName>
-            <ref n="p.amh;2;128,r" type="reprint-from">PAmh2,128bis</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.sarap/38">P.Sarap. 38</ref> = <ref target="https://papyri.info/pub/p.amh/2/128,r">P.Amh. II 128 (Z. 102 - 113)</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Κάστωρ Ἑρμαίου <add place="above"><del rend="erasure">ς</del> </add> Ἀνουβίωνι 
 

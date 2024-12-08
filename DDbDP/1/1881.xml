@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0229;;50"
-     xml:id="p.zen.pestm.50"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0229;;50" xml:id="p.zen.pestm.50" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="1881" xml:lang="en">
-            <date>257 BC</date>
-            <placeName>Philadelphia</placeName>
-            <ref n="psi;4;328" type="reprint-from">PSI4,328</ref>
-         </head>
+         <head><ref>Sel. Pap. II 411</ref> = <ref target="https://papyri.info/pub/p.zen.pestm/50">P.Zen. Pestm. 50</ref> = <ref target="https://papyri.info/pub/psi/4/328">PSI IV 328</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>οἱ ἱερεῖς τῆς Ἀφροδίτης Ἀπολλωνίωι <supplied reason="lost">τῶι διοικητ</supplied>ῆι χαίρειν. καθάπερ καὶ ὁ βασιλεὺς 
 

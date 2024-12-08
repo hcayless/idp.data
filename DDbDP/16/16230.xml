@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;16;12384dupl"
-     xml:id="sb.16.12384dupl"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;16;12384dupl" xml:id="sb.16.12384dupl" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="16230" xml:lang="en">
-            <date>AD 362</date>
-            <placeName>Hermopolite</placeName>
-            <ref n="sb;14;11350" type="reprint-from">SB14,11350</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/16/12384dupl">SB 16 12384</ref> = <ref target="https://papyri.info/pub/sb/14/11350">SB XIV 11350</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">Α</supplied><unclear>ὐρ</unclear>ηλίοις Νείλῳ <choice><reg>Γενναδίου</reg><orig>Γενναδίω</orig></choice> καὶ Θεοδ<supplied reason="lost">ώρῳ</supplied> 
 

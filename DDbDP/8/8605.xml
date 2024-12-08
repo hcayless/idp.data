@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0194;;51"
-     xml:id="p.rain.cent.51"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0194;;51" xml:id="p.rain.cent.51" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="8605" xml:lang="en">
-            <date>I sac</date>
-            <placeName>Phthemphouth</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.rain.cent/51">P.Rainer Cent. 51</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">Ἀ</supplied>πολλων<supplied reason="lost">ίωι συγγ</supplied><unclear>εν</unclear>εῖ καὶ <supplied reason="lost">στρα</supplied><unclear>τη</unclear><supplied reason="lost">γ</supplied>ῶι 
 

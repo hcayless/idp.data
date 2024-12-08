@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0118;2;62"
-     xml:id="p.genova.2.62"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0118;2;62" xml:id="p.genova.2.62" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,11 +47,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="15534" xml:lang="en">
-            <date>AD 98</date>
-            <placeName>Oxyrhynchus</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.genova/2/62">PUG 2 62</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><handShift new="m1"/> Ἐπαφρόδειτος ἀπελεύθερος Ἀριστοκλέους τοῦ <expan>Ἀλεξάνδ<ex>ρου</ex></expan> 
 
@@ -153,7 +145,7 @@
     <lb n="48"/><supplied reason="lost">Νεροῦα</supplied> <choice><reg>Τραιανοῦ</reg><orig>Τριαλιανοῦ</orig></choice> Σεβαστοῦ Γερμανικοῦ 
 
     <lb n="49"/>Ἁθὺρ <num value="2">β</num> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="49"/><num value="2">β</num> <expan><ex>ἔτους</ex></expan> Ἁθὺρ <num value="2">β</num> <expan>γρ<ex>αμματεῖον</ex></expan> Ἐπαφροδείτου </ab></div></div>
       </body>

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0163;11;618"
-     xml:id="p.mich.11.618"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0163;11;618" xml:id="p.mich.11.618" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,10 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="12286" xml:lang="en">
-            <date>ca. AD 166-9</date>
-            <placeName>Bacchias</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.mich/11/618">P.Mich. 11 618</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><choice><reg>Λοκκείῳ</reg><orig>Λοκκηίῳ</orig></choice> Ὀφελλιανῷ 
 

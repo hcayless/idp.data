@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0240;20;5"
-     xml:id="stud.pal.20.5"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;20;5" xml:id="stud.pal.20.5" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="15021" xml:lang="en">
-            <date>AD 136</date>
-            <placeName>Arsinoiton Polis, Krokodilopolis, Ptolemais Euergetis</placeName>
-            <ref n="chr.mitt;;288" type="reprint-from">CPR1,24;MChr288</ref>
-         </head>
+         <head><ref>CPR I 24</ref> = <ref target="https://papyri.info/pub/stud.pal/20/5">SPP 20 5</ref> = <ref target="https://papyri.info/pub/chr.mitt/288">M.Chr. 288</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan><ex>ἔτους</ex></expan> <num value="20">κ</num> Αὐτοκράτορος Κ<supplied reason="lost">αίσ</supplied>αρος <app type="editorial"><lem resp="BL 8.461">Τραιανοῦ</lem><rdg><supplied reason="lost">Αἰλίο</supplied>υ</rdg></app> Ἁδριανοῦ <expan>Σεβα<supplied reason="lost">σ</supplied><ex>τοῦ</ex></expan> μηνὸς Και<unclear>σ</unclear>αρείου <num value="21"><supplied reason="lost">κ</supplied><unclear>α</unclear></num> ἐν <expan>Πτολ<ex>εμαΐδι</ex></expan> Εὐερ<supplied reason="lost">γέτιδ</supplied>ι το<unclear>ῦ</unclear> 
 

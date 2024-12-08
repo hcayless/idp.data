@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,22 +29,18 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2013-07-27T14:22:03.426-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2013-07-27T14:22:03.416-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - AcceptText - See Sarri’s comment.</change>
-          <change when="2013-07-27T14:22:03.404-04:00"
-                 who="https://papyri.info/editor/users/toniasarri">Vote - AcceptText - l.192: [.3].1Κόννωτος =&gt; [.3].1 Κόννωτος</change>
-          <change when="2012-03-19T12:58:49.359-04:00"
-                 who="https://papyri.info/editor/users/a-blomley">Submitted on the 19th of March 2012. Please note: In line 46 both the translation and the index of personal names suggest Νεκτάτυμις, while the text reads Νεκτάτυμιος. </change>
+          <change when="2013-07-27T14:22:03.426-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2013-07-27T14:22:03.416-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - AcceptText - See Sarri’s comment.</change>
+          <change when="2013-07-27T14:22:03.404-04:00" who="https://papyri.info/editor/users/toniasarri">Vote - AcceptText - l.192: [.3].1Κόννωτος =&gt; [.3].1 Κόννωτος</change>
+          <change when="2012-03-19T12:58:49.359-04:00" who="https://papyri.info/editor/users/a-blomley">Submitted on the 19th of March 2012. Please note: In line 46 both the translation and the index of personal names suggest Νεκτάτυμις, while the text reads Νεκτάτυμιος. </change>
           <change when="2011-12-13T09:26:33-05:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.count/49r">P.Count 49 R</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="1" subtype="fragment" type="textpart">
+<div n="1" subtype="fragment" type="textpart" xml:id="fragment_1"><head>Fragment 1</head>
 <div n="1" subtype="column" type="textpart"><ab>
 <lb n="1"/>vestig.<gap reason="illegible" quantity="10" unit="character" precision="low"/>.lin
 <lb n="11"/><supplied reason="lost"><expan><ex>γίνονται</ex></expan> <num value="4">δ</num></supplied> <expan><ex>ὧν</ex></expan> <num value="2">β</num> <expan>γυ<ex>ναικεῖα</ex></expan> <num value="2">β</num>
@@ -125,7 +119,7 @@
 <lb n="62"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
 </div>
-<div n="2" subtype="fragment" type="textpart">
+<div n="2" subtype="fragment" type="textpart" xml:id="fragment_2"><head>Fragment 2</head>
 <div n="1" subtype="column" type="textpart"><ab>
 <lb n="63"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="63"/>Πετε<unclear>μ</unclear><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>νι<gap reason="lost" extent="unknown" unit="character"/>
@@ -191,7 +185,7 @@
 <lb n="122"/><space extent="unknown" unit="line"/>
 </ab></div>
 </div>
-<div n="3" subtype="fragment" type="textpart">
+<div n="3" subtype="fragment" type="textpart" xml:id="fragment_3"><head>Fragment 3</head>
 <div n="1" subtype="column" type="textpart"><ab>
 <lb n="123"/><gap reason="illegible" extent="unknown" unit="line"/> <note xml:lang="en">Ends of lines</note>
 </ab></div>
@@ -258,7 +252,7 @@
 <lb n="183"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
 </div>
-<div n="4+5" subtype="fragments" type="textpart">
+<div n="4+5" subtype="fragments" type="textpart" xml:id="fragments_4+5"><head>Fragments 4+5</head>
 <div n="1" subtype="column" type="textpart"><ab>
 <lb n="184"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="184"/><gap reason="lost" extent="unknown" unit="character"/>φριος

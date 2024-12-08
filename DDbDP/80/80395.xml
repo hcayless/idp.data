@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0282;;172"
-     xml:id="o.heid.172"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0282;;172" xml:id="o.heid.172" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="80395" xml:lang="en">
-            <date>AD 94</date>
-            <placeName>Memnoneia or Hermonthis?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.heid/172">O.Heid. 172</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>διέγρα<ex>ψεν</ex></expan> <abbr>Κεφ<unclear>αλ</unclear></abbr> <expan><unclear>Πετεχῶ</unclear><ex>νσιος</ex></expan> <unclear>Πε</unclear>τ<gap reason="lost" extent="unknown" unit="character"/>
 

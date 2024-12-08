@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;6;9143"
-     xml:id="sb.6.9143"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;6;9143" xml:id="sb.6.9143" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="17859" xml:lang="en">
-            <date>AD 217</date>
-            <placeName>Thebes</placeName>
-            <note xml:lang="en">o</note>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/6/9143">SB 6 9143</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>μ<ex>έτρημα</ex></expan> <expan>θησ<ex>αυροῦ</ex></expan> <expan>μη<ex>τροπόλεως</ex></expan> <expan>γε<ex>ν</ex>ή<ex>ματος</ex></expan> <num value="1">α</num> <expan><ex>ἔτους</ex></expan> Μάρκου Ὀπελ<unclear>λίο</unclear><supplied reason="lost">υ</supplied> 
 

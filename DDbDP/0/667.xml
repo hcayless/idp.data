@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0092;1;59005"
-     xml:id="p.cair.zen.1.59005"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0092;1;59005" xml:id="p.cair.zen.1.59005" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="667" xml:lang="en">
-            <date>259 BC?</date>
-            <placeName>Phil&lt;Palestine</placeName>
-         </head>
+         <head><ref>C.Zen.Palestine 5</ref> = <ref target="https://papyri.info/pub/p.cair.zen/1/59005">P.Cair. Zen. 1 59005</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> σ</supplied>ε<unclear>μ</unclear>ιδάλιος <expan>χ<ex>οινικ  </ex></expan> 
 

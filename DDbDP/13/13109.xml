@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0199;;90"
-     xml:id="p.sakaon.90"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0199;;90" xml:id="p.sakaon.90" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,12 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="13109" xml:lang="en">
-            <date>AD 308</date>
-            <placeName>Theadelphia</placeName>
-            <note xml:lang="en">o</note>
-            <ref n="o.mich;1;78" type="reprint-from">OMich1,78</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.sakaon/90">P.Sakaon 90</ref> = <ref target="https://papyri.info/pub/o.mich/1/78">O.Mich. I 78</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>θη<ex>σαυροῦ</ex></expan> κώμης Θεαδελφί<supplied reason="lost">ας</supplied>, 
 

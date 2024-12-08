@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0198;2;173"
-     xml:id="p.ryl.2.173"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0198;2;173" xml:id="p.ryl.2.173" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,10 +44,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="19519" xml:lang="en">
-            <date>AD 34</date>
-            <placeName>?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.ryl/2/173">P.Ryl. 2 173</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>ἀντίγραφον διαγραφῆς διὰ τῆς <expan>Πτολ<ex>εμαίου</ex></expan> <expan>ἰδιωτικ<ex>ῆς</ex></expan> <expan>τρα<ex>πέζης</ex></expan>. 
 

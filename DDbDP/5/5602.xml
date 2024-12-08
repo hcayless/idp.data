@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;20;14660"
-     xml:id="sb.20.14660"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;20;14660" xml:id="sb.20.14660" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,10 +38,7 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>245 or 220 BC</date>
-            <placeName>Arsinoite</placeName>
-         </head>
+         <head><ref>PUG 3 113</ref> = <ref target="https://papyri.info/pub/sb/20/14660">SB XX 14660</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan><ex>ἔτους</ex></expan> <num value="2">β</num> Μεσορὴ <gap reason="lost" quantity="1" unit="character"/><supplied reason="lost">. ὁμο</supplied>
 

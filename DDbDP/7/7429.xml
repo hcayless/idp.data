@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0187;3;34"
-     xml:id="p.petr.3.34"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0187;3;34" xml:id="p.petr.3.34" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,12 +39,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="7429" xml:lang="en">
-            <date>210-183 BC</date>
-            <placeName>Gurob</placeName>
-            <ref type="reprint-from">cfPPetr3,pgx</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="A" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.petr/3/34">P.Petr. 3 34 (a)</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="A" type="textpart" xml:id="_A"><head>A</head><ab>
 
     <lb n="1"/>προσάγγελμα Σεμθεῖ κωμογραμματεῖ 
 
@@ -64,7 +55,7 @@
     <lb n="6"/>ἅλω. ἐπιβοηθησάντων δὲ τῶν ἐκ τῆς 
 
     <lb n="7"/>κώμης <choice><reg>διέσῳσαν</reg><orig><unclear>δ</unclear>ιέσωισαν</orig></choice> <gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="B" type="textpart"><ab>
+</ab></div><div n="B" type="textpart" xml:id="_B"><head>B</head><ab>
 
     <lb n="1"/><note xml:lang="en">PPetr 3,34,B reprinted in <ref n="p.petr;2;38" type="reprint-in">PPetr 2,38,A</ref></note></ab></div></div>
       </body>

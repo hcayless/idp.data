@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0192;3;135"
-     xml:id="p.princ.3.135"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0192;3;135" xml:id="p.princ.3.135" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,12 +26,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2024-10-26T19:42:25-04:00"
-                 who="http://papyri.info/editor/users/ngonis">Finalized - done</change>
-          <change when="2024-10-26T19:36:29-04:00"
-                 who="http://papyri.info/editor/users/ngonis">Vote - Accept-Straight-to-Finalization - OK</change>
-          <change when="2024-10-26T19:31:42-04:00"
-                 who="http://papyri.info/editor/users/ngonis">Submit - Entered BL corrections to lines 6 and 17.</change>
+          <change when="2024-10-26T19:42:25-04:00" who="http://papyri.info/editor/users/ngonis">Finalized - done</change>
+          <change when="2024-10-26T19:36:29-04:00" who="http://papyri.info/editor/users/ngonis">Vote - Accept-Straight-to-Finalization - OK</change>
+          <change when="2024-10-26T19:31:42-04:00" who="http://papyri.info/editor/users/ngonis">Submit - Entered BL corrections to lines 6 and 17.</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2010-05-05" who="https://papyri.info/editor/users/gabrielbodard">changed schema; added xml:space=preserve; indented; moved title/@n to idno</change>
@@ -47,11 +39,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="32752" xml:lang="en">
-            <date>IV spc</date>
-            <placeName>?</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref>Z. 8: C.Pap.Jud. III 502</ref> = <ref target="https://papyri.info/pub/p.princ/3/135">P.Princ. 3 135</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><abbr>ὑπερ</abbr> <abbr>πο</abbr> <num value="508">φη</num>. 
 
@@ -70,7 +59,7 @@
     <lb n="8"/><abbr>πο</abbr> <num value="23">κγ</num> 
 
     <lb n="9"/><gap reason="illegible" quantity="3" unit="character"/><abbr>ιο</abbr> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><g type="check"/> <gap reason="illegible" quantity="2" unit="character"/>ρουβος Τεβεσείων μικ<supplied reason="lost">ρός </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 

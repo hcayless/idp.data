@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0154;2;256r" xml:id="p.lond.2.256r" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0154;2;256r" xml:id="p.lond.2.256r" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,22 +46,17 @@
    </teiHeader>
    <text>
       <body>
-         <head n="19974 19973" xml:lang="en">
-            <date>AD 228</date>
-            <placeName>Arsinoite?</placeName>
-            <ref type="reprint-from">pg94-95</ref>
-            <ref type="reprint-in">W.Chr. 443 (A only);  W.Chr. 344 (E only)</ref> 
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="A" type="textpart"><ab>
+         <head><ref>P.Lond. 2 256 c (S. XXIV)</ref> = <ref target="https://papyri.info/pub/p.lond/2/256r">P.Lond. 2 256 d (S. 97)</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="A" type="textpart" xml:id="_A"><head>A</head><ab>
 
     <lb n="1"/><note xml:lang="en">reprinted in W.Chr. 443</note>
-</ab></div><div n="B" type="textpart"><ab>
+</ab></div><div n="B" type="textpart" xml:id="_B"><head>B</head><ab>
 
     <lb n="1"/><note xml:lang="en">non trans ? lin</note> 
-</ab></div><div n="C" type="textpart"><ab>
+</ab></div><div n="C" type="textpart" xml:id="_C"><head>C</head><ab>
 
     <lb n="1"/><note xml:lang="en">non trans ? lin</note> 
-</ab></div><div n="D" type="textpart"><ab>
+</ab></div><div n="D" type="textpart" xml:id="_D"><head>D</head><ab>
 
     <lb n="1"/><unclear>Π</unclear>νεφερῶς Θεμίσωνος ἡγούμεν<supplied reason="lost">ος </supplied><app type="editorial"><lem resp="BL 7.83"><supplied reason="lost"><supplied reason="omitted">γεωργῶν</supplied></supplied></lem><rdg><supplied reason="lost">ἱερέων</supplied></rdg></app> 
 
@@ -114,7 +107,7 @@
     <lb n="24"/><supplied reason="lost">Ἡρ</supplied>ακλῆς Ἁρι<unclear>ε</unclear>ύ<unclear>ς</unclear>         <expan><ex>πυροῦ</ex></expan> <expan><ex>ἀρτάβας</ex></expan> <num value="36"><unclear>λ</unclear>ϛ</num> 
 
     <lb n="25"/><supplied reason="lost">Ἡρα</supplied>κλῆς Πετενο<gap reason="illegible" quantity="2" unit="character"/>        <expan><ex>πυροῦ</ex></expan> <expan><ex>ἀρτάβας</ex></expan> <gap reason="illegible" quantity="2" unit="character"/> 
-</ab></div><div n="E" type="textpart"><ab>
+</ab></div><div n="E" type="textpart" xml:id="_E"><head>E</head><ab>
 
     <lb n="1"/><note xml:lang="en">P.Lond 2.256r,E reprinted in <ref n="chr.wilck;;344" type="reprint-in">WChr 344</ref></note></ab></div></div>
       </body>

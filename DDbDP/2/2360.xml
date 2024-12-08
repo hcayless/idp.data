@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0128;1;108"
-     xml:id="p.hamb.1.108"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0128;1;108" xml:id="p.hamb.1.108" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,10 +38,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="2360" xml:lang="en">
-            <date>251/250 BC</date>
-            <placeName>Philadelphia</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.hamb/1/108">P.Hamb. 1 108</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Πᾶσις Ζ<supplied reason="lost">ήνωνι </supplied><supplied reason="lost" cert="low">χαίρει</supplied>ν τε σακσ<unclear>η</unclear> <foreign xml:lang="la">?. </foreign>
 

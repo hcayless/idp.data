@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0092;4;59574"
-     xml:id="p.cair.zen.4.59574"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0092;4;59574" xml:id="p.cair.zen.4.59574" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="1208" xml:lang="en">
-            <date>III sac</date>
-            <placeName>Philadelphia</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.cair.zen/4/59574">P.Cair. Zen. 4 59574</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> ὑ</supplied>πόμνημα ὧν ἐστι χρεί<unclear>α</unclear> <gap reason="lost" extent="unknown" unit="character"/> 
 

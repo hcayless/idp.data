@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0199;;82"
-     xml:id="p.sakaon.82"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0199;;82" xml:id="p.sakaon.82" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,11 +47,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="13101" xml:lang="en">
-            <date>AD 296/7</date>
-            <placeName>Theadelphia</placeName>
-            <ref n="bgu;11;2027" type="reprint-from">BGU11,2027</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.sakaon/82">P.Sakaon 82</ref> = <ref target="https://papyri.info/pub/bgu/11/2027">BGU XI 2027</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">ἔτους δευ</supplied>τέρου τοῦ κ<unclear>υ</unclear><supplied reason="lost">ρίου ἡμῶν</supplied> 
 

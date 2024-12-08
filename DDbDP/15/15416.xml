@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0194;;66dupl"
-     xml:id="p.rain.cent.66dupl"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0194;;66dupl" xml:id="p.rain.cent.66dupl" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,11 +43,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="15416" xml:lang="en">
-            <date>AD 234</date>
-            <placeName>Lykopolite</placeName>
-            <ref type="reprint-from">StudPal20,33</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.rain.cent/66dupl">P.Rainer Cent. 66</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">Αὐρηλίῳ Ἀπολλωνίῳ βασιλικῷ γραμματεῖ</supplied> 
 

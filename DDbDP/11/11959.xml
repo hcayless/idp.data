@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0160;;5"
-     xml:id="p.meyer.5"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0160;;5" xml:id="p.meyer.5" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,11 +47,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11959" xml:lang="en">
-            <date>AD 98-117</date>
-            <placeName>Arsinoite</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.meyer/5">P.Meyer 5</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
@@ -99,7 +91,7 @@
     <lb n="19"/><unclear>γ</unclear>ράμματα. <handShift new="m3"/> Φ<supplied reason="lost">ίλιπ</supplied>πος Ἀφρ<unclear>ο</unclear><supplied reason="lost">δ</supplied>ει<supplied reason="lost">σ</supplied>ί<unclear>ο</unclear>υ <choice><reg>γέγονέν</reg><orig><supplied reason="lost">γ</supplied><unclear>ει</unclear>κ<unclear>ο</unclear></orig></choice> 
 
     <lb n="20"/><choice><reg>μου</reg><orig>μυ</orig></choice> ἡ <expan>ὁ<unclear>μ</unclear>ολογί<ex>α</ex></expan> κ<unclear>α</unclear>θὼς <supplied reason="lost">πρό</supplied><unclear>κ</unclear><supplied reason="lost">ειται</supplied>. 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="21"/><handShift new="m4"/> <expan>ὁμολ<ex>ογία</ex></expan> Δείου καὶ τῆς <expan>γυν<ex>αικὸς</ex></expan> <expan>πρὸ<ex>ς</ex></expan> <expan>Φί<unclear>λι</unclear>ππο<ex>ν</ex></expan> <expan>δρ<ex>αχμῶν</ex></expan> <num value="40">μ</num> κα<supplied reason="lost">ὶ</supplied> <expan>πυ<ex>ροῦ</ex></expan> <expan>ἀ<ex>ρτάβης</ex></expan> <supplied reason="lost"><num value="1">α</num> <num value="1/2">𐅵</num></supplied>. </ab></div></div>
       </body>

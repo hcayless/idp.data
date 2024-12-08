@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0109;;49"
-     xml:id="p.fam.tebt.49"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0109;;49" xml:id="p.fam.tebt.49" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -38,12 +33,9 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
-          <change when="2024-05-14T10:34:34-04:00"
-                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2024-05-14T09:55:57-04:00"
-                 who="http://papyri.info/editor/users/ngonis">Vote - Accept-Straight-to-Finalization - OK</change>
-          <change when="2024-05-13T11:06:14-04:00"
-                 who="http://papyri.info/editor/users/dkaltsas">Submit - Fr. A 1.5: separated words, moved question-mark.</change>
+          <change when="2024-05-14T10:34:34-04:00" who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2024-05-14T09:55:57-04:00" who="http://papyri.info/editor/users/ngonis">Vote - Accept-Straight-to-Finalization - OK</change>
+          <change when="2024-05-13T11:06:14-04:00" who="http://papyri.info/editor/users/dkaltsas">Submit - Fr. A 1.5: separated words, moved question-mark.</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-10-31" who="https://papyri.info/editor/users/gabrielbodard">changed type=inWord to break=no</change>
@@ -58,12 +50,9 @@
    </teiHeader>
    <text>
       <body>
-         <head n="20971" xml:lang="en">
-            <date>AD 205?</date>
-            <placeName>Tebtynis?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.fam.tebt/49">P.Fam. Tebt. 49</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="A" subtype="fragment" type="textpart">
+<div n="A" subtype="fragment" type="textpart" xml:id="fragment_A"><head>Fragment A</head>
 <div n="1" subtype="column" type="textpart"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
@@ -124,7 +113,7 @@
 </ab></div>
 </div>
 
-<div n="B" subtype="fragment" type="textpart">
+<div n="B" subtype="fragment" type="textpart" xml:id="fragment_B"><head>Fragment B</head>
 <div n="1" subtype="column" type="textpart"><ab>
     <lb n="1"/><handShift new="m1"/> φαιλ<unclear>όνη</unclear> κοκκίν<unclear>η</unclear>             <num value="1"><unclear>α</unclear></num> 
 

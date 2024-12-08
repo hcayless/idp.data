@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,16 +29,14 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2021-06-14T06:35:15-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2021-06-13T11:25:55-04:00"
-                 who="https://papyri.info/editor/users/gclaytor">Vote - Accept-Straight-to-Finalization - Looks good.</change>
+          <change when="2021-06-14T06:35:15-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2021-06-13T11:25:55-04:00" who="https://papyri.info/editor/users/gclaytor">Vote - Accept-Straight-to-Finalization - Looks good.</change>
           <change when="2021-05-15T08:50:32-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/basp/45/185">BASP 45 (2008) S. 185</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <ab>
     <lb n="1"/><app type="editorial"><lem resp="N. Gonis, APF 55 (2009) 92 n. 10, A. Benaissa, ZPE 171 (2009) 17"><supplied reason="lost">μετὰ τὴν ὑπατείαν</supplied></lem><rdg><app type="alternative"><lem><supplied reason="lost">ὑπατείας</supplied></lem><rdg><supplied reason="lost">μετὰ τὴν ὑπατείαν</supplied></rdg></app></rdg></app> <unclear>Φ</unclear>λαου<hi rend="diaeresis">ί</hi>ων Ἰσ<supplied reason="lost">ι</supplied>δ<unclear>ώ</unclear>ρου καὶ Σενάτορος τῶν <expan>λαμπροτάτω<ex>ν</ex></expan> 

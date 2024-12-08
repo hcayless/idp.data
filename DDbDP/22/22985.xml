@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0240;5;92"
-     xml:id="stud.pal.5.92"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;5;92" xml:id="stud.pal.5.92" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,10 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="22985" xml:lang="en">
-            <date>AD 262/8</date>
-            <placeName>Hermoupolis Magna</placeName>
-         </head>
+         <head><ref>CPR 35 38</ref> = <ref>CPR I, 3, S. 110 Pap.E.R. Nr. 2031</ref> = <ref>SPP 5 116</ref> = <ref target="https://papyri.info/pub/stud.pal/5/92">SPP 5 92</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">τῇ κρατίστῃ βουλῇ Ἑρμουπόλεως τ</supplied>ῆς μεγάλ<supplied reason="lost">ης ἀρχαίας</supplied> 
 

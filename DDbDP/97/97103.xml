@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,18 +29,15 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2012-07-17T08:56:27.76-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2012-07-17T08:56:27.754-04:00"
-                 who="https://papyri.info/editor/users/berkes.lajos">Vote - Accept-Straight-to-Finalization - accept, fine</change>
-          <change when="2012-01-10T18:13:32.2-05:00"
-                 who="https://papyri.info/editor/users/sriethmueller">entered jan 10th</change>
+          <change when="2012-07-17T08:56:27.76-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2012-07-17T08:56:27.754-04:00" who="https://papyri.info/editor/users/berkes.lajos">Vote - Accept-Straight-to-Finalization - accept, fine</change>
+          <change when="2012-01-10T18:13:32.2-05:00" who="https://papyri.info/editor/users/sriethmueller">entered jan 10th</change>
           <change when="2012-01-10T18:10:48-05:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/sb/26/16711">SB 26 16711</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <ab>
 <lb n="1"/><expan>Πετεμενώφ<ex>ει</ex></expan>

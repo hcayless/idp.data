@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0117;2;105"
-     xml:id="p.gen.2.105"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0117;2;105" xml:id="p.gen.2.105" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11253" xml:lang="en">
-            <date>AD 148</date>
-            <placeName>Arsinoiton Polis, Krokodilopolis, Ptolemais Euergetis</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.gen/2/105">P.Gen. 2 105</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>ἔτους <num value="11">ια</num> Αὐτοκρά<unclear>το</unclear>ρ<unclear>ο</unclear>ς Καίσ<unclear>αρο</unclear>ς Τίτου Αἰλίου
 

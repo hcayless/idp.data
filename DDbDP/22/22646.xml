@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0087;;13"
-     xml:id="p.cair.goodsp.13"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0087;;13" xml:id="p.cair.goodsp.13" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,10 +45,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="22646" xml:lang="en">
-            <date>AD 341</date>
-            <placeName>Hermoupolis Magna</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.cair.goodsp/13">P.Cair. Goodspeed 13</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Αὐρήλιος Σιλβανὸς Ἀκῆτος μητρὸς Θερμούθιος ὡς <expan><ex>ἐτῶν</ex></expan> <num value="60">ξ</num> οὐλὴ δακτύλῳ λιχανῷ ἀριστερᾶς χειρὸς ἀπὸ <choice><reg>ἐπο<supplied reason="omitted">ι</supplied>κίας</reg><orig>ἐποκίας</orig></choice> <unclear>Δ</unclear>ι<unclear>οδ</unclear>ώ<unclear>ρο</unclear>υ τοῦ μεγά
 

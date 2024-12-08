@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;16;2565"
-     xml:id="bgu.16.2565"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;16;2565" xml:id="bgu.16.2565" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="23287" xml:lang="en">
-            <date>3/2 BC</date>
-            <placeName>Herakleopolites</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/bgu/16/2565">BGU 16 2565</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Δημήτρι<supplied reason="lost">ος τοπά</supplied><unclear>ρχης</unclear> καὶ <supplied reason="lost">κατασπορεὺς</supplied>
 

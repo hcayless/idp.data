@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,20 +29,17 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2018-04-06T13:27:30-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2018-02-15T08:32:41-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - In lin124 use *apostrophe*</change>
-          <change when="2018-02-15T08:19:15-05:00"
-                 who="https://papyri.info/editor/users/Johanna%20Egerer">Submit - nach Edition eingegeben. </change>
+          <change when="2018-04-06T13:27:30-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2018-02-15T08:32:41-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - In lin124 use *apostrophe*</change>
+          <change when="2018-02-15T08:19:15-05:00" who="https://papyri.info/editor/users/Johanna%20Egerer">Submit - nach Edition eingegeben. </change>
           <change when="2018-02-12T11:37:29-05:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.prag/3/238c">P.Prag. 3 238 C</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-   <div n="v" type="textpart">
+   <div n="v" type="textpart" xml:id="_v"><head>v</head>
    <div n="C" subtype="Text" type="textpart">
 <div n="iv" subtype="column" type="textpart"><ab>
 <lb n="81"/><expan>λόγ<ex>ος</ex></expan> <choice><reg>λήμματος</reg><orig>λήματος</orig></choice> καὶ <expan>ἀναλ<ex>ώματος</ex></expan> τοῦ Τῦβι

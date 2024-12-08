@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,23 +29,20 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2015-07-24T11:56:02.559-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2015-07-24T11:56:02.55-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - remove ticks in front of captial letters when those capital letters indicate 1000s</change>
-          <change when="2015-05-12T06:06:48.367-04:00"
-                 who="https://papyri.info/editor/users/PaulvdLaan">4c Inserted lin6a, uncertain where to place superscribed tekst of lin7;&#xD;
-4d: made division into 2 fragments with subdivision into 2 parts on the base of ed. description. Fr.1 part 1 lin1: πλε cannot be a number; lin5: ed. χαλ in stead of χαλ( ), typo?; part 2 lin2: number .ιε=115-9015, possible, but high amount not verisimilar; Fr2 lin7: number ‘Ατ.1 (not separated in tekst) possibly 1301-1399, but in translation only 1300 (as if .1 were seperated from ‘Ατ)&#xD;
-4e: lin 8: do not know how to fix ed. suggestion λ[οι(πόν)] into the given traces. Is σπη a number (288)?&#xD;
+          <change when="2015-07-24T11:56:02.559-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2015-07-24T11:56:02.55-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - remove ticks in front of captial letters when those capital letters indicate 1000s</change>
+          <change when="2015-05-12T06:06:48.367-04:00" who="https://papyri.info/editor/users/PaulvdLaan">4c Inserted lin6a, uncertain where to place superscribed tekst of lin7;
+4d: made division into 2 fragments with subdivision into 2 parts on the base of ed. description. Fr.1 part 1 lin1: πλε cannot be a number; lin5: ed. χαλ in stead of χαλ( ), typo?; part 2 lin2: number .ιε=115-9015, possible, but high amount not verisimilar; Fr2 lin7: number ‘Ατ.1 (not separated in tekst) possibly 1301-1399, but in translation only 1300 (as if .1 were seperated from ‘Ατ)
+4e: lin 8: do not know how to fix ed. suggestion λ[οι(πόν)] into the given traces. Is σπη a number (288)?
 </change>
           <change when="2015-04-23T17:59:30-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.herakl.bank/4">P.Herakl. Bank 4</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="a" subtype="part" type="textpart">
+<div n="a" subtype="part" type="textpart" xml:id="part_a"><head>Part a</head>
 
 <div n="1" subtype="col" type="textpart"><ab>
 <lb n="1"/><num>υ<unclear>ξ</unclear><gap reason="illegible" quantity="1" unit="character"/></num> <num><gap reason="illegible" quantity="1" unit="character"/>ϙε</num>
@@ -79,7 +74,7 @@
 </ab> </div>
 </div>
 
-<div n="b" subtype="part" type="textpart">
+<div n="b" subtype="part" type="textpart" xml:id="part_b"><head>Part b</head>
 
 <div n="1" subtype="col" type="textpart"><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Ἀσφεῖ <abbr>Ἀμβ<gap reason="illegible" quantity="1" unit="character"/></abbr> <num value="4">δ</num>
@@ -113,7 +108,7 @@
 </ab> </div>
 </div>
 
-<div n="c" subtype="part" type="textpart"><ab>
+<div n="c" subtype="part" type="textpart" xml:id="part_c"><head>Part c</head><ab>
 <lb n="1"/>vestig
 <lb n="2"/><num value="600">χ</num> <num atLeast="411" atMost="499">υ<gap reason="illegible" quantity="2" unit="character"/></num> <gap reason="illegible" quantity="1" unit="character"/>
 <lb n="3"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
@@ -137,7 +132,7 @@
 <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/> <space extent="unknown" unit="character"/> 
 </ab> </div>
 
-<div n="d" subtype="part" type="textpart">
+<div n="d" subtype="part" type="textpart" xml:id="part_d"><head>Part d</head>
 <div n="1" subtype="fragment" type="textpart">
 <div n="1" subtype="part" type="textpart"><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> ἀγοράσεως <expan>χρυ<ex>σίου</ex></expan> πλε
@@ -175,7 +170,7 @@
 </ab></div> 
 </div>
 
-<div n="e" subtype="part" type="textpart"><ab>
+<div n="e" subtype="part" type="textpart" xml:id="part_e"><head>Part e</head><ab>
 <lb n="1"/><space extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>

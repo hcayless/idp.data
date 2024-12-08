@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0240;8;1195"
-     xml:id="stud.pal.8.1195"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;8;1195" xml:id="stud.pal.8.1195" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,10 +44,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="22206" xml:lang="en">
-            <date>AD 725</date>
-            <placeName>Herakleopolis</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/stud.pal/8/1195">SPP 8 1195</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="stauros"/> σὺν <expan>θ<ex>εῷ</ex></expan> <supplied reason="lost">Ῥασζιδ</supplied> <expan>υἱὸ<ex>ς</ex></expan> Χαλεδ ὑμῖν <app type="editorial"><lem resp="BL 1.417"><expan>Ἀβων<ex>ᾳ</ex></expan></lem><rdg><abbr>Ἀβων</abbr></rdg></app> Ἰουλί<add place="above">ου</add> ἀπὸ <expan>λαύρ<ex>ας</ex></expan> <app type="editorial"><lem resp="BL 12.269"><expan><unclear>Π</unclear>ρ<ex>ασίνου</ex></expan></lem><rdg><abbr><gap reason="lost" quantity="1" unit="character"/>ρ</abbr></rdg></app> <expan><supplied reason="lost">πό</supplied>λ<ex>εως</ex></expan> <expan>Ἡρακλ<ex>έους</ex></expan> <expan><supplied reason="lost">ἔλ</supplied>αχ<ex>ε</ex></expan> ὑμῖν <gap reason="lost" extent="unknown" unit="character"/> 
 

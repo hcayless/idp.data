@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,11 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="78335" xml:lang="en">
-            <date>AD 179</date>
-            <placeName>Diospolis Major</placeName>
-            <note xml:lang="en">o</note>
-         </head>
+         <head><ref>P.Heid. III 268</ref> = <ref target="https://papyri.info/pub/o.heid/288">O.Heid. 288</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <ab>
     <lb n="1"/><expan>μέ<ex>τρημα</ex></expan> <expan>θησα<ex>υροῦ</ex></expan> <expan>μη<ex>τροπόλεως</ex></expan> <expan>γενή<ex>ματος</ex></expan> <num value="19">ιθ</num> <expan><ex>ἔτους</ex></expan> Αὐρηλίων 

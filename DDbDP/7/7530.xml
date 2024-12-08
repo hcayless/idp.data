@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0187;3;74"
-     xml:id="p.petr.3.74"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0187;3;74" xml:id="p.petr.3.74" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="7530" xml:lang="en">
-            <date>III sac</date>
-            <placeName>Gurob</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="A" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.petr/3/74">P.Petr. 3 74 (a)</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="A" type="textpart" xml:id="_A"><head>A</head><ab>
 
     <lb n="1"/>Φιλοκύδης Κερ<unclear>τ</unclear><gap reason="illegible" quantity="1" unit="character"/><unclear>μ</unclear>ου <add place="above">Ἀμφιπολίτης τῶν <gap reason="lost" extent="unknown" unit="character"/></add> Εὐμ<unclear>ή</unclear><supplied reason="lost">λωι </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 
@@ -80,7 +72,7 @@
     <lb n="14"/>δὲ μὴ</lem><rdg><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="2" unit="character"/></rdg></app> β<supplied reason="lost">ε</supplied>βαιώσω ἀπ<supplied reason="lost">οτίνειν </supplied><app type="editorial"><lem><supplied reason="lost">δρα</supplied>
 
     <lb n="15" break="no"/>χμὰς</lem><rdg><gap reason="lost" quantity="3" unit="character"/>ας</rdg></app> <num value="500"><unclear>φ</unclear></num>. 
-</ab></div><div n="B" type="textpart"><ab>
+</ab></div><div n="B" type="textpart" xml:id="_B"><head>B</head><ab>
 
     <lb n="1"/><note xml:lang="en">PPetr 3,74,B reprinted in <ref n="p.petr;2;44" type="reprint-in">PPetr 2,44</ref></note></ab></div></div>
       </body>

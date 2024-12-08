@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0009;18;19"
-     xml:id="cpr.18.19"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0009;18;19" xml:id="cpr.18.19" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="7802" xml:lang="en">
-            <date>231 BC</date>
-            <placeName>DikaiouNesos</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/cpr/18/19">CPR 18 19</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="391"/>Ἐπικράτης Θρᾶιξ τῶν Π<unclear>τ</unclear><supplied reason="lost">ολεμαίου το</supplied><unclear>ῦ</unclear> <unclear>Ἐτ</unclear>εωνέως 
 

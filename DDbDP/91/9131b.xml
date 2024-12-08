@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;4;1087"
-     xml:id="bgu.4.1087"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;4;1087" xml:id="bgu.4.1087" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,12 +26,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2013-08-01T20:30:36.826-04:00"
-                 who="https://papyri.info/editor/users/joshuad.sosin">Finalized - ready</change>
-          <change when="2013-08-01T20:30:36.8-04:00"
-                 who="https://papyri.info/editor/users/joshuad.sosin">Vote - Accept-Straight-to-Finalization - simple markup cleanup</change>
-          <change when="2013-08-01T15:11:40.12-04:00"
-                 who="https://papyri.info/editor/users/joshuad.sosin">added expan to orig</change>
+          <change when="2013-08-01T20:30:36.826-04:00" who="https://papyri.info/editor/users/joshuad.sosin">Finalized - ready</change>
+          <change when="2013-08-01T20:30:36.8-04:00" who="https://papyri.info/editor/users/joshuad.sosin">Vote - Accept-Straight-to-Finalization - simple markup cleanup</change>
+          <change when="2013-08-01T15:11:40.12-04:00" who="https://papyri.info/editor/users/joshuad.sosin">added expan to orig</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-11-29" who="https://papyri.info/editor/users/gabrielbodard">converted app type=BL|SoSOL to editorial</change>
@@ -52,12 +44,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="9131b" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Arsinoite</placeName>
-            <ref n="bgu;13;2280,FrB" type="reprint-from">v,6=BGU13,2280,FrB</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v,1" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/bgu/4/1087">BGU 4 1087</ref> = <ref target="https://papyri.info/pub/bgu/13/2280,FrB">BGU 4 1087</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v,1" type="textpart" xml:id="_v_1"><head>v,1</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <expan><ex>δραχμαὶ</ex></expan> <num value="8">η</num> 
 
@@ -90,7 +78,7 @@
     <lb n="15"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="56">νϛ</num> 
 
     <lb n="16"/><supplied reason="lost"><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan></supplied> <num value="160"><unclear>ρξ</unclear></num> 
-</ab></div><div n="v,2" type="textpart"><ab>
+</ab></div><div n="v,2" type="textpart" xml:id="_v_2"><head>v,2</head><ab>
 
     <lb n="1"/><gap reason="illegible" quantity="1" unit="line"/> 
 
@@ -125,7 +113,7 @@
     <lb n="15"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="180">ρπ</num> 
 
     <lb n="16"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="324">τ<unclear>κ</unclear>δ</num> 
-</ab></div><div n="v,3" type="textpart"><ab>
+</ab></div><div n="v,3" type="textpart" xml:id="_v_3"><head>v,3</head><ab>
 
     <lb n="1"/><gap reason="illegible" quantity="1" unit="line"/> 
 
@@ -160,7 +148,7 @@
     <lb n="15"/>Ἥρων ἐν τῷ <choice><reg>Θεάτρῳ</reg><orig>Τράτρῳ</orig></choice>    <supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan> </supplied><gap reason="lost" quantity="2" unit="character"/> 
 
     <lb n="16"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="292">σϙβ</num> <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="3"><unclear>γ</unclear></num><gap reason="illegible" quantity="2" unit="character"/> 
-</ab></div><div n="v,4" type="textpart"><ab>
+</ab></div><div n="v,4" type="textpart" xml:id="_v_4"><head>v,4</head><ab>
 
     <lb n="1"/>Σαρα<gap reason="lost" extent="unknown" unit="character"/> 
 
@@ -192,7 +180,7 @@
     <lb n="14"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="168">ρξη</num> 
 
     <lb n="15"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="816">ωιϛ</num> 
-</ab></div><div n="v,5" type="textpart"><ab>
+</ab></div><div n="v,5" type="textpart" xml:id="_v_5"><head>v,5</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <expan><ex>δραχμαὶ</ex></expan> <gap reason="illegible" quantity="1" unit="character"/> 
 
@@ -227,15 +215,15 @@
     <lb n="16"/>Ἀχιλλᾶ<supplied reason="lost">ς πρὸς τῷ Σεουήρου</supplied> <expan><ex>δραχμαὶ</ex></expan> <num value="100">ρ</num> 
 
     <lb n="17"/><supplied reason="lost"><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> </supplied><num value="176"><supplied reason="lost">ρ</supplied>οϛ</num> 
-</ab></div><div n="v,6" type="textpart"><ab>
+</ab></div><div n="v,6" type="textpart" xml:id="_v_6"><head>v,6</head><ab>
 
     <lb n="1"/>Σαπρ<gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="2"/>Ὡρίω<unclear>ν</unclear> <gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="v,6rp" type="textpart"><ab>
+</ab></div><div n="v,6rp" type="textpart" xml:id="_v_6rp"><head>v,6rp</head><ab>
 
     <lb n="3"/><note xml:lang="en">BGU 4,1087,6,3-9 reprinted in BGU 13,2280,FrB </note>
-</ab></div><div n="7" type="textpart"><ab>
+</ab></div><div n="7" type="textpart" xml:id="_7"><head>7</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>α<gap reason="lost" extent="unknown" unit="character"/> 
 
@@ -252,7 +240,7 @@
     <lb n="7"/><supplied reason="lost">Ἥρω</supplied>ν <supplied reason="lost">ἐ</supplied>ν τῷ <choice><reg>Θεάτρῳ</reg><orig>Τράτρῳ</orig></choice> <supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan> </supplied><gap reason="lost" quantity="2" unit="character"/> 
 
     <lb n="8"/><gap reason="lost" extent="unknown" unit="line"/> 
-</ab></div><div n="r" type="textpart"><ab>
+</ab></div><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><note xml:lang="en">BGU 4,1087,r reprinted in <ref n="sb;16;12288" type="reprint-in">SB 16,12288</ref></note></ab></div></div>
       </body>

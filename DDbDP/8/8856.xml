@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0185;;38"
-     xml:id="p.petaus.38"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0185;;38" xml:id="p.petaus.38" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="8856" xml:lang="en">
-            <date>AD 184-7</date>
-            <placeName>Ptolemais Hormou</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.petaus/38">P.Petaus 38</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><num value="7">ζ</num>  <num value="10">ι</num>  <num value="5">ε</num>  <num value="2">β</num>  <num value="10">ι</num>  <num value="5"><unclear>ε</unclear></num>  <num value="5">ε</num>  <num value="5">ε</num>  <num value="3">γ</num>  <num value="4">δ</num>  <num value="5">ε</num>  <num value="4">δ</num> 
 

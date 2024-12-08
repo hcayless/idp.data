@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;15;2555"
-     xml:id="bgu.15.2555"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;15;2555" xml:id="bgu.15.2555" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="9817" xml:lang="en">
-            <date>AD 161</date>
-            <placeName>Kerkesoucha</placeName>
-            <ref n="sb;16;12423" type="reprint-from">SB 16.12423</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/bgu/15/2555">BGU 15 2555</ref> = <ref target="https://papyri.info/pub/sb/16/12423">SB XVI 12423</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>ἔτο<unclear>υ</unclear>ς δευτέρου Αὐτοκρά<supplied reason="lost">τορος</supplied> 
 

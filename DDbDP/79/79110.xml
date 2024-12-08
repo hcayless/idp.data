@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;22;15587v"
-     xml:id="sb.22.15587v"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;22;15587v" xml:id="sb.22.15587v" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,10 +38,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="79110" xml:lang="en">
-            <date>AD 452-</date>
-            <placeName>Herakleopolite</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/22/15587v">SB 22 15587 V</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
 
     <lb n="1"/>ἐπὶ το<unclear>ῦ</unclear> <expan>λ<unclear>ήμμ</unclear>α<ex>τος</ex></expan> <abbr>Πτολεμαι</abbr> Πτο<unclear>λ</unclear><supplied reason="lost">εμα- </supplied><gap reason="lost" extent="unknown" unit="character"/>

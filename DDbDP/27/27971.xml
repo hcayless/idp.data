@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0198;2;413"
-     xml:id="p.ryl.2.413"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0198;2;413" xml:id="p.ryl.2.413" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="27971" xml:lang="en">
-            <date>II spc</date>
-            <placeName>?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.ryl/2/413">P.Ryl. 2 413</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ω</unclear> Κουσσῶν <expan><ex>πυροῦ</ex></expan> <expan><ex>ἀρτάβαι</ex></expan> <num value="8142">Ηρμβ</num> <num value="2/3">𐅷</num> <num value="1/8" rend="tick">η</num> <num value="1/16" rend="tick">ιϛ</num> </ab></div>
       </body>

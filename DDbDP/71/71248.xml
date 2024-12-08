@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0014;2;550"
-     xml:id="o.bodl.2.550"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0014;2;550" xml:id="o.bodl.2.550" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="71248" xml:lang="en">
-            <date>AD 155</date>
-            <placeName>Thebes</placeName>
-         </head>
+         <head><ref>DAHT 71248</ref> = <ref target="https://papyri.info/pub/o.bodl/2/550">O.Bodl. 2 550</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ἀ<supplied reason="lost">μμώνιος καὶ </supplied><gap reason="lost" quantity="9" unit="character"/><supplied reason="lost"> <expan>πράκ<ex>τορες</ex></expan></supplied> 
 

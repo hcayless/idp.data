@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0187;2;42"
-     xml:id="p.petr.2.42"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0187;2;42" xml:id="p.petr.2.42" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,12 +41,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="7448" xml:lang="en">
-            <date>III sac</date>
-            <placeName>Gurob</placeName>
-            <ref type="reprint-from">cfPPetr3,43,1</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="A" type="textpart"><ab>
+         <head><ref>P.Petr. III 43 (1)</ref> = <ref>P.Lond. III 584 (a) descr.</ref> = <ref target="https://papyri.info/pub/p.petr/2/42">P.Petr. 2 42 (a)</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="A" type="textpart" xml:id="_A"><head>A</head><ab>
 
     <lb n="1"/><supplied reason="lost">Κλέ</supplied>ανδρος οἰκο<supplied reason="lost">νό</supplied>μοις, νομάρχ<supplied reason="lost">αις,</supplied> 
 
@@ -72,7 +63,7 @@
     <lb n="9" break="no"/><supplied reason="lost">βολὴν τῶν ἐ</supplied>ν <supplied reason="lost">τῶι νομῶι χωμάτ</supplied>ων</lem><rdg>ἀνα<gap reason="lost" extent="unknown" unit="character"/>ν<gap reason="lost" extent="unknown" unit="character"/>ων</rdg></app> 
 
     <lb n="10"/><gap reason="lost" extent="unknown" unit="line"/> 
-</ab></div><div n="Brp" type="textpart"><ab>
+</ab></div><div n="Brp" type="textpart" xml:id="_Brp"><head>Brp</head><ab>
 
     <lb n="1"/><note xml:lang="en">PPetr 2,42,B reprinted in PPetr 3,42,I </note>
 </ab></div></div>

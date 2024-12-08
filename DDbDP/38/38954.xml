@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0240;10;105"
-     xml:id="stud.pal.10.105"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;10;105" xml:id="stud.pal.10.105" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="38954" xml:lang="en">
-            <date>VII spc</date>
-            <placeName>Arsinoite</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="Fr1" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/stud.pal/10/105">SPP 10 105</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="Fr1" type="textpart" xml:id="_Fr1"><head>Fr1</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> Τ</supplied><unclear>ε</unclear>βέτνυ 
 
@@ -69,7 +61,7 @@
     <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <num value="1">α</num> <num value="1/2">𐅵</num> <num value="1">α</num> <expan>ἰνδ<ex>ικτίονος</ex></expan> 
 
     <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <num value="1">α</num> <expan>ἰνδ<ex>ικτίονος</ex></expan> 
-</ab></div><div n="Fr2" type="textpart"><ab>
+</ab></div><div n="Fr2" type="textpart" xml:id="_Fr2"><head>Fr2</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> τῇ <num value="15">ιε</num> <expan><ex>καὶ</ex></expan> <num value="1">α</num> <expan>ἰνδ<ex>ικτίονι</ex></expan> 
 

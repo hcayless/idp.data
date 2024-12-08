@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0238;7;810"
-     xml:id="psi.7.810"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0238;7;810" xml:id="psi.7.810" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="27239" xml:lang="en">
-            <date>III-IV spc?</date>
-            <placeName>?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/psi/7/810">PSI 7 810</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">ἐ</supplied>ν κομ<unclear>ηπ</unclear><gap reason="lost" quantity="1" unit="character"/><unclear>σλ</unclear>αν<unclear>ο</unclear>υ <expan><ex cert="low">ἀρτάβαι</ex></expan> <num value="7">ζ</num> 
 

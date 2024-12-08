@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0205;4;214a"
-     xml:id="p.stras.4.214a"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0205;4;214a" xml:id="p.stras.4.214a" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,11 +44,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="16964" xml:lang="en">
-            <date>AD 123</date>
-            <placeName>Hermopolite?</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="FrA" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.stras/4/214a">P.Strasb. 4 214 a</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="FrA" type="textpart" xml:id="_FrA"><head>FrA</head><ab>
 
     <lb n="1"/><supplied reason="lost">Ἑρ</supplied><unclear>μ</unclear>ε<supplied reason="lost">ῖνο</supplied><unclear>ς</unclear> Ἑρμ<supplied reason="lost">ί</supplied>ου Μη<supplied reason="lost">τροδώ</supplied>
 

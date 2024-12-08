@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0029;;120"
-     xml:id="o.leid.120"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0029;;120" xml:id="o.leid.120" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="24690" xml:lang="en">
-            <date>AD 139</date>
-            <placeName>Thebes</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.leid/120">O.Leid. 120</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>Ἀσκληπιάδ<ex>ης</ex></expan> καὶ <expan><unclear>μ</unclear><ex>έτοχοι</ex></expan> <expan>πράκ<ex>τορες</ex></expan> <choice><reg><expan>ἀργ<ex>υρικῶν</ex></expan></reg><orig><expan>ἀρκ<ex>υρικῶν</ex></expan></orig></choice> 
 

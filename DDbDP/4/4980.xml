@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;10;1921"
-     xml:id="bgu.10.1921"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;10;1921" xml:id="bgu.10.1921" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="4980" xml:lang="en">
-            <date>246-222 BC</date>
-            <placeName>Oxyrhynchus</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="FrA+B" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/bgu/10/1921">BGU 10 1921</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="FrA+B" type="textpart" xml:id="_FrA+B"><head>FrA+B</head><ab>
 
     <lb n="1"/>παρὰ <unclear>Ν</unclear><supplied reason="lost">ι</supplied>κά<unclear>ν</unclear><supplied reason="lost">ορος τραπεζίτου</supplied> τῆς ἐν 
 

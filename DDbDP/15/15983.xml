@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0006;2.1;App3"
-     xml:id="c.pap.gr.2.1.App3"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0006;2.1;App3" xml:id="c.pap.gr.2.1.App3" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -51,11 +46,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="15983" xml:lang="en">
-            <date>AD 228</date>
-            <placeName>Oxyrhynchus</placeName>
-            <ref n="p.oxy;43;3104" type="reprint-from">POxy43,3104</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/c.pap.gr/2.1/App3">CPGr II, App. 3</ref> = <ref target="https://papyri.info/pub/p.oxy/43/3104">P.Oxy. 43 3104</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Αὐρηλίῳ Δη<gap reason="illegible" quantity="4" unit="character"/>νε<unclear>ι</unclear> τῷ 
 

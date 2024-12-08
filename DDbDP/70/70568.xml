@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0012;;16"
-     xml:id="o.ashm.shelt.16"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0012;;16" xml:id="o.ashm.shelt.16" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,11 +43,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="70568" xml:lang="en">
-            <date>AD 118</date>
-            <placeName>Elephantine</placeName>
-            <ref n="o.wilck;;111" type="reprint-from">OWilck2,111</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.ashm.shelt/16">O.Ashm. Shelt. 16</ref> = <ref target="https://papyri.info/pub/o.wilck/111">O.Wilck. 111</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Σανμοὺς <expan>πράκ<ex>τωρ</ex></expan>. <expan>διέγραψ<ex>εν</ex></expan> Πετορζμῆτις 
 

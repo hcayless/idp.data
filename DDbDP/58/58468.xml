@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,18 +29,16 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2020-06-13T09:33:35-04:00"
-                 who="https://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
-          <change when="2020-06-13T09:24:02-04:00"
-                 who="https://papyri.info/editor/users/Mike%20Sampson">Vote - Accept-Straight-to-Finalization - This is well done.</change>
+          <change when="2020-06-13T09:33:35-04:00" who="https://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+          <change when="2020-06-13T09:24:02-04:00" who="https://papyri.info/editor/users/Mike%20Sampson">Vote - Accept-Straight-to-Finalization - This is well done.</change>
           <change when="2020-06-10T12:58:00-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/zpe/152/194">ZPE 152 (2005) S. 194 Nr. 3</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart"><ab>
+<div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 <lb n="1"/><supplied reason="lost">Ἡ</supplied><unclear>γ</unclear>ησάνδρωι ἐ<unclear>π</unclear>ιστάτηι
 <lb n="2"/>παρὰ Ἐμπεδίωνος. ἀ<unclear>δ</unclear>ικοῦ<unclear>μ</unclear>αι
 <lb n="3"/>ὑπὸ Ἰμούθου. τοῦ γὰρ πατρ<unclear>ὸς</unclear> μου
@@ -62,7 +58,7 @@
 <lb n="17" break="no"/><supplied reason="lost">ξ</supplied><unclear>ομαι</unclear> <unclear>τῆς</unclear> παρὰ σου φιλα<unclear>ν</unclear>
 <lb n="18" break="no"/><supplied reason="lost">θρ</supplied><unclear>ω</unclear>πία<unclear>ς</unclear>. ἔρρωσο.
 </ab></div>
-<div n="v" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 <lb n="19"/><g type="x"/> <supplied reason="lost">Ἡγ</supplied><unclear>ησάνδρωι</unclear>.
 </ab></div>
 </div>

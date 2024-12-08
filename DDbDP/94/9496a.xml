@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;7;1590a"
-     xml:id="bgu.7.1590a"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;7;1590a" xml:id="bgu.7.1590a" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,10 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="9496a" xml:lang="en">
-            <date>AD 6/7</date>
-            <placeName>Philadelphia</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/bgu/7/1590a">BGU 7 1590 a</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
 
     <lb n="1"/><expan><ex>ἔτους</ex></expan> <gap reason="illegible" quantity="4" unit="character"/> <num value="36">λϛ</num> Καίσαρος Ἁθὺρ <num value="30">λ</num> <expan>δια<ex>γέ</ex>γρα<ex>φεν</ex></expan> 

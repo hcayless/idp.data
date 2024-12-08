@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,29 +29,25 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2021-10-23T07:39:49-04:00"
-                 who="https://papyri.info/editor/users/berkes.lajos">Finalized - ready</change>
-          <change when="2021-10-06T06:00:22-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">General - Simply renamed the file. Please feel free to take it over and finalize.</change>
-          <change when="2021-10-05T16:40:41-04:00"
-                 who="https://papyri.info/editor/users/berkes.lajos">Vote - Accept-Straight-to-Finalization - passim: CDE =&gt; CdE&#xD;
-&#xD;
-lin8: (Μέλα(νος));&#xD;
-lin24: =&gt; ].1 [.?]&#xD;
-lin27: =&gt;  Ισ.1&#xD;
+          <change when="2021-10-23T07:39:49-04:00" who="https://papyri.info/editor/users/berkes.lajos">Finalized - ready</change>
+          <change when="2021-10-06T06:00:22-04:00" who="https://papyri.info/editor/users/james.cowey">General - Simply renamed the file. Please feel free to take it over and finalize.</change>
+          <change when="2021-10-05T16:40:41-04:00" who="https://papyri.info/editor/users/berkes.lajos">Vote - Accept-Straight-to-Finalization - passim: CDE =&gt; CdE
+
+lin8: (Μέλα(νος));
+lin24: =&gt; ].1 [.?]
+lin27: =&gt;  Ισ.1
 lin30: =&gt;[.?]φ</change>
-          <change when="2021-09-27T11:43:21-04:00"
-                 who="https://papyri.info/editor/users/theilemann.conrad">Submit - In addition to entering the present text I have entered editorial corrections in lines &#xD;
-8.15.18.32.40.43.&#xD;
+          <change when="2021-09-27T11:43:21-04:00" who="https://papyri.info/editor/users/theilemann.conrad">Submit - In addition to entering the present text I have entered editorial corrections in lines 
+8.15.18.32.40.43.
 Note that two printing errors in the publication (lines 5.27) have been corrected after consulting with Lajos Berkes.</change>
           <change when="2021-09-13T09:58:33-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/basp/53/208_2">BASP 53 (2016) S. 208 Nr. 2</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart">
+<div n="r" type="textpart" xml:id="_r"><head>r</head>
 <div n="i" subtype="column" type="textpart">
 <ab>
 <lb n="1"/><g type="stauros"/> <expan>χωρ<ex>ί</ex>ο<ex>ν</ex></expan> Ἰβιῶνος
@@ -114,7 +108,7 @@ Note that two printing errors in the publication (lines 5.27) have been correcte
 <lb n="21"/><space extent="unknown" unit="character"/> ἄπα <expan>Ἰούλ<ex>ιος</ex></expan> Ἠλία <expan>Σενούθ<ex>ιος</ex></expan> <expan>διά<ex>κονος</ex></expan> <expan><ex>καὶ</ex></expan> ἄπα <expan>Ἰούλ<ex>ιος</ex></expan> <expan>πρε<ex>σβύτερος</ex></expan> <expan><ex>καὶ</ex></expan> Ἀσίων <expan>Ἰωσὴ<ex>φ</ex></expan>
 </ab></div>
 </div>
-<div n="v" type="textpart">
+<div n="v" type="textpart" xml:id="_v"><head>v</head>
 <div n="i" subtype="column" type="textpart">
 <ab>
 <lb n="22"/><expan>χωρ<ex>ί</ex>ο<ex>ν</ex></expan> <expan>Ἀρματούρη<ex>ς</ex></expan>

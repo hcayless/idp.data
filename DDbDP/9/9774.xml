@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;15;2512"
-     xml:id="bgu.15.2512"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;15;2512" xml:id="bgu.15.2512" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -34,14 +29,10 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
-          <change when="2017-11-29T12:13:38-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2017-11-29T12:08:08-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
-          <change when="2017-08-29T09:59:44-04:00"
-                 who="https://papyri.info/editor/users/PeterArzt-Grabner">Submit - line break line 1 was not correct; according to edition and image, lines 1-2 are line 1</change>
-          <change when="2017-08-29T09:59:08-04:00"
-                 who="https://papyri.info/editor/users/PeterArzt-Grabner">Commit - line break line 1 was not correct; according to edition and image, lines 1-2 are line 1</change>
+          <change when="2017-11-29T12:13:38-05:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2017-11-29T12:08:08-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2017-08-29T09:59:44-04:00" who="https://papyri.info/editor/users/PeterArzt-Grabner">Submit - line break line 1 was not correct; according to edition and image, lines 1-2 are line 1</change>
+          <change when="2017-08-29T09:59:08-04:00" who="https://papyri.info/editor/users/PeterArzt-Grabner">Commit - line break line 1 was not correct; according to edition and image, lines 1-2 are line 1</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-10-31" who="https://papyri.info/editor/users/gabrielbodard">changed type=inWord to break=no</change>
@@ -56,10 +47,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="9774" xml:lang="en">
-            <date>AD 178/9</date>
-            <placeName>Arsinoite</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/bgu/15/2512">BGU 15 2512</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> 
 

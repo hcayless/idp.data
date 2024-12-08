@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0017;;39"
-     xml:id="o.buch.39"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0017;;39" xml:id="o.buch.39" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="40004" xml:lang="en">
-            <date>?</date>
-            <placeName>Hermonthis</placeName>
-            <note xml:lang="en">sigl</note>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.buch/39">O.Buch. 39</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="illegible" quantity="2" unit="character"/>νω<unclear>ν</unclear>ο </ab></div>
       </body>

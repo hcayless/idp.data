@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -35,18 +33,16 @@
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-10-04" who="https://papyri.info/editor/users/Faith">Automatically updated revision description</change>
           <change when="2011-09-20" who="https://papyri.info/editor/users/Faith">Automated transfer of accents across reg-orig pairs</change>
-          <change when="2011-03-22T15:54:38.192-04:00"
-                 who="https://papyri.info/editor/users/joshuad.sosin">Finalized - ready</change>
-          <change when="2011-01-17T11:51:43.046-05:00"
-                 who="https://papyri.info/editor/users/valeria.valchera">Entered text according to ed. pr. and its translation (en)</change>
+          <change when="2011-03-22T15:54:38.192-04:00" who="https://papyri.info/editor/users/joshuad.sosin">Finalized - ready</change>
+          <change when="2011-01-17T11:51:43.046-05:00" who="https://papyri.info/editor/users/valeria.valchera">Entered text according to ed. pr. and its translation (en)</change>
           <change when="2011-01-13T09:35:29-05:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/o.claud/4/723">O.Claud. 4 723</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="i" subtype="column" type="textpart">
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head>
 <div n="a" subtype="fragment" type="textpart"><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
@@ -59,12 +55,12 @@
 <lb n="8"/><abbr><gap reason="lost" extent="unknown" unit="character"/>αγ</abbr>
 <lb n="8"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div></div>
-<div n="b" subtype="fragment" type="textpart"><ab>
+<div n="b" subtype="fragment" type="textpart" xml:id="fragment_b"><head>Fragment b</head><ab>
 <lb n="9"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="9,ms"/><gap reason="lost" extent="unknown" unit="character"/> <num value="59"><hi rend="supraline">νθ</hi></num>
 <lb n="9"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="ii" subtype="column" type="textpart">
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head>
 <div n="a" subtype="fragment" type="textpart"><ab>
 <lb n="10"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <space extent="unknown" unit="character"/> <num value="10">ι</num>
@@ -98,7 +94,7 @@
 <lb n="34"/><abbr>κομιατ</abbr> <abbr>ἀρτο</abbr> <expan>ποιῶ<ex>ν</ex></expan> <space extent="unknown" unit="character"/> <num value="1">α</num>
 <lb n="35"/><expan><ex>γίνονται</ex></expan> τῆς <num value="28"><hi rend="supraline">κη</hi></num> <expan>ἄνδ<ex>ρες</ex></expan> <num value="80"><hi rend="supraline">π</hi></num>
 </ab></div></div>
-<div n="iii" subtype="column" type="textpart">
+<div n="iii" subtype="column" type="textpart" xml:id="column_iii"><head>Column iii</head>
 <div n="a" subtype="fragment" type="textpart"><ab>
 <lb n="36"/><num value="29"><hi rend="supraline">κθ</hi></num> <expan>ὁμοί<ex>ως</ex></expan> <choice><corr>εἰς</corr><sic>ἰς</sic></choice> ὑδρ<supplied reason="lost">οφορίαν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="37"/><choice><corr>εἰς</corr><sic>ἰς</sic></choice> λατομίαν  <gap reason="lost" extent="unknown" unit="character"/>

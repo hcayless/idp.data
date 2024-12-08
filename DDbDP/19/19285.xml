@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0238;4;302"
-     xml:id="psi.4.302"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0238;4;302" xml:id="psi.4.302" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,10 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="19285" xml:lang="en">
-            <date>AD 308/9</date>
-            <placeName>Oxyrhynchus</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/psi/4/302">PSI 4 302</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><app type="editorial"><lem resp="BL 3.222"><expan>διεγρά<ex>φη</ex></expan></lem><rdg><expan>διεγρά<ex>φησαν</ex></expan></rdg></app> <expan>ὑ<ex>πὲρ</ex></expan> <supplied reason="lost">πόλεως</supplied> 
 

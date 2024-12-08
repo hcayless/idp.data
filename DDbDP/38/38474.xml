@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;20;14545"
-     xml:id="sb.20.14545"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;20;14545" xml:id="sb.20.14545" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="38474" xml:lang="en">
-            <date>VI/VII spc</date>
-            <placeName>Aphrodito</placeName>
-            <ref n="o.lund;;31" type="reprint-from">OLund 31</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/20/14545">SB 20 14545</ref> = <ref target="https://papyri.info/pub/o.lund/31">O.Lund. 31</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="stauros"/> Τῦβι <num value="13">ιγ</num>,
 

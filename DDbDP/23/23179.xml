@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;1;5559"
-     xml:id="sb.1.5559"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;1;5559" xml:id="sb.1.5559" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="23179" xml:lang="en">
-            <date>AD 758</date>
-            <placeName>Thebes</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="A" type="textpart"><ab>
+         <head><ref>P.KRU 6</ref> = <ref>P.Lond. Copt. 409 descr.</ref> = <ref target="https://papyri.info/pub/sb/1/5559">SB 1 5559</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="A" type="textpart" xml:id="_A"><head>A</head><ab>
 
     <lb n="1"/><g type="stauros"/> ἐν ὀνόματι τῆς ἁγίας καὶ ζωοποιοῦ ὁμοουσίου τριάδος 
 
@@ -57,7 +49,7 @@
     <lb n="3"/><g type="stauros"/> ἐπὶ τῷ <expan>δεσπό<ex>τῃ</ex></expan> ἡμῶν Φλα<unclear>υ</unclear>ίου Κῶμες <expan>υἱο<ex>ῦ</ex></expan> <expan>μακ<ex>αρίου</ex></expan> Χαὴλ <expan>διοικ<ex>ητοῦ</ex></expan> 
 
     <lb n="4"/><expan>κάστρο<ex>υ</ex></expan> <expan>Μεμνω<ex>νείου</ex></expan>. 
-</ab></div><div n="B" type="textpart"><ab>
+</ab></div><div n="B" type="textpart" xml:id="_B"><head>B</head><ab>
 
     <lb n="1"/><g type="stauros"/> διʼ ἐμοῦ Σουαὶ <expan>υἱο<ex>ῦ</ex></expan> <expan>μακ<ex>αρίου</ex></expan> <expan>Φιλοθ<ex>έου</ex></expan> <choice><reg>ἐγράφη</reg><orig>ἐγράψα</orig></choice> <g type="stauros"/>. </ab></div></div>
       </body>

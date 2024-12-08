@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0092;3;59499" xml:id="p.cair.zen.3.59499" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0092;3;59499" xml:id="p.cair.zen.3.59499" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -36,8 +34,8 @@
           <change when="2024-05-10T08:40:25-04:00" who="http://papyri.info/editor/users/james.cowey">Submit - Added KorrTyche 998.</change>
           <change when="2013-07-22T09:14:19.892-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
           <change when="2013-07-22T09:14:19.884-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fix line break in lin91-92</change>
-          <change when="2013-07-19T11:04:55.913-04:00" who="https://papyri.info/editor/users/joshuad.sosin">fixed line break in lin63 and a host of unaccented words.Data Entry Error&#xD;
-XML Markup Change&#xD;
+          <change when="2013-07-19T11:04:55.913-04:00" who="https://papyri.info/editor/users/joshuad.sosin">fixed line break in lin63 and a host of unaccented words.Data Entry Error
+XML Markup Change
 </change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
@@ -57,12 +55,9 @@ XML Markup Change&#xD;
    </teiHeader>
    <text>
       <body>
-         <head n="1137a 1137b 44595 1137c" xml:lang="en">
-            <date>III sac</date>
-            <placeName>Philadelphia</placeName>
-         </head>
+         <head><ref>P.Cair. Zen. 3 59499 R Z. 27 - 43</ref> = <ref>P.Cair. Zen. 3 59499 V Z. 44 - 84</ref> = <ref>P.Cair. Zen. 3 59499 V Z. 85 - 102</ref> = <ref target="https://papyri.info/pub/p.cair.zen/3/59499">P.Cair. Zen. 3 59499 R Z. 1 - 26</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart">
+<div n="r" type="textpart" xml:id="_r"><head>r</head>
 <div n="1" subtype="column" type="textpart"><ab>
     <lb n="1"/><expan><ex>ἔτους</ex></expan> <num value="31">λα</num> Ἁθὺρ <num value="30">λ</num> λόγος Ἑριέω<supplied reason="lost">ς</supplied> 
 
@@ -152,7 +147,7 @@ XML Markup Change&#xD;
     <lb n="43"/><choice><reg>χωρὶς</reg><orig>χωρεὶς</orig></choice> <choice><reg>τοῦ</reg><orig>τη</orig></choice> μοσχαρί<supplied reason="lost">ου</supplied>. 
 </ab></div>
 </div>
-<div n="v" type="textpart">
+<div n="v" type="textpart" xml:id="_v"><head>v</head>
 <div n="1" subtype="column" type="textpart"><ab>
     <lb n="44"/><supplied reason="lost">Πε</supplied>τοσῖρις Κλέωνι χαίρειν. 
 

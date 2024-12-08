@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,7 +37,7 @@
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.oxy/82/5335">P.Oxy. 82 5335</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <ab>
 <lb n="1"/>Π<unclear>αῦ</unclear>λος λαμπρότατος <g type="x"/>  <space extent="unknown" unit="character"/>  <choice><reg>Ἀνουθίῳ</reg><orig>Ἀνουθείῳ</orig></choice> μ<supplied reason="lost">αγείρῳ·</supplied>

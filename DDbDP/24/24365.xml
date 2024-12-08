@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0051;;91"
-     xml:id="p.aberd.91"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0051;;91" xml:id="p.aberd.91" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="24365" xml:lang="en">
-            <date>ca. AD 130</date>
-            <placeName>Elephantine?</placeName>
-            <note xml:lang="en">o</note>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.aberd/91">P.Aberd. 91</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>Ὀννῶ<ex>φρις</ex></expan> <expan>προφήτ<ex>ης</ex></expan> καὶ <expan>Σενψανσ<ex>νῶς</ex></expan> <expan>Χεμσνεῦτ<ex>ος</ex></expan> <expan><ex>ἄρουραι</ex></expan> <num value="5">ε</num> <num value="3/4">𐅸</num> <num value="1/64" rend="tick">ξδ</num> 
 

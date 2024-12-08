@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,20 +29,17 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2018-04-07T10:10:14-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2018-02-15T08:26:52-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - In lin140 use *apostrophe* check for other such cases</change>
-          <change when="2018-02-15T08:18:10-05:00"
-                 who="https://papyri.info/editor/users/Johanna%20Egerer">Submit - nach Edition eingegeben. </change>
+          <change when="2018-04-07T10:10:14-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2018-02-15T08:26:52-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - In lin140 use *apostrophe* check for other such cases</change>
+          <change when="2018-02-15T08:18:10-05:00" who="https://papyri.info/editor/users/Johanna%20Egerer">Submit - nach Edition eingegeben. </change>
           <change when="2018-02-08T11:22:36-05:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.prag/3/236r">P.Prag. 3 236 R</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-    <div n="r" type="textpart"> 
+    <div n="r" type="textpart" xml:id="_r"><head>r</head> 
     <div n="i" subtype="column" type="textpart"><ab> 
 <lb n="1"/>Αὐρηλίᾳ <subst><add place="inline">Ἀπιανῇ</add><del rend="corrected">διπιανῇ</del></subst> Διοδώρᾳ τῇ καὶ Ποσι
 <lb n="2" break="no"/>δωνίᾳ ματρώνᾳ στολάτᾳ <expan>θυγ<ex>ατρὶ</ex></expan>

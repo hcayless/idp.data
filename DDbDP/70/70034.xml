@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;22;15638"
-     xml:id="sb.22.15638"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;22;15638" xml:id="sb.22.15638" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,8 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>AD 98-127</date>
-            <placeName>?</placeName>
-         </head>
-         <div xml:lang="la" type="edition" xml:space="preserve"><div n="r,1" type="textpart"><ab>
+         <head><ref>ChLA 43 1242</ref> = <ref>SPP XIV, S. 3, Tafel VIII, rechts oben</ref> = <ref>Rom.Mil.Rec. 34</ref> = <ref>CPL 110</ref> = <ref target="https://papyri.info/pub/sb/22/15638">SB XXII 15638</ref></head>
+         <div xml:lang="la" type="edition" xml:space="preserve"><div n="r,1" type="textpart" xml:id="_r_1"><head>r,1</head><ab>
 
     <lb n="1"/><expan>leg<ex>io</ex></expan> <expan>I<unclear>II</unclear>Cyr<ex>enaica</ex></expan>
 
@@ -86,7 +78,7 @@
     <lb n="19"/><expan>leg<ex>io</ex></expan> XXII onro
 
     <lb n="20"/><g type="unintelligible"/> Upi pri<expan><ex>ma</ex></expan>
-</ab></div><div n="r,2" type="textpart"><ab>
+</ab></div><div n="r,2" type="textpart" xml:id="_r_2"><head>r,2</head><ab>
 
     <lb n="21"/>bareton
 
@@ -135,7 +127,7 @@
     <lb n="43"/>Upis Satunilu<unclear>s</unclear>
 
     <lb n="44"/>Upis Alexa
-</ab></div><div n="v,1" type="textpart"><ab>
+</ab></div><div n="v,1" type="textpart" xml:id="_v_1"><head>v,1</head><ab>
 
     <lb n="45"/><g type="unintelligible"/> <unclear>D</unclear>om<unclear>i</unclear>ti C<unclear>ae</unclear>l<unclear>i</unclear>
 
@@ -144,7 +136,7 @@
     <lb n="47"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> Vales
 
     <lb n="48"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/> <unclear>D</unclear>o<unclear>m</unclear>itius
-</ab></div><div n="v,2" type="textpart"><ab>
+</ab></div><div n="v,2" type="textpart" xml:id="_v_2"><head>v,2</head><ab>
 
     <lb n="49"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>s<gap reason="lost" extent="unknown" unit="character"/>
 

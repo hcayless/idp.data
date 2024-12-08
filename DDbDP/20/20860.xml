@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0009;10;107a"
-     xml:id="cpr.10.107a"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0009;10;107a" xml:id="cpr.10.107a" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,12 +42,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="20860" xml:lang="en">
-            <date>AD 396</date>
-            <placeName>Herakleopolite</placeName>
-            <ref n="p.rain.cent;;88" type="reprint-from">PRainCent88</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="rrp" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/cpr/10/107a">CPR 10 107 a</ref> = <ref target="https://papyri.info/pub/p.rain.cent/88">P.Rainer Cent. 88 (Z. 1-5)</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="rrp" type="textpart" xml:id="_rrp"><head>rrp</head><ab>
 
     <lb n="1"/><supplied reason="lost">με</supplied><unclear>τὰ</unclear> τὴν <hi rend="diaeresis">ὑ</hi>πατείαν <expan>Φλ<ex>αουίων</ex></expan> Ὀλυμβρίου 
 
@@ -63,7 +54,7 @@
     <lb n="4"/><expan><unclear>μη</unclear><ex>τρὸς</ex></expan> Θαήσιος καὶ Ψ<unclear>ά</unclear><hi rend="diaeresis">ι</hi>ς ἀδελφὸς 
 
     <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="r" type="textpart"><ab>
+</ab></div><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="6"/><supplied reason="lost">Ἡρα</supplied><unclear>κ</unclear>λε<supplied reason="lost">οπολ</supplied>ίτου μετʼ <unclear>ἐγγ</unclear>υητοῦ τῆς 
 
@@ -116,7 +107,7 @@
     <lb n="31"/>Ἀχιλλὺς Νεμεσια<unclear>νοῦ</unclear> ἔγραψα ὑπὲρ αὐτοῦ 
 
     <lb n="32"/>ἀγραμμά<unclear>του</unclear> <unclear>ὄντος</unclear>. 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="33"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> σ</supplied><unclear>υν</unclear><gap reason="illegible" quantity="3" unit="character"/> Που<unclear>ναβ</unclear> <expan><unclear>Φρό</unclear>ν<unclear>τ</unclear>ω<unclear>ν</unclear><ex>ος</ex></expan> <unclear>κ</unclear>αὶ Ψά<hi rend="diaeresis">ι</hi>ς ἀδελφὸς μετʼ <expan>ἐγ<ex>γυητοῦ</ex></expan> Παπνουθίου <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>  <num value="11">ια</num> </ab></div></div>
       </body>

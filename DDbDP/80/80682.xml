@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -33,19 +31,16 @@
       <revisionDesc>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
-          <change when="2011-06-13T10:38:11.715-04:00"
-                 who="https://papyri.info/editor/users/joshuad.sosin">Finalized - ready</change>
-          <change when="2011-06-13T10:38:11.711-04:00"
-                 who="https://papyri.info/editor/users/joshuad.sosin">Vote - Accept-Straight-to-FInalization - Accept. Second lin4 del lin # and --&gt; --------</change>
-          <change when="2011-06-09T11:59:15.869-04:00"
-                 who="https://papyri.info/editor/users/sriethmueller">Entered from Word Document&#xD;
+          <change when="2011-06-13T10:38:11.715-04:00" who="https://papyri.info/editor/users/joshuad.sosin">Finalized - ready</change>
+          <change when="2011-06-13T10:38:11.711-04:00" who="https://papyri.info/editor/users/joshuad.sosin">Vote - Accept-Straight-to-FInalization - Accept. Second lin4 del lin # and --&gt; --------</change>
+          <change when="2011-06-09T11:59:15.869-04:00" who="https://papyri.info/editor/users/sriethmueller">Entered from Word Document
 Best regards, SR</change>
           <change when="2011-06-09T09:06:44-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/o.heid/484">O.Heid. 484</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>

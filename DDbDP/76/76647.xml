@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0050;;69"
-     xml:id="o.wilck.69"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0050;;69" xml:id="o.wilck.69" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="76647" xml:lang="en">
-            <date>AD 103</date>
-            <placeName>Elephantine</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.wilck/69">O.Wilck. 69</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>διέγραψ<ex>εν</ex></expan> <supplied reason="lost">Ἁ</supplied>ρ<supplied reason="lost">παῆσις </supplied><expan><supplied reason="lost">Φενώφ</supplied>ε<ex>ως</ex></expan> <expan>Θρακ<ex>ίδας</ex></expan> 
 

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -36,20 +34,17 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
-          <change when="2017-01-20T09:41:31-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2017-01-18T16:25:27-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
-          <change when="2017-01-16T05:15:16-05:00"
-                 who="https://papyri.info/editor/users/nicola.reggiani">Submit - entered text of BGU 20.2841 from PDF copy proofread against print edition</change>
+          <change when="2017-01-20T09:41:31-05:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2017-01-18T16:25:27-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2017-01-16T05:15:16-05:00" who="https://papyri.info/editor/users/nicola.reggiani">Submit - entered text of BGU 20.2841 from PDF copy proofread against print edition</change>
           <change when="2016-12-05T04:45:45-05:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/bgu/20/2841">BGU 20 2841</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart">
+<div n="r" type="textpart" xml:id="_r"><head>r</head>
 <div n="1" subtype="column" type="textpart">
 <ab>
 <lb n="1"/><handShift new="m2"/>εγεν<unclear>ο</unclear><gap reason="lost" extent="unknown" unit="character"/>
@@ -86,7 +81,7 @@
 </ab>
 </div>
 </div>
-<div n="v" type="textpart">
+<div n="v" type="textpart" xml:id="_v"><head>v</head>
 <ab>
 <lb n="14"/><handShift new="m2" cert="low"/><expan><ex>ἀρτάβαι</ex></expan> <gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="1" unit="character"/><unclear>χ</unclear>
 <lb n="15"/><expan><ex cert="low">ἔτους</ex></expan> <num value="6">ϛ</num>  Θ<supplied reason="lost">ωυθ</supplied> <num value="16">ιϛ</num> Σ<unclear>πάρτακος</unclear>

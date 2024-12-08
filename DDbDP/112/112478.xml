@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -36,20 +34,17 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
-          <change when="2013-01-25T15:20:16.457-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2013-01-25T15:20:16.445-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - lin5 [έ][θ] =&gt; [έ]σ[θ] lin12 .2].2 =&gt; ][.2].2</change>
-          <change when="2013-01-25T13:15:43.763-05:00"
-                 who="https://papyri.info/editor/users/a-blomley">Rescued a broken file.</change>
+          <change when="2013-01-25T15:20:16.457-05:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2013-01-25T15:20:16.445-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - lin5 [έ][θ] =&gt; [έ]σ[θ] lin12 .2].2 =&gt; ][.2].2</change>
+          <change when="2013-01-25T13:15:43.763-05:00" who="https://papyri.info/editor/users/a-blomley">Rescued a broken file.</change>
           <change when="2011-06-29T08:24:19-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.koeln/11/443">P.Köln 11 443</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart">
+<div n="r" type="textpart" xml:id="_r"><head>r</head>
 <div n="a" subtype="fragment" type="textpart"><ab>
 <lb n="1"/><handShift new="m1"/>Θέστωρ Θεομν<supplied reason="lost">ή</supplied><unclear>στ</unclear><supplied reason="lost">ω</supplied><unclear>ι</unclear>
 <lb n="2"/>χαίρειν. γραφήτω τ<unclear>οῖς</unclear>
@@ -83,7 +78,7 @@
 <lb n="29"/><note xml:lang="en">demotic?</note> 
 </ab></div>
 </div>
-<div n="v" type="textpart">
+<div n="v" type="textpart" xml:id="_v"><head>v</head>
 <div n="b" subtype="fragment" type="textpart"><ab> 
 <lb n="30"/><expan><ex>ἔτους</ex></expan> <num value="11">ια</num> <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
 <lb n="30"/>lost<gap reason="illegible" extent="unknown" unit="character"/> lin

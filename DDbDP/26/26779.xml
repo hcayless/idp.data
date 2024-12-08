@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0162;;5"
-     xml:id="p.mich.mchl.5"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0162;;5" xml:id="p.mich.mchl.5" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="26779" xml:lang="en">
-            <date>III/IV spc</date>
-            <placeName>?</placeName>
-            <ref n="sb;12;11107" type="reprint-from">SB12,11107</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.mich.mchl/5">P.Mich. Mchl. 5</ref> = <ref target="https://papyri.info/pub/sb/12/11107">SB 12 11107</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>ἀρχεφόδῳ Τααμπεμοῦ. πέμψον 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;15;2527"
-     xml:id="bgu.15.2527"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;15;2527" xml:id="bgu.15.2527" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="9791" xml:lang="en">
-            <date>AD 106-17</date>
-            <placeName>Karanis</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/bgu/15/2527">BGU 15 2527</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">ἔτους </supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> Αὐτοκράτο</supplied>ρος Καίσαρος 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;16;12639"
-     xml:id="sb.16.12639"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;16;12639" xml:id="sb.16.12639" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="17439" xml:lang="en">
-            <date>AD 541</date>
-            <placeName>Herakleopolite</placeName>
-            <ref n="stud.pal;20;136" type="reprint-from">Stud.Pal. 20 136</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/16/12639">SB 16 12639</ref> = <ref target="https://papyri.info/pub/stud.pal/20/136">SPP XX 136</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost"><g type="stauros"/> βασιλείας τ</supplied>οῦ θειοτάτου καὶ εὐσ<supplied reason="lost">εβεστά</supplied>
 

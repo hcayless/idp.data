@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0240;20;61"
-     xml:id="stud.pal.20.61"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;20;61" xml:id="stud.pal.20.61" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,12 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="18713" xml:lang="en">
-            <date>AD 253-68</date>
-            <placeName>Hermoupolis Magna</placeName>
-            <ref n="chr.wilck;;40" type="reprint-from">StudPal5,125;WChr40</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1,ctr" type="textpart"><ab>
+         <head><ref>CPR 35 18</ref> = <ref>SPP V 125</ref> = <ref target="https://papyri.info/pub/stud.pal/20/61">SPP 20 61</ref> = <ref target="https://papyri.info/pub/chr.wilck/40">Kol. I: W.Chr. 40</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1,ctr" type="textpart" xml:id="_1_ctr"><head>1,ctr</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ας της αβ<gap reason="lost" extent="unknown" unit="character"/> 
 
@@ -73,7 +64,7 @@
     <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>ω καὶ α 
 
     <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="1,md" type="textpart"><ab>
+</ab></div><div n="1,md" type="textpart" xml:id="_1_md"><head>1,md</head><ab>
 
     <lb n="3"/><g type="long-vertical-bar"/> <unclear>ν</unclear> 
 
@@ -98,7 +89,7 @@
     <lb n="13"/><space extent="unknown" unit="character"/> 
 
     <lb n="14"/><g type="long-vertical-bar"/> <gap reason="illegible" quantity="1" unit="character"/> 
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="1"/>Ἑρμουπόλεω<supplied reason="lost">ς τῆς</supplied> μεγάλης ἀρχαίας καὶ σεμνοτάτης <supplied reason="lost">καὶ</supplied> λαμπροτάτης <supplied reason="lost">οἱ</supplied> 
 

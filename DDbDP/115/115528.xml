@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,19 +29,16 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2012-10-28T09:49:09.361-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready. Idnos properly aligned.</change>
-          <change when="2012-10-28T09:49:09.346-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Taking this through to correct idno alignment.</change>
-          <change when="2012-10-28T09:33:47.64-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Resubmitted this in order to restore the text of fragments a-d.</change>
+          <change when="2012-10-28T09:49:09.361-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready. Idnos properly aligned.</change>
+          <change when="2012-10-28T09:49:09.346-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Taking this through to correct idno alignment.</change>
+          <change when="2012-10-28T09:33:47.64-04:00" who="https://papyri.info/editor/users/james.cowey">Resubmitted this in order to restore the text of fragments a-d.</change>
           <change when="2012-10-28T09:20:56-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="FrA" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.jud.des.misc/A5">P.Jud. Des. Misc. A 5 a - d</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="FrA" type="textpart" xml:id="_FrA"><head>FrA</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 
@@ -52,7 +47,7 @@
     <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>τι σοι κα<unclear>τ</unclear>ω<unclear>ν</unclear><gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="11" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
-</ab></div><div n="FrB" type="textpart"><ab>
+</ab></div><div n="FrB" type="textpart" xml:id="_FrB"><head>FrB</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>μ</unclear><gap reason="lost" extent="unknown" unit="character"/>
 
@@ -65,17 +60,17 @@
     <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><unclear>χ</unclear>ε χώρ<unclear>αν</unclear> <gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>μ<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
-</ab></div><div n="FrC" type="textpart"><ab>
+</ab></div><div n="FrC" type="textpart" xml:id="_FrC"><head>FrC</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>νο<unclear>υ</unclear> υτ<gap reason="illegible" quantity="12" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ον<unclear>ει</unclear> υσ<gap reason="illegible" quantity="1" unit="character"/>μ<gap reason="illegible" quantity="10" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>χ<unclear>οι</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="5" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
-</ab></div><div n="FrD" type="textpart"><ab>
+</ab></div><div n="FrD" type="textpart" xml:id="_FrD"><head>FrD</head><ab>
 
     <lb n="1"/><gap reason="illegible" quantity="3" unit="character"/>πτα<unclear>ς</unclear> Φεζου<gap reason="lost" extent="unknown" unit="character"/>
-</ab></div><div n="FrE" type="textpart"><ab>
+</ab></div><div n="FrE" type="textpart" xml:id="_FrE"><head>FrE</head><ab>
 
     <lb n="1"/><note xml:lang="en">FrE <ref n="sb;26;16691" type="reprint-in">SB 26 16691</ref></note></ab></div></div>
       </body>

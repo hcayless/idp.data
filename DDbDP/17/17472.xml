@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0280;1;74"
-     xml:id="rom.mil.rec.1.74"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0280;1;74" xml:id="rom.mil.rec.1.74" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -53,12 +48,8 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>AD 117</date>
-            <placeName>?</placeName>
-            <ref type="reprint-from">PSI 9,1063</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart"><ab>
+         <head><ref>PSI 9 1063</ref> = <ref>Z. 1-14: Sel. Pap. II 368</ref> = <ref>FIRA III 126</ref> = <ref target="https://papyri.info/pub/rom.mil.rec/1/74">Rom.Mil.Rec. 74</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/>Λονγεῖνος Λόνγ<supplied reason="lost">ος</supplied> σημεαφόρ<supplied reason="lost">ο</supplied>ς <supplied reason="lost">σπ</supplied>είρης <num value="1">α</num> 
 
@@ -88,7 +79,7 @@
 
     <lb n="14"/>Τραιανοῦ ἀρίστου Καί<supplied reason="lost">σαρο</supplied>ς τοῦ κυρ<supplied reason="lost">ίο</supplied>υ, Θὼθ <num value="6">ϛ</num>.
 
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="1"/><handShift new="m3"/><gap reason="lost" quantity="4" unit="character"/>ιος Μάξιμος σημειοφόρος <unclear>σημ</unclear><supplied reason="lost">ε</supplied>αφόρ<supplied reason="lost">ος σ</supplied><unclear>πείρ</unclear>ης <num value="1">α</num> 
 
@@ -118,7 +109,7 @@
 
     <lb n="14"/>κυρίου, Θὼ<supplied reason="lost">θ</supplied> ἕκτῃ. 
 
-</ab></div><div n="3" type="textpart"><ab>
+</ab></div><div n="3" type="textpart" xml:id="_3"><head>3</head><ab>
 
     <lb n="1"/><handShift new="m5"/><gap reason="lost" quantity="12" unit="character"/><unclear>ρ</unclear>ιανὸς <choice><reg>σημειοφόρος</reg><orig>σημεαφόρο<supplied reason="lost">ς</supplied></orig></choice> <supplied reason="lost">σπείρης <num value="1">α</num></supplied> 
 

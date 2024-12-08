@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0131;4;342"
-     xml:id="p.heid.4.342"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0131;4;342" xml:id="p.heid.4.342" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="21120" xml:lang="en">
-            <date>AD 63</date>
-            <placeName>Hermoupolis Magna</placeName>
-            <ref type="reprint-from">PRyl2,101FrB</ref>
-         </head>
+         <head><ref>rechte Hälfte: P.Ryl. II 101 b</ref> = <ref target="https://papyri.info/pub/p.heid/4/342">P.Heid. 4 342</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">Φρουρίου <expan>Ἀπηλ<ex>ιώτου</ex></expan></supplied> 
 

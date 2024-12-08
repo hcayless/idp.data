@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;12;10913"
-     xml:id="sb.12.10913"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;12;10913" xml:id="sb.12.10913" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="40932" xml:lang="en">
-            <date>AD 217?</date>
-            <placeName>Soknopaiou Nesos</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/12/10913">SB 12 10913</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><choice><reg><expan>τετελώνητ<ex>αι</ex></expan></reg><orig><expan>τετελώνιτ<ex>αι</ex></expan></orig></choice> διὰ <expan>πύ<ex>λης</ex></expan> 
 

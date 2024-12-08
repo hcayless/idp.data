@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0240;8;1315"
-     xml:id="stud.pal.8.1315"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;8;1315" xml:id="stud.pal.8.1315" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="38149" xml:lang="en">
-            <date>VI-VII spc</date>
-            <placeName>Arsinoite?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/stud.pal/8/1315">SPP 8 1315</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="stauros"/> <expan>λόγ<ex>ος</ex></expan> τ<add place="above">οῦ</add> <expan>δεσπ<add place="above">ό</add>το<ex>υ</ex></expan> μ<add place="above">ου</add> τ<add place="above">οῦ</add> <expan>κυρ<ex>ίου</ex></expan> Γεροντίο<add place="above">υ</add> 
 

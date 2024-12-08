@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0154;2;220" xml:id="p.lond.2.220" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0154;2;220" xml:id="p.lond.2.220" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,12 +41,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="5888 78453" xml:lang="en">
-            <date>133 BC</date>
-            <placeName>Thebaid?</placeName>
-            <ref type="reprint-from">pg5-6;col2=MChr35</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart"><ab>
+         <head><ref>Kol. II: M.Chr. 35</ref> = <ref>P.Lond. 2 220 V (S. XXI)</ref> = <ref target="https://papyri.info/pub/p.lond/2/220">P.Lond. 2 220 R (S. 5)</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/><gap reason="lost" quantity="6" unit="character"/>ησε<gap reason="illegible" quantity="1" unit="character"/>ς<gap reason="lost" extent="unknown" unit="character"/> 
 
@@ -101,7 +95,7 @@
     <lb n="25"/><gap reason="lost" quantity="5" unit="character"/> συνκεχωρημένης αὐτῇ οἰκι<gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="26"/><supplied reason="lost">τοῦ ἐνεσ</supplied><unclear>τῶτ</unclear>ος <expan><ex>ἔτους</ex></expan> <num value="38">λη</num> <unclear>Θὼθ</unclear> <num value="8"><unclear>η</unclear></num> 
-</ab></div><div n="2rp" type="textpart"><ab>
+</ab></div><div n="2rp" type="textpart" xml:id="_2rp"><head>2rp</head><ab>
 
     <lb n="1"/><note xml:lang="en">PLond 2,220,2 reprinted in <ref n="chr.mitt;;35" type="reprint-in">MChr 35</ref></note></ab></div></div>
       </body>

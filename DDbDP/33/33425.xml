@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0116;;AppII,318" xml:id="p.fuad.i.univ.AppII-318" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0116;;AppII,318" xml:id="p.fuad.i.univ.AppII-318" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -38,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="33425 33426" xml:lang="en">
-            <date>IV/V spc?</date>
-            <placeName>?</placeName>
-         </head>
+         <head><ref>P.Fuad I Univ. App. II 318 V</ref> = <ref target="https://papyri.info/pub/p.fuad.i.univ/AppII,318">P.Fuad I Univ. App. II 318 R</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="3"/><gap reason="illegible" quantity="3" unit="line"/> 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0009;8;26"
-     xml:id="cpr.8.26"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0009;8;26" xml:id="cpr.8.26" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="15549" xml:lang="en">
-            <date>AD 319-22</date>
-            <placeName>Hermoupolis Magna</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/cpr/8/26">CPR 8 26</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> τῶν δεσποτῶν ἡμῶν </supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> Σεβαστοῦ τὸ </supplied><gap reason="lost" quantity="1" unit="character"/><supplied reason="lost"> κ</supplied><unclear>α</unclear>ὶ Λικινίου τοῦ ἐπιφανεσ<supplied reason="lost">τάτου Καίσαρος τὸ </supplied><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 

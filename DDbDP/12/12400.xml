@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0170;3;194b"
-     xml:id="p.mil.vogl.3.194b"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0170;3;194b" xml:id="p.mil.vogl.3.194b" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,11 +44,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="12400" xml:lang="en">
-            <date>AD 146/7</date>
-            <placeName>Tebtynis</placeName>
-            <ref n="sb;6;9495,2a+b" type="reprint-from">SB6,9495,2</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.mil.vogl/3/194b">P.Mil. Vogl. 3 194 b</ref> = <ref target="https://papyri.info/pub/sb/6/9495,2a+b">SB VI 9495 2 b</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
 
     <lb n="1"/><supplied reason="lost">Ἀπύγχι καὶ Σατουρν</supplied><unclear>εί</unclear>λῳ λ<supplied reason="lost">αογρά</supplied><unclear>φο</unclear>ις <unclear>κ</unclear>ώ

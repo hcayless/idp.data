@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0008;;295"
-     xml:id="chr.wilck.295"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0008;;295" xml:id="chr.wilck.295" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,12 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="23485" xml:lang="en">
-            <date>AD 71/2</date>
-            <placeName>?</placeName>
-            <note xml:lang="en">o</note>
-            <ref n="stud.pal;13;pg9,19" type="reprint-from">C.Pap.Jud. 2,160</ref>
-         </head>
+         <head><ref>C.Pap.Jud. II 160</ref> = <ref target="https://papyri.info/pub/chr.wilck/295">W.Chr. 295</ref> = <ref target="https://papyri.info/pub/stud.pal/13/pg9,19">SPP XIII, S. 9, Nr. 19</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ἑρένιος Διδύμου 
 

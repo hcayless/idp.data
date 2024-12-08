@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0092;3;59340"
-     xml:id="p.cair.zen.3.59340"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0092;3;59340" xml:id="p.cair.zen.3.59340" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,12 +42,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="983" xml:lang="en">
-            <date>247 BC</date>
-            <placeName>Philadelphia</placeName>
-            <ref n="sb;3;6759" type="reprint-from">SB3,6759;PEdg53</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,int" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.cair.zen/3/59340">P.Cair. Zen. 3 59340</ref> = <ref target="https://papyri.info/pub/sb/3/6759">SB III 6759</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,int" type="textpart" xml:id="_r_int"><head>r,int</head><ab>
 
     <lb n="1"/><supplied reason="lost">βασιλεύοντος Πτολεμαίου τοῦ Πτολεμαίου Σωτῆρος, ἔτους ἐνάτου καὶ τ</supplied>ριακο<unclear>σ</unclear>τοῦ, <supplied reason="lost">ἐφʼ</supplied> ἱερέως Τ<unclear>λ</unclear><supplied reason="lost">ηπ</supplied><unclear>ο</unclear>λέμου τοῦ Ἀρταπάτο<unclear>υ</unclear> Ἀλε
 
@@ -96,7 +87,7 @@
     <lb n="20" break="no"/><supplied reason="lost">τῖνος </supplied><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> π</supplied>άντες <supplied reason="lost">ἑκα</supplied>τοντάρουροι τοῦ Ἀρσιν<unclear>οίτου</unclear> 
 
     <lb n="21"/><supplied reason="lost">νομοῦ </supplied><gap reason="lost" extent="unknown" unit="character"/> <space extent="unknown" unit="character"/> 
-</ab></div><div n="r,ext" type="textpart"><ab>
+</ab></div><div n="r,ext" type="textpart" xml:id="_r_ext"><head>r,ext</head><ab>
 
     <lb n="22"/><supplied reason="lost">βασιλεύοντος Πτολεμαίου τοῦ Πτολεμαίου</supplied> Σωτῆρος ἔτους ἐνάτου καὶ τ<supplied reason="lost">ριακο</supplied>στοῦ, ἐφʼ ἱερέως 
 
@@ -121,7 +112,7 @@
     <lb n="32"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> ἀφεύρ</supplied><unclear>ω</unclear>σι <unclear>τ</unclear><supplied reason="lost">ο</supplied>ῦ προγε<supplied reason="lost">γραμμένου </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="33"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> Λιμν</supplied>α<unclear>ί</unclear>ω<supplied reason="lost">ι τ</supplied><unclear>ὰ</unclear><supplied reason="lost">ς</supplied> <unclear>αἶγα</unclear><supplied reason="lost">ς </supplied><gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="34"/><gap reason="lost" extent="unknown" unit="character"/>  Σω<unclear>ν</unclear>ίκου        Λυσανίου 
 

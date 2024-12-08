@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0282;;177"
-     xml:id="o.heid.177"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0282;;177" xml:id="o.heid.177" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="80400" xml:lang="en">
-            <date>AD 97</date>
-            <placeName>Thebes?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.heid/177">O.Heid. 177</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>δι<unclear>α</unclear>γ<unclear>έγρα</unclear><ex>φεν</ex></expan> <expan>Ὀσορουῆ<ex>ρις</ex></expan> Ὥρου
 

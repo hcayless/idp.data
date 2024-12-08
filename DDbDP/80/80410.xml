@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0282;;186"
-     xml:id="o.heid.186"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0282;;186" xml:id="o.heid.186" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="80410" xml:lang="en">
-            <date>AD 111</date>
-            <placeName>Theben (Agorai Borra)</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.heid/186">O.Heid. 186</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><abbr>Π<unclear>ε</unclear><gap reason="illegible" quantity="2" unit="character"/></abbr> καὶ <expan>μ<ex>έτοχοι</ex></expan> <expan>πρά<ex>κτορες</ex></expan> <expan>μη<ex>τροπόλεως</ex></expan> <choice><reg>Ἀπολλοδώρῳ</reg><orig>Ἀπολλόδωρο</orig></choice>
 

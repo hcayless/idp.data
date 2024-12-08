@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;18;14030"
-     xml:id="sb.18.14030"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;18;14030" xml:id="sb.18.14030" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="18304" xml:lang="en">
-            <date>ca. AD 135/6</date>
-            <placeName>Thebes</placeName>
-            <note xml:lang="en">o</note>
-         </head>
+         <head><ref>O.Strasb. 2 860</ref> = <ref target="https://papyri.info/pub/sb/18/14030">SB XVIII 14030</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>Κόιντο<ex>ς</ex></expan> <expan>Νεμώ<ex>νιος</ex></expan> Δ<unclear>ιόσ</unclear>κ<supplied reason="lost">ορος</supplied> 
 

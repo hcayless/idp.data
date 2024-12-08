@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0094;7;182"
-     xml:id="p.col.7.182"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0094;7;182" xml:id="p.col.7.182" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,12 +42,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="10537" xml:lang="en">
-            <date>AD 372</date>
-            <placeName>Karanis</placeName>
-            <ref n="sb;6;9603,a" type="reprint-from">SB6,9603,a</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.col/7/182">P.Col. 7 182</ref> = <ref target="https://papyri.info/pub/sb/6/9603,a">SB VI 9603 a</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/>Αὐρηλία Τι<unclear>τ</unclear>ούεις Ἁτρῆ ἀπὸ κώ
 
@@ -111,7 +102,7 @@
     <lb n="31" break="no"/>τρος Νεμεσια<unclear>ν</unclear>οῦ ἔγραψα ὑ
 
     <lb n="32" break="no"/>πὲρ αὐτῆς <unclear>ἀγραμ</unclear>μάτ<unclear>ου</unclear>. 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="33"/><expan>χ<ex>ειρόγραφον</ex></expan> Τιτούεις ἀπὸ κώμης Κ<unclear>α</unclear>ρανίδος σίτου <expan><ex>ἀρταβῶν</ex></expan> <num value="9">θ</num> καὶ κριθῆς <supplied reason="omitted">ἀρταβῶν <num value="6">ϛ</num></supplied> </ab></div></div>
       </body>

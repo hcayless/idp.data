@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;24;16282"
-     xml:id="sb.24.16282"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;24;16282" xml:id="sb.24.16282" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="33778" xml:lang="en">
-            <date>4 spc</date>
-            <placeName>Lykopolis?</placeName>
-            <ref type="reprint-from">P.Lond 3, 982</ref>
-         </head>
+         <head><ref>P.Lond. III 982</ref> = <ref>Naldini, Cristianesimo 54</ref> = <ref>Pap. Choix 28</ref> = <ref target="https://papyri.info/pub/sb/24/16282">SB 24 16282</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">Τῷ δ</supplied>εσπότῃ μου καὶ πάτρωνι Ἑρμίνῳ
 

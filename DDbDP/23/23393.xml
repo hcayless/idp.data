@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;16;2669"
-     xml:id="bgu.16.2669"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;16;2669" xml:id="bgu.16.2669" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,14 +26,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2022-01-10T03:14:37-05:00"
-                 who="https://papyri.info/editor/users/mgerhardt">Finalized - Ready.</change>
-          <change when="2022-01-10T03:09:38-05:00"
-                 who="https://papyri.info/editor/users/mgerhardt">Vote - Accept-Straight-to-Finalization - Fine.</change>
-          <change when="2022-01-10T03:08:59-05:00"
-                 who="https://papyri.info/editor/users/mgerhardt">Submit - Lin13: (ὐπαγκ|^ώ^|(νιον)) --&gt; (ὑπαγκ|^ώ^|(νιον)) (typo)</change>
-          <change when="2022-01-10T03:08:45-05:00"
-                 who="https://papyri.info/editor/users/mgerhardt">Commit - Lin13: (ὐπαγκ|^ώ^|(νιον)) --&gt; (ὑπαγκ|^ώ^|(νιον)) (typo)</change>
+          <change when="2022-01-10T03:14:37-05:00" who="https://papyri.info/editor/users/mgerhardt">Finalized - Ready.</change>
+          <change when="2022-01-10T03:09:38-05:00" who="https://papyri.info/editor/users/mgerhardt">Vote - Accept-Straight-to-Finalization - Fine.</change>
+          <change when="2022-01-10T03:08:59-05:00" who="https://papyri.info/editor/users/mgerhardt">Submit - Lin13: (ὐπαγκ|^ώ^|(νιον)) --&gt; (ὑπαγκ|^ώ^|(νιον)) (typo)</change>
+          <change when="2022-01-10T03:08:45-05:00" who="https://papyri.info/editor/users/mgerhardt">Commit - Lin13: (ὐπαγκ|^ώ^|(νιον)) --&gt; (ὑπαγκ|^ώ^|(νιον)) (typo)</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-10-04" who="https://papyri.info/editor/users/Faith">Automatically updated revision description</change>
@@ -53,11 +44,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="23393" xml:lang="en">
-            <date>30 BC-14 AD</date>
-            <placeName>Herakleopolites</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/bgu/16/2669">BGU 16 2669</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/><expan>ἀν<unclear>α</unclear><supplied reason="lost">γ</supplied>ρ<hi rend="superscript">α</hi><ex>φὴ</ex></expan> σκεύων
 <abbr>α<unclear>ρ</unclear>νπ<add place="above">ω</add></abbr>
@@ -94,7 +82,7 @@
     <lb n="16"/><add place="above">κάμπτρα</add> καὶ <choice><reg>γύλιος</reg><orig>κύλιος</orig></choice> <gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="17"/><choice><reg>συμψέλλιον</reg><orig>συμψιλιον</orig></choice> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> <num value="1">α</num></supplied>
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="18"/>φανὸς χαλκοῦς
 
@@ -131,7 +119,7 @@
     <lb n="32"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
 
     <lb n="33"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><abbr>υ<hi rend="superscript">γ</hi></abbr> <num value="1">α</num>
-</ab></div><div n="3" type="textpart"><ab>
+</ab></div><div n="3" type="textpart" xml:id="_3"><head>3</head><ab>
 
     <lb n="34"/>ἔργα <expan>κίτων<hi rend="superscript">ο</hi><ex>ς</ex></expan> λευκοῦ
 <expan>γυναι<ex>κείου</ex></expan>
@@ -142,7 +130,7 @@
 <expan>χαλκ<hi rend="superscript">ῶ</hi><ex>ν</ex></expan> <choice><reg>ζεῦγος</reg><orig>ζεῦκος</orig></choice> <num value="1">α</num>
 
     <lb n="37"/>κύαθος χαλκοῦς <num value="1">α</num>
-</ab></div><div n="4" type="textpart"><ab>
+</ab></div><div n="4" type="textpart" xml:id="_4"><head>4</head><ab>
 
     <lb n="38"/>ἐν ἱματιοφορίδι δερματίνῃ
 

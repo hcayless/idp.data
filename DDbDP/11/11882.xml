@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0155;6;4"
-     xml:id="p.lund.6.4"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0155;6;4" xml:id="p.lund.6.4" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11882" xml:lang="en">
-            <date>AD 182-3</date>
-            <placeName>Polydeukia</placeName>
-            <ref n="sb;6;9354" type="reprint-from">SB6,9354</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.lund/6/4">P.Lund. 6 4</ref> = <ref target="https://papyri.info/pub/sb/6/9354">SB VI 9354</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>ἔτους <num value="23">κγ</num> Μάρκου Αὐρηλίου 
 

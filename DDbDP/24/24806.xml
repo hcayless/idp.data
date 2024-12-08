@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0029;;247"
-     xml:id="o.leid.247"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0029;;247" xml:id="o.leid.247" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="24806" xml:lang="en">
-            <date>AD 186</date>
-            <placeName>Thebes</placeName>
-            <ref n="sb;10;10414" type="reprint-from">SB10,10414</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.leid/247">O.Leid. 247</ref> = <ref target="https://papyri.info/pub/sb/10/10414">SB X 10414</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan><supplied reason="lost">μ</supplied><unclear>έ</unclear><ex>τρημα</ex></expan> <expan>θησ<ex>αυροῦ</ex></expan> <expan>μη<ex>τροπόλεως</ex></expan> <expan>γενή<ex>ματος</ex></expan> <num value="26">κϛ</num> <expan><ex>ἔτους</ex></expan> Κομμόδου 
 

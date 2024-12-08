@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0153;1;77"
-     xml:id="p.lips.1.77"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0153;1;77" xml:id="p.lips.1.77" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="22387" xml:lang="en">
-            <date>AD 200</date>
-            <placeName>?</placeName>
-            <note xml:lang="en">o</note>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.lips/1/77">P.Lips. 1 77</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>μέ<ex cert="low">τρημα</ex></expan> <expan>θησ<ex>αυροῦ</ex></expan> <expan><unclear>κω</unclear><ex>μῶν</ex></expan> <expan>γενή<ex>ματος</ex></expan> <num value="8">η</num> <expan><ex>ἔτους</ex></expan> Λου<supplied reason="lost">κί</supplied>ου 
 

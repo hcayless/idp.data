@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0029;;74"
-     xml:id="o.leid.74"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0029;;74" xml:id="o.leid.74" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="24646" xml:lang="en">
-            <date>AD 58-9</date>
-            <placeName>Thebes</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.leid/74">O.Leid. 74</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost"><expan>διαγέγρα<ex>φε</ex></expan> </supplied><expan><supplied reason="lost">Ψ</supplied><unclear>ε</unclear>νχῶ<ex>νσις</ex></expan> <expan>Ἀβῶτο<ex>ς</ex></expan> <expan>ὑπ<ex>ὲρ</ex></expan> <expan>φοι<ex>νικώνων</ex></expan> <num value="5">ε</num> <expan><ex>ἔτους</ex></expan> 
 

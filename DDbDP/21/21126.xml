@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0134;;7"
-     xml:id="p.herm.7"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0134;;7" xml:id="p.herm.7" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,11 +43,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="21126" xml:lang="en">
-            <date>IV spc</date>
-            <placeName>?</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref>Naldini, Cristianesimo 82</ref> = <ref target="https://papyri.info/pub/p.herm/7">P.Herm. 7</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/>τῷ <choice><reg>δεσπότῃ</reg><orig>δεσ<unclear>π</unclear>ότι</orig></choice> <unclear>μ</unclear>ου <choice><reg>ἀγαπητῷ</reg><orig>ἀ<unclear>γ</unclear>απητος</orig></choice> Ἄπα <choice><reg>Ἰωάννῃ</reg><orig><hi rend="diaeresis">Ἰ</hi>ωανη<unclear>ς</unclear></orig></choice>. 
 
@@ -92,7 +84,7 @@
     <lb n="19"/><supplied reason="lost">ἀ</supplied>φορμὴ <unclear>π</unclear>αρὰ <choice><reg>δάκτυλον</reg><orig><subst><add place="inline">τακτυλος</add><del rend="corrected">λακτυλος</del></subst></orig></choice> καὶ οὐ <choice><reg>πεπύ<supplied reason="lost">ωτ</supplied>αι</reg><orig>πεπ<unclear>ύ</unclear><supplied reason="lost">ωτ</supplied>ε</orig></choice> 
 
     <lb n="20"/>οὐδὲ οὐ <choice><reg><supplied reason="omitted">ἐ</supplied>σφραγισμέν<supplied reason="lost">ο</supplied>ς</reg><orig><subst><add place="inline">σφ<unclear>ρα</unclear>γισμεν<supplied reason="lost">ο</supplied>ς</add><del rend="corrected">σφ<unclear>ρα</unclear>γισ<gap reason="illegible" quantity="1" unit="character"/>έν<supplied reason="lost">ο</supplied>ς</del></subst></orig></choice>.<g type="high-punctus"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="21"/>ἀπόδ<unclear>ος</unclear> τῷ <choice><reg>δεσπότῃ</reg><orig>δε<unclear>σπο</unclear>της</orig></choice> ἀναχωρ<unclear>η</unclear><supplied reason="lost">τῇ Ἰ</supplied><unclear>ω</unclear><supplied reason="lost">άννῃ</supplied>. </ab></div></div>
       </body>

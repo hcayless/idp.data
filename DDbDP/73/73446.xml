@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0018;;98"
-     xml:id="o.cair.98"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0018;;98" xml:id="o.cair.98" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="73446" xml:lang="en">
-            <date>AD 92</date>
-            <placeName>Hermonthis</placeName>
-         </head>
+         <head><ref>O.Cair. Cat. 9581</ref> = <ref target="https://papyri.info/pub/o.cair/98">O.Cair. GPW 98</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>διαγέγρα<ex>φε</ex></expan> <expan>Φθομώνθ<ex>ης</ex></expan> <expan>Φβ<unclear>ού</unclear>κ<unclear>ι</unclear>ο<ex>ς</ex></expan> <expan>Ἁρπαήσιο<ex>ς</ex></expan> <expan>ὑπ<ex>ὲρ</ex></expan> <abbr><unclear>π</unclear>ρο</abbr> 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0050;;1470"
-     xml:id="o.wilck.1470"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0050;;1470" xml:id="o.wilck.1470" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="77802" xml:lang="en">
-            <date>AD 216</date>
-            <placeName>Thebes</placeName>
-            <ref n="o.petr;;35" type="reprint-from">OPetr35</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.wilck/1470">O.Wilck. 1470</ref> = <ref target="https://papyri.info/pub/o.petr/35">O.Petr. Mus. 218</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Θὼθ <num value="10">ι</num> τοῦ <num value="25">κε</num> <expan><ex>ἔτους</ex></expan> <expan>ὀν<supplied reason="lost">ό<ex>ματος</ex></supplied></expan> 
 

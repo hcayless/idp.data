@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;14;11565"
-     xml:id="sb.14.11565"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;14;11565" xml:id="sb.14.11565" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="14483" xml:lang="en">
-            <date>AD 296</date>
-            <placeName>Arsinoite</placeName>
-            <note xml:lang="en">o</note>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/14/11565">SB 14 11565</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>θ<unclear>ησ</unclear><ex>αυροῦ</ex></expan> <expan><unclear>κώ</unclear><ex>μης</ex></expan> <expan>Θε<unclear>α</unclear>δ<unclear>ε</unclear>λ<ex>φείας</ex></expan> <expan>γ<unclear>ενήμ</unclear><ex>ατος</ex></expan> <supplied reason="lost"><num value="12">ιβ</num> <expan><ex>ἔτους</ex></expan> καὶ <num value="11">ια</num> <expan><ex>ἔτους</ex></expan> καὶ <num value="4">δ</num> <expan><ex>ἔτους</ex></expan></supplied> 
 

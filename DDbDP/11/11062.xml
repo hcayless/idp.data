@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;2;195"
-     xml:id="p.flor.2.195"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;2;195" xml:id="p.flor.2.195" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11062" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Theadelphia</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/2/195">P.Flor. 2 195</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/>Ἰσίδωρος Ἡρωνείνῳ 
 
@@ -83,7 +75,7 @@
     <lb n="15" break="no"/>ειν.  <choice><reg>ἐρρῶ<supplied reason="omitted">σθ</supplied>αί</reg><orig>ἐρρωαί</orig></choice> σε 
 
     <lb n="16"/><expan>εὔχομ<ex>αι</ex></expan> <expan>φίλ<ex>τατε</ex></expan> 
-</ab></div><div n="r" type="textpart"><ab>
+</ab></div><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 2,195,r reprinted in <ref n="p.flor;1;25" type="reprint-in">PFlor 1,25</ref></note></ab></div></div>
       </body>

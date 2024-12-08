@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;1;69"
-     xml:id="bgu.1.69"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;1;69" xml:id="bgu.1.69" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,12 +45,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="9113" xml:lang="en">
-            <date>AD 120</date>
-            <placeName>Arsinoite</placeName>
-            <ref n="chr.mitt;;142" type="reprint-from">Chr.Mitt. 142</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/bgu/1/69">BGU 1 69</ref> = <ref target="https://papyri.info/pub/chr.mitt/142">M.Chr. 142</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><supplied reason="lost">Οὐαλέριος</supplied> Λόγγος <supplied reason="lost">ἱ</supplied>π<supplied reason="lost">πεὺς</supplied> <choice><reg>ἴλης</reg><orig>εἴλης</orig></choice> Ἀπριανῆ<supplied reason="lost">ς</supplied> 
 
@@ -104,7 +95,7 @@
     <lb n="23"/>ὁ προγε<supplied reason="lost">γραμ</supplied>μένος <app type="editorial"><lem resp="bgu 1 p.355">ἔ
 
     <lb n="24" break="no"/>λαβον, <choice><reg>κ<supplied reason="omitted">α</supplied>θὼς</reg><orig>κθὼς</orig></choice></lem><rdg>ελαιον <num value="29">κθ</num>, ὡσ</rdg></app> πρόκιται. 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><handShift new="m3"/> <choice><reg>χειρόγραφον</reg><orig>χιρό<supplied reason="lost">γ</supplied>ραφον</orig></choice> Οὐα<supplied reason="lost">λ</supplied>ερ<supplied reason="lost">ίου</supplied> 
 

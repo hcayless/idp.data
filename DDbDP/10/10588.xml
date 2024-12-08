@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0096;1;63"
-     xml:id="p.coll.youtie.1.63"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0096;1;63" xml:id="p.coll.youtie.1.63" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -35,25 +30,16 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
-          <change when="2024-03-12T09:45:15-04:00"
-                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2024-03-12T07:35:42-04:00"
-                 who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
-          <change when="2024-03-12T05:47:56-04:00"
-                 who="http://papyri.info/editor/users/Julius%20Weinlein">Submit - Korrektur Z.36&#xD;
+          <change when="2024-03-12T09:45:15-04:00" who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2024-03-12T07:35:42-04:00" who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2024-03-12T05:47:56-04:00" who="http://papyri.info/editor/users/Julius%20Weinlein">Submit - Korrektur Z.36
 A.I. Blasco-Torres, ZPE 204 (2017) 192</change>
-          <change when="2024-02-29T06:16:21-05:00"
-                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2024-02-29T05:23:07-05:00"
-                 who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Looks good</change>
-          <change when="2024-02-29T02:32:47-05:00"
-                 who="http://papyri.info/editor/users/mgerhardt">Finalized - Ready.</change>
-          <change when="2024-02-29T02:21:20-05:00"
-                 who="http://papyri.info/editor/users/mgerhardt">Vote - Accept-Straight-to-Finalization - Fine.</change>
-          <change when="2024-02-28T18:22:59-05:00"
-                 who="http://papyri.info/editor/users/verhoogt1">Submit - Entered Heilporn corrections in lines 60, 71 and 72 from APIS.</change>
-          <change when="2024-02-21T15:12:44-05:00"
-                 who="http://papyri.info/editor/users/anasantoryrodr%C3%ADguez">Submit - Line 60: adel(phos) is followed by a word of 4(?) letters, beginning with a chi according to P Heilporn</change>
+          <change when="2024-02-29T06:16:21-05:00" who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2024-02-29T05:23:07-05:00" who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Looks good</change>
+          <change when="2024-02-29T02:32:47-05:00" who="http://papyri.info/editor/users/mgerhardt">Finalized - Ready.</change>
+          <change when="2024-02-29T02:21:20-05:00" who="http://papyri.info/editor/users/mgerhardt">Vote - Accept-Straight-to-Finalization - Fine.</change>
+          <change when="2024-02-28T18:22:59-05:00" who="http://papyri.info/editor/users/verhoogt1">Submit - Entered Heilporn corrections in lines 60, 71 and 72 from APIS.</change>
+          <change when="2024-02-21T15:12:44-05:00" who="http://papyri.info/editor/users/anasantoryrodr%C3%ADguez">Submit - Line 60: adel(phos) is followed by a word of 4(?) letters, beginning with a chi according to P Heilporn</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-03-27" who="https://papyri.info/editor/users/gabrielbodard">updated markup for fractions (rend=tick)</change>
@@ -65,12 +51,9 @@ A.I. Blasco-Torres, ZPE 204 (2017) 192</change>
    </teiHeader>
    <text>
       <body>
-         <head n="10588" xml:lang="en">
-            <date>AD 155/6</date>
-            <placeName>?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.coll.youtie/1/63">P.Coll. Youtie 1 63</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="inv2953" type="textpart">
+<div n="inv2953" type="textpart" xml:id="_inv2953"><head>inv2953</head>
 <div n="1" subtype="column" type="textpart"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>καὶ 
 
@@ -164,7 +147,7 @@ A.I. Blasco-Torres, ZPE 204 (2017) 192</change>
     <lb n="45"/><unclear>οὐσιακῆς</unclear> <expan><ex>ἀρουρῶν</ex></expan> <gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> <expan><unclear>βασιλ</unclear><ex>ικῆς</ex></expan> <num value="2"><unclear>β</unclear></num><gap reason="illegible" quantity="1" unit="character"/>  <num value="1/4" rend="tick"><unclear>δ</unclear></num> <num value="1/8" rend="tick"><unclear>η</unclear></num> 
 </ab></div>
 </div>
-<div n="inv2954" type="textpart">
+<div n="inv2954" type="textpart" xml:id="_inv2954"><head>inv2954</head>
 <div n="1" subtype="column" type="textpart"><ab>
     <lb n="46"/><expan><ex>πυροῦ</ex></expan> <expan><ex>ἀρταβῶν</ex></expan> <num value="26">κϛ</num> <num value="1/2">𐅵</num> <num value="1/3" rend="tick">γ</num> <num value="1/24" rend="tick">κδ</num> <expan>Κερκ<ex>εσούχων</ex></expan> <gap reason="illegible" quantity="2" unit="character"/>   <expan><ex>πυροῦ</ex></expan> <expan><ex>ἀρταβῶν</ex></expan> 
 
@@ -264,7 +247,7 @@ A.I. Blasco-Torres, ZPE 204 (2017) 192</change>
     <lb n="93"/><expan>λαχανοπώλο<ex>υ</ex></expan> <supplied reason="lost">κα</supplied>ὶ <gap reason="lost" quantity="3" unit="character"/><unclear>οις</unclear> Γερμ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 </ab></div>
 </div>
-<div n="inv2960a" type="textpart">
+<div n="inv2960a" type="textpart" xml:id="_inv2960a"><head>inv2960a</head>
 <div n="1" subtype="column" type="textpart"><ab>
     <lb n="94"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/>τος καὶ Α<unclear>ὐν</unclear>ῆς Ὥρου <supplied reason="lost">καὶ</supplied> <expan>Πτολεμ<ex>αῖος</ex></expan> <expan>ἀδελ<ex>φὸς</ex></expan>  καὶ 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0192;2;19"
-     xml:id="p.princ.2.19"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0192;2;19" xml:id="p.princ.2.19" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,11 +43,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="43057" xml:lang="en">
-            <date>II sac</date>
-            <placeName>Arsinoite</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,ctr" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.princ/2/19">P.Princ. 2 19</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,ctr" type="textpart" xml:id="_r_ctr"><head>r,ctr</head><ab>
 
     <lb n="1"/>Παμνοῦς Εὔφρο<unclear>ν</unclear>ι χαίρειν. καθότ<supplied reason="lost">ι κ</supplied><unclear>α</unclear>ὶ <unclear>π</unclear>α<supplied reason="lost">ροῦσιν ὑμῖν</supplied> 
 
@@ -67,7 +59,7 @@
     <lb n="6"/><space extent="unknown" unit="character"/>  σι<unclear>τ</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 <milestone rend="paragraphos" unit="undefined"/>
     <lb n="7"/>ἀπέχει δὲ καὶ Ἀπολλόδωρος τὴν τιμὴν τῆς πίσσης εκ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="r,ms" type="textpart"><ab>
+</ab></div><div n="r,ms" type="textpart" xml:id="_r_ms"><head>r,ms</head><ab>
 
     <lb n="8"/><handShift new="m2"/> <gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="2" unit="character"/> <num value="18">ιη</num> 
 
@@ -81,7 +73,7 @@
 
     <lb n="13"/><choice><reg>ἐν</reg><orig><unclear>ἐ</unclear>μ</orig></choice> <unclear>ἡμέραι</unclear>. 
 <milestone rend="paragraphos" unit="undefined"/>
-    <lb n="14"/></ab></div><div n="v" type="textpart"><ab>
+    <lb n="14"/></ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><handShift new="m1"/> Εὔφρονι. </ab></div></div>
       </body>

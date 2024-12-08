@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0143;1;6"
-     xml:id="p.kell.1.6"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0143;1;6" xml:id="p.kell.1.6" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="33298" xml:lang="en">
-            <date>ca. AD 330</date>
-            <placeName>Kellis</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,ctr" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.kell/1/6">P.Kell. 1 6</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,ctr" type="textpart" xml:id="_r_ctr"><head>r,ctr</head><ab>
 
     <lb n="1"/><unclear>κ</unclear><supplied reason="lost">υ</supplied><unclear>ρ</unclear>ί<unclear>ῳ</unclear> μου ἀδελφῷ 
 
@@ -148,17 +140,17 @@
     <lb n="48"/>ἄδελφε, πολλοῖς χρό
 
     <lb n="49" break="no"/>νοις. 
-</ab></div><div n="r,ms" type="textpart"><ab>
+</ab></div><div n="r,ms" type="textpart" xml:id="_r_ms"><head>r,ms</head><ab>
 
     <lb n="50" rend="perpendicular"/> ὡς προεῖπον οὖν, ἔπεμψα διὰ Σινέ<supplied reason="lost">ως εἰς τιμ</supplied>ὴν τοῦ ἑνὸς ἐν σίτῳ <del rend="erasure">ου</del> <expan>καγκ<ex>κέλλους</ex></expan> ὀκτώ, <num value="8"/> ὅπως τὰ δύο <num value="2"/> 
 
     <lb n="50/1" rend="perpendicular"/><choice><reg>ἀποστείλατε</reg><orig>ἀποστείλητε</orig></choice>. Ἰδοὺ γὰρ ἔπεμψα
-</ab></div><div n="v,minf" type="textpart"><ab>
+</ab></div><div n="v,minf" type="textpart" xml:id="_v_minf"><head>v,minf</head><ab>
 
     <lb n="52" rend="perpendicular"/> τῷ ἀδελφῷ Τιμοωέῳ τὰ εἰκότα ἔτι μὴν καὶ 
 
     <lb n="53" rend="perpendicular"/> τῷ ἀδελφῷ Σαρᾶπι. 
-</ab></div><div n="v,msup" type="textpart"><ab>
+</ab></div><div n="v,msup" type="textpart" xml:id="_v_msup"><head>v,msup</head><ab>
 
     <lb n="54"/>τῷ ἀδελ<supplied reason="lost">φ</supplied>ῷ Γενᾷ <g type="x"/> <unclear>Παυσ</unclear>ανίας. </ab></div></div>
       </body>

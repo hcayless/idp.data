@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0199;;4" xml:id="p.sakaon.4" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0199;;4" xml:id="p.sakaon.4" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,12 +44,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="13058a 13058b" xml:lang="en">
-            <date>AD 336</date>
-            <placeName>Theadelphia</placeName>
-            <ref n="p.princ;3;134" type="reprint-from">PPrinc3,134</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart"><ab>
+         <head><ref>P.Sakaon 4 Z. 26 - 33</ref> = <ref target="https://papyri.info/pub/p.sakaon/4">P.Sakaon 4 Z. 1 - 25</ref> = <ref target="https://papyri.info/pub/p.princ/3/134">P.Princ. III 134</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/>κατʼ ἄνδρα κωμητικῆς κτήσεως 
 
@@ -70,7 +64,7 @@
     <lb n="8"/><expan>ἰδιο<ex>κτήτου</ex></expan> <expan>σπο<ex>ρίμης</ex></expan> <supplied reason="lost"><expan><ex>ἄρουραι</ex></expan>   </supplied> 
 
     <lb n="9"/><gap reason="illegible" quantity="1" unit="line"/> 
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="9"/>Ψαῶν Ὡρίωνος      <expan>βασι<ex>λικῆς</ex></expan> <expan>σπο<ex>ρίμης</ex></expan> <expan><ex>ἄρουραι</ex></expan> <num value="33">λγ</num> <num value="1/4" rend="tick">δ</num> <num value="1/8" rend="tick">η</num> 
 
@@ -91,7 +85,7 @@
     <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/> <expan><ex>ἄρουραι</ex></expan> <num value="16">ιϛ</num> <num value="3/4">𐅸</num> <num value="1/8" rend="tick">η</num> <num value="1/32" rend="tick">λβ</num> 
 
     <lb n="18"/><gap reason="illegible" quantity="1" unit="line"/> 
-</ab></div><div n="3" type="textpart"><ab>
+</ab></div><div n="3" type="textpart" xml:id="_3"><head>3</head><ab>
 
     <lb n="18"/>Ἀρείων Διοσκόρου  <expan>βασι<ex>λικῆς</ex></expan> <expan>σπο<ex>ρίμης</ex></expan> <expan><ex>ἄρουραι</ex></expan> <num value="5">ε</num> <num value="1/16" rend="tick">ιϛ</num> 
 
@@ -110,7 +104,7 @@
     <lb n="25"/>Ἀμῖς Παησίου      <expan>βασι<ex>λικῆς</ex></expan> <expan>σπο<ex>ρίμης</ex></expan> <expan><ex>ἄρουρα</ex></expan> <num value="1">α</num> <num value="1/4" rend="tick">δ</num> <num value="1/8" rend="tick">η</num> 
 
     <lb n="26"/><gap reason="illegible" quantity="1" unit="line"/> 
-</ab></div><div n="4" type="textpart"><ab>
+</ab></div><div n="4" type="textpart" xml:id="_4"><head>4</head><ab>
 
     <lb n="26"/><handShift new="m2"/>  ὑπ<unclear>ατ</unclear>είας Νεπω<supplied reason="lost">τ</supplied><unclear>ι</unclear>α<supplied reason="lost">νοῦ</supplied> καὶ Φακούνδ<supplied reason="lost">ου τῶν</supplied> 
 

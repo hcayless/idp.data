@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,20 +29,17 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2024-02-13T04:59:05-05:00"
-                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2023-11-10T07:06:41-05:00"
-                 who="http://papyri.info/editor/users/james.cowey">General - Should indeed be APF 57 (2011) S. 39, which is a rearrangement and reedition.</change>
-          <change when="2023-11-10T06:17:38-05:00"
-                 who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Careful with this one. I think that it should in fact not have been renamed to APF 57 (2011) S. 39, but stayed as P.Poethke 8</change>
+          <change when="2024-02-13T04:59:05-05:00" who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2023-11-10T07:06:41-05:00" who="http://papyri.info/editor/users/james.cowey">General - Should indeed be APF 57 (2011) S. 39, which is a rearrangement and reedition.</change>
+          <change when="2023-11-10T06:17:38-05:00" who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Careful with this one. I think that it should in fact not have been renamed to APF 57 (2011) S. 39, but stayed as P.Poethke 8</change>
           <change when="2023-03-23T06:13:49-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref>P.Poethke 8</ref> = <ref target="https://papyri.info/pub/apf/57/39">APF 57 (2011) S. 39</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart">
+<div n="r" type="textpart" xml:id="_r"><head>r</head>
 <div n="i" subtype="column" type="textpart"><ab>
     <lb n="1"/><gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name"/></gap>
 
@@ -484,7 +479,7 @@
 </ab></div>
 </div>
 
-<div n="v" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
     <lb n="1" rend="outdent"/><gap reason="lost" extent="unknown" unit="character"/>ου ἐκ πάντων χαλκοῦ <gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="2"/><expan><ex>τάλαντα</ex></expan> <num value="79">οθ</num> <num value="3938">Γϡλη</num> <num value="2"><expan><ex>διώβολον</ex></expan></num> <expan>χα<ex>λκοῦς</ex></expan>

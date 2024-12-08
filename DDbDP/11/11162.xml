@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;2;277"
-     xml:id="p.flor.2.277"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;2;277" xml:id="p.flor.2.277" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11162" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Theadelphia</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/2/277">P.Flor. 2 277</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/>τῷ κυρίῳ μου Ἀ<supplied reason="lost">λυπίῳ</supplied> 
 
@@ -64,7 +56,7 @@
     <lb n="6"/><app type="editorial"><lem resp="BL 1.155">μ<gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="3" unit="character"/></lem><rdg>λόγους <gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><certainty match=".." locus="value"/></rdg></app> 
 
     <lb n="7"/><gap reason="lost" extent="unknown" unit="line"/> 
-</ab></div><div n="r" type="textpart"><ab>
+</ab></div><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 2,277,r reprinted in <ref n="p.flor;3;337" type="reprint-in">PFlor 3,337</ref></note></ab></div></div>
       </body>

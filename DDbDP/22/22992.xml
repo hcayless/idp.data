@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;5;101" xml:id="stud.pal.5.101" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;5;101" xml:id="stud.pal.5.101" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -51,11 +49,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="22992 32044" xml:lang="en">
-            <date>?</date>
-            <placeName>Hermoupolis Magna</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="Fr1" type="textpart"><ab>
+         <head><ref>CPR 35 22</ref> = <ref>SPP 5 101 b</ref> = <ref target="https://papyri.info/pub/stud.pal/5/101">SPP 5 101</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="Fr1" type="textpart" xml:id="_Fr1"><head>Fr1</head><ab>
 
     <lb n="1,msup"/><num value="18">ιη</num> 
 
@@ -99,7 +94,7 @@
     <lb n="19"/><gap reason="lost" quantity="3" unit="character"/><unclear>τα</unclear><gap reason="lost" quantity="13" unit="character"/><supplied reason="lost"> με</supplied>μαθηκέναι ε<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="20"/><gap reason="lost" extent="unknown" unit="line"/> 
-</ab></div><div n="Fr2" type="textpart"><ab>
+</ab></div><div n="Fr2" type="textpart" xml:id="_Fr2"><head>Fr2</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 

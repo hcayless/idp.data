@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;1;77"
-     xml:id="p.flor.1.77"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;1;77" xml:id="p.flor.1.77" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,10 +38,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="23580" xml:lang="en">
-            <date>AD 241/2</date>
-            <placeName>Memnoneia?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.flor/1/77">P.Flor. 1 77</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">Κ</supplied><unclear>λα</unclear>υδίαι <gap reason="illegible" quantity="3" unit="character"/><unclear>κ</unclear>λει τ<unclear>ῇ</unclear> <unclear>κ</unclear>αὶ Ἰου<gap reason="lost" quantity="11" unit="character"/> 
 

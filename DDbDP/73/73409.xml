@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0018;;63"
-     xml:id="o.cair.63"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0018;;63" xml:id="o.cair.63" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,10 +43,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="73409" xml:lang="en">
-            <date>AD 24/5</date>
-            <placeName>Syene/Elephantine</placeName>
-         </head>
+         <head><ref>DAHT 73409</ref> = <ref>O.Cair. Cat. 9711</ref> = <ref target="https://papyri.info/pub/o.cair/63">O.Cair. GPW 63</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">διαγεγρ</supplied><unclear>ά</unclear>φηκε 
 

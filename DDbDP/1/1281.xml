@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0092;4;59650"
-     xml:id="p.cair.zen.4.59650"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0092;4;59650" xml:id="p.cair.zen.4.59650" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="1281" xml:lang="en">
-            <date>III sac</date>
-            <placeName>Philadelphia</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.cair.zen/4/59650">P.Cair. Zen. 4 59650</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/>ὑπόμνημα Ζήνωνι παρὰ <unclear>Ἁρν</unclear><supplied reason="lost">ούθιος </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 
@@ -59,7 +51,7 @@
     <lb n="5"/>σοι δοκεῖ, ἀνακαλεσάμενός με ε<gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="6"/><gap reason="lost" quantity="1" unit="character"/><unclear>ο</unclear>ν περὶ ὧν σοι δοκεῖ, ὅπως ἂν μὴ <unclear>α</unclear>ἱ<unclear>ρῶ</unclear>μαι <gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="7"/>Ἁ<supplied reason="lost">ρ</supplied>νοῦθις. </ab></div></div>
       </body>

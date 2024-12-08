@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,20 +29,17 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2013-04-29T15:51:59.834-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2013-04-29T15:51:59.816-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - check the supraline mark up</change>
-          <change when="2013-04-29T12:10:41.476-04:00"
-                 who="https://papyri.info/editor/users/Arthur%20Verhoogt">Copied text from digital file. Checked.</change>
+          <change when="2013-04-29T15:51:59.834-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2013-04-29T15:51:59.816-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - check the supraline mark up</change>
+          <change when="2013-04-29T12:10:41.476-04:00" who="https://papyri.info/editor/users/Arthur%20Verhoogt">Copied text from digital file. Checked.</change>
           <change when="2013-04-29T11:45:09-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.sorb/3/141">P.Sorb. 3 141</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart"><div n="1" subtype="fragment" type="textpart"><ab> 
+<div n="r" type="textpart" xml:id="_r"><head>r</head><div n="1" subtype="fragment" type="textpart"><ab> 
 <lb n="1"/>Χοι<unclear>ά</unclear>χ <num value="23"><hi rend="supraline">κγ</hi></num> Πετέσουχος <num value="5">ε</num>
 <lb n="2"/>Ἁρπ<unclear>ο</unclear>χ<unclear>ο</unclear>ιμες Σοκνώπιος <num value="5">ε</num>
 <lb n="3"/><unclear>Π</unclear>άσις <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ος <num value="1">α</num>
@@ -92,7 +87,7 @@
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>τ</unclear>ρις
 </ab></div>
 </div>
-<div n="v" type="textpart"><div n="1" subtype="fragment" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head><div n="1" subtype="fragment" type="textpart"><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>π<unclear>ατ</unclear>ου <gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
 </div></div>

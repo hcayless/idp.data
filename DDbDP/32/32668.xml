@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0052;;21"
-     xml:id="p.abinn.21"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0052;;21" xml:id="p.abinn.21" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,11 +42,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="32668" xml:lang="en">
-            <date>AD 342-351</date>
-            <placeName>Arsinoite</placeName>
-            <ref n="p.gen;1;52" type="reprint-from">PGen1,52</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.abinn/21">P.Abinn. 21</ref> = <ref target="https://papyri.info/pub/p.gen/1/52">P.Gen. I 52 Verso</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>κυρίῳ μου πατρὶ Ἀμινναίῳ 
 

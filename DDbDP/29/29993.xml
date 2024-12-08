@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0029;;291"
-     xml:id="o.leid.291"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0029;;291" xml:id="o.leid.291" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="29993" xml:lang="en">
-            <date>II spc</date>
-            <placeName>Thebes?</placeName>
-            <ref n="sb;10;10376" type="reprint-from">SB10,10376</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.leid/291">O.Leid. 291</ref> = <ref target="https://papyri.info/pub/sb/10/10376">SB X 10376</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><unclear>Διονύ</unclear>σιος Πασήμιος          <num value="1"><unclear>α</unclear></num> <num value="1/2">𐅵</num> 
 

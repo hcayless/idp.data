@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0094;3;54"
-     xml:id="p.col.3.54"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0094;3;54" xml:id="p.col.3.54" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -36,18 +31,12 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
-          <change when="2018-01-18T10:41:31-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2018-01-18T09:29:43-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
-          <change when="2018-01-18T09:21:14-05:00"
-                 who="https://papyri.info/editor/users/fatmahamouda88">Submit - renumbering lines: 51a, 51b </change>
-          <change when="2013-05-23T06:27:04.553-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2013-05-23T06:27:04.527-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine.</change>
-          <change when="2013-05-22T10:39:33.037-04:00"
-                 who="https://papyri.info/editor/users/giuditta%20mirizio">fixed missing line break in orig tag</change>
+          <change when="2018-01-18T10:41:31-05:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2018-01-18T09:29:43-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2018-01-18T09:21:14-05:00" who="https://papyri.info/editor/users/fatmahamouda88">Submit - renumbering lines: 51a, 51b </change>
+          <change when="2013-05-23T06:27:04.553-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2013-05-23T06:27:04.527-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine.</change>
+          <change when="2013-05-22T10:39:33.037-04:00" who="https://papyri.info/editor/users/giuditta%20mirizio">fixed missing line break in orig tag</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-12-13" who="https://papyri.info/editor/users/Faith">Automatic insertion of lb tags into origs to match existing lb tags in the reg</change>
@@ -65,12 +54,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="1770" xml:lang="en">
-            <date>250 BC</date>
-            <placeName>Philadelphia</placeName>
-            <ref n="sb;4;7450" type="reprint-from">SB 4 7450</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,1" type="textpart"><ab>
+         <head><ref>Kol. I: Sel. Pap. I 39</ref> = <ref target="https://papyri.info/pub/p.col/3/54">P.Col. 3 54</ref> = <ref target="https://papyri.info/pub/sb/4/7450">SB IV 7450</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,1" type="textpart" xml:id="_r_1"><head>r,1</head><ab>
 
     <lb n="1"/><handShift new="m1"/> βασιλεύοντος Πτολεμαίου τοῦ Πτολεμαίου Σωτῆρος <expan><ex>ἔτους</ex></expan> <num value="30">λ</num> ἐφʼ ἱερέως 
 
@@ -129,7 +114,7 @@
     <lb n="28"/>Ἀνόσις Τοτορχοίτος Σαίτης κωμογραμματεὺς Φιλαδελφείας. 
 
     <lb n="29"/><space extent="unknown" unit="character"/> συγγ<supplied reason="lost">ρα</supplied><unclear>φ</unclear><supplied reason="lost">ο</supplied><unclear>φ</unclear>ύλαξ Δᾶμις. 
-</ab></div><div n="r,2" type="textpart"><ab>
+</ab></div><div n="r,2" type="textpart" xml:id="_r_2"><head>r,2</head><ab>
 
     <lb n="30"/>ἔστιν τὸ ἐκφόριον τῶν <num value="100">ρ</num> <expan><ex>ἀρουρῶν</ex></expan> εἰς <expan>πυ<ex>ρὸν</ex></expan> <expan><ex>ἀρτάβαι</ex></expan> <subst><add place="inline"><num value="7">ζ</num><add place="above"><num value="12">ιβ</num> <num value="1/2">𐅵</num></add></add><del rend="corrected"><num value="785">ψ<del rend="erasure">πε</del></num><del rend="erasure"> <num value="1/2">𐅵</num> <num value="1/4" rend="tick">δ</num></del></del></subst> 
 
@@ -156,12 +141,12 @@
     <lb n="39"/>τῶν δὲ <num value="5">ε</num> <expan><ex>ἐτῶν</ex></expan>      <expan>πυ<ex>ροῦ</ex></expan> <expan>ἀρ<ex>τάβαι</ex></expan> <num value="1736">Αψλϛ</num> <num value="2/3">𐅷</num> 
 
     <lb n="40"/>τὸ πᾶν <supplied reason="lost">ὀφ</supplied>είλουσι <expan>πυ<ex>ροῦ</ex></expan> <expan>ἀρ<ex>τάβας</ex></expan> <subst><add place="inline"><num value="250">σν</num> <add place="above"><num value="6">ϛ</num> <num value="1/2">𐅵</num> <num value="1/12" rend="tick">ιβ</num></add></add><del rend="corrected"><num value="2532">Βφ<del rend="erasure">λβ</del></num><del rend="erasure"> <num value="1/3" rend="tick"><unclear>γ</unclear></num> <num value="1/12" rend="tick">ιβ</num></del></del></subst> 
-</ab></div><div n="r,3,msup" type="textpart"><ab>
+</ab></div><div n="r,3,msup" type="textpart" xml:id="_r_3_msup"><head>r,3,msup</head><ab>
 
     <lb n="1"/><num value="25">κε</num> 
 
     <lb n="2"/><num value="12">ιβ</num> <num value="1/2">𐅵</num> 
-</ab></div><div n="r,3,ctr" type="textpart"><ab>
+</ab></div><div n="r,3,ctr" type="textpart" xml:id="_r_3_ctr"><head>r,3,ctr</head><ab>
 
     <lb n="41"/><handShift new="m2"/> <expan><ex>ἔτους</ex></expan> <num value="33">λγ</num>, μηνὸς Ξανδικοῦ. ἡ<unclear>μ</unclear>έρα<unclear>ν</unclear> π<unclear>ρ</unclear>οσθεῖναι. 
 
@@ -203,10 +188,10 @@
     <lb n="57"/><supplied reason="lost">ο</supplied>ὐχ ὑπάρχει ἐν τῶι Ἀρσινοίτηι, ὑπολαμβάνω κρίνειν 
 
     <lb n="58"/>τὸν στρατηγόν. 
-</ab></div><div n="v,md" type="textpart"><ab>
+</ab></div><div n="v,md" type="textpart" xml:id="_v_md"><head>v,md</head><ab>
 
     <lb n="59"/><handShift new="m1"/> <note xml:lang="en">Writing perpendicular to main text</note> διάλογος πρὸς Θεόπομπον 
-</ab></div><div n="v,ms" type="textpart"><ab>
+</ab></div><div n="v,ms" type="textpart" xml:id="_v_ms"><head>v,ms</head><ab>
 
     <lb n="60"/><handShift new="m3"/> <note xml:lang="en">Writing perpendicular to main text</note> διάλογος </ab></div></div>
       </body>

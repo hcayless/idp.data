@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;12;10990_21"
-     xml:id="sb.12.10990_21"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;12;10990_21" xml:id="sb.12.10990_21" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -53,13 +48,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="34938" xml:lang="en">
-            <date>V/VI spc</date>
-            <placeName>Abu Mena</placeName>
-            <note xml:lang="en">o</note>
-            <ref n="sb;1;4641" type="reprint-from">SB1,4641</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="21rp" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/sb/12/10990_21">SB 12 10990 21</ref> = <ref target="https://papyri.info/pub/sb/1/4641">SB I 4641</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="21rp" type="textpart" xml:id="_21rp"><head>21rp</head><ab>
 
     <lb n="1"/><g type="stauros"/> Θὼθ <num value="26">κϛ</num>. 
 

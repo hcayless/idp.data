@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0124;2;109"
-     xml:id="p.grenf.2.109"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0124;2;109" xml:id="p.grenf.2.109" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="69883" xml:lang="en">
-            <date>II/III spc</date>
-            <placeName>?</placeName>
-            <ref n="chla;4;271" type="reprint-from">cfChLA4,271</ref>
-         </head>
+         <head><ref>CPL 321</ref> = <ref target="https://papyri.info/pub/p.grenf/2/109">P.Grenf. II 109</ref> = <ref target="https://papyri.info/pub/chla/4/271">ChLA 4 271</ref></head>
          <div xml:lang="la" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 

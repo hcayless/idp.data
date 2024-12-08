@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0094;2;1,r,4col6"
-     xml:id="p.col.2.1-r-4col6"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0094;2;1,r,4col6" xml:id="p.col.2.1-r-4col6" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -37,20 +32,13 @@
       </profileDesc>
       <revisionDesc>
          <change when="2020-10-28" who="http://papyri.info/about">split from file p.col/p.col.2/p.col.2.1-r-4.xml</change>
-          <change when="2016-11-07T07:13:29-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2016-11-04T08:02:45-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
-          <change when="2016-11-04T07:00:13-04:00"
-                 who="https://papyri.info/editor/users/joanne.stolk">Submit - corrected line breaks</change>
-          <change when="2016-11-04T06:58:04-04:00"
-                 who="https://papyri.info/editor/users/joanne.stolk">Commit - 15.5 ἐπ[ιστα]&lt;:6.- λείσας|reg|επ[ιστα]λίσας:&gt; changed to &lt;:ἐπ[ιστα]6.- λείσας|reg|επ[ιστα]6.- λίσας:&gt;</change>
-          <change when="2016-11-04T06:55:57-04:00"
-                 who="https://papyri.info/editor/users/joanne.stolk">Commit - 13.1 δ[η]&lt;:2.- μοσίοις|reg|δ̣[η]μοσιων:&gt; changed to &lt;:δ[η]2.- μοσίοις|reg|δ̣[η]2.- μοσιων:&gt;</change>
-          <change when="2016-11-04T06:53:16-04:00"
-                 who="https://papyri.info/editor/users/joanne.stolk">Commit - 9.8 ᾐτη&lt;σά&gt;&lt;:9.- μεθα|reg|ητημεθα:&gt; changed to ᾐτη&lt;σά&gt;9.- μεθα</change>
-          <change when="2016-11-04T06:47:15-04:00"
-                 who="https://papyri.info/editor/users/joanne.stolk">Commit - 1.6 &lt;:κατη7.- χέναι|reg|καταγειωχέναι:&gt; changed to &lt;:κατη7.- χέναι|reg|καταγει7.- ωχέναι:&gt;</change>
+          <change when="2016-11-07T07:13:29-05:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2016-11-04T08:02:45-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2016-11-04T07:00:13-04:00" who="https://papyri.info/editor/users/joanne.stolk">Submit - corrected line breaks</change>
+          <change when="2016-11-04T06:58:04-04:00" who="https://papyri.info/editor/users/joanne.stolk">Commit - 15.5 ἐπ[ιστα]&lt;:6.- λείσας|reg|επ[ιστα]λίσας:&gt; changed to &lt;:ἐπ[ιστα]6.- λείσας|reg|επ[ιστα]6.- λίσας:&gt;</change>
+          <change when="2016-11-04T06:55:57-04:00" who="https://papyri.info/editor/users/joanne.stolk">Commit - 13.1 δ[η]&lt;:2.- μοσίοις|reg|δ̣[η]μοσιων:&gt; changed to &lt;:δ[η]2.- μοσίοις|reg|δ̣[η]2.- μοσιων:&gt;</change>
+          <change when="2016-11-04T06:53:16-04:00" who="https://papyri.info/editor/users/joanne.stolk">Commit - 9.8 ᾐτη&lt;σά&gt;&lt;:9.- μεθα|reg|ητημεθα:&gt; changed to ᾐτη&lt;σά&gt;9.- μεθα</change>
+          <change when="2016-11-04T06:47:15-04:00" who="https://papyri.info/editor/users/joanne.stolk">Commit - 1.6 &lt;:κατη7.- χέναι|reg|καταγειωχέναι:&gt; changed to &lt;:κατη7.- χέναι|reg|καταγει7.- ωχέναι:&gt;</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-12-13" who="https://papyri.info/editor/users/Faith">Automatic insertion of lb tags into origs to match existing lb tags in the reg</change>
@@ -70,13 +58,9 @@
    </teiHeader>
    <text>
       <body>
-         <head n="10463" xml:lang="en">
-            <date>AD 155</date>
-            <placeName>Theadelphia</placeName>
-            <ref type="reprint-in">cf. SB 16,13060 + BGU 13,2270 + P.Berl.Frisk. cols. 1-38 + P.Graux. 3,30</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.col/2/1,r,4col6">P.Col. 2 1 R 4 Kol. 6</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab><note xml:lang="en">text continued at SB 16,13060 + BGU 13,2270 + P.Berl.Frisk. cols. 1-38 + P.Graux. 3,30</note>
-</ab><div n="6" type="textpart"><ab>
+</ab><div n="6" type="textpart" xml:id="_6"><head>6</head><ab>
 
     <lb n="1"/>Δ<unclear>εί</unclear>ωι καὶ Σαβείνωι <expan>γεγυμ<ex>νασιαρχηκότι</ex></expan> καὶ <expan>μετόχ<ex>οις</ex></expan> <expan>δημ<ex>οσίοις</ex></expan> <expan>τραπ<ex>εζίταις</ex></expan>. 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0128;1;63"
-     xml:id="p.hamb.1.63"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0128;1;63" xml:id="p.hamb.1.63" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,10 +44,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="21048" xml:lang="en">
-            <date>AD 125/6</date>
-            <placeName>Arsnome&lt;Thebes</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.hamb/1/63">P.Hamb. 1 63</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><handShift new="m1"/> <supplied reason="lost">ἀν</supplied>τίγραφον ὠνῆ<supplied reason="lost">ς· </supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> Φλαούϊος Ἡρώδης ἐπρίατο παρὰ τοῦ δεῖνος δουλικὰ σώματα δύο <num value="2"/> δορατόκτητα, </supplied><gap reason="lost" extent="unknown" unit="character"/>, 
 

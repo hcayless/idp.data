@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0042;1;612"
-     xml:id="o.stras.1.612"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0042;1;612" xml:id="o.stras.1.612" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="76196" xml:lang="en">
-            <date>II spc?</date>
-            <placeName>Thebaid</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.stras/1/612">O.Strasb. 1 612</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>λόγος <expan>Σενπλ<ex cert="low">ήνιος</ex></expan> <abbr><unclear>εσχ</unclear></abbr> <expan><ex>πυροῦ</ex></expan> <num value="1/2">𐅵</num> <add place="above"><expan>ἄλ<ex>λαι</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="8">η</num></add> 
 

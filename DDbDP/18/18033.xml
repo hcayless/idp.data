@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;4;7333"
-     xml:id="sb.4.7333"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;4;7333" xml:id="sb.4.7333" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,10 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="18033" xml:lang="en">
-            <date>AD 186/7</date>
-            <placeName>Alexandria</placeName>
-         </head>
+         <head><ref>Sel. Pap. II 299</ref> = <ref target="https://papyri.info/pub/sb/4/7333">SB 4 7333</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><unclear>Α</unclear><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="3" unit="character"/>ῳ Λογγινίῳ Λογγίνῳ 
 

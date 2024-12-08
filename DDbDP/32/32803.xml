@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0088;;29v"
-     xml:id="p.cair.isid.29v"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0088;;29v" xml:id="p.cair.isid.29v" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,11 +45,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="32803" xml:lang="en">
-            <date>IV spc</date>
-            <placeName>Karanis</placeName>
-            <ref n="sb;6;9181" type="reprint-from">SB6,9181</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.cair.isid/29v">P.Cair. Isid. 29 V</ref> = <ref target="https://papyri.info/pub/sb/6/9181">SB VI 9181</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
 
     <lb n="1"/>Αὐρήλιος Πτολλᾶς 

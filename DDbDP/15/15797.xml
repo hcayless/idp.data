@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0009;6;75"
-     xml:id="cpr.6.75"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0009;6;75" xml:id="cpr.6.75" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="15797" xml:lang="en">
-            <date>AD 301</date>
-            <placeName>Hermopolite</placeName>
-            <ref n="cpr;6;25" type="reprint-from">CPR6,25</ref>
-         </head>
+         <head><ref>CPR VI 25</ref> = <ref target="https://papyri.info/pub/cpr/6/75">CPR 6 75</ref> = <ref target="https://papyri.info/pub/cpr/6/25">CPR 6 75</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>τι<unclear>ε</unclear><gap reason="lost" extent="unknown" unit="character"/> 
 

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,22 +29,18 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2023-02-02T04:26:18-05:00"
-                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2023-01-27T07:28:45-05:00"
-                 who="http://papyri.info/editor/users/james.cowey">General - Still has to be checked carefully against the edition before finalization.</change>
-          <change when="2023-01-26T04:37:45-05:00"
-                 who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Looks good</change>
-          <change when="2023-01-26T04:25:07-05:00"
-                 who="http://papyri.info/editor/users/carolinealbert">Submit - Edition eingegeben </change>
+          <change when="2023-02-02T04:26:18-05:00" who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2023-01-27T07:28:45-05:00" who="http://papyri.info/editor/users/james.cowey">General - Still has to be checked carefully against the edition before finalization.</change>
+          <change when="2023-01-26T04:37:45-05:00" who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Looks good</change>
+          <change when="2023-01-26T04:25:07-05:00" who="http://papyri.info/editor/users/carolinealbert">Submit - Edition eingegeben </change>
           <change when="2022-12-08T03:52:02-05:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.louvre/3/217">P.Louvre 3 217</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart">
+<div n="r" type="textpart" xml:id="_r"><head>r</head>
 <div n="i" subtype="column" type="textpart"><ab>
     <lb n="1"/><expan><supplied reason="lost">τι</supplied><unclear>μ</unclear><ex cert="low">ῆς</ex></expan> ὄ<unclear>ψους</unclear> <expan><ex cert="low">τάλαντα</ex></expan> <num><gap reason="illegible" quantity="1" unit="character"/></num>
 
@@ -110,7 +104,7 @@
 
 </div>
 
-<div n="v" type="textpart">
+<div n="v" type="textpart" xml:id="_v"><head>v</head>
 <div n="i" subtype="column" type="textpart"><ab>
     <lb n="26"/><expan>τιμ<ex>ῆς</ex></expan> ὄψους <expan><ex>τάλαντα</ex></expan> <num value="1000">Α</num>
 

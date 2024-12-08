@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0147;3;119"
-     xml:id="p.laur.3.119"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0147;3;119" xml:id="p.laur.3.119" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="39275" xml:lang="en">
-            <date>AD 642-</date>
-            <placeName>Hermoupolis Magna</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.laur/3/119">P.Laur. 3 119</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>τορος <expan><ex>καὶ</ex></expan> Σε<gap reason="illegible" quantity="2" unit="character"/>ιου ἀπὸ <expan>Ἑρμ<ex>ου</ex>π<ex>όλεως</ex></expan>  <expan>νο<ex>μίσματα</ex></expan> <num value="16">ιϛ</num> <expan><ex>κεράτια</ex></expan> <num value="21">κα</num> <expan><ex>καὶ</ex></expan> <expan>σί<ex>του</ex></expan> <expan><unclear>ἀρτ</unclear><ex>άβαι</ex></expan> <supplied reason="lost"><num value="4">δ</num></supplied> <num value="1/2">𐅵</num> 
 

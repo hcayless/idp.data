@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0181;63;4397"
-     xml:id="p.oxy.63.4397"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0181;63;4397" xml:id="p.oxy.63.4397" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -61,11 +56,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="22159" xml:lang="en">
-            <date>AD 545</date>
-            <placeName>Oxyrhynchus</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.oxy/63/4397">P.Oxy. 63 4397</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><supplied reason="lost"><g type="stauros"/> βασιλείας τοῦ θειοτάτου καὶ εὐσεβεστάτου ἡμῶν δεσπότου</supplied>
 
@@ -592,7 +584,7 @@
 <expan>sumbolai<ex>ografu</ex></expan> etelioth<unclear>h</unclear></foreign> <g type="stauros"/>.
 
     <lb n="247"/><g type="tachygraphic-marks"/>
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="248"/><handShift new="m1" cert="low"/><g type="stauros"/> <expan>ὁμολ<ex>ογία</ex></expan> γεναμ<supplied reason="lost">ένη </supplied><expan><supplied reason="lost">δι</supplied><ex>ὰ</ex></expan>
 Ἰωσὴφ <expan>πρ<ex cert="low">εσβυτέρου</ex></expan> καὶ <expan>ἀρχιμανδρ<ex>ίτου</ex></expan> τοῦ ἁγίου

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,16 +29,14 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2021-07-03T10:25:29-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2021-06-14T14:00:32-04:00"
-                 who="https://papyri.info/editor/users/gclaytor">Vote - Accept-Straight-to-Finalization - Looks good. Finalizer, add reg to alt reading γνὼς (l. γνοὺς) if possible</change>
+          <change when="2021-07-03T10:25:29-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2021-06-14T14:00:32-04:00" who="https://papyri.info/editor/users/gclaytor">Vote - Accept-Straight-to-Finalization - Looks good. Finalizer, add reg to alt reading γνὼς (l. γνοὺς) if possible</change>
           <change when="2021-05-14T17:24:55-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/basp/45/81_4">BASP 45 2008 S. 81 Nr. 4</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <ab>
     <lb n="1"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τιμιωτ</supplied>άτῳ</lem><rdg><supplied reason="lost">τῷ δεσπότῃ μου τιμιωτ</supplied>άτῳ</rdg></app> καὶ ἀγαπητῷ

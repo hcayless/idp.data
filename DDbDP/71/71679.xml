@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0014;2;991"
-     xml:id="o.bodl.2.991"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0014;2;991" xml:id="o.bodl.2.991" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="71679" xml:lang="en">
-            <date>AD 209?</date>
-            <placeName>Thebes</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.bodl/2/991">O.Bodl. 2 991</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ἐπεὶφ <num value="17">ιζ</num> τοῦ <num value="17">ιζ</num> <expan><ex>ἔτους</ex></expan> <expan>ὀνό<ex>ματος</ex></expan> <expan>Ἰσι<unclear>δώ</unclear><ex>ρου</ex></expan> 
 

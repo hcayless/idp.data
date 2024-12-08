@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,21 +29,18 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2020-07-12T13:20:32-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2020-06-06T10:49:10-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
-          <change when="2020-06-05T10:36:07-04:00"
-                 who="https://papyri.info/editor/users/LisaVanoppr%C3%A9">Submit - Submitted Greek text for P.Bastianini 22.&#xD;
+          <change when="2020-07-12T13:20:32-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2020-06-06T10:49:10-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2020-06-05T10:36:07-04:00" who="https://papyri.info/editor/users/LisaVanoppr%C3%A9">Submit - Submitted Greek text for P.Bastianini 22.
 Lines 2 and 15 are indented, please use correct markup.</change>
           <change when="2020-06-05T09:21:17-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.bastianini/22">P.Bastianini 22</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart"> 
+<div n="r" type="textpart" xml:id="_r"><head>r</head> 
 <div n="a" subtype="fragment" type="textpart"><ab> 
     <lb n="1"/><supplied reason="lost">Σαρ</supplied>απᾶς Θρακίδᾳ τῶι
 
@@ -80,7 +75,7 @@ Lines 2 and 15 are indented, please use correct markup.</change>
    <lb n="15" rend="indent"/> ἑρρῶσθαί σε <expan>εὔχ<ex>ομαι</ex></expan>
     </ab></div> 
     </div> 
-    <div n="v" type="textpart"><ab> 
+    <div n="v" type="textpart" xml:id="_v"><head>v</head><ab> 
    <lb n="16"/><supplied reason="lost">ἀπόδος Θρακίδᾳ</supplied> παρὰ Σαραπᾶτος
     </ab></div> 
 

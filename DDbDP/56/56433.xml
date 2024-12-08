@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,18 +29,16 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2020-08-21T09:00:00-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2020-08-20T09:09:48-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2020-08-21T09:00:00-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2020-08-20T09:09:48-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
           <change when="2020-08-19T08:11:22-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/simblos/4/14">Simblos 4 (2004) S. 14 Nr. 1</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
     <lb n="1"/>Παγκράτει <app type="editorial"><lem resp="W. Clarysse, L. Criscuolo, ZPE 153 (2005) 168">ἀρχισω<unclear>μ</unclear><supplied reason="lost">ατο</supplied><unclear>φ</unclear><supplied reason="lost">ύλακι</supplied> <unclear>καὶ</unclear> <supplied reason="lost">πρὸς τῆι</supplied> <expan><unclear>σ</unclear>υ<ex>ντάξει</ex></expan></lem><rdg>ἀρχισωμ<supplied reason="lost">ατοφύλακι καὶ πρὸς τῆι συντάξει</supplied></rdg></app>
 
     <lb n="2"/>παρὰ Πτολεμαίου τοῦ Πτολεμαίου Μακεδόνος
@@ -107,7 +103,7 @@
 
     <lb n="29"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
     <lb n="30"/>περὶ τῶν <gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="31"/><app type="editorial"><lem resp="W. Clarysse, L. Criscuolo, ZPE 153 (2005) 168"><supplied reason="lost">γι</supplied>νώσκειν <supplied reason="lost">σε θέλω</supplied></lem><rdg>νωσκεν<gap reason="lost" extent="unknown" unit="character"/></rdg></app>

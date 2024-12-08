@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,20 +29,17 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2020-11-11T11:20:58-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2020-10-20T15:42:47-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Correct lunate sigma in lin7</change>
-          <change when="2020-10-20T12:49:16-04:00"
-                 who="https://papyri.info/editor/users/EleniSkarsouli">Submit - I added the transcription</change>
+          <change when="2020-11-11T11:20:58-05:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2020-10-20T15:42:47-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Correct lunate sigma in lin7</change>
+          <change when="2020-10-20T12:49:16-04:00" who="https://papyri.info/editor/users/EleniSkarsouli">Submit - I added the transcription</change>
           <change when="2020-10-20T12:21:08-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.oxyrhyncha/30">P.Oxyrhyncha 30</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart"><ab> 
+<div n="r" type="textpart" xml:id="_r"><head>r</head><ab> 
     <lb n="1"/><gap reason="illegible" quantity="1" unit="character"/> παραδέδοται εἰς τὰ Ὥρο<unclear>υ</unclear> <supplied reason="lost">τοῦ</supplied> Πετε<unclear>ρμ</unclear>ο<supplied reason="lost">ύθιος</supplied>
 
     <lb n="2"/> <g type="check"/> Σαμώυτος τοῦ <unclear>Σα</unclear>μώ<unclear>υ</unclear><supplied reason="lost">τος</supplied> <abbr><unclear>πρ</unclear></abbr> <unclear>α</unclear>
@@ -97,7 +92,7 @@
 
     <lb n="25"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="v" type="textpart">
+<div n="v" type="textpart" xml:id="_v"><head>v</head>
 <div n="i" subtype="column" type="textpart"><ab>
     <lb n="1"/><gap reason="illegible" quantity="1" unit="character"/> <unclear>Καλατ</unclear><supplied reason="lost">ύ</supplied><unclear>τιος</unclear> <num value="1">α</num>
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0238;1;57"
-     xml:id="psi.1.57"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0238;1;57" xml:id="psi.1.57" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="13750" xml:lang="en">
-            <date>AD 52</date>
-            <placeName>Theadelphia</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="ctr" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/psi/1/57">PSI 1 57</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="ctr" type="textpart" xml:id="_ctr"><head>ctr</head><ab>
 
     <lb n="1"/>Ἔ<unclear>ρ</unclear>ω<unclear>τι</unclear> <unclear>στρατ</unclear>ηγῶι 
 
@@ -114,7 +106,7 @@
     <lb n="31"/>ἡμᾶς τῆς <unclear>γ</unclear><supplied reason="lost">ε</supplied><unclear>ω</unclear>ργίας ἑτοί
 
     <lb n="32" break="no"/><unclear>μ</unclear>ω<unclear>ς</unclear> <supplied reason="lost">ἔχειν </supplied><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> 
-</ab></div><div n="ms" type="textpart"><ab>
+</ab></div><div n="ms" type="textpart" xml:id="_ms"><head>ms</head><ab>
 
     <lb n="1"/><choice><reg>ἐδόθη</reg><orig>ἐδώθη</orig></choice> διὰ Ἄπιτος τοῦ Θέωνος <choice><reg>ὑπηρέτου</reg><orig>υπερετῃ</orig></choice>. <expan><ex>ἔτους</ex></expan> <supplied reason="lost">δω</supplied>δεκάτου Τιβερίου Κλαυδίου Καίσαρος Σεβαστοῦ Γερ<supplied reason="lost">μανικοῦ</supplied> 
 

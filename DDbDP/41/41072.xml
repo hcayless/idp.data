@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0009;10;30"
-     xml:id="cpr.10.30"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0009;10;30" xml:id="cpr.10.30" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,11 +44,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="41072" xml:lang="en">
-            <date>VI spc</date>
-            <placeName>Arsinoiton Polis, Krokodilopolis, Ptolemais Euergetis</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/cpr/10/30">CPR 10 30</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
@@ -72,7 +64,7 @@
     <lb n="7"/><handShift new="m3"/><g type="stauros"/> δι εμυ επιφαν<supplied reason="lost">ιυ</supplied> <g type="monogram"/> διʼ ἐμοῦ 
 
     <lb n="8"/>Ἐπιφανίου 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> κεν<unclear>τη</unclear>νάριο<unclear>ν</unclear> </ab></div></div>
       </body>

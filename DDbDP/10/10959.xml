@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;1;51"
-     xml:id="p.flor.1.51"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;1;51" xml:id="p.flor.1.51" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,12 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="10959" xml:lang="en">
-            <date>AD 138-61</date>
-            <placeName>Arsinoite</placeName>
-            <ref n="chr.mitt;;186" type="reprint-from">MChr186</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/1/51">P.Flor. 1 51</ref> = <ref target="https://papyri.info/pub/chr.mitt/186">M.Chr. 186</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> ἀργυρίου δραχμὰς ἑκατὸν <num value="100"/> <expan>κ<ex>αὶ</ex></expan> ε<unclear>ἰ</unclear>ς τ<unclear>ὸ</unclear> 
 
@@ -124,7 +115,7 @@
     <lb n="26"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> ὡς ἐτῶν</supplied> <unclear>τ</unclear>εσσεράκοντα <num value="40"/> οὐλὴ μ<unclear>ή</unclear>λῳ ἀριστερῶι <expan>κ<ex>αὶ</ex></expan> Σώτας <gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="27"/><gap reason="lost" extent="unknown" unit="character"/>υτου Σαταβοῦτος ὡς ἐτῶν πεντηκονταπέντε <num value="55"/> <gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 1,51,v reprinted in <ref n="p.flor;2;145" type="reprint-in">PFlor 2,145</ref></note></ab></div></div>
       </body>

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;2;426"
-     xml:id="bgu.2.426"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;2;426" xml:id="bgu.2.426" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,20 +26,13 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2021-06-29T05:54:15-04:00"
-                 who="https://papyri.info/editor/users/mgerhardt">Finalized - Fine.</change>
-          <change when="2021-06-29T05:49:53-04:00"
-                 who="https://papyri.info/editor/users/mgerhardt">Vote - Accept-Straight-to-Finalization - Fine.</change>
-          <change when="2021-06-29T05:37:59-04:00"
-                 who="https://papyri.info/editor/users/YanneBroux">Submit - Vo col. 2,  l. 21: typo in (Πασκεπ(έσκως)), should be (Πασκεπ(έσεως)) (see Ro col. 1, l. 18)</change>
-          <change when="2021-06-29T05:37:51-04:00"
-                 who="https://papyri.info/editor/users/YanneBroux">Commit - Vo col. 2,  l. 21: typo in (Πασκεπ(έσκως)), should be (Πασκεπ(έσεως)) (see Ro col. 1, l. 18)</change>
-          <change when="2013-07-18T15:12:55.169-04:00"
-                 who="https://papyri.info/editor/users/berkes.lajos">Finalized - ready</change>
-          <change when="2013-07-18T15:12:55.161-04:00"
-                 who="https://papyri.info/editor/users/joshuad.sosin">Vote - Accept-Straight-to-Finalization - Accept. But =&gt; (ὁριοδίκ(της))</change>
-          <change when="2013-07-18T07:10:49.328-04:00"
-                 who="https://papyri.info/editor/users/giuditta%20mirizio">corrected reg-orig at line 1.</change>
+          <change when="2021-06-29T05:54:15-04:00" who="https://papyri.info/editor/users/mgerhardt">Finalized - Fine.</change>
+          <change when="2021-06-29T05:49:53-04:00" who="https://papyri.info/editor/users/mgerhardt">Vote - Accept-Straight-to-Finalization - Fine.</change>
+          <change when="2021-06-29T05:37:59-04:00" who="https://papyri.info/editor/users/YanneBroux">Submit - Vo col. 2,  l. 21: typo in (Πασκεπ(έσκως)), should be (Πασκεπ(έσεως)) (see Ro col. 1, l. 18)</change>
+          <change when="2021-06-29T05:37:51-04:00" who="https://papyri.info/editor/users/YanneBroux">Commit - Vo col. 2,  l. 21: typo in (Πασκεπ(έσκως)), should be (Πασκεπ(έσεως)) (see Ro col. 1, l. 18)</change>
+          <change when="2013-07-18T15:12:55.169-04:00" who="https://papyri.info/editor/users/berkes.lajos">Finalized - ready</change>
+          <change when="2013-07-18T15:12:55.161-04:00" who="https://papyri.info/editor/users/joshuad.sosin">Vote - Accept-Straight-to-Finalization - Accept. But =&gt; (ὁριοδίκ(της))</change>
+          <change when="2013-07-18T07:10:49.328-04:00" who="https://papyri.info/editor/users/giuditta%20mirizio">corrected reg-orig at line 1.</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-11-29" who="https://papyri.info/editor/users/gabrielbodard">converted app type=BL|SoSOL to editorial</change>
@@ -60,11 +48,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="9163" xml:lang="en">
-            <date>ca. AD 200</date>
-            <placeName>Soknopaiou Nesos</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/bgu/2/426">BGU 2 426</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/>Ἀπῦγχις <choice><reg><expan>ὁριοδείκ<ex>της</ex></expan></reg><orig><expan>ὁριοδίκ<ex>της</ex></expan></orig></choice> <expan><ex>ἀρούρας</ex></expan> <num value="4">δ</num> 
 
@@ -120,7 +105,7 @@
     <lb n="24"/><expan>Σωτήριχο<ex>ς</ex></expan> <expan>γέρδ<ex>ιος</ex></expan>  <expan><ex>ἀρούρας</ex></expan> <num value="2">β</num> 
 
     <lb n="25"/>Ὡρίων <expan>μη<ex>τρὸς</ex></expan> <expan>Θαισᾶτο<ex>ς</ex></expan> <expan><ex>ἀρούρας</ex></expan> <num value="6">ϛ</num> 
-</ab></div><div n="v,1" type="textpart"><ab>
+</ab></div><div n="v,1" type="textpart" xml:id="_v_1"><head>v,1</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>             <expan><ex>ἀρούρας</ex></expan> <del rend="erasure"><num value="2">β</num></del>   <num value="10">ι</num> 
 
@@ -139,7 +124,7 @@
     <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="3" unit="character"/>  <expan><ex>ἀρούρας</ex></expan> <num value="50">ν</num> 
 
     <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>             <expan><ex>ἀρούρας</ex></expan> <num value="50">ν</num> 
-</ab></div><div n="v,2" type="textpart"><ab>
+</ab></div><div n="v,2" type="textpart" xml:id="_v_2"><head>v,2</head><ab>
 
     <lb n="1"/><expan>τόπ<ex>ου</ex></expan> Κιμαλαλ<supplied reason="lost">είς </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 

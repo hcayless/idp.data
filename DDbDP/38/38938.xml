@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0240;10;65"
-     xml:id="stud.pal.10.65"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;10;65" xml:id="stud.pal.10.65" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="38938" xml:lang="en">
-            <date>VII spc</date>
-            <placeName>Arsinoite</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/stud.pal/10/65">SPP 10 65</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="stauros"/> σὺν <expan>θ<ex>εῷ</ex></expan> <abbr>ταγ</abbr> τοῦ <expan><unclear>ἡ</unclear><supplied reason="lost">μ</supplied><unclear>ερ</unclear>ολογί<ex>ου</ex></expan> τοῦ <expan>ἀνυσ<supplied reason="lost">θ<ex>έντος</ex></supplied></expan> <gap reason="lost" quantity="7" unit="character"/> <unclear>ἀπο</unclear><gap reason="lost" quantity="7" unit="character"/> ἄλλων <expan>κανονικ<ex>ῶν</ex></expan> <expan>ἰ<ex>νδικτί</ex>ο<ex>νος</ex></expan> <num value="4">δ</num> <expan><supplied reason="lost">νο</supplied><ex>μισματίων</ex></expan> <num value="163">ρξγ</num> <abbr><unclear>παγα</unclear>ρχ</abbr> <gap reason="lost" extent="unknown" unit="character"/> 
 

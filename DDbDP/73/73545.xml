@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0019;;66"
-     xml:id="o.camb.66"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0019;;66" xml:id="o.camb.66" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,10 +38,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="73545" xml:lang="en">
-            <date>AD 140</date>
-            <placeName>Thebes</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.camb/66">O.Camb. 66</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost"><expan>μεμέ<ex>τρηται</ex></expan> εἰς θη</supplied>σαυρὸν <expan>μη<ex>τροπόλεως</ex></expan> <expan>γ<ex>εν</ex>ή<ex>ματος</ex></expan> <num value="3">γ</num> <expan><ex>ἔτους</ex></expan> <expan>Ἀντω<ex>νίν</ex>ου</expan> Καίσ<unclear>α</unclear>ρος 
 

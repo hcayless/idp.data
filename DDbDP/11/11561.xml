@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0146;;4"
-     xml:id="p.kron.4"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0146;;4" xml:id="p.kron.4" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11561" xml:lang="en">
-            <date>AD 135</date>
-            <placeName>Tebtynis</placeName>
-            <ref n="p.mil.vogl;3;156" type="reprint-from">PMilVogl3,156;SB6,9479a</ref>
-         </head>
+         <head><ref>SB VI 9479 a</ref> = <ref target="https://papyri.info/pub/p.kron/4">P.Kron. 4</ref> = <ref target="https://papyri.info/pub/p.mil.vogl/3/156">P.Mil. Vogl. III 156</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Καλλίστρατος <expan>στρ<ex>ατηγὸς</ex></expan> <expan>Ἀρσι<ex>νοΐτου</ex></expan> <expan>Πολέμω<ex>νος</ex></expan> 
 

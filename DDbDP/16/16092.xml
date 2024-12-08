@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;12;2135"
-     xml:id="bgu.12.2135"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;12;2135" xml:id="bgu.12.2135" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="16092" xml:lang="en">
-            <date>IV spc</date>
-            <placeName>Hermoupolis Magna</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/bgu/12/2135">BGU 12 2135</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><supplied reason="lost">Σαλλο</supplied>υ<unclear>στ</unclear>ίῳ <unclear>Ὀ</unclear><supplied reason="lost">λυμπι</supplied>οδ<unclear>ώ</unclear>ρῳ 
 
@@ -79,7 +71,7 @@
     <lb n="13"/>καὶ ἐμφανε<unclear>ί</unclear>α<supplied reason="lost">ς </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="14"/>Κοπρέου ἀπὸ τ<supplied reason="lost" cert="low">ῆς αὐτῆς πόλεως</supplied> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><gap reason="illegible" quantity="1" unit="line"/> </ab></div></div>
       </body>

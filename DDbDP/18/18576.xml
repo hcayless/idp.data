@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;4;1132"
-     xml:id="bgu.4.1132"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;4;1132" xml:id="bgu.4.1132" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="18576" xml:lang="en">
-            <date>14 BC</date>
-            <placeName>Alexandria</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="ctr" type="textpart"><ab>
+         <head><ref>C.Pap.Jud. II 142</ref> = <ref target="https://papyri.info/pub/bgu/4/1132">BGU 4 1132</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="ctr" type="textpart" xml:id="_ctr"><head>ctr</head><ab>
 
     <lb n="1"/>Πρωτάρχωι 
 
@@ -131,7 +123,7 @@
     <lb n="39"/><gap reason="illegible" extent="unknown" unit="line"/> 
 
     <lb n="40"/><gap reason="lost" extent="unknown" unit="line"/> 
-</ab></div><div n="Fr" type="textpart"><ab>
+</ab></div><div n="Fr" type="textpart" xml:id="_Fr"><head>Fr</head><ab>
 
     <lb n="1"/>μὴ οὔσης τῆς βεβαιώσεως <expan>τ<ex>ῆ</ex>ς</expan> <expan>προκ<ex>ειμένης</ex></expan> <expan>προσβο<ex>λῆς</ex></expan> <supplied reason="omitted">πρὸς</supplied> Ἀμμώνιον διὰ τῆς διὰ τῶν <expan>πρακτ<ex>όρων</ex></expan> συγχωρήσεως <gap reason="illegible" quantity="4" unit="character"/> </ab></div></div>
       </body>

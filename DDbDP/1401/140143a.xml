@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/8.10/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,21 +27,19 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2024-02-16T10:10:14.869-04:00"
-              who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2015-04-15T06:58:42.231-04:00"
-                 who="http://papyri.info/editor/users/PaulvdLaan">Entered Greek text from P.Herakl.Bank 2. General remark: filled out, as far as possible, returning abbreviations e.g. (γρ(αμματεύς)), (ἱπ(πεύς)), (ὑπηρ(έτης)), (λει(τουργός)), τρα(πεζίτης)), (ἱμα(τιοπώλης)), (ἐννό(μιον)) in the appropriate casus, as far as allowed by context. Inserted as much as possible suggestions and alternatives given in ed. commentary.&#xD;
-Part a col 1 lin12: not clear what ed. means; lin13: ἑνδεκαχο κ problematic, κ = κεραμ.. ?; col 4 lin 11 ed. comment. at (Αὐτο(μέδων)) etc. not clear, why at the begin of the line? col 7 lin21: casus of (ὑπ(ηρετ  )) not sure; Part d col 1 lin18-20, col 2 lin3, 11, 17: how to insert question mark? Part f col 2 lin5: Εὐβ[ίο]υ suggested by ed. does not match with traces in tekst .3[.1].5[.?].3; proposed &lt;:.3[.1].5|alt| Εὐβ[ίο]υ:&gt; [.?].3; lin20: changed πρώτην into α; Part g col 2 lin9: filles out Ἀκουσ[ιλάωι] on the base of translation; lin17: alternative Ἱστιάρ(χωι) (dat) instead of ed. Ἱστίαρ(χος) (nom);  lin20: Δχ.1 one dot, however in translation two dots 46[..]; Part h  col1: “Raum für ca acht Zeile”: tekst continues with lin9, so not “lost.8lin”, but eight lines starting with [.?]. Idem in col.2. Is that correct? Part j col 1 lin17: presumably .1ρι should be a number 1110-9110; col2 lin17:  filled out (Δημτρ(ίου)), although ed. omits (  ); Ἡρακλείδ(ης), lin.18 :  filled out (Ἡρακλείδ(ου), although ed. omits (  ); Part k lin12: filled out (Ἀρσινό(ης) in gen., ed. however says (Ἀρσινό(η)); lin17: ed. suggestion Ἀριζήλου (gen) does not match filles out  translation “dem A.” (dat); lin18: ed. gives Ἀλκίμωι, in comm. suggests Ἀλκίμου; Part l col 1 lin8: number of talents .1 theoretically 1 – 900.000. What is reasonable? Part m col 2 lin16 Ταιν[ι]ς μυ[ροπώλης]: added dots and brackets as seemed appropriate on the base of ed. commentary. &#xD;
+          <change when="2024-02-16T10:10:14.869-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2015-04-15T06:58:42.231-04:00" who="http://papyri.info/editor/users/PaulvdLaan">Entered Greek text from P.Herakl.Bank 2. General remark: filled out, as far as possible, returning abbreviations e.g. (γρ(αμματεύς)), (ἱπ(πεύς)), (ὑπηρ(έτης)), (λει(τουργός)), τρα(πεζίτης)), (ἱμα(τιοπώλης)), (ἐννό(μιον)) in the appropriate casus, as far as allowed by context. Inserted as much as possible suggestions and alternatives given in ed. commentary.
+Part a col 1 lin12: not clear what ed. means; lin13: ἑνδεκαχο κ problematic, κ = κεραμ.. ?; col 4 lin 11 ed. comment. at (Αὐτο(μέδων)) etc. not clear, why at the begin of the line? col 7 lin21: casus of (ὑπ(ηρετ  )) not sure; Part d col 1 lin18-20, col 2 lin3, 11, 17: how to insert question mark? Part f col 2 lin5: Εὐβ[ίο]υ suggested by ed. does not match with traces in tekst .3[.1].5[.?].3; proposed &lt;:.3[.1].5|alt| Εὐβ[ίο]υ:&gt; [.?].3; lin20: changed πρώτην into α; Part g col 2 lin9: filles out Ἀκουσ[ιλάωι] on the base of translation; lin17: alternative Ἱστιάρ(χωι) (dat) instead of ed. Ἱστίαρ(χος) (nom);  lin20: Δχ.1 one dot, however in translation two dots 46[..]; Part h  col1: “Raum für ca acht Zeile”: tekst continues with lin9, so not “lost.8lin”, but eight lines starting with [.?]. Idem in col.2. Is that correct? Part j col 1 lin17: presumably .1ρι should be a number 1110-9110; col2 lin17:  filled out (Δημτρ(ίου)), although ed. omits (  ); Ἡρακλείδ(ης), lin.18 :  filled out (Ἡρακλείδ(ου), although ed. omits (  ); Part k lin12: filled out (Ἀρσινό(ης) in gen., ed. however says (Ἀρσινό(η)); lin17: ed. suggestion Ἀριζήλου (gen) does not match filles out  translation “dem A.” (dat); lin18: ed. gives Ἀλκίμωι, in comm. suggests Ἀλκίμου; Part l col 1 lin8: number of talents .1 theoretically 1 – 900.000. What is reasonable? Part m col 2 lin16 Ταιν[ι]ς μυ[ροπώλης]: added dots and brackets as seemed appropriate on the base of ed. commentary. 
 </change>
           <change when="2015-01-23T03:56:25-05:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.herakl.bank/2">P.Herakl. Bank 2</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 
-<div n="a" subtype="part" type="textpart">
+<div n="a" subtype="part" type="textpart" xml:id="part_a"><head>Part a</head>
 <div n="1" subtype="column" type="textpart"><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> εἰς συμ<unclear>βο</unclear>λήν <num value="100">ρ</num>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -252,7 +249,7 @@ Part a col 1 lin12: not clear what ed. means; lin13: ἑνδεκαχο κ proble
 </ab> </div>
  </div>
 
-<div n="b" subtype="part" type="textpart">
+<div n="b" subtype="part" type="textpart" xml:id="part_b"><head>Part b</head>
 <div n="1" subtype="column" type="textpart"><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -331,7 +328,7 @@ Part a col 1 lin12: not clear what ed. means; lin13: ἑνδεκαχο κ proble
 
  </div>
 
-<div n="c" subtype="part" type="textpart">
+<div n="c" subtype="part" type="textpart" xml:id="part_c"><head>Part c</head>
 <div n="1" subtype="column" type="textpart"><ab>
 <lb n="1"/><expan><ex>τάλαντα</ex></expan> <num value="6">ϛ</num> <num value="1800">'Αω</num>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἀγορ</supplied><unclear>ασ</unclear>μὸς <supplied reason="lost">χ</supplied><unclear>ρ</unclear>υ<unclear>σ</unclear>ίου <expan><ex>δραχμαί</ex></expan> <num value="100">ρ</num> <expan><ex>τάλαντα</ex></expan> <num value="6">ϛ</num> <num value="1800">'Αω</num>
@@ -383,7 +380,7 @@ Part a col 1 lin12: not clear what ed. means; lin13: ἑνδεκαχο κ proble
 
  </div>
 
-<div n="d" subtype="part" type="textpart">
+<div n="d" subtype="part" type="textpart" xml:id="part_d"><head>Part d</head>
 <div n="1" subtype="column" type="textpart"><ab>
 <lb n="1"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> 
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ι
@@ -455,7 +452,7 @@ Part a col 1 lin12: not clear what ed. means; lin13: ἑνδεκαχο κ proble
 </ab> </div>
  </div>
 
-<div n="e" subtype="part" type="textpart">
+<div n="e" subtype="part" type="textpart" xml:id="part_e"><head>Part e</head>
 <div n="1" subtype="column" type="textpart"><ab>
 <lb n="1"/><g type="check"/> Π<unclear>ο</unclear><supplied reason="lost">λ</supplied><unclear>έμ</unclear>αρχος Διονυσίου <expan><unclear>σ</unclear>τρα<ex>τηγὸς</ex></expan> Παμφίλωι Ἀρτεμιδώρου Ἀλαβανδεῖ
 <lb n="2"/>ἃ ἀναφέρει ὀφείλεσθαι Μάτωι ἕως <num value="11">ια̅</num> τοῦ προκειμένου μηνὸς <expan><ex>τάλαντα</ex></expan> <num value="34">λδ</num> <num value="1130">'Αρλ</num>
@@ -504,7 +501,7 @@ Part a col 1 lin12: not clear what ed. means; lin13: ἑνδεκαχο κ proble
 </ab> </div>
 </div>
 
-<div n="f" subtype="part" type="textpart">
+<div n="f" subtype="part" type="textpart" xml:id="part_f"><head>Part f</head>
 <div n="1" subtype="column" type="textpart">
 <div n="r" type="textpart"><ab> 
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -586,7 +583,7 @@ Part a col 1 lin12: not clear what ed. means; lin13: ἑνδεκαχο κ proble
 </ab> </div>
 </div>
 
-<div n="g" subtype="part" type="textpart">
+<div n="g" subtype="part" type="textpart" xml:id="part_g"><head>Part g</head>
 <div n="1" subtype="column" type="textpart"><ab>
 
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -624,7 +621,7 @@ Part a col 1 lin12: not clear what ed. means; lin13: ἑνδεκαχο κ proble
 </ab> </div>
  </div>
 
-<div n="h" subtype="part" type="textpart">
+<div n="h" subtype="part" type="textpart" xml:id="part_h"><head>Part h</head>
 <div n="1" subtype="column" type="textpart"><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -673,7 +670,7 @@ Part a col 1 lin12: not clear what ed. means; lin13: ἑνδεκαχο κ proble
 </ab> </div>
 </div> 
 
-<div n="i" subtype="part" type="textpart">
+<div n="i" subtype="part" type="textpart" xml:id="part_i"><head>Part i</head>
 <div n="1" subtype="column" type="textpart"><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> Ἀπολλώνιος Διονυσίου
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> Ἀπολλωνίο<supplied reason="lost">υ</supplied>
@@ -725,7 +722,7 @@ Part a col 1 lin12: not clear what ed. means; lin13: ἑνδεκαχο κ proble
 </ab> </div>
 </div>
 
-<div n="j" subtype="part" type="textpart">
+<div n="j" subtype="part" type="textpart" xml:id="part_j"><head>Part j</head>
 <div n="1" subtype="column" type="textpart"><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> <num value="1000">'Α</num> 
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="illegible" quantity="4" unit="character"/> <num value="2400">'Βυ</num>  
@@ -778,7 +775,7 @@ Rand
 </ab> </div>
 </div>
 
-<div n="k" subtype="part" type="textpart"><ab>
+<div n="k" subtype="part" type="textpart" xml:id="part_k"><head>Part k</head><ab>
 
 <lb n="1"/><g type="check"/> <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>  <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> <gap reason="lost" extent="unknown" unit="character"/>  
 <lb n="2"/><g type="check"/> Ὥρου Βαρωίτου Σεμ<unclear>θ</unclear>εὺς <gap reason="lost" extent="unknown" unit="character"/>
@@ -804,7 +801,7 @@ Rand
 
 </ab> </div>
 
-<div n="l" subtype="part" type="textpart">
+<div n="l" subtype="part" type="textpart" xml:id="part_l"><head>Part l</head>
 <div n="1" subtype="column" type="textpart"><ab>
 
 <lb n="5"/><gap reason="lost" quantity="4" unit="line" precision="low"/>
@@ -855,7 +852,7 @@ Rand
 </ab> </div>
  </div>
 
-<div n="m" subtype="part" type="textpart">
+<div n="m" subtype="part" type="textpart" xml:id="part_m"><head>Part m</head>
 <div n="1" subtype="column" type="textpart"><ab>
 
 <lb n="8"/><gap reason="lost" quantity="7" unit="line" precision="low"/>
@@ -899,7 +896,7 @@ Rand
 </ab> </div>
  </div>
 
-<div n="n" subtype="part" type="textpart"><ab>
+<div n="n" subtype="part" type="textpart" xml:id="part_n"><head>Part n</head><ab>
 
 <lb n="1"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> 
 <lb n="2"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> 
@@ -925,7 +922,7 @@ Rand
 <lb n="22"/><gap reason="lost" extent="unknown" unit="character"/> <num value="940">ϡ<unclear>μ</unclear></num> <gap reason="lost" extent="unknown" unit="character"/>
 </ab> </div>
 
-<div n="Fragmente" subtype="part" type="textpart">
+<div n="Fragmente" subtype="part" type="textpart" xml:id="part_Fragmente"><head>Part Fragmente</head>
 
 <div n="a" subtype="fragment" type="textpart"><ab>
 

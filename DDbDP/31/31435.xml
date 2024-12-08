@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0116;;14" xml:id="p.fuad.i.univ.14" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0116;;14" xml:id="p.fuad.i.univ.14" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +42,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="31435 78228" xml:lang="en">
-            <date>III spc?</date>
-            <placeName>Memphis</placeName>
-         </head>
+         <head><ref>P.Fuad I Univ. App. II 14</ref> = <ref target="https://papyri.info/pub/p.fuad.i.univ/14">P.Fuad I Univ. 14</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Αὐρηλίῳ <supplied reason="lost">Ἡρ</supplied><unclear>α</unclear>κλάμμωνι <expan>στρ<ex>ατήγῳ</ex></expan> Μεμφίτου 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;12;11234"
-     xml:id="sb.12.11234"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;12;11234" xml:id="sb.12.11234" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="16403" xml:lang="en">
-            <date>AD 210/1</date>
-            <placeName>Oxyrhynchus</placeName>
-            <ref n="p.wisc;1;6" type="reprint-from">PWisc1,6</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/12/11234">SB 12 11234</ref> = <ref target="https://papyri.info/pub/p.wisc/1/6">P.Wisc. I 6</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>παρὰ Διο<gap reason="lost" quantity="10" unit="character"/> 
 

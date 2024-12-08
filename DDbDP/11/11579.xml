@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0146;;57"
-     xml:id="p.kron.57"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0146;;57" xml:id="p.kron.57" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,10 +42,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11579" xml:lang="en">
-            <date>AD 120</date>
-            <placeName>Tebtynis</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.kron/57">P.Kron. 57</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">ἔτου</supplied><unclear>ς</unclear> τετά<unclear>ρ</unclear><supplied reason="lost">του Αὐτοκράτορος Καίσαρος</supplied> 
 

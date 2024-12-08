@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,20 +29,17 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2013-03-26T13:51:42.391-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2013-03-26T13:51:42.356-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - supply spaces between the obols</change>
-          <change when="2011-10-10T03:38:15.516-04:00"
-                 who="https://papyri.info/editor/users/a-blomley">Submitted on the 10th of October 2011.</change>
+          <change when="2013-03-26T13:51:42.391-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2013-03-26T13:51:42.356-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - supply spaces between the obols</change>
+          <change when="2011-10-10T03:38:15.516-04:00" who="https://papyri.info/editor/users/a-blomley">Submitted on the 10th of October 2011.</change>
           <change when="2011-10-06T05:40:35-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.count/17">P.Count 17</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="2" subtype="fragment" type="textpart"> 
+<div n="2" subtype="fragment" type="textpart" xml:id="fragment_2"><head>Fragment 2</head> 
 <div n="r" type="textpart"> 
 <div n="1" subtype="column" type="textpart"><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
@@ -90,7 +85,7 @@
 <lb n="31"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
 </div>
-<div n="b" subtype="fragment" type="textpart">
+<div n="b" subtype="fragment" type="textpart" xml:id="fragment_b"><head>Fragment b</head>
 <div n="r" type="textpart"><ab>
 <lb n="32"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="32"/><gap reason="lost" extent="unknown" unit="character"/> Ἁρμιύσιος

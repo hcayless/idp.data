@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0159;3;105" xml:id="p.mert.3.105" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0159;3;105" xml:id="p.mert.3.105" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,10 +47,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11942a 11942b 11942c" xml:lang="en">
-            <date>AD 164</date>
-            <placeName>Tebtynis</placeName>
-         </head>
+         <head><ref>P.Merton 3 105 Z. 10 - 16</ref> = <ref>P.Merton 3 105 Z. 17 - 34</ref> = <ref target="https://papyri.info/pub/p.mert/3/105">P.Merton 3 105 Z. 1 - 9</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>ἔτους πέ<unclear>μπ</unclear><supplied reason="lost">του Αὐτοκράτορος Καίσαρος Μάρκου Αὐρηλίου Ἀντωνίνου</supplied> 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0198;2;112C"
-     xml:id="p.ryl.2.112C"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0198;2;112C" xml:id="p.ryl.2.112C" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,10 +45,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="12909" xml:lang="en">
-            <date>AD 250</date>
-            <placeName>Theadelphia</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.ryl/2/112C">P.Ryl. 2 112 c</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>τοῖς ἐπὶ τῶν θυσιῶν ᾑρη
 

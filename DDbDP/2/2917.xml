@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0187;3;55"
-     xml:id="p.petr.3.55"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0187;3;55" xml:id="p.petr.3.55" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="2917" xml:lang="en">
-            <date>235/234 BC</date>
-            <placeName>Gurob</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="A" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.petr/3/55">P.Petr. 3 55 (a)</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="A" type="textpart" xml:id="_A"><head>A</head><ab>
 
     <lb n="1"/><supplied reason="lost">βασιλεύοντος Πτολεμαίου τοῦ Πτολεμαίου καὶ</supplied> Ἀρσινόης θ<supplied reason="lost">ε</supplied>
 
@@ -97,7 +89,7 @@
     <lb n="22"/><supplied reason="lost">τῆς ἐπιγονῆς </supplied><gap reason="lost" extent="unknown" unit="character"/></lem><rdg>Καρ<gap reason="lost" extent="unknown" unit="character"/></rdg></app> <gap reason="illegible" quantity="1" unit="character"/>ων Διονυσο<supplied reason="lost">δώρου</supplied> 
 
     <lb n="23"/><gap reason="lost" extent="unknown" unit="character"/> τῆς ἐπιγ<supplied reason="lost">ονῆς </supplied><gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="B" type="textpart"><ab>
+</ab></div><div n="B" type="textpart" xml:id="_B"><head>B</head><ab>
 
     <lb n="1"/><note xml:lang="en">PPetr 3,55,B reprinted in <ref n="p.petr;2;47" type="reprint-in">PPetr 2,47</ref></note></ab></div></div>
       </body>

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;20;14386"
-     xml:id="sb.20.14386"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;20;14386" xml:id="sb.20.14386" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,11 +38,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="32180" xml:lang="en">
-            <date>AD 277-9 or 281/2</date>
-            <placeName>?</placeName>
-            <ref n="chla;9;404" type="reprint-from">ChLA 9,404</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/20/14386">SB 20 14386</ref> = <ref target="https://papyri.info/pub/chla/9/404">ChLA IX 404</ref></head>
          <div xml:lang="la" type="edition" xml:space="preserve"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><unclear>pe</unclear>r<gap reason="illegible" atLeast="1" atMost="2" unit="character"/><unclear>c</unclear>t<unclear>o</unclear>ris <gap reason="illegible" quantity="1" unit="character"/>u<unclear>p</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0282;;88"
-     xml:id="o.heid.88"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0282;;88" xml:id="o.heid.88" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="78337" xml:lang="en">
-            <date>AD 182</date>
-            <placeName>Thebes</placeName>
-            <ref type="reprint-from">P.Heid. 3.270</ref>
-         </head>
+         <head><ref>P.Heid. III 270</ref> = <ref target="https://papyri.info/pub/o.heid/88">O.Heid. 88</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>μέ<ex>τρημα</ex></expan> <expan>θησα<ex>υροῦ</ex></expan> <expan>κωμ<ex>ῶν</ex></expan> <expan>γενήμ<ex>ατος</ex></expan> 
 <num value="22">κβ</num> <expan><ex>ἔτους</ex></expan> Κομμόδου

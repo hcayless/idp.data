@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0002;;227"
-     xml:id="c.ep.lat.227"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0002;;227" xml:id="c.ep.lat.227" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="10021" xml:lang="en">
-            <date>AD 344</date>
-            <placeName>Arsinoite</placeName>
-            <ref n="p.abinn;;2|p.gen;;45" type="reprint-from">PAbinn2;PGen45;ChLA1,8;CPL264</ref>
-         </head>
+         <head><ref>W.Chr. 464</ref> = <ref>ChLA I 8</ref> = <ref>CPL 264</ref> = <ref target="https://papyri.info/pub/c.ep.lat/227">CEL I 227</ref> = <ref target="https://papyri.info/pub/p.abinn/2">P.Abinn. 2</ref> = <ref target="https://papyri.info/pub/p.gen/45">P.Gen. I 45</ref></head>
          <div xml:lang="la" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><abbr><unclear>f</unclear></abbr><abbr><unclear>l</unclear></abbr> 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0029;;58"
-     xml:id="o.leid.58"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0029;;58" xml:id="o.leid.58" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="24630" xml:lang="en">
-            <date>AD 45</date>
-            <placeName>Thebes</placeName>
-            <ref n="sb;10;10326" type="reprint-from">SB10,10326</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.leid/58">O.Leid. 58</ref> = <ref target="https://papyri.info/pub/sb/10/10326">SB X 10326</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ίων <abbr>Ἀπολλ</abbr> πρά<unclear>κ</unclear><supplied reason="lost">τωρ </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0205;3;135"
-     xml:id="p.stras.3.135"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0205;3;135" xml:id="p.stras.3.135" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="16941" xml:lang="en">
-            <date>AD 198-211</date>
-            <placeName>?</placeName>
-            <ref n="sb;5;8017" type="reprint-from">SB5,8017</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.stras/3/135">P.Strasb. 3 135</ref> = <ref target="https://papyri.info/pub/sb/5/8017">SB V 8017</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost"><expan><ex>ἔτους</ex></expan> </supplied><gap reason="lost" quantity="1" unit="character"/><supplied reason="lost"> Λουκίου Σεπτιμίου</supplied> 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;3;364"
-     xml:id="p.flor.3.364"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;3;364" xml:id="p.flor.3.364" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="31147" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Arsinoite</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,1" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/3/364">P.Flor. 3 364</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,1" type="textpart" xml:id="_r_1"><head>r,1</head><ab>
 
     <lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/> <expan><supplied reason="lost">ὁ</supplied>μοί<ex>ως</ex></expan> ἐν Ψινάχι <expan>κάμη<ex>λοι</ex></expan> <num value="3">γ</num> 
 
@@ -76,7 +68,7 @@
     <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/><unclear>τες</unclear> ὑπὸ ἔλαια ἀπὸ <expan>Διονυσ<ex>ιάδος</ex></expan> <expan>κάμη<ex>λοι</ex></expan> <num value="12">ιβ</num> 
 
     <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/>ο<g type="unintelligible"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="3" unit="character"/> <expan>κάμη<ex>λοι</ex></expan> <num value="6">ϛ</num> 
-</ab></div><div n="r,2" type="textpart"><ab>
+</ab></div><div n="r,2" type="textpart" xml:id="_r_2"><head>r,2</head><ab>
 
     <lb n="14"/><num value="24">κδ</num> <expan>ἀνῆλθ<ex>ον</ex></expan> ἀπὸ τοῦ Νέστου <expan>κάμη<ex>λοι</ex></expan> <num value="6">ϛ</num> 
 
@@ -103,7 +95,7 @@
     <lb n="25"/><num value="30">λ</num> ἐν <choice><reg>ἀναπαύσει</reg><orig>ἀναπαύσι</orig></choice> 
 
     <lb n="26"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="6" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 3,364,v reprinted in <ref n="p.flor;2;184" type="reprint-in">PFlor 2,184</ref></note></ab></div></div>
       </body>

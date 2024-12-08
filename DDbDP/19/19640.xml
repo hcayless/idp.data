@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0083;;56"
-     xml:id="p.brem.56"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0083;;56" xml:id="p.brem.56" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="19640" xml:lang="en">
-            <date>II spc</date>
-            <placeName>Hermoupolis Magna</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,FrA" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.brem/56">P.Brem. 56</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,FrA" type="textpart" xml:id="_r_FrA"><head>r,FrA</head><ab>
 
     <lb n="1"/>χαῖρε, <choice><reg>κύριέ</reg><orig>κυρι</orig></choice> μου ἄδελφε 
 
@@ -62,7 +54,7 @@
     <lb n="5"/>εὐχόμενός σε. τῆς ε<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/> 
 
     <lb n="6"/><gap reason="lost" extent="unknown" unit="line"/> 
-</ab></div><div n="r,FrB" type="textpart"><ab>
+</ab></div><div n="r,FrB" type="textpart" xml:id="_r_FrB"><head>r,FrB</head><ab>
 
     <lb n="1"/><gap reason="lost" quantity="16" unit="character"/>ται 
 
@@ -77,7 +69,7 @@
     <lb n="6"/>τρίτην δυνασθῶ<supplied reason="lost">σι</supplied>ν 
 
     <lb n="7"/><gap reason="lost" extent="unknown" unit="line"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="6"/>ἀπὸ Ἀσιννίου <expan>δεκαδ<ex>άρχου</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> </ab></div></div>
       </body>

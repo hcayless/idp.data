@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;1;2col8"
-     xml:id="p.flor.1.2col8"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;1;2col8" xml:id="p.flor.1.2col8" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,11 +47,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="23533" xml:lang="en">
-            <date>AD 265</date>
-            <placeName>Hermoupolis Magna</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="8" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/1/2col8">P.Flor. 1 2 Kol. VIII</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="8" type="textpart" xml:id="_8"><head>8</head><ab>
 
     <lb n="202"/>Φλαύ<hi rend="diaeresis">ι</hi>ος Πανίσκος ὁ καὶ Λόγγ<supplied reason="lost">ος στρατηγὸς Ἑρ</supplied>μοπολείτο<supplied reason="lost">υ</supplied> 
 

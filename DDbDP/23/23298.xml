@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;16;2576"
-     xml:id="bgu.16.2576"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;16;2576" xml:id="bgu.16.2576" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,10 +38,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="23298" xml:lang="en">
-            <date>8-2 BC?</date>
-            <placeName>Herakleoopolites</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/bgu/16/2576">BGU 16 2576</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <abbr>μετρ<hi rend="superscript">η</hi></abbr> συν

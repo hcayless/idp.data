@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0181;12;1425"
-     xml:id="p.oxy.12.1425"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0181;12;1425" xml:id="p.oxy.12.1425" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,10 +44,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="21831" xml:lang="en">
-            <date>AD 318</date>
-            <placeName>Oxyrhynchus</placeName>
-         </head>
+         <head><ref>Sel. Pap. II 345</ref> = <ref target="https://papyri.info/pub/p.oxy/12/1425">P.Oxy. 12 1425</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><choice><reg>ὑπατείας</reg><orig><hi rend="diaeresis">ὑ</hi>πατίας</orig></choice> τῶν δεσποτῶν ἡμῶν Λικ<supplied reason="lost">ι</supplied>ννίο<supplied reason="lost">υ</supplied> 
 

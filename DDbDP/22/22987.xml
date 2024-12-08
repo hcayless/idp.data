@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;5;94" xml:id="stud.pal.5.94" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;5;94" xml:id="stud.pal.5.94" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +44,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="22987a 22987b" xml:lang="en">
-            <date>AD 267/8</date>
-            <placeName>Hermoupolis Magna</placeName>
-            <ref n="chr.wilck;;194" type="reprint-from">WChr194</ref>
-         </head>
+         <head><ref>SPP 5 94 II</ref> = <ref target="https://papyri.info/pub/stud.pal/5/94">SPP 5 94 I</ref> = <ref target="https://papyri.info/pub/chr.wilck/194">W.Chr. 194</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1,msup"/><num value="1">α</num> 
 

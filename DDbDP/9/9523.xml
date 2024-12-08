@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;7;1617"
-     xml:id="bgu.7.1617"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;7;1617" xml:id="bgu.7.1617" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="9523" xml:lang="en">
-            <date>AD 198/227</date>
-            <placeName>Philadelphia</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/bgu/7/1617">BGU 7 1617</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/><expan>Φιλαδελ<ex>φείας</ex></expan> <expan>ἀργ<ex>υρικῶν</ex></expan> <expan>ἀριθ<ex>μήσεως</ex></expan> 
 
@@ -108,7 +100,7 @@
     <lb n="28"/>Ἡρα<hi rend="diaeresis">ΐ</hi>σκος <expan>στρα<ex>τηγός</ex></expan>          <expan><ex>δραχμὰς</ex></expan> <num value="40">μ</num> 
 
     <lb n="29"/>Λογ<g type="apostrophe"/>γεῖνος <expan>Σαραπίω<ex>νος</ex></expan>         <expan><ex>δραχμὰς</ex></expan> <num value="40">μ</num> 
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="30"/>Ἀμμωνιανὸς δου
 

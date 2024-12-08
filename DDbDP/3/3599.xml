@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0211;;12"
-     xml:id="p.tor.amen.12"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0211;;12" xml:id="p.tor.amen.12" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="3599" xml:lang="en">
-            <date>118 BC</date>
-            <placeName>Thebes</placeName>
-            <ref n="p.tor;;12" type="reprint-from">PTor12</ref>
-         </head>
+         <head><ref>UPZ II 197</ref> = <ref target="https://papyri.info/pub/p.tor.amen/12">P.Tor. 12</ref> = <ref target="https://papyri.info/pub/p.tor/12">P.Tor. Amenothes 12</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ἑρμοκλῆς καὶ 
 

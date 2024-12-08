@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0282;;140"
-     xml:id="o.heid.140"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0282;;140" xml:id="o.heid.140" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,11 +42,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="78327" xml:lang="en">
-            <date>AD 193</date>
-            <placeName>Thebes</placeName>
-            <ref type="reprint-from">P.Heid. 3.260</ref>
-         </head>
+         <head><ref>P.Heid. III 260</ref> = <ref target="https://papyri.info/pub/o.heid/140">O.Heid. 140</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ὧρος καὶ <expan>Ἀσκ<ex>λᾶς</ex></expan> <expan>πράκ<ex>τορες</ex></expan> <expan>ἀργ<ex>υρικῶν</ex></expan>
 

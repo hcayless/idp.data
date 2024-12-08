@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0009;17A;2"
-     xml:id="cpr.17A.2"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0009;17A;2" xml:id="cpr.17A.2" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="17695" xml:lang="en">
-            <date>AD 313</date>
-            <placeName>Hermoupolis Magna</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/cpr/17A/2">CPR 17 A 2</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>Αὐρ<ex>ηλίῳ</ex></expan> Ἀδ<unclear>ε</unclear><supplied reason="lost">λ</supplied><unclear>φ</unclear>ίῳ Ἀδ<unclear>ε</unclear><supplied reason="lost">λ</supplied><unclear>φ</unclear><supplied reason="lost">ίου ἀπὸ Ἑρμοῦ πόλεως</supplied> 
 

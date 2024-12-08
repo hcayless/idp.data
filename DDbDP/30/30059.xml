@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0129;2;229v"
-     xml:id="p.harr.2.229v"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0129;2;229v" xml:id="p.harr.2.229v" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,11 +38,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="30059" xml:lang="en">
-            <date>III spc</date>
-            <placeName>?</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.harr/2/229v">P.Harr. 2 229 V</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><del rend="erasure">η<gap reason="illegible" quantity="1" unit="character"/><unclear>αλλ</unclear><gap reason="illegible" quantity="1" unit="character"/><unclear>ει</unclear><gap reason="illegible" quantity="2" unit="character"/><unclear>ρεια</unclear> εστιν</del> 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0042;1;454"
-     xml:id="o.stras.1.454"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0042;1;454" xml:id="o.stras.1.454" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,10 +38,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="76042" xml:lang="en">
-            <date>AD 211</date>
-            <placeName>Memnoneia</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.stras/1/454">O.Strasb. 1 454</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ἀσκληπιάδης Πλήνιος <expan>κ<ex>αὶ μέτο</ex>χο<ex>ι</ex></expan> <expan>ἀχυροπράκ<ex>τορες</ex></expan> 
 

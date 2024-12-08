@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0205;6;594b"
-     xml:id="p.stras.6.594b"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0205;6;594b" xml:id="p.stras.6.594b" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,10 +45,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="16807" xml:lang="en">
-            <date>AD 293/4</date>
-            <placeName>Antinoopolis</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.stras/6/594b">P.Strasb. 6 594 b</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
 
     <lb n="18"/><handShift new="m2"/> <supplied reason="lost">Αὐρήλιος Κάστ</supplied>ωρ ὁ καὶ Ε<supplied reason="lost">ὐδ</supplied>αίμω<supplied reason="lost">ν  </supplied><gap reason="lost" extent="unknown" unit="character"/> 

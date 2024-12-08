@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0036;;ChamsElDin2"
-     xml:id="o.oasis.ChamsElDin2"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0036;;ChamsElDin2" xml:id="o.oasis.ChamsElDin2" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="23795" xml:lang="en">
-            <date>AD 364/5?</date>
-            <placeName>Oasis Major</placeName>
-            <ref n="sb;20;14822" type="reprint-from">SB 20,14822</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.oasis/ChamsElDin2">O.Chams el-Din 2</ref> = <ref target="https://papyri.info/pub/sb/20/14822">SB 20 14822</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Παλα<unclear>ι</unclear>ούθης 
 

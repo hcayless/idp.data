@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0151;;10"
-     xml:id="p.leit.10"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0151;;10" xml:id="p.leit.10" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="32159" xml:lang="en">
-            <date>III/IV spc</date>
-            <placeName>Panopolis</placeName>
-            <ref n="sb;8;10202" type="reprint-from">SB8,10202</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.leit/10">P.Leit. 10</ref> = <ref target="https://papyri.info/pub/sb/8/10202">SB VIII 10202</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Αὐρηλίοις Βησᾷ Ὀρφανοῦ καὶ Ἱερακαπόλλωνι 
 

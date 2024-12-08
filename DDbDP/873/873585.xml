@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -39,7 +37,7 @@
     </teiHeader>
     <text>
         <body>
-            <head xml:lang="en"/>
+            <head><ref target="https://papyri.info/pub/ddbdp/2021/3">CIMA 6 (1971) S. 17</ref></head>
             <div xml:lang="grc" type="edition" xml:space="preserve">
 <ab>
     <lb n="1"/>ἔτους ἕκτου Αὐτοκρά<unclear>το</unclear>ρος Καίσαρος Τραιανοῦ Ἁ<unclear>δ</unclear>ριαν<unclear>οῦ</unclear> <unclear>Σεβαστοῦ</unclear> μ<supplied reason="lost">η</supplied><unclear>ν</unclear>ὸς Ἀπελαίου Φαῶφι <num value="27">κζ</num>

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0153;1;114"
-     xml:id="p.lips.1.114"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0153;1;114" xml:id="p.lips.1.114" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="22435" xml:lang="en">
-            <date>AD 133</date>
-            <placeName>Oxyrhynchite</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.lips/1/114">P.Lips. 1 114</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Διον<supplied reason="lost">ύ</supplied>σιος <expan>Διον<ex>υσίου</ex></expan> <expan>σιτολ<ex>όγοις</ex></expan> <expan>λιβ<ex>ὸς</ex></expan> <expan>τοπ<ex>αρχίας</ex></expan> Σύρων <expan>κώμη<ex>ς</ex></expan> <expan>τόπ<ex>ων</ex></expan>. 
 

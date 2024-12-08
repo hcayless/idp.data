@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0204;;11"
-     xml:id="p.soter.11"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0204;;11" xml:id="p.soter.11" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,10 +42,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="13125" xml:lang="en">
-            <date>AD 77</date>
-            <placeName>Theadelphia</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.soter/11">P.Soterichos 11</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><unclear>Ἀντίπατρος</unclear> Ἀχ<supplied reason="lost">ι</supplied><unclear>λ</unclear>λ<unclear>έω</unclear><supplied reason="lost">ς</supplied> 
 

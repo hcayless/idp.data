@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;16;12575"
-     xml:id="sb.16.12575"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;16;12575" xml:id="sb.16.12575" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="40968" xml:lang="en">
-            <date>VII/VIII spc</date>
-            <placeName>Arsinoiton Polis, Krokodilopolis, Ptolemais Euergetis</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/sb/16/12575">SB 16 12575</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><g type="stauros"/> <unclear>ἐ</unclear><supplied reason="lost">ν ὀνό</supplied><unclear>μ</unclear><supplied reason="lost">ατι τοῦ θε</supplied><unclear>οῦ</unclear>· παρὰ Ἀβδέλλα <unclear>β</unclear><gap reason="illegible" quantity="1" unit="character"/><unclear>λιαρ</unclear><gap reason="lost" extent="unknown" unit="character"/> πατρικίου 
 
@@ -85,7 +77,7 @@
     <lb n="17"/>ε<unclear>τ</unclear><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="18"/>τῶν δεσποτ<add place="above">ῶ<supplied reason="lost">ν</supplied></add> μου 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="19"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> </ab></div></div>
       </body>

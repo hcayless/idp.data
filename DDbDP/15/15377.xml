@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0205;9;894"
-     xml:id="p.stras.9.894"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0205;9;894" xml:id="p.stras.9.894" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,11 +47,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="15377" xml:lang="en">
-            <date>AD 182</date>
-            <placeName>?</placeName>
-            <ref n="p.stras;1;34" type="reprint-from">PStras1,34</ref>
-         </head>
+         <head><ref>P.Strasb. I 34 (teilweise)</ref> = <ref target="https://papyri.info/pub/p.stras/9/894">P.Strasb. 9 894</ref> = <ref target="https://papyri.info/pub/p.stras/1/34">P.Strasb. 9 894</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" quantity="9" unit="character"/> <unclear>Β</unclear>ησαρίωνι καὶ Ἀναξαγόρᾳ Ἑρμίου βουλευταῖς 
 

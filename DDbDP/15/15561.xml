@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0093;;5"
-     xml:id="p.charite.5"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0093;;5" xml:id="p.charite.5" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="15561" xml:lang="en">
-            <date>ca. AD 320-350</date>
-            <placeName>Hermoupolis Magna</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.charite/5">P.Charite 5</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Αὐρ<unclear>η</unclear>λίᾳ <unclear>Χα</unclear>ρίτῃ Ἀμαζο<unclear>ν</unclear>ίου ἀ<unclear>πὸ</unclear> <unclear>Ἑρμο</unclear>ῦ π<unclear>ό</unclear>λεω<unclear>ς</unclear> 
 

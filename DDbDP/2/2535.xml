@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0025;;37"
-     xml:id="o.erem.37"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0025;;37" xml:id="o.erem.37" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="2535" xml:lang="en">
-            <date>323-30 BC</date>
-            <placeName>Thebes</placeName>
-            <ref n="sb;18;13214" type="reprint-from">SB18,13214</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.erem/37">O.Erem. 37</ref> = <ref target="https://papyri.info/pub/sb/18/13214">SB 18 13214</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><abbr>ιν</abbr> ἐκ <expan>θησ<ex>αυροῦ</ex></expan> 
 

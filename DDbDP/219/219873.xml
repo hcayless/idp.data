@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -32,19 +30,16 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2015-11-12T06:05:29-05:00"
-                 who="https://papyri.info/editor/users/esthergarel">Finalized - Ready.</change>
-          <change when="2015-11-02T03:39:11-05:00"
-                 who="https://papyri.info/editor/users/anne.boudhors">Vote - AcceptText - lin5=&gt; &lt;:ϫⲉ ⲉⲣⲁⲙⲁ|reg|ϫⲉⲣⲁⲙⲁ:&gt;</change>
+          <change when="2015-11-12T06:05:29-05:00" who="https://papyri.info/editor/users/esthergarel">Finalized - Ready.</change>
+          <change when="2015-11-02T03:39:11-05:00" who="https://papyri.info/editor/users/anne.boudhors">Vote - AcceptText - lin5=&gt; &lt;:ϫⲉ ⲉⲣⲁⲙⲁ|reg|ϫⲉⲣⲁⲙⲁ:&gt;</change>
           <change when="2015-10-30T12:14:41-04:00" who="https://papyri.info/editor/users/Georg">Vote - AcceptText - OK</change>
-          <change when="2015-10-26T04:23:00-04:00"
-                 who="https://papyri.info/editor/users/M.J.Albarran">Submit - coptic ostracon</change>
+          <change when="2015-10-26T04:23:00-04:00" who="https://papyri.info/editor/users/M.J.Albarran">Submit - coptic ostracon</change>
           <change when="2015-10-26T04:08:24-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/o.frange/333">O.Frange 333</ref></head>
          <div xml:lang="cop" type="edition" xml:space="preserve">
 <ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>

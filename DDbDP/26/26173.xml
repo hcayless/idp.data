@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0193;;2"
-     xml:id="p.quseir.2"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0193;;2" xml:id="p.quseir.2" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,10 +42,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="26173" xml:lang="en">
-            <date>?</date>
-            <placeName>Leukos Limen</placeName>
-         </head>
+         <head><ref>SB 20 14249</ref> = <ref target="https://papyri.info/pub/p.quseir/2">P.Quseir 2</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost" cert="low">ὁ</supplied><supplied reason="lost"> δεῖνα τῷ δεῖνα</supplied> τῷ γλυκυτάτῳ <unclear>μ</unclear><supplied reason="lost" cert="low">ου πλεῖστα</supplied> 
 

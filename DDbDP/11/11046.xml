@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;2;185"
-     xml:id="p.flor.2.185"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;2;185" xml:id="p.flor.2.185" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,11 +42,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11046" xml:lang="en">
-            <date>AD 254</date>
-            <placeName>Theadelphia</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/2/185">P.Flor. 2 185</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/>Ἡρακλείδης Ἡρωνείνῳ 
 
@@ -92,7 +84,7 @@
     <lb n="19"/>ἐρρῶσθαί <choice><reg>σε</reg><orig>σαι</orig></choice> εὔχομαι. 
 
     <lb n="20"/><expan><ex>ἔτους</ex></expan> <num value="1">α</num> Παχὼν <num value="27">κζ</num> 
-</ab></div><div n="r" type="textpart"><ab>
+</ab></div><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 2,185,r reprinted in <ref n="p.flor;1;100" type="reprint-in">PFlor 1,100</ref></note></ab></div></div>
       </body>

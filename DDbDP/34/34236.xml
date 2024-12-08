@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0048;;31"
-     xml:id="o.waqfa.31"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0048;;31" xml:id="o.waqfa.31" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="34236" xml:lang="en">
-            <date>IV spc</date>
-            <placeName>AinWaqfa</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.waqfa/31">O.Waqfa 31</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>ἔσχον <expan>δ<ex>ιʼ</ex></expan> <expan>υἱ<ex>οῦ</ex></expan> Πα<unclear>κ</unclear>ω 
 

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,21 +29,18 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2012-12-14T07:08:10.845-05:00"
-                 who="https://papyri.info/editor/users/berkes.lajos">Finalized - ready</change>
-          <change when="2012-12-14T07:08:10.83-05:00"
-                 who="https://papyri.info/editor/users/berkes.lajos">Vote - Accept-Straight-to-Finalization - l7: =&gt; 7. εως .4&#xD;
+          <change when="2012-12-14T07:08:10.845-05:00" who="https://papyri.info/editor/users/berkes.lajos">Finalized - ready</change>
+          <change when="2012-12-14T07:08:10.83-05:00" who="https://papyri.info/editor/users/berkes.lajos">Vote - Accept-Straight-to-Finalization - l7: =&gt; 7. εως .4
 l35: =&gt; &lt;#¯δ¯=1/4#&gt;</change>
-          <change when="2012-09-07T02:29:37.822-04:00"
-                 who="https://papyri.info/editor/users/PaulvdLaan">Entered Greek text from P.Rain.Unterricht 91</change>
+          <change when="2012-09-07T02:29:37.822-04:00" who="https://papyri.info/editor/users/PaulvdLaan">Entered Greek text from P.Rain.Unterricht 91</change>
           <change when="2012-09-05T06:29:28-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.rain.unterricht/91">P.Rain. Unterricht 91</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart"> 
+<div n="r" type="textpart" xml:id="_r"><head>r</head> 
 <div n="i" subtype="column" type="textpart"><ab> 
 <lb n="1"/><expan>π<ex>αρὰ</ex></expan> τῶν ἀπὸ
 <lb n="2"/><choice><reg>κ<supplied reason="lost">ώ</supplied>μης</reg><orig>κ<supplied reason="lost">ῶ</supplied>μ<unclear>α</unclear></orig></choice>
@@ -66,7 +61,7 @@ l35: =&gt; &lt;#¯δ¯=1/4#&gt;</change>
 <lb n="37" rend="inverse"/> Θέωνι ἀ<unclear>πὸ</unclear> <expan>πεδ<ex>ίου</ex></expan> Βουσιρέως καὶ <note xml:lang="en">rest of the line is overwritten and pale</note>
 
 </ab></div> </div>
-<div n="v" type="textpart"><ab> 
+<div n="v" type="textpart" xml:id="_v"><head>v</head><ab> 
 <lb n="38"/><choice><reg>Ὡριγένους</reg><orig>Ὡριγέ<unclear>νν</unclear>ους</orig></choice>
 <lb n="39"/>Ἰωσῆφ Ἑρμίου
 <lb n="40"/>Θέων Ἱωσῆφ Ἑρ οὕτως β β β β

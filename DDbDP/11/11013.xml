@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;2;156"
-     xml:id="p.flor.2.156"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;2;156" xml:id="p.flor.2.156" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,11 +44,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11013" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Theadelphia</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/2/156">P.Flor. 2 156</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><expan>π<ex>αρὰ</ex></expan> Ἀλυπίου. 
 
@@ -78,7 +70,7 @@
     <lb n="11"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="12,ms" rend="perpendicular"/> <handShift new="m2"/> τῷ κυρίῳ μου <choice><reg>Ἀλυπίῳ</reg><orig>Ἀλυπίου</orig></choice> <expan>π<ex>αρὰ</ex></expan> <choice><reg>Ἡρωνείνου</reg><orig>Ἡρωνείνω</orig></choice> <expan>Θεα<ex>δέλφειας</ex></expan> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 2,156,v reprinted in <ref n="sb;14;11559" type="reprint-in">SB 14,11559</ref></note></ab></div></div>
       </body>

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0185;;19"
-     xml:id="p.petaus.19"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0185;;19" xml:id="p.petaus.19" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="8812" xml:lang="en">
-            <date>AD 185</date>
-            <placeName>Ptolemais Hormou</placeName>
-            <ref type="reprint-from">vidPPetaus18</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.petaus/19">P.Petaus 19</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ἑρμοφίλῳ <expan>βασιλ<ex>ικῷ</ex></expan> <expan>γρα<ex>μματεῖ</ex></expan> <expan>Ἀρσι<ex>νοίτου</ex></expan> <expan>Ἡρακ<supplied reason="lost">λ<ex>είδου</ex></supplied></expan> μ<supplied reason="lost">ε</supplied>ρίδος 
 

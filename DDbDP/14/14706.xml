@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;16;13060"
-     xml:id="sb.16.13060"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;16;13060" xml:id="sb.16.13060" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,13 +41,9 @@
    </teiHeader>
    <text>
       <body>
-         <head n="14706" xml:lang="en">
-            <date>AD 154/5</date>
-            <placeName>Arsinoite</placeName>
-            <ref type="reprint-in">cf. BGU 13,2270 + P.Berl.Frisk. 1 cols. 1-38 + P.Graux. 3,30 + P.Col. 2,1 recto 4</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/16/13060">SB 16 13060</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab><note xml:lang="en">text continued at BGU 13,2270 + P.Berl.Frisk. 1 cols. 1-38 + P.Graux. 3,30 + P.Col. 2,1 recto 4</note>
-</ab><div n="r" type="textpart"><ab>
+</ab><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><supplied reason="lost">Δείῳ καὶ Σαβείνῳ <expan>γεγυ<ex>μνασιαρχηκόσι</ex></expan> καὶ <expan>μετόχ<ex>οις</ex></expan></supplied> <expan><unclear>δ</unclear>ημο<ex>σίοις</ex></expan> <expan>τρα<ex>πεζίταις</ex></expan> 
 
@@ -89,7 +80,7 @@
     <lb n="17"/><supplied reason="lost">δεκατρεῖς ὀβολοὺς δύο, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="513">φιγ</num></supplied> <num value="2"><expan><ex>διώβολον</ex></expan></num>. <expan><ex>ἔτους</ex></expan> <num value="18">ιη</num> Ἀντωνίνου Καίσαρος 
 
     <lb n="18"/><supplied reason="lost">τοῦ κυρίου, </supplied><gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><gap reason="illegible" extent="unknown" unit="line"/> </ab></div></div>
       </body>

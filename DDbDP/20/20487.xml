@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0197;4;1"
-     xml:id="p.ross.georg.4.1"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0197;4;1" xml:id="p.ross.georg.4.1" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,12 +39,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="20487" xml:lang="en">
-            <date>AD 710</date>
-            <placeName>Aphrodito, Aphroditopolis</placeName>
-            <ref n="p.lond;4;1382" type="reprint-from">PLond4,1382</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="Fr1" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.ross.georg/4/1">P.Ross. Georg. 4 1</ref> = <ref target="https://papyri.info/pub/p.lond/4/1382">P.Lond. IV 1382 (Z.6-37, linke Zeilenhälften)</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="Fr1" type="textpart" xml:id="_Fr1"><head>Fr1</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
@@ -58,7 +49,7 @@
     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>ἐξ</unclear> αὐτῶν πρὸς 
 
     <lb n="3"/><gap reason="lost" extent="unknown" unit="line"/> 
-</ab></div><div n="Fr2" type="textpart"><ab>
+</ab></div><div n="Fr2" type="textpart" xml:id="_Fr2"><head>Fr2</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
@@ -67,7 +58,7 @@
     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">διεσαφ</supplied>ήσαμεν αὐτοῖς ἐν τοῖς <expan>αὐτ<ex>οῖς</ex></expan> 
 
     <lb n="3"/><gap reason="lost" extent="unknown" unit="line"/> 
-</ab></div><div n="ctr" type="textpart"><ab>
+</ab></div><div n="ctr" type="textpart" xml:id="_ctr"><head>ctr</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 

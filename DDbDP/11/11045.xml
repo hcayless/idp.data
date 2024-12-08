@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;2;184"
-     xml:id="p.flor.2.184"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;2;184" xml:id="p.flor.2.184" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11045" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Theadelphia</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/2/184">P.Flor. 2 184</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/>Ἀτίων Ἡρωνείνῳ τῷ τιμιω
 
@@ -91,7 +83,7 @@
     <lb n="19"/>εἰς τὸ Βέβρυχος τὰ κενὰ γεμίζω. 
 
     <lb n="20"/>ἐρρῶσθαί <choice><reg>σ<supplied reason="omitted">ε</supplied> <expan>εὔχ<ex>ομαι</ex></expan></reg><orig>σευχ</orig></choice> <app type="editorial"><lem resp="BL 1.152"><expan>τιμιώ<ex>τατε</ex></expan></lem><rdg><abbr>πα<gap reason="illegible" quantity="1" unit="character"/>ω</abbr></rdg></app> 
-</ab></div><div n="r" type="textpart"><ab>
+</ab></div><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 2,184,r reprinted in <ref n="p.flor;3;364" type="reprint-in">PFlor 3,364</ref></note></ab></div></div>
       </body>

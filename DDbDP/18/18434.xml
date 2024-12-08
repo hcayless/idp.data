@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0089;3;67307"
-     xml:id="p.cair.masp.3.67307"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0089;3;67307" xml:id="p.cair.masp.3.67307" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="18434" xml:lang="en">
-            <date>AD 524/539</date>
-            <placeName>Aphrodito, Aphroditopolis</placeName>
-            <ref type="reprint-from">cf.BL 4.15</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.cair.masp/3/67307">P.Cair. Masp. 3 67307</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 

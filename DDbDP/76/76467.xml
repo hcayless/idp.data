@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0045;;97"
-     xml:id="o.theb.97"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0045;;97" xml:id="o.theb.97" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="76467" xml:lang="en">
-            <date>AD 46</date>
-            <placeName>Memnoneia</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.theb/97">O.Theb. 97</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>διαγεγρ<ex>άφηκε</ex></expan> <expan>Πασίω<ex>ν</ex></expan> <expan>Φθομώ<ex>νθου</ex></expan> <expan>Πικῶ<ex>τος</ex></expan> <expan>μη<ex>τρὸς</ex></expan> <gap reason="illegible" quantity="3" unit="character"/> 
 

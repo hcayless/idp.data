@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0067;;8"
-     xml:id="p.bacch.8"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0067;;8" xml:id="p.bacch.8" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11177" xml:lang="en">
-            <date>ca. AD 186</date>
-            <placeName>Bacchias</placeName>
-            <ref n="p.fouad;1;11" type="reprint-from">P. Fouad I 11; SB 5 8067</ref>
-         </head>
+         <head><ref>SB V 8067</ref> = <ref target="https://papyri.info/pub/p.bacch/8">P.Bacch. 8</ref> = <ref target="https://papyri.info/pub/p.fouad/1/11">P.Fouad 1 11</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ἀπολλωτᾷ <expan>στρ<ex>ατηγῷ</ex></expan> <expan>Ἀρσι<ex>νοίτου</ex></expan> 
 

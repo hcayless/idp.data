@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;3;891r"
-     xml:id="bgu.3.891r"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;3;891r" xml:id="bgu.3.891r" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -53,10 +48,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="9403" xml:lang="en">
-            <date>AD 144</date>
-            <placeName>Arsinoite</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/bgu/3/891r">BGU 3 891 R</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
 
     <lb n="1"/><expan>Φαρμ<ex>οῦθι</ex></expan> <num value="14">ιδ</num>. 

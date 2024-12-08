@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0071;;25"
-     xml:id="p.batav.25"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0071;;25" xml:id="p.batav.25" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,12 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="5233" xml:lang="en">
-            <date>46 BC?</date>
-            <placeName>Thebes</placeName>
-            <ref n="o.leid;;378" type="reprint-from">O.Leid. 378</ref>
-            <note xml:lang="en">o</note>
-         </head>
+         <head><ref>DAHT 5233</ref> = <ref target="https://papyri.info/pub/p.batav/25">P.Batav. 25</ref> = <ref target="https://papyri.info/pub/o.leid/378">O.Leid. 378</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost"><expan><ex>ἔτους</ex></expan> <num value="6">ϛ</num> </supplied><expan><supplied reason="lost">Μ</supplied>εσο<ex>ρὴ</ex></expan> <num value="7">ζ</num> <expan>με<ex>μέτρηκεν</ex></expan> εἰς τὸ  <num value="1/2">𐅵</num>  <num value="1/3" rend="tick">γ</num> <expan><ex>ἀρτάβης</ex></expan> 
 

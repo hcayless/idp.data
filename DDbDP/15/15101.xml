@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0240;22;25"
-     xml:id="stud.pal.22.25"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;22;25" xml:id="stud.pal.22.25" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,10 +42,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="15101" xml:lang="en">
-            <date>AD 103-4</date>
-            <placeName>Soknopaiou Nesos</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/stud.pal/22/25">SPP 22 25</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><handShift new="m2"/> Ἀχιλλεὺς <abbr>Ατρ</abbr>. <num value="8">η</num> <expan><ex>ἔτους</ex></expan> <expan>Τρα<ex>ιανοῦ</ex></expan> 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0116;;AppI,25"
-     xml:id="p.fuad.i.univ.AppI-25"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0116;;AppI,25" xml:id="p.fuad.i.univ.AppI-25" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -51,11 +46,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11210" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Theadelphia</placeName>
-            <ref n="p.flor;2;135a" type="reprint-from">PFlor2,135a</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.fuad.i.univ/AppI,25">P.Fuad I Univ. App. I 25</ref> = <ref target="https://papyri.info/pub/p.flor/2/135a">P.Flor. II 135*</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><handShift new="m1"/> <expan>π<ex>αρὰ</ex></expan> Ἀλυπίου 
 

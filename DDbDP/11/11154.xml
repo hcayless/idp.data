@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;1;104"
-     xml:id="p.flor.1.104"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;1;104" xml:id="p.flor.1.104" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,14 +36,11 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>III spc</date>
-            <placeName>Arsinoite</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref>P.Flor. 2 271</ref> = <ref target="https://papyri.info/pub/p.flor/1/104">P.Flor. I 104 Verso</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 1,104,r reprinted in <ref n="p.vind.pher;;Anhang" type="reprint-in">PVindPherAnhang</ref></note>
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 1,104,v reprinted in <ref n="p.flor;2;271" type="reprint-in">PFlor 2,271</ref></note></ab></div></div>
       </body>

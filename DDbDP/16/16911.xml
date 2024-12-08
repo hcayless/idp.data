@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;11;2056"
-     xml:id="bgu.11.2056"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;11;2056" xml:id="bgu.11.2056" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="16911" xml:lang="en">
-            <date>AD 212</date>
-            <placeName>Alexandria</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/bgu/11/2056">BGU 11 2056</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Βαίβιος <hi rend="diaeresis">Ἰ</hi>ουν<unclear>κε</unclear>ῖ<unclear>νο</unclear><supplied reason="lost">ς ἔπαρχος Αἰγύπτου λέγει·</supplied> 
 

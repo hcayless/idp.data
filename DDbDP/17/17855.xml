@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;6;9129"
-     xml:id="sb.6.9129"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;6;9129" xml:id="sb.6.9129" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="17855" xml:lang="en">
-            <date>AD 136</date>
-            <placeName>Hermopolite</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/6/9129">SB 6 9129</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><unclear>Ὡ</unclear>ρίω<unclear>ν</unclear> Ὡρι<gap reason="lost" quantity="6" unit="character"/> καὶ <unclear>Φ</unclear>ιβι<gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="3" unit="character"/> 
 

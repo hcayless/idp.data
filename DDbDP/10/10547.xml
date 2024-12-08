@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0094;8;213"
-     xml:id="p.col.8.213"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0094;8;213" xml:id="p.col.8.213" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,10 +44,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="10547" xml:lang="en">
-            <date>ca. AD 84-105</date>
-            <placeName>Arsinoiton Polis, Krokodilopolis, Ptolemais Euergetis</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.col/8/213">P.Col. 8 213</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">Σωκρά</supplied><unclear>τ</unclear>ηι <choice><reg>γεγυμνασιαρχηκότι</reg><orig>γεγυ<unclear>μν</unclear>ασιαρχη<unclear>κ</unclear>ότει</orig></choice> <unclear>κ</unclear><supplied reason="lost">αὶ Ἀντι</supplied>
 

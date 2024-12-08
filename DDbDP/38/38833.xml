@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;6;9631"
-     xml:id="sb.6.9631"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;6;9631" xml:id="sb.6.9631" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="38833" xml:lang="en">
-            <date>VII spc</date>
-            <placeName>Arsinoite?</placeName>
-         </head>
+         <head><ref>P.NYU 2 42</ref> = <ref target="https://papyri.info/pub/sb/6/9631">SB VI 9631</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="stauros"/> ἔσχον Μηνᾶ <expan>στρ<ex>ατιώτου</ex></expan> <expan><ex>ὑπὲρ</ex></expan> <expan>δημο<ex>σίων</ex></expan> <expan>ἰνδικ<ex>τίονος</ex></expan> 
 

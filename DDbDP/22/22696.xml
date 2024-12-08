@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0154;3;858a"
-     xml:id="p.lond.3.858a"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0154;3;858a" xml:id="p.lond.3.858a" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="22696" xml:lang="en">
-            <date>AD 153-4</date>
-            <placeName>Hermoupolis Magna</placeName>
-            <ref type="reprint-from">pg144</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.lond/3/858a">P.Lond. 3 858 (a) (S. 144)</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">Σαραπίω</supplied><unclear>ν</unclear>ι Σαραπίωνος <supplied reason="lost">τοῦ</supplied> Σαραπίωνος Τ<supplied reason="lost">εσεν</supplied>οῦ
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0089;3;67294dupl"
-     xml:id="p.cair.masp.3.67294dupl"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0089;3;67294dupl" xml:id="p.cair.masp.3.67294dupl" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>VI spc</date>
-            <placeName>Aphrodito, Aphroditopolis</placeName>
-            <ref n="p.cair.masp;1;67089|sb;18;13274" type="reprint-from">P.Cair.Masp. 1 67089; SB 18 13274</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.cair.masp/3/67294dupl">P.Cair. Masp. I 67089 und III 67294</ref> = <ref target="https://papyri.info/pub/p.cair.masp/1/67089">P.Cair. Masp. I 67089 und III 67294</ref> = <ref target="https://papyri.info/pub/sb/18/13274">SB 18 13274</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="rho-cross"/> τοῖς πᾶσιν εὔδηλον καθέστηκεν ὡς τὴν ἄνωθε<supplied reason="lost">ν</supplied> καὶ ἐκ φύ<unclear>σ</unclear>ε<unclear>ως</unclear> <choice><reg cert="low">προσκυρωθεῖσαν</reg><orig>πρ<unclear>οσ</unclear>κ<supplied reason="lost">υ</supplied>ρ<unclear>ω</unclear>θεῖσ<unclear>ην</unclear></orig></choice> 
 

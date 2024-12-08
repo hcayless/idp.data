@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;1;5652"
-     xml:id="sb.1.5652"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;1;5652" xml:id="sb.1.5652" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="23244" xml:lang="en">
-            <date>AD 710</date>
-            <placeName>Aphrodito, Aphroditopolis</placeName>
-            <ref type="reprint-from">PapHeid3,appI</ref>
-         </head>
+         <head><ref>VHP III (Anhang i)</ref> = <ref target="https://papyri.info/pub/sb/1/5652">SB 1 5652</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><abbr><unclear>υ</unclear>νθθ</abbr> τῆς <expan>ἁγί<ex>ας</ex></expan> <expan>Μαρί<ex>ας</ex></expan> <expan>τῆ<ex>ς</ex></expan> <expan>αὐτ<ex>ῆς</ex></expan> <expan>ν<ex>ομισμάτια</ex></expan> <num value="47">μζ</num> <num value="1/2">𐅵</num>. 
 

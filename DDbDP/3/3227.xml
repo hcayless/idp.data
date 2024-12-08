@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -32,10 +30,8 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
-          <change when="2022-09-14T06:43:33-04:00"
-                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2022-09-14T06:19:32-04:00"
-                 who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Looks good.</change>
+          <change when="2022-09-14T06:43:33-04:00" who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2022-09-14T06:19:32-04:00" who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Looks good.</change>
           <change when="2011-12-14" who="http://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="http://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-10-31" who="http://papyri.info/editor/users/gabrielbodard">changed type=inWord to break=no</change>
@@ -51,13 +47,9 @@
    </teiHeader>
    <text>
       <body>
-         <head n="3227" xml:lang="en">
-            <date>III sac</date>
-            <placeName>Ghoran</placeName>
-            <ref n="p.lille;1;25" type="reprint-from">P.Lille 1 25</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/cde/94/369">CdE 94 (2019) S. 369</ref> = <ref target="https://papyri.info/pub/p.lille/1/25">P.Lille I 25</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart">
+<div n="r" type="textpart" xml:id="_r"><head>r</head>
 <div n="i" subtype="column" type="textpart"><ab>
     <lb n="1" rend="outdent"/><supplied reason="lost">λόγος π</supplied><unclear>α</unclear>ρʼ Ἀνδρονίκου 
 
@@ -189,7 +181,7 @@
     <lb n="64" rend="indent"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="30">λ</num> <expan><ex>ὀβολὸς</ex></expan> <num value="1/2">𐅵</num>
 </ab></div>
 </div>
-<div n="v" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
     <lb n="1"/><handShift new="m2"/>Λόγος παρ’ Ἀνδρονίκου
 
     <lb n="2"/><gap reason="illegible" quantity="2" unit="character"/>χ<gap reason="illegible" quantity="1" unit="character"/>

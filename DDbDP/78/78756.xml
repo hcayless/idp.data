@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0198;4;665"
-     xml:id="p.ryl.4.665"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0198;4;665" xml:id="p.ryl.4.665" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="78756" xml:lang="en">
-            <date>II sac</date>
-            <placeName>?</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.ryl/4/665">P.Ryl. 4 665</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><gap reason="lost" quantity="1" unit="line"/> 
 
@@ -69,7 +61,7 @@
     <lb n="9"/><gap reason="illegible" quantity="7" unit="line"/> 
 
     <lb n="16"/><supplied reason="lost">ἔρρ</supplied><unclear>ω</unclear>σο <expan><ex>ἔτους</ex></expan> <gap reason="lost" quantity="1" unit="character"/><num value="1">α</num> <supplied reason="lost">Ἐ</supplied>πεὶφ <gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><gap reason="illegible" quantity="7" unit="line"/> </ab></div></div>
       </body>

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0181;67;4626"
-     xml:id="p.oxy.67.4626"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0181;67;4626" xml:id="p.oxy.67.4626" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="78665" xml:lang="en">
-            <date>AD 259-</date>
-            <placeName>Oxyrhynchus</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.oxy/67/4626">P.Oxy. 67 4626</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><choice><reg>Νῖλος Θαλείᾳ</reg><orig>Ν<unclear>εῖλο</unclear>ς  θαλίᾳ</orig></choice> χαίρειν.
 
@@ -78,12 +70,12 @@
     <lb n="13"/><supplied reason="lost">ἐ</supplied><unclear>ρρ</unclear>ῶσθαί σε εὔχομαι, κυρία μου
 
     <lb n="14"/>ἀδελφή.
-</ab></div><div n="r,ms" type="textpart"><ab>
+</ab></div><div n="r,ms" type="textpart" xml:id="_r_ms"><head>r,ms</head><ab>
 
     <lb n="15" rend="perpendicular"/> τὸν καλὸν Ἀ<unclear>γαθὸν</unclear> <supplied reason="lost">Δ</supplied>αίμονα ἀσπάζου. μάθε τὴν
 
     <lb n="16" rend="perpendicular"/> <unclear>σ</unclear>πουδὴν ἣν πε<unclear>ποίη</unclear><supplied reason="lost">ται</supplied> τῇ <unclear>φί</unclear><supplied reason="lost">λ</supplied>ῃ σου μηδὲν <unclear>ἀ</unclear>ναλωσάσῃ.
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="17"/><choice><reg>Θαλείᾳ</reg><orig>Θαλίᾳ</orig></choice> <figure><figDesc>drawing</figDesc></figure> <choice><reg>Νῖλος</reg><orig>Νεῖλος</orig></choice></ab></div></div>
       </body>

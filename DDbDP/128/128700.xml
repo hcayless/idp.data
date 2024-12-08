@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -30,20 +28,17 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2013-04-10T17:02:22.095-04:00"
-                 who="https://papyri.info/editor/users/berkes.lajos">Finalized - ready</change>
-          <change when="2013-04-10T17:02:22.075-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine.</change>
-          <change when="2011-03-09T10:01:08.885-05:00"
-                 who="https://papyri.info/editor/users/Herbert">transcript from the edition P.Jena 2, 19</change>
+          <change when="2013-04-10T17:02:22.095-04:00" who="https://papyri.info/editor/users/berkes.lajos">Finalized - ready</change>
+          <change when="2013-04-10T17:02:22.075-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine.</change>
+          <change when="2011-03-09T10:01:08.885-05:00" who="https://papyri.info/editor/users/Herbert">transcript from the edition P.Jena 2, 19</change>
           <change when="2011-03-08T06:52:55-05:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.jena/2/19">P.Jena 2 19</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart">
+<div n="r" type="textpart" xml:id="_r"><head>r</head>
 <div n="1" subtype="column" type="textpart"><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="7" unit="character"/><gap reason="lost" quantity="7" unit="character"><certainty match=".." locus="name"/></gap> <gap reason="illegible" quantity="2" unit="character"/><unclear>ου</unclear>μη<gap reason="illegible" quantity="2" unit="character"/>
 <lb n="2"/>με <gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -118,7 +113,7 @@
 <lb n="69"/><expan><unclear>γί</unclear><ex>νεται</ex></expan> <expan><unclear>ἄ</unclear><supplied reason="lost">μμ<ex>ατα</ex></supplied></expan> <gap reason="illegible" quantity="5" unit="character"/>
 <lb n="70"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
 </ab></div></div>
-<div n="v" type="textpart">
+<div n="v" type="textpart" xml:id="_v"><head>v</head>
 <div n="3" subtype="column" type="textpart"><ab> 
 <lb n="71"/><unclear><g type="chirho"/></unclear> <expan>μέτρησ<ex>ις</ex></expan> <expan>μερίδ<ex>ος</ex></expan> Ἀπολλῶτος <gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>ελε<unclear>λ</unclear><gap reason="illegible" quantity="2" unit="character"/><foreign xml:lang="cop">ϩ</foreign>ε
 <lb n="72"/><expan>νότ<ex>ου</ex></expan> <expan>βάϊ<ex>α</ex></expan> <num value="26">κ<unclear>ϛ</unclear></num><num value="1/3"><unclear>γ</unclear><g type="slanting-stroke"/><g type="slanting-stroke"/></num> <num value="26">κϛ</num><num value="1/2">𐅵</num><num value="1/3"><unclear>γ</unclear><g type="slanting-stroke"/><g type="slanting-stroke"/></num>

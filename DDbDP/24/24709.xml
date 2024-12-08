@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0029;;141"
-     xml:id="o.leid.141"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0029;;141" xml:id="o.leid.141" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="24709" xml:lang="en">
-            <date>AD 166</date>
-            <placeName>Thebes</placeName>
-            <ref n="sb;10;10427" type="reprint-from">SB10,10427</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.leid/141">O.Leid. 141</ref> = <ref target="https://papyri.info/pub/sb/10/10427">SB X 10427</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ὧρος καὶ Ἀσκλᾶς <expan>π<unclear>ράκ</unclear><ex>τορες</ex></expan> <expan><unclear>ἀργ</unclear><ex>υρικῶν</ex></expan> 
 

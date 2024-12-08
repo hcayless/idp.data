@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0016;;25"
-     xml:id="o.bu.njem.25"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0016;;25" xml:id="o.bu.njem.25" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="73175" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Golas</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.bu.njem/25">O.Bu Njem 25</ref></head>
          <div xml:lang="la" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="3" unit="character"/> <expan>n<ex>umerus</ex></expan>                            x<unclear>liiii</unclear><gap reason="lost" extent="unknown" unit="character"/> 
 

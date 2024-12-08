@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0015;;16"
-     xml:id="o.brux.16"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0015;;16" xml:id="o.brux.16" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="26341" xml:lang="en">
-            <date>I spc</date>
-            <placeName>Thebaid</placeName>
-            <ref type="reprint-from">OBruessBerl16</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.brux/16">O.Brux. 16</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Κρονίαινα <unclear>η</unclear> <unclear>ουι</unclear> <unclear>μαιησαυν</unclear><gap reason="illegible" quantity="2" unit="character"/> 
 

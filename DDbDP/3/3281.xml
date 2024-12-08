@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0106;;3"
-     xml:id="p.enteux.3"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0106;;3" xml:id="p.enteux.3" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,10 +43,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="3281" xml:lang="en">
-            <date>222 BC</date>
-            <placeName>Magdola</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.enteux/3">P.Enteux. 3</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">βασιλεῖ Πτολεμαίωι χαίρειν </supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> τῆς</supplied> ἐπιγονῆς, ἐκ Πτολεμαίδος τῆς τῶν Ἀράβων. ἀδικοῦμαι 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0110;;93"
-     xml:id="p.fay.93"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0110;;93" xml:id="p.fay.93" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,11 +47,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="10936" xml:lang="en">
-            <date>AD 161</date>
-            <placeName>Theadelphia</placeName>
-            <ref n="chr.wilck;;317" type="reprint-from">WChr317</ref>
-         </head>
+         <head><ref>Sel. Pap. I 44</ref> = <ref target="https://papyri.info/pub/p.fay/93">P.Fay. 93</ref> = <ref target="https://papyri.info/pub/chr.wilck/317">W.Chr. 317</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Κάστορι Ἀντιφίλου Σωσικοσμίῳ τῷ 
 

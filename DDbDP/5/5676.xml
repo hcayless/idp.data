@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0028;;21"
-     xml:id="o.joach.21"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0028;;21" xml:id="o.joach.21" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="5676" xml:lang="en">
-            <date>?</date>
-            <placeName>Ombos</placeName>
-            <ref n="sb;3;6932" type="reprint-from">SB3,6932</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.joach/21">O.Joach. 21</ref> = <ref target="https://papyri.info/pub/sb/3/6932">SB 3 6932</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ἑρμίας Ἑρμίου, 
 

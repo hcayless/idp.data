@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,28 +29,21 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2023-02-06T08:15:48-05:00"
-                 who="http://papyri.info/editor/users/mgerhardt">Finalized - Ready.</change>
-          <change when="2023-02-06T08:14:43-05:00"
-                 who="http://papyri.info/editor/users/mgerhardt">Vote - Accept-Straight-to-Finalization - Fine.</change>
-          <change when="2023-02-06T08:14:16-05:00"
-                 who="http://papyri.info/editor/users/mgerhardt">Submit - corrected lunate sigma in col2lin4.</change>
-          <change when="2023-02-05T03:26:44-05:00"
-                 who="http://papyri.info/editor/users/mgerhardt">Commit - corrected lunate sigma in col2lin4.</change>
-          <change when="2014-11-01T11:29:08.404-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2014-11-01T11:29:08.396-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Well spotted additions.</change>
-          <change when="2014-10-31T12:49:07.094-04:00"
-                 who="https://papyri.info/editor/users/Pierre-Luc">Enregistré conformément à la publication. Seules deux modifications mineures ont été apportées : après consultation de la planche, ajout d'une surligne sur le iota (fr. e, l. 1) ; adjonction d'un crochet devant « ἀποσ]τ̣αλῆναι » (fr. g, col. II, l. 8) vraisemblablement oublié dans l'édition.</change>
+          <change when="2023-02-06T08:15:48-05:00" who="http://papyri.info/editor/users/mgerhardt">Finalized - Ready.</change>
+          <change when="2023-02-06T08:14:43-05:00" who="http://papyri.info/editor/users/mgerhardt">Vote - Accept-Straight-to-Finalization - Fine.</change>
+          <change when="2023-02-06T08:14:16-05:00" who="http://papyri.info/editor/users/mgerhardt">Submit - corrected lunate sigma in col2lin4.</change>
+          <change when="2023-02-05T03:26:44-05:00" who="http://papyri.info/editor/users/mgerhardt">Commit - corrected lunate sigma in col2lin4.</change>
+          <change when="2014-11-01T11:29:08.404-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2014-11-01T11:29:08.396-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Well spotted additions.</change>
+          <change when="2014-10-31T12:49:07.094-04:00" who="https://papyri.info/editor/users/Pierre-Luc">Enregistré conformément à la publication. Seules deux modifications mineures ont été apportées : après consultation de la planche, ajout d'une surligne sur le iota (fr. e, l. 1) ; adjonction d'un crochet devant « ἀποσ]τ̣αλῆναι » (fr. g, col. II, l. 8) vraisemblablement oublié dans l'édition.</change>
           <change when="2014-10-30T13:31:47-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/p.tarich/5">P.Tarich. 5</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="a" subtype="fragment" type="textpart">
+<div n="a" subtype="fragment" type="textpart" xml:id="fragment_a"><head>Fragment a</head>
 <div n="i" subtype="column" type="textpart"><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -73,7 +64,7 @@
 <lb n="6"/><gap reason="illegible" quantity="2" unit="character"/><supplied reason="lost">  </supplied><gap reason="illegible" quantity="1" unit="character"/><unclear>αν</unclear><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="6"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div></div> 
-<div n="b" subtype="fragment" type="textpart">
+<div n="b" subtype="fragment" type="textpart" xml:id="fragment_b"><head>Fragment b</head>
 <div n="i" subtype="column" type="textpart"><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -96,7 +87,7 @@
 <lb n="7"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
 <lb n="7"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div></div> 
-<div n="c" subtype="fragment" type="textpart"><ab>
+<div n="c" subtype="fragment" type="textpart" xml:id="fragment_c"><head>Fragment c</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
 <lb n="2"/>προσκληθῶσι<gap reason="lost" extent="unknown" unit="character"/>
@@ -104,7 +95,7 @@
 <lb n="4"/>παρὰ   τὸ κατισχύ<gap reason="illegible" quantity="4" unit="character"/><add place="above"><unclear>κ</unclear>αὶ ἕως</add>
 <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="d" subtype="fragment" type="textpart"><ab>
+<div n="d" subtype="fragment" type="textpart" xml:id="fragment_d"><head>Fragment d</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ων ἐκ τ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>κουσ</unclear><gap reason="illegible" quantity="6" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -118,7 +109,7 @@
 <lb n="10"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
 <lb n="10"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="e" subtype="fragment" type="textpart"><ab>
+<div n="e" subtype="fragment" type="textpart" xml:id="fragment_e"><head>Fragment e</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/> Παχὼν <num value="12"><hi rend="supraline">ιβ</hi></num>  τοῦ αὐτοῦ <unclear>ἔ</unclear><supplied reason="lost">τους</supplied> <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> αὐτοὺς χρηματιστὰς ὁμ<gap reason="lost" extent="unknown" unit="character"/>
@@ -128,13 +119,13 @@
 <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>οφο<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>νουν<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ειν ἀ<unclear>ξ</unclear><gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
-<div n="f" subtype="fragment" type="textpart"><ab>
+<div n="f" subtype="fragment" type="textpart" xml:id="fragment_f"><head>Fragment f</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ερω<unclear>ν</unclear><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>ησαν νοσφισ<unclear>α</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="g" subtype="fragment" type="textpart">
+<div n="g" subtype="fragment" type="textpart" xml:id="fragment_g"><head>Fragment g</head>
 <div n="i" subtype="column" type="textpart"><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> ἡμῖν

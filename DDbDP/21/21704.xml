@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0057;2;139"
-     xml:id="p.amh.2.139"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0057;2;139" xml:id="p.amh.2.139" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,12 +43,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="21704" xml:lang="en">
-            <date>AD 350</date>
-            <placeName>Hermoupolis Magna</placeName>
-            <ref n="chr.wilck;;406" type="reprint-from">WChr406</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="ctr" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.amh/2/139">P.Amh. 2 139</ref> = <ref target="https://papyri.info/pub/chr.wilck/406">W.Chr. 406</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="ctr" type="textpart" xml:id="_ctr"><head>ctr</head><ab>
 
     <lb n="1"/>Αὐρηλίῳ Διοκλεῖ <expan>πραιπ<ex>οσίτῳ</ex></expan> <num value="12">ιβ</num> πάγ<supplied reason="lost">ου νομ</supplied>οῦ Ἑρμουπολείτου 
 
@@ -66,7 +57,7 @@
     <lb n="5"/>τῶν ἀπὸ τῆς ἡμετ<supplied reason="lost">έ</supplied>ρας κώμης. 
 
     <lb n="6"/><choice><reg>εἰσὶ</reg><orig>εἰσεὶ</orig></choice> δέ, 
-</ab></div><div n="1" type="textpart"><ab>
+</ab></div><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="7"/>κώμαρχοι· 
 
@@ -79,7 +70,7 @@
     <lb n="11"/><choice><reg><supplied reason="lost">ε</supplied>ἰρήναρχ<supplied reason="lost">ο</supplied>ς</reg><orig><supplied reason="lost">ε</supplied>ἰρηναρχ<supplied reason="lost">ο</supplied>ν</orig></choice>· 
 
     <lb n="12"/><gap reason="illegible" quantity="3" unit="character"/>ς Φιβίωνος. 
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="7"/>σιτολόγοι· 
 
@@ -102,7 +93,7 @@
     <lb n="16"/>Πελῦς Ἡρακλείου, 
 
     <lb n="17"/>Μέλα<supplied reason="lost">ς</supplied> Διογένους. 
-</ab></div><div n="3" type="textpart"><ab>
+</ab></div><div n="3" type="textpart" xml:id="_3"><head>3</head><ab>
 
     <lb n="7"/><choice><reg>ἀπαιτηταὶ</reg><orig>ἀπαιτηταις</orig></choice> <choice><reg>ἀννώνης</reg><orig>ἀννώναις</orig></choice>· 
 
@@ -117,7 +108,7 @@
     <lb n="12"/><hi rend="diaeresis">Ἰ</hi>βόις Καλοκαίρου, 
 
     <lb n="13"/>Μέλας Πεκύσιος. 
-</ab></div><div n="ctr" type="textpart"><ab>
+</ab></div><div n="ctr" type="textpart" xml:id="_ctr"><head>ctr</head><ab>
 
     <lb n="18"/><unclear>ο</unclear><supplied reason="lost">ὕ</supplied><unclear>σ</unclear>περ ἐγ<g type="apostrophe"/>γυώμεθα καὶ παραστησόμεθα ἐξ ἀλληλεγ<g type="apostrophe"/>γύης ἀμέμπτως τὴν <choice><reg>ἐνχειρισθεῖσαν</reg><orig>ἐνχιριστῖσαν</orig></choice> αὐτοῖς 
 

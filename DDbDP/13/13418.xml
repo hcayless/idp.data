@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0205;7;646"
-     xml:id="p.stras.7.646"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0205;7;646" xml:id="p.stras.7.646" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,8 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>ca. 115 BC</date>
-            <placeName>Kerkeosiris</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref>CPGr I 29</ref> = <ref target="https://papyri.info/pub/p.stras/7/646">P.Strasb. 7 646</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1/5"/><note xml:lang="en">PStras 7,646,r,1-5 reprinted in <ref n="c.pap.gr;1;29" type="reprint-in">CPapGr 1,29</ref></note>
 
@@ -73,7 +65,7 @@
     <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">                                 ἔτους Αὐτοκράτορ</supplied>ος Καί<supplied reason="lost">σαρ</supplied>ος Τραια<unclear>ν</unclear>οῦ Ἁδρι<unclear>α</unclear><supplied reason="lost">ν</supplied>οῦ Σεβασ<supplied reason="lost">του  </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/> ὡς <unclear>ἐ</unclear>τῶ<supplied reason="lost">ν</supplied> <unclear>ὀ</unclear>γ<supplied reason="lost">δοήκ</supplied><unclear>ο</unclear>ντ<unclear>α</unclear> <num value="80"/> <gap reason="lost" extent="unknown" unit="character"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><gap reason="illegible" quantity="3" unit="line"/> </ab></div></div>
       </body>

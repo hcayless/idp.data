@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0009;24;24"
-     xml:id="cpr.24.24"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0009;24;24" xml:id="cpr.24.24" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,10 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="70342" xml:lang="en">
-            <date>AD 582-602</date>
-            <placeName>Arsinoiton Polis</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/cpr/24/24">CPR 24 24</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost"><g type="stauros"/> Ἐν ὀνόμα</supplied><unclear>τ</unclear>ι το<supplied reason="lost">ῦ</supplied> κυρίου <unclear>κ</unclear><supplied reason="lost">αὶ δεσπότου Ἰησοῦ Χριστοῦ τοῦ θεοῦ καὶ σωτῆρος ἡμῶν.</supplied>
 

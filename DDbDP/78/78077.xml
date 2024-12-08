@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0254;;116"
-     xml:id="p.bingen.116"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0254;;116" xml:id="p.bingen.116" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="78077" xml:lang="en">
-            <date>III/IV spc</date>
-            <placeName>Kellis</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.bingen/116">P.Bingen 116</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Πεκῦσις <expan><ex>ἀρτάβη</ex></expan> <num value="1">α</num>, <expan>μ<ex>άτιον</ex></expan> <num value="1"><unclear>α</unclear></num>
 

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -35,20 +33,17 @@
          </handNotes>
       </profileDesc>
       <revisionDesc>
-          <change when="2022-09-23T11:34:32-04:00"
-                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2022-09-23T11:19:58-04:00"
-                 who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Looks good.</change>
-          <change when="2022-09-23T11:19:02-04:00"
-                 who="http://papyri.info/editor/users/james.cowey">Submit - Submitted new version of this text. Had been submitted by Adrienn Almasy, but the file became corrupt. Was able to find the original entry and have added number values throughout and made a number of corrections to the original entry.</change>
+          <change when="2022-09-23T11:34:32-04:00" who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2022-09-23T11:19:58-04:00" who="http://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Looks good.</change>
+          <change when="2022-09-23T11:19:02-04:00" who="http://papyri.info/editor/users/james.cowey">Submit - Submitted new version of this text. Had been submitted by Adrienn Almasy, but the file became corrupt. Was able to find the original entry and have added number values throughout and made a number of corrections to the original entry.</change>
           <change when="2017-04-05T10:17:54-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en"/>
+         <head><ref target="https://papyri.info/pub/o.berenike/3/269">O.Ber. 3 269</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart">
+<div n="r" type="textpart" xml:id="_r"><head>r</head>
 <div n="i" subtype="column" type="textpart"><ab>
     <lb n="1"/><gap reason="illegible" quantity="2" unit="character"/>απει<gap reason="illegible" quantity="1" unit="character"/>ι<gap reason="illegible" quantity="4" unit="character"/>ειαυ<gap reason="illegible" quantity="2" unit="character"/>ι<gap reason="lost" quantity="3" unit="character"/>ω<gap reason="illegible" quantity="2" unit="character"/>ερ
 
@@ -92,7 +87,7 @@
 </ab></div>
 </div>
 
-<div n="v" type="textpart">
+<div n="v" type="textpart" xml:id="_v"><head>v</head>
 <div n="i" subtype="column" type="textpart"><ab>
     <lb n="1"/><handShift new="m2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>α</unclear> <abbr>ἀλ</abbr> <expan><ex>τάλαντα</ex></expan> <num value="1">α</num>, <expan>γί<ex>νεται</ex></expan> <expan><ex>τάλαντα</ex></expan> <num value="2">β</num> <num value="3180">Γρπ</num> <num value="28">κ<hi rend="supraline">η</hi></num> <num value="5312">Ε<num rend="tick">τ</num>ιβ</num> <num value="30"><hi rend="supraline">λ</hi></num> <num value="1296">Α<num rend="tick">σ</num>ϙϛ</num>
 

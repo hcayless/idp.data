@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,22 +29,17 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2013-04-13T10:18:11.873-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2013-04-13T10:18:11.858-04:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine.</change>
-          <change when="2011-10-26T09:36:35.888-04:00"
-                 who="https://papyri.info/editor/users/a-blomley">Submitted on the 26th of October 2011.</change>
+          <change when="2013-04-13T10:18:11.873-04:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2013-04-13T10:18:11.858-04:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine.</change>
+          <change when="2011-10-26T09:36:35.888-04:00" who="https://papyri.info/editor/users/a-blomley">Submitted on the 26th of October 2011.</change>
           <change when="2011-08-27T08:15:09-04:00" who="http://papyri.info/editor">Automated creation from template</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <head xml:lang="en">
-           <ref n="p.gur;;27" type="reprint-from">P.Gur. 27</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.count/11">P.Count 11</ref> = <ref target="https://papyri.info/pub/p.gur/27">P.Gurob 27</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="1" subtype="fragment" type="textpart">
+<div n="1" subtype="fragment" type="textpart" xml:id="fragment_1"><head>Fragment 1</head>
 <div n="r" type="textpart">
 <div n="i" subtype="column" type="textpart"><ab>
 <lb n="1"/><gap reason="lost" quantity="7" unit="character"/> <num value="145">ρμε</num> <expan><ex>ὧν</ex></expan> ἀρσενικὰ <num value="79">ο<unclear>θ</unclear></num>
@@ -87,7 +80,7 @@
 <lb n="32"/><expan><ex>γίνεται</ex></expan> <num value="724">ψκδ</num> <num value="1"><expan><ex>ὀβολὸς</ex></expan></num> <num value="1/2"><expan><ex>ἡμιωβέλιον</ex></expan></num> <num value="699">χϙθ</num> <num value="3"><expan><ex>τριώβολον</ex></expan></num> <num value="1/2"><expan><ex>ἡμιωβέλιον</ex></expan></num> <num value="1154">Αρνδ</num> <num value="2">διώβολον</num> <num value="1/2">ἡμιωβέλιον</num> <num value="1420">Αυκ</num> <num value="2"><expan><ex>διώβολον</ex></expan></num> <num value="827">ωκζ</num> <num value="799">ψθ</num> <num value="3"><expan><ex>τριώβολον</ex></expan></num> <num value="1/2"><expan><ex>ἡμιωβέλιον</ex></expan></num> <num value="561">φξα</num> <num value="5"><expan><ex>πεντώβολον</ex></expan></num> <num value="1/2"><expan><ex>ἡμιωβέλιον</ex></expan></num> <num value="510">φι</num> <num value="5"><expan><ex>πεντώβολον</ex></expan></num> <num value="1/2"><expan><ex>ἡμιωβέλιον</ex></expan></num> <num value="1228">Ασκη</num> <num value="3"><expan><ex>τριώβολον</ex></expan></num> <expan><ex>γίνεται</ex></expan> <expan><ex>τάλαντον</ex></expan> <num value="1">α</num> <num value="196">Αϡ<supplied reason="lost">κϛ</supplied></num> <num value="3"><expan><ex>τριώβολον</ex></expan></num> <num value="1/2"><expan><ex>ἡμιωβέλιον</ex></expan></num>
 </ab></div>
 </div>
-<div n="2" subtype="fragment" type="textpart"><ab>
+<div n="2" subtype="fragment" type="textpart" xml:id="fragment_2"><head>Fragment 2</head><ab>
 <lb n="33"/><supplied reason="lost">Πολ</supplied>υδευ<supplied reason="lost">κείας σώμα</supplied><unclear>τ</unclear>α <num value="89">πθ</num> <supplied reason="lost"><expan><ex>ὧν</ex></expan> ἀρσενικὰ <num><gap reason="illegible" quantity="2" unit="character"/></num> θηλυκὰ <num><gap reason="illegible" quantity="2" unit="character"/></num></supplied>
 <lb n="34"/><supplied reason="lost">Ἀρχ</supplied>ελαίδος σώματα <num value="105"><unclear>ρ</unclear>ε</num> <expan><ex>ὧν</ex></expan> ἀρ<unclear>σ</unclear><supplied reason="lost">ενικὰ <num><gap reason="illegible" extent="unknown" unit="character"/></num> θηλυκὰ <num><gap reason="illegible" extent="unknown" unit="character"/></num></supplied>
 </ab></div>

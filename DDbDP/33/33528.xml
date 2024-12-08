@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0163;9;574"
-     xml:id="p.mich.9.574"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0163;9;574" xml:id="p.mich.9.574" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="33528" xml:lang="en">
-            <date>IV spc</date>
-            <placeName>Karanis</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.mich/9/574">P.Mich. 9 574</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>συνέθεντο πρ<supplied reason="lost">ὸς ἀλλήλους  </supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> ρατης Κυρίλλου ἀναγραφόμενος ἐπʼ</supplied> 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0169;2;82"
-     xml:id="p.mil.2.82"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0169;2;82" xml:id="p.mil.2.82" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="33515" xml:lang="en">
-            <date>IV spc</date>
-            <placeName>?</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref>SB VI 9012</ref> = <ref target="https://papyri.info/pub/p.mil/2/82">P.Med. 1 82</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/>κυρίῳ μ<supplied reason="lost">ου</supplied> πατρὶ 
 
@@ -72,7 +64,7 @@
     <lb n="10" break="no"/><supplied reason="lost">φῷ </supplied><gap reason="lost" quantity="3" unit="character"/>ερίῳ τῷ 
 
     <lb n="11"/><gap reason="lost" extent="unknown" unit="line"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="11"/><gap reason="illegible" quantity="4" unit="character"/>  Γελασίου </ab></div></div>
       </body>

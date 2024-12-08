@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0240;8;1209"
-     xml:id="stud.pal.8.1209"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;8;1209" xml:id="stud.pal.8.1209" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="39967" xml:lang="en">
-            <date>VIII spc</date>
-            <placeName>Arsinoite?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/stud.pal/8/1209">SPP 8 1209</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="rho-cross"/> <expan>γνῶ<ex>σις</ex></expan> <expan>γαιδ<ex>αρίων</ex></expan> <expan>ὀφειλόντ<ex>ων</ex></expan> <expan>δ<ex>ο</ex>θ<ex>ῆναι</ex></expan> εἰς <expan>μ<ex>ε</ex>τ<ex>α</ex>κομιδ<ex>ὴν</ex></expan> <expan>χόρ<supplied reason="lost">τ<ex>ου</ex></supplied></expan> Ἀβου 
 

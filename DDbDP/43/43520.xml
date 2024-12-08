@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0050;;1351"
-     xml:id="o.wilck.1351"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0050;;1351" xml:id="o.wilck.1351" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="43520" xml:lang="en">
-            <date>155/154/144/143 BC</date>
-            <placeName>Thebes</placeName>
-         </head>
+         <head><ref>C.Pap.Jud. I 52</ref> = <ref target="https://papyri.info/pub/o.wilck/1351">O.Wilck. 1351</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>ἔτους <num value="27">κζ</num> Τῦβι <num value="10">ι</num> <expan>τ<ex>έτακται</ex></expan> ἐπὶ τὴν ἐν Δι<supplied reason="lost">ὸς πόλει</supplied> 
 

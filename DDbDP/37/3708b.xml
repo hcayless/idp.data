@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0206;4;1113"
-     xml:id="p.tebt.4.1113"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0206;4;1113" xml:id="p.tebt.4.1113" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,12 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="3708b" xml:lang="en">
-            <date>114/113 BC</date>
-            <placeName>Tebtynis</placeName>
-            <ref n="p.tebt;1;72A" type="reprint-from">cfPTebt1,72a</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart"><ab>
+         <head><ref>P.Tebt. I 72 a descr.</ref> = <ref target="https://papyri.info/pub/p.tebt/4/1113">P.Tebt. 4 1113</ref> = <ref target="https://papyri.info/pub/p.tebt/1/72A">P.Tebt. 4 1113</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/><supplied reason="lost">καὶ τῶν</supplied> μετ<supplied reason="lost">α</supplied>βεβηκότων εἰς τὴν κατοικίαν <unclear>ἐ</unclear>κ τῶν 
 
@@ -97,7 +88,7 @@
     <lb n="22"/><supplied reason="lost">τῆς ἐν</supplied> τῶι <num value="3">γ</num> <expan><ex>ἔτει</ex></expan> σπαρείσ<unclear>η</unclear>ς <num value="10">ι</num>, τῆς ἕως τοῦ <num value="3">γ</num> <expan><ex>ἔτους</ex></expan> <num value="10">ι</num>, <expan><ex>γίνονται</ex></expan> <num value="20">κ</num> 
 
     <lb n="23"/><expan>γεω<ex>ργὸς</ex></expan> Τεῶς Ὥρου 
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="24"/>Λεοντίσκου τοῦ Λεοντίσκο<supplied reason="lost">υ</supplied> ὃν μετει<supplied reason="lost">ληφέναι</supplied> 
 

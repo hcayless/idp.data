@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0179;;12"
-     xml:id="p.oxy.descr.12"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0179;;12" xml:id="p.oxy.descr.12" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,14 +26,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2023-05-17T08:22:02-04:00"
-                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
-          <change when="2023-05-12T06:35:46-04:00"
-                 who="http://papyri.info/editor/users/simoeis">General - ((δραχμαὶ)) in line 3 should be recorded as a superlinear insertion: \((δραχμαὶ))/</change>
-          <change when="2023-05-05T10:11:16-04:00"
-                 who="http://papyri.info/editor/users/gclaytor">Vote - Accept-Straight-to-Finalization - Looks good. Fix accent in κληρονόμοι. I don't see the gamma of ἐξηγ(ητεύσαντος) so would print ἐξη(γητεύσαντος) (in SB app. crit.)</change>
-          <change when="2022-11-19T15:05:29-05:00"
-                 who="http://papyri.info/editor/users/ngonis">Submit - Text revised from SB XXII 15360 but incorporating readings mentioned in apparatus, which should have been adopted in the the text in the first place (verified on the online image; I don’t think they need to be recorded in app. crit.): lin1  (γυ(μνασιαρχ  )) expanded as suggested in app. |  &lt;#π=80#&gt; =&gt; &lt;#Α=1000#&gt; || lin3 (ἐξηγ(ητεύσαντος)) .4 ((δραχμαὶ)) .4 =&gt; (ἐξη(γητεύσαντος)) ((τάλαντα)) &lt;#δ=4#&gt; ((δραχμαὶ)) &lt;#Βσ.1=2201-2299#&gt;. — Before finalization, please move the updated text of p.oxy.descr;;12 to SB 22 15360, delete it from p.oxy.descr;;12, and update xml records.</change>
+          <change when="2023-05-17T08:22:02-04:00" who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+          <change when="2023-05-12T06:35:46-04:00" who="http://papyri.info/editor/users/simoeis">General - ((δραχμαὶ)) in line 3 should be recorded as a superlinear insertion: \((δραχμαὶ))/</change>
+          <change when="2023-05-05T10:11:16-04:00" who="http://papyri.info/editor/users/gclaytor">Vote - Accept-Straight-to-Finalization - Looks good. Fix accent in κληρονόμοι. I don't see the gamma of ἐξηγ(ητεύσαντος) so would print ἐξη(γητεύσαντος) (in SB app. crit.)</change>
+          <change when="2022-11-19T15:05:29-05:00" who="http://papyri.info/editor/users/ngonis">Submit - Text revised from SB XXII 15360 but incorporating readings mentioned in apparatus, which should have been adopted in the the text in the first place (verified on the online image; I don’t think they need to be recorded in app. crit.): lin1  (γυ(μνασιαρχ  )) expanded as suggested in app. |  &lt;#π=80#&gt; =&gt; &lt;#Α=1000#&gt; || lin3 (ἐξηγ(ητεύσαντος)) .4 ((δραχμαὶ)) .4 =&gt; (ἐξη(γητεύσαντος)) ((τάλαντα)) &lt;#δ=4#&gt; ((δραχμαὶ)) &lt;#Βσ.1=2201-2299#&gt;. — Before finalization, please move the updated text of p.oxy.descr;;12 to SB 22 15360, delete it from p.oxy.descr;;12, and update xml records.</change>
           <change when="2011-12-14" who="http://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="http://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2010-05-05" who="http://papyri.info/editor/users/gabrielbodard">changed schema; added xml:space=preserve; indented; moved title/@n to idno</change>
@@ -49,11 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>II spc</date>
-            <placeName>Oxyrhynchus</placeName>
-            <ref n="p.oxy;1;186" type="reprint-from">POxy1,186</ref>
-         </head>
+         <head><ref>SB 22 15360</ref> = <ref target="https://papyri.info/pub/p.oxy.descr/12">P.Oxy. I 186 descr.</ref> = <ref target="https://papyri.info/pub/p.oxy/1/186">P.Oxy. I 186 descr.</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 

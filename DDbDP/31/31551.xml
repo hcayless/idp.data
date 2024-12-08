@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0163;10;602"
-     xml:id="p.mich.10.602"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0163;10;602" xml:id="p.mich.10.602" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="31551" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Oxyrhynchite</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.mich/10/602">P.Mich. 10 602</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/>Α<supplied reason="lost">ὐ</supplied><unclear>ρ</unclear><supplied reason="lost">ήλ</supplied><unclear>ιο</unclear>ς      Ἀ<unclear>θη</unclear><supplied reason="lost">νόδω</supplied><unclear>ρ</unclear><supplied reason="lost">ο</supplied>ς 
 
@@ -84,7 +76,7 @@
     <lb n="16"/>ποι<unclear>ήσητ</unclear>αι, καὶ <unclear>σὺ</unclear> <supplied reason="lost">οὖν</supplied> 
 
     <lb n="17"/>συλλαβο<unclear>ῦ</unclear> <supplied reason="lost">μοι</supplied> εἰς τ<unclear>ο</unclear><supplied reason="lost">ῦτο</supplied>. 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="18"/><supplied reason="lost">Σερή</supplied><unclear>ν</unclear>ωι ῥήτορι       <choice><reg>παρὰ</reg><orig>πα<g type="chirho"/>ρὰ</orig></choice> <expan>Α<unclear>ὐρ</unclear><ex>ηλίου</ex></expan> Ἀθηνοδώρ<supplied reason="lost">ου</supplied> </ab></div></div>
       </body>

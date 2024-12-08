@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0205;5;345"
-     xml:id="p.stras.5.345"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0205;5;345" xml:id="p.stras.5.345" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="27779" xml:lang="en">
-            <date>II spc</date>
-            <placeName>?</placeName>
-            <ref type="reprint-from">cfPStras7,647</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.stras/5/345">P.Strasb. 5 345</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>π</unclear>ᾶσι                   <expan><ex>δραχμὴ</ex></expan> <num value="1"><unclear>α</unclear></num> 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;20;14236"
-     xml:id="sb.20.14236"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;20;14236" xml:id="sb.20.14236" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,19 +26,13 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2022-12-02T07:20:38-05:00"
-                 who="http://papyri.info/editor/users/berkes.lajos">Finalized - ready</change>
-          <change when="2022-12-01T16:37:20-05:00"
-                 who="http://papyri.info/editor/users/ngonis">Vote - Accept-Straight-to-Finalization - lin2 ἀπτοκ(ό)π(ῳ) = ἀρτοκ(ό)π(ῳ); replace full-stop with comma at line-end; lin3 ἓνα =&gt; &lt;:ἕνα|reg|ἕν:&gt;</change>
-          <change when="2022-11-30T06:58:15-05:00"
-                 who="http://papyri.info/editor/users/theilemann.conrad">Submit - editorial corrections ll. 1-3&#xD;
+          <change when="2022-12-02T07:20:38-05:00" who="http://papyri.info/editor/users/berkes.lajos">Finalized - ready</change>
+          <change when="2022-12-01T16:37:20-05:00" who="http://papyri.info/editor/users/ngonis">Vote - Accept-Straight-to-Finalization - lin2 ἀπτοκ(ό)π(ῳ) = ἀρτοκ(ό)π(ῳ); replace full-stop with comma at line-end; lin3 ἓνα =&gt; &lt;:ἕνα|reg|ἕν:&gt;</change>
+          <change when="2022-11-30T06:58:15-05:00" who="http://papyri.info/editor/users/theilemann.conrad">Submit - editorial corrections ll. 1-3
 changed position of arabic line according to N. Gonis, ZPE 169 (2009) 206.</change>
-          <change when="2022-01-06T10:01:40-05:00"
-                 who="https://papyri.info/editor/users/mgerhardt">Finalized - Ready.</change>
-          <change when="2022-01-06T09:59:01-05:00"
-                 who="https://papyri.info/editor/users/mgerhardt">Vote - Accept-Straight-to-Finalization - Fine.</change>
-          <change when="2022-01-05T11:44:06-05:00"
-                 who="https://papyri.info/editor/users/theilemann.conrad">Submit - editorial correction in line 1.</change>
+          <change when="2022-01-06T10:01:40-05:00" who="https://papyri.info/editor/users/mgerhardt">Finalized - Ready.</change>
+          <change when="2022-01-06T09:59:01-05:00" who="https://papyri.info/editor/users/mgerhardt">Vote - Accept-Straight-to-Finalization - Fine.</change>
+          <change when="2022-01-05T11:44:06-05:00" who="https://papyri.info/editor/users/theilemann.conrad">Submit - editorial correction in line 1.</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-10-04" who="https://papyri.info/editor/users/Faith">Automatically updated revision description</change>
@@ -57,10 +46,7 @@ changed position of arabic line according to N. Gonis, ZPE 169 (2009) 206.</chan
    </teiHeader>
    <text>
       <body>
-         <head n="39984" xml:lang="en">
-            <date>VIII spc</date>
-            <placeName>Mouchis</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/20/14236">SB 20 14236</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="stauros"/> ἐν ὀνόματι τοῦ θεοῦ ὑμῖν <app type="editorial"><lem resp="Berkes, Dorfverwaltung 254"><expan>μείζ<ex>οσι</ex></expan></lem><rdg><expan>μειζ<ex>οτέροις</ex></expan></rdg></app> <expan>χωρ<ex>ίου</ex></expan> <app type="editorial"><lem resp="N. Gonis, ZPE 169 (2009) 206"><expan>Μούχε<ex>ως</ex></expan></lem><rdg><expan>Μούχ<ex>εως</ex></expan></rdg></app>
 

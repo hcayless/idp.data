@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0154;7;1940"
-     xml:id="p.lond.7.1940"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0154;7;1940" xml:id="p.lond.7.1940" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="2383" xml:lang="en">
-            <date>257 BC</date>
-            <placeName>Philadelphia</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,1" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.lond/7/1940">P.Lond. 7 1940</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,1" type="textpart" xml:id="_r_1"><head>r,1</head><ab>
 
     <lb n="1"/><expan><ex>ἔτους</ex></expan> <num value="28">κ<unclear>η</unclear></num>. λόγος παρὰ Δημητρίου ὑπηρέτου. 
 
@@ -126,7 +118,7 @@
     <lb n="37"/>ἀφα<unclear>ι</unclear><supplied reason="lost">ρο</supplied><unclear>υ</unclear>μένου τοῦ ἐφέκτου <del rend="erasure"><gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="2" unit="character"/></del> 
 
     <lb n="38"/><expan><ex>γίνονται</ex></expan> χαλκοῦ <expan><ex>δραχμαὶ</ex></expan> <num value="12">ιβ</num> <expan><ex>ὀβολὸς</ex></expan> <num value="1">α</num> <num value="1/2">𐅵</num> <num value="1/4" rend="tick">δ</num> 
-</ab></div><div n="r,2" type="textpart"><ab>
+</ab></div><div n="r,2" type="textpart" xml:id="_r_2"><head>r,2</head><ab>
 
     <lb n="39"/><del rend="erasure">εἰς ταῦτα ἔχομεν ἀργυρίου</del> 
 
@@ -191,7 +183,7 @@
     <lb n="69"/><expan><ex>γίνονται</ex></expan> ἀργυρίου <expan><ex>δραχμαὶ</ex></expan> <num value="44">μδ</num> 
 
     <lb n="70"/>χαλκοῦ <num value="71">οα</num> <num value="2"><expan><ex>διώβολον</ex></expan></num> 
-</ab></div><div n="r,3" type="textpart"><ab>
+</ab></div><div n="r,3" type="textpart" xml:id="_r_3"><head>r,3</head><ab>
 
     <lb n="71"/>ὑπερέχω ἀργυρίου <expan><ex>δραχμὰς</ex></expan> <num value="68">ξη</num> 
 
@@ -208,7 +200,7 @@
     <lb n="77"/>χαλκοῦ δὲ <choice><reg>ὑπεραναλίσκω</reg><orig>ὑπερανηλίσκω</orig></choice> <expan><ex>δραχμὰς</ex></expan> <subst><add place="inline"><num value="134">ρλδ</num> <expan><ex>ὀβολοὺς</ex></expan> <num value="3">γ</num> <num value="1/2">𐅵</num> <num value="1/4" rend="tick">δ</num> <expan><ex>χαλκοῦν 1</ex></expan><num value="1"/></add><del rend="corrected"><num value="134">ρλδ</num> <expan><ex>ὀβολοὺς</ex></expan> <num value="3">γ</num> <del rend="erasure"><num value="1/4" rend="tick">δ</num></del></del></subst> 
 
     <lb n="78"/><space extent="unknown" unit="character"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="78"/>ἣν κατήγαγεν 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;6;9294"
-     xml:id="sb.6.9294"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;6;9294" xml:id="sb.6.9294" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="36203" xml:lang="en">
-            <date>VI spc</date>
-            <placeName>Arsinoite</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/sb/6/9294">SB 6 9294</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
@@ -105,7 +97,7 @@
     <lb n="25" break="no"/><supplied reason="lost"><expan>γεγραμ<ex>μένος</ex></expan> ὁ</supplied>μολ<supplied reason="lost">ογῶ</supplied> πά<supplied reason="lost">ν</supplied>τα, ὡς πρόκειται. <g type="stauros"/> 
 
     <lb n="26"/><foreign xml:lang="la"><supplied reason="lost">di emou M</supplied>hna <choice><reg>eshmiothe</reg><orig>eshmiothai</orig></choice></foreign> αφφφφ<gap reason="illegible" quantity="3" unit="character"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="27"/>ἐν <expan>πεδ<ex>ίῳ</ex></expan> <expan>ἐ<unclear>π</unclear>οι<unclear>κ</unclear><ex>ίου</ex></expan> τό<supplied reason="lost">που </supplied><gap reason="lost" extent="unknown" unit="character"/>τεκως<gap reason="lost" extent="unknown" unit="character"/><abbr><unclear>ο</unclear>υγρ</abbr> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> ἀ</supplied><unclear>ρουρ</unclear><gap reason="lost" extent="unknown" unit="character"/> 
 

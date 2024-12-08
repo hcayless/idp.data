@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;24;15908"
-     xml:id="sb.24.15908"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;24;15908" xml:id="sb.24.15908" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,10 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="45300" xml:lang="en">
-            <date>VI spc</date>
-            <placeName>Aphrodito</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/24/15908">SB 24 15908</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="stauros"/> τὸ δίκαι<unclear>ο</unclear>ν τοῦ ἁγίου τόπου ἄπα Μιχαηλ<supplied reason="lost" cert="low">ίου ἀρχαγγέλου  διʼ ἐμοῦ Πανυμφίου <expan>εὐλαβ<ex>εστάτου</ex></expan> <expan>μονάζ<ex>οντος</ex></expan></supplied>
 

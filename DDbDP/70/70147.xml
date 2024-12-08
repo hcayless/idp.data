@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0279;47;1458"
-     xml:id="chla.47.1458"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0279;47;1458" xml:id="chla.47.1458" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="70147" xml:lang="en">
-            <date>?</date>
-            <placeName>?</placeName>
-            <ref n="chla;11;516" type="reprint-from">Ch.L.A. 11,516</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/chla/47/1458">ChLA 47 1458</ref> = <ref target="https://papyri.info/pub/chla/11/516">ChLA XI 516 Descr.</ref></head>
          <div xml:lang="la" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/></ab></div>
       </body>

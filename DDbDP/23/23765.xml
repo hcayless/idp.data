@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;20;14601"
-     xml:id="sb.20.14601"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;20;14601" xml:id="sb.20.14601" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="23765" xml:lang="en">
-            <date>AD 107</date>
-            <placeName>Thebes</placeName>
-            <ref n="o.leid;;124" type="reprint-from">OLeid 124+129</ref>
-         </head>
+         <head><ref>O.Leid. 129</ref> = <ref target="https://papyri.info/pub/sb/20/14601">SB 20 14601</ref> = <ref target="https://papyri.info/pub/o.leid/124">O.Leid. 124</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><abbr>Ἀπολ</abbr> καὶ <expan>μ<ex>έτοχοι</ex></expan> <expan>πρά<ex>κτορες</ex></expan> <expan>ἀργ<ex>υρικῶν</ex></expan> <expan>μη<ex>τροπόλεως</ex></expan> <expan>Ἀμονρήο<ex>υτι</ex></expan>
 

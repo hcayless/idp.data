@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0279;6;321"
-     xml:id="chla.6.321"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0279;6;321" xml:id="chla.6.321" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,14 +36,9 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>AD 216</date>
-            <placeName>Dura</placeName>
-            <ref n="c.ep.lat;191;58" type="reprint-from">C.Epist.Lat. 191,58</ref>
-            <ref type="reprint-in">cf. Rom.Mil.Rec. 89; Ch.L.A. 47,1446</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/chla/6/321">chla;6;321</ref> = <ref target="https://papyri.info/pub/c.ep.lat/191/58">c.ep.lat;191;58</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab><note xml:lang="en">full document: Rom.Mil.Rec. 89+Ch.L.A. 6,321+Ch.L.A. 47,1446</note>
-</ab><div n="FrFFF" type="textpart"><ab>
+</ab><div n="FrFFF" type="textpart" xml:id="_FrFFF"><head>FrFFF</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 

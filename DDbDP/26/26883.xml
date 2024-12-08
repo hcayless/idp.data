@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0172;2;117"
-     xml:id="p.mur.2.117"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0172;2;117" xml:id="p.mur.2.117" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,12 +39,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="26883" xml:lang="en">
-            <date>II spc</date>
-            <placeName>Murabba`at</placeName>
-            <ref n="sb;10;10307" type="reprint-from">SB10,10307</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.mur/2/117">P.Mur. 117</ref> = <ref target="https://papyri.info/pub/sb/10/10307">SB 10 10307</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> κος προσκ <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> 
 

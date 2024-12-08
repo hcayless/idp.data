@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0192;2;38r"
-     xml:id="p.princ.2.38r"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0192;2;38r" xml:id="p.princ.2.38r" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="17361" xml:lang="en">
-            <date>ca. AD 264</date>
-            <placeName>Hermoupolis Magna</placeName>
-            <ref type="reprint-from">v=PPrinc3,174</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.princ/2/38r">P.Princ. 2 38</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost"><expan>Αὐ<ex>ρηλία</ex></expan> Σε</supplied>ρηνίλλα ἐπικαλουμέ<supplied reason="lost">νη</supplied> Δημητρία Φιλιππιανοῦ τοῦ καὶ Κοπρέου <unclear>γε</unclear><supplied reason="lost">νο</supplied>μένου <expan>βουλ<ex>ευτοῦ</ex></expan> Ἑρμοῦ <expan>πόλ<ex>εως</ex></expan> τῆς μεγάλης ἀρχαίας καὶ λαμ
 
@@ -77,7 +68,7 @@
     <lb n="12"/><gap reason="illegible" quantity="2" unit="line"/> 
 
     <lb n="13"/><gap reason="lost" extent="unknown" unit="line"/> 
-</ab><div n="v" type="textpart"><ab>
+</ab><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><note xml:lang="en">PPrinc 2,38v reprinted in <ref n="p.princ;3;174" type="reprint-in">PPrinc 3,174</ref></note></ab></div></div>
       </body>

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0006;2.1;19"
-     xml:id="c.pap.gr.2.1.19"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0006;2.1;19" xml:id="c.pap.gr.2.1.19" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,11 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="9341" xml:lang="en">
-            <date>AD 100</date>
-            <placeName>Soknopaiou Nesos</placeName>
-            <ref n="bgu;3;773" type="reprint-from">BGU3,773</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/c.pap.gr/2.1/19">CPGr II 19</ref> = <ref target="https://papyri.info/pub/bgu/3/773">BGU 3 773</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ἀμμων<supplied reason="lost">ί</supplied><unclear>ω</unclear>ι βασιλικῶι <choice><reg>γραμματεῖ</reg><orig>γραμματῖ</orig></choice> 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0025;;36"
-     xml:id="o.erem.36"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0025;;36" xml:id="o.erem.36" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,11 +37,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="25396" xml:lang="en">
-            <date>30 BC-AD 323</date>
-            <placeName>Syene</placeName>
-            <ref n="sb;18;13213" type="reprint-from">SB18,13213</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.erem/36">O.Erem. 36</ref> = <ref target="https://papyri.info/pub/sb/18/13213">SB 18 13213</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 

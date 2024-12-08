@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0101;;36"
-     xml:id="p.dion.36"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0101;;36" xml:id="p.dion.36" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="3117" xml:lang="en">
-            <date>139- BC</date>
-            <placeName>Hermoupolis Magna</placeName>
-            <ref type="reprint-from">PRein1,7,v</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.dion/36">P.Dion. 36</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>λυχνίας    μναῖ <num value="15">ιε</num>     <expan>ἀν<ex>ὰ</ex></expan> <num value="1200">Ασ</num> 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;4;1190"
-     xml:id="bgu.4.1190"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;4;1190" xml:id="bgu.4.1190" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,10 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="4525" xml:lang="en">
-            <date>I sac</date>
-            <placeName>Herakleopolite</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/bgu/4/1190">BGU 4 1190</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><unclear>Ἀντιόχωι</unclear> συγγενεῖ καὶ γραμματεῖ τῶν δυνάμεω<supplied reason="lost">ν</supplied> 
 

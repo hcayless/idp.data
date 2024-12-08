@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;1;5619"
-     xml:id="sb.1.5619"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;1;5619" xml:id="sb.1.5619" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="50942" xml:lang="en">
-            <date>32 BC</date>
-            <placeName>Thebes</placeName>
-            <note xml:lang="en">l</note>
-         </head>
+         <head><ref>Short Texts 2 945</ref> = <ref>DAHT 50942</ref> = <ref>P.Lugd. Bat. XIX S. 228</ref> = <ref target="https://papyri.info/pub/sb/1/5619">SB I 5619</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="ellipsis" quantity="1" unit="line"><desc>Demotic</desc></gap> 
 

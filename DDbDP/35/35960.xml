@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;12;2193"
-     xml:id="bgu.12.2193"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;12;2193" xml:id="bgu.12.2193" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="35960" xml:lang="en">
-            <date>VI spc</date>
-            <placeName>Hermoupolis Magna</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/bgu/12/2193">BGU 12 2193</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><g type="stauros"/> <expan>π<ex>αρὰ</ex></expan> τῆς <expan>ἁγί<ex>ας</ex></expan> <expan>ἐκκλ<ex>ησίας</ex></expan> <expan>Ἑρμου<ex>πόλεως</ex></expan> <g type="stauros"/> τοῖς <expan>κλ<ex>ηρονόμοις</ex></expan> <expan><hi rend="diaeresis">Ἰ</hi>ωά<ex>ννου</ex></expan> <abbr>κωμ<unclear>δ</unclear></abbr> 
 

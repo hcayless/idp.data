@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0027;;6"
-     xml:id="o.florida.6"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0027;;6" xml:id="o.florida.6" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="74500" xml:lang="en">
-            <date>II spc</date>
-            <placeName>Apollonopolis Magna</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.florida/6">O.Florida 6</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><supplied reason="lost">Τύλλ</supplied>ιος <expan><ex>δεκαδάρχης</ex></expan> <choice><reg>κουράτορι</reg><orig>κουράτορει</orig></choice> <expan>πραισιδ<ex>ίου</ex></expan> 
 

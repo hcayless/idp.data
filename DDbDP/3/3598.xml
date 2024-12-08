@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0211;;8"
-     xml:id="p.tor.amen.8"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0211;;8" xml:id="p.tor.amen.8" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,12 +40,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="3598" xml:lang="en">
-            <date>116 BC</date>
-            <placeName>Thebes</placeName>
-            <ref n="p.tor;;8" type="reprint-from">PTor8</ref>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart"><ab>
+         <head><ref>UPZ II 196</ref> = <ref>C.Ptol.Sklav. I 97b</ref> = <ref target="https://papyri.info/pub/p.tor.amen/8">P.Tor. 8</ref> = <ref target="https://papyri.info/pub/p.tor/8">P.Tor. Amenothes 8</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/>Ἡρακλείδ<unclear>ε</unclear>ι <unclear>τῶ</unclear>ν <choice><reg><supplied reason="omitted">ἀρχι</supplied>σωματοφυλάκων</reg><orig>σωματοφυλ<unclear>ά</unclear>κων</orig></choice> κα<supplied reason="lost">ὶ</supplied> ἐπιστάτει καὶ ἐπὶ τῶν προσόδων 
 
@@ -147,7 +138,7 @@
     <lb n="47" break="no"/>νιεῖον τοῦ υἱοῦ αὐτοῦ καὶ ἐν τῶι Ἀ<unclear>μ</unclear>μωνι<unclear>ε</unclear>ίωι τελευτήσαντος οὔσης μιᾶς <num value="1"/> 
 
     <lb n="48"/>τῶν ἐμοὶ ἀποδιεσταλμένων κωμῶν καὶ ἐμοὶ καθήκοντος τούτους <del rend="erasure"><gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="3" unit="character"/></del> 
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="49"/>θεραπεῦσαι, ὁ Ἀμενώθης ἐθεράπευσεν 
 

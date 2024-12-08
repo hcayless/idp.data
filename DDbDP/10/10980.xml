@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;2;127"
-     xml:id="p.flor.2.127"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;2;127" xml:id="p.flor.2.127" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,14 +45,11 @@
    </teiHeader>
    <text>
       <body>
-         <head n="10980" xml:lang="en">
-            <date>AD 256</date>
-            <placeName>Theadelphia</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,ctr" type="textpart"><ab>
+         <head><ref>Sel. Pap. I 140</ref> = <ref target="https://papyri.info/pub/p.flor/2/127">P.Flor. 2 127</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r,ctr" type="textpart" xml:id="_r_ctr"><head>r,ctr</head><ab>
 
     <lb n="1"/><expan>π<ex>αρὰ</ex></expan> <supplied reason="lost">Ἀ</supplied>λυπίου. 
-</ab></div><div n="r,A" type="textpart"><ab>
+</ab></div><div n="r,A" type="textpart" xml:id="_r_A"><head>r,A</head><ab>
 
     <lb n="2"/>σὺν θεῷ φάναι προσδόκα ἡμᾶς τῇ <num value="23">κγ</num> πρὸς σὲ <app type="editorial"><lem resp="BL 1.149">γεινο
 
@@ -88,7 +80,7 @@
     <lb n="15"/>τοὺς <choice><reg>ἁλιέας</reg><orig>ἁλεεις</orig></choice> ἵνα <hi rend="diaeresis">ἰ</hi>χθὺν κομίσωσι ἡμῖν. 
 
     <lb n="16"/>ἀπέ<unclear>στ</unclear>ε<unclear>ι</unclear>λα δέ σοι γράμματα πρὸς Ὡρεί<add place="above">ω</add>να 
-</ab></div><div n="r,B" type="textpart"><ab>
+</ab></div><div n="r,B" type="textpart" xml:id="_r_B"><head>r,B</head><ab>
 
     <lb n="17"/>ἵνα σοι ἀποστείλῃ χόρτου 
 
@@ -119,7 +111,7 @@
     <lb n="30"/><handShift new="m1"/> Ἡρωνείν<supplied reason="lost">ῳ</supplied> <expan>φροντ<ex>ιστῇ</ex></expan>. 
 
     <lb n="31"/><expan><ex>ἔτους</ex></expan> <num value="3">γ</num> Τῦβι <num value="22">κβ</num> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 2,127,v reprinted in <ref n="p.flor;1;76" type="reprint-in">PFlor 1,76</ref></note></ab></div></div>
       </body>

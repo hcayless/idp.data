@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0038;;27"
-     xml:id="o.oslo.27"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0038;;27" xml:id="o.oslo.27" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,10 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="38605" xml:lang="en">
-            <date>VI spc</date>
-            <placeName>?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.oslo/27">O.Oslo 27</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><subst><add place="inline"><num value="1">α</num></add><del rend="corrected"><num value="3">γ</num></del></subst> <expan>φ<ex>όρων</ex></expan> <expan>μερ<ex>ισμοῦ</ex></expan> <del rend="erasure">Θανουφίου</del> <add place="above"><hi rend="diaeresis">Ἰ</hi>ωνᾶ</add> <expan>γνωστῆρ<ex>ος</ex></expan> 
 

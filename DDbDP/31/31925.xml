@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0246;1;111" xml:id="p.bodl.1.111" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0246;1;111" xml:id="p.bodl.1.111" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,10 +44,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="31925 31926" xml:lang="en">
-            <date>III-IV spc</date>
-            <placeName>Karanis?</placeName>
-         </head>
+         <head><ref>P.Bodl. 1 111 V</ref> = <ref target="https://papyri.info/pub/p.bodl/1/111">P.Bodl. 1 111 R</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>κ<unclear>ρ</unclear><supplied reason="lost" cert="low">έω<unclear>ς</unclear></supplied> <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0183;;3"
-     xml:id="p.panop.3"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0183;;3" xml:id="p.panop.3" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,11 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="16149" xml:lang="en">
-            <date>AD 310</date>
-            <placeName>Panopolis</placeName>
-            <ref n="sb;12;10970" type="reprint-from">SB12,10970</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.panop/3">P.Panop. 3</ref> = <ref target="https://papyri.info/pub/sb/12/10970">SB XII 10970</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan><supplied reason="lost">Α</supplied><unclear>ὐρηλ</unclear><ex>ίᾳ</ex></expan> Ἀπολλωνίᾳ ἀπὸ Παν<supplied reason="lost">ὸ</supplied><unclear>ς</unclear> <expan><supplied reason="lost">πό</supplied><unclear>λ</unclear><ex>εως</ex></expan> 
 

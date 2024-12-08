@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0200;;40"
-     xml:id="p.sarap.40"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0200;;40" xml:id="p.sarap.40" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,11 +43,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="17057" xml:lang="en">
-            <date>AD 129</date>
-            <placeName>Hermopolite</placeName>
-            <ref n="p.lond;3;840pg169" type="reprint-from">PLond3,840</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.sarap/40">P.Sarap. 40</ref> = <ref target="https://papyri.info/pub/p.lond/3/840pg169">P.Lond. III 840</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Κλαύδι<unclear>ο</unclear><supplied reason="lost">ς</supplied> <unclear>Ἴ</unclear>ω<unclear>ν</unclear> ἐπίτ<unclear>ρ</unclear><supplied reason="lost">οπος</supplied> 
 

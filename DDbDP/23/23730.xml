@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;20;14394"
-     xml:id="sb.20.14394"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;20;14394" xml:id="sb.20.14394" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,10 +44,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="23730" xml:lang="en">
-            <date>AD 23</date>
-            <placeName>Hermupolis Magna</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/20/14394">SB 20 14394</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><del rend="cross-strokes"> <supplied reason="lost">ἀν</supplied><unclear>τίγρ</unclear>αφον <unclear>δ</unclear><supplied reason="lost">ιαγρα</supplied><unclear>φῆς</unclear> δι<supplied reason="lost">ὰ τῆς </supplied><gap reason="lost" extent="unknown" unit="character"/>
 </del>

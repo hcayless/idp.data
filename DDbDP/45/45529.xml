@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;24;16222"
-     xml:id="sb.24.16222"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;24;16222" xml:id="sb.24.16222" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,34 +26,21 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-          <change when="2020-12-21T06:26:58-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
-          <change when="2020-12-20T11:13:30-05:00"
-                 who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
-          <change when="2020-12-17T07:08:47-05:00"
-                 who="https://papyri.info/editor/users/DespinaE">Submit - Line 1: Changed καταλαβών → καταμαθών (nach dem Photo), K.A. Worp.; &#xD;
+          <change when="2020-12-21T06:26:58-05:00" who="https://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+          <change when="2020-12-20T11:13:30-05:00" who="https://papyri.info/editor/users/james.cowey">Vote - Accept-Straight-to-Finalization - Fine</change>
+          <change when="2020-12-17T07:08:47-05:00" who="https://papyri.info/editor/users/DespinaE">Submit - Line 1: Changed καταλαβών → καταμαθών (nach dem Photo), K.A. Worp.; 
 Line 6: οὐ νοῶ → ἀγνόω (nach dem Photo), K.A. Worp.</change>
-          <change when="2020-12-17T07:08:04-05:00"
-                 who="https://papyri.info/editor/users/DespinaE">Commit - Line 1: Changed καταλαβών → καταμαθών (nach dem Photo), K.A. Worp. (BL 12.116); Line 6: οὐ νοῶ → ἀγνόω (nach dem Photo), K.A. Worp. (BL 12.116)</change>
+          <change when="2020-12-17T07:08:04-05:00" who="https://papyri.info/editor/users/DespinaE">Commit - Line 1: Changed καταλαβών → καταμαθών (nach dem Photo), K.A. Worp. (BL 12.116); Line 6: οὐ νοῶ → ἀγνόω (nach dem Photo), K.A. Worp. (BL 12.116)</change>
           <change when="2020-12-17T07:02:53-05:00" who="https://papyri.info/editor/users/ngonis">Vote - Return-Straight-to-Sender - Thank you! But there has been a re-edition of the text: https://www.tde-journal.org/index.php/tyche/article/view/4868/4666. Would it be possible to update the text accordingly?</change>
-          <change when="2020-12-17T06:48:26-05:00"
-                 who="https://papyri.info/editor/users/DespinaE">Commit - Line 1: Changed καταλαβών → καταμαθών (nach dem Photo), K.A. Worp. (BL 12.116); Line 6: updated οὐ νοῶ → ἀγνόω (nach dem Photo), K.A. Worp. (BL 12.116)</change>
-          <change when="2020-12-17T06:45:45-05:00"
-                 who="https://papyri.info/editor/users/DespinaE">Submit - Line 1: Updated καταλαβών → καταμαθών (nach dem Photo), K.A. Worp.</change>
-          <change when="2020-12-17T06:44:43-05:00"
-                 who="https://papyri.info/editor/users/DespinaE">Commit - Line 1: Changed καταλαβών → καταμαθών (nach dem Photo), K.A. Worp.</change>
-          <change when="2020-12-17T06:44:17-05:00"
-                 who="https://papyri.info/editor/users/DespinaE">Commit - Line 1: Changed καταλαβών → καταμαθών (nach dem Photo), K.A. Worp.</change>
-          <change when="2020-12-17T06:43:04-05:00"
-                 who="https://papyri.info/editor/users/DespinaE">Commit - Line 1: Changed καταλαβών → καταμαθών (nach dem Photo), K.A. Worp.</change>
-          <change when="2020-12-16T15:15:08-05:00"
-                 who="https://papyri.info/editor/users/DespinaE">Commit - Line 6: Changed οὐ νοῶ → ἀγνόω (nach dem Photo), K.A. Worp.</change>
-          <change when="2020-12-16T15:08:02-05:00"
-                 who="https://papyri.info/editor/users/DespinaE">Commit - Line 1: Changed καταλαβών → καταμαθών (nach dem Photo), K.A. Worp.</change>
-          <change when="2020-12-16T15:08:01-05:00"
-                 who="https://papyri.info/editor/users/DespinaE">Commit - Line 1: Changed καταλαβών → καταμαθών (nach dem Photo), K.A. Worp.</change>
-          <change when="2020-12-16T15:07:13-05:00"
-                 who="https://papyri.info/editor/users/DespinaE">Commit - Line 1: Changed καταλαβών → καταμαθών (nach dem Photo), K.A. Worp.</change>
+          <change when="2020-12-17T06:48:26-05:00" who="https://papyri.info/editor/users/DespinaE">Commit - Line 1: Changed καταλαβών → καταμαθών (nach dem Photo), K.A. Worp. (BL 12.116); Line 6: updated οὐ νοῶ → ἀγνόω (nach dem Photo), K.A. Worp. (BL 12.116)</change>
+          <change when="2020-12-17T06:45:45-05:00" who="https://papyri.info/editor/users/DespinaE">Submit - Line 1: Updated καταλαβών → καταμαθών (nach dem Photo), K.A. Worp.</change>
+          <change when="2020-12-17T06:44:43-05:00" who="https://papyri.info/editor/users/DespinaE">Commit - Line 1: Changed καταλαβών → καταμαθών (nach dem Photo), K.A. Worp.</change>
+          <change when="2020-12-17T06:44:17-05:00" who="https://papyri.info/editor/users/DespinaE">Commit - Line 1: Changed καταλαβών → καταμαθών (nach dem Photo), K.A. Worp.</change>
+          <change when="2020-12-17T06:43:04-05:00" who="https://papyri.info/editor/users/DespinaE">Commit - Line 1: Changed καταλαβών → καταμαθών (nach dem Photo), K.A. Worp.</change>
+          <change when="2020-12-16T15:15:08-05:00" who="https://papyri.info/editor/users/DespinaE">Commit - Line 6: Changed οὐ νοῶ → ἀγνόω (nach dem Photo), K.A. Worp.</change>
+          <change when="2020-12-16T15:08:02-05:00" who="https://papyri.info/editor/users/DespinaE">Commit - Line 1: Changed καταλαβών → καταμαθών (nach dem Photo), K.A. Worp.</change>
+          <change when="2020-12-16T15:08:01-05:00" who="https://papyri.info/editor/users/DespinaE">Commit - Line 1: Changed καταλαβών → καταμαθών (nach dem Photo), K.A. Worp.</change>
+          <change when="2020-12-16T15:07:13-05:00" who="https://papyri.info/editor/users/DespinaE">Commit - Line 1: Changed καταλαβών → καταμαθών (nach dem Photo), K.A. Worp.</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
           <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
           <change when="2011-10-04" who="https://papyri.info/editor/users/Faith">Automatically updated revision description</change>
@@ -72,12 +54,9 @@ Line 6: οὐ νοῶ → ἀγνόω (nach dem Photo), K.A. Worp.</change>
    </teiHeader>
    <text>
       <body>
-         <head n="45529" xml:lang="en">
-            <date>after AD 603</date>
-            <placeName>Arsinoite</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/24/16222">SB 24 16222</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart"><ab>
+<div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
     <lb n="1"/><supplied reason="lost"><g type="stauros"/> κατὰ τὴν σήμ</supplied><unclear>ερ</unclear>ον ἡμέραν ἥτις ἐστὶν νεομηνία Μεσορὴ <app type="editorial"><lem resp="BL 12.116">καταμαθών</lem><rdg>καταλαβών</rdg></app> τὴν
 
     <lb n="2"/><gap reason="lost" quantity="14" unit="character"/> <unclear>τ</unclear>οῦ στόλου ὁ <expan>ἐνδοξ<ex>ότατος</ex></expan> σκρίβων ηὑρέθη πρὸς τὸν πανεύφημον
@@ -102,7 +81,7 @@ Line 6: οὐ νοῶ → ἀγνόω (nach dem Photo), K.A. Worp.</change>
 
     <lb n="12"/>πανευφήμου πατρικίου, δέσποτα. <g type="stauros"/>
 </ab></div>
-<div n="v" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
     <lb n="13"/><unclear><g type="stauros"/></unclear> Ἰδίῳ ἐμῷ <expan><supplied reason="lost">ἀ</supplied>γαθ<ex>ῷ</ex></expan> <expan>δεσπό<ex>τῃ</ex></expan> <gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><abbr><gap reason="lost" quantity="1" unit="character"/>μ<unclear>π</unclear></abbr> <abbr>το</abbr> <abbr>προστ<unclear>α</unclear></abbr> <gap reason="lost" quantity="10" unit="character"/>
 </ab></div></div>
       </body>

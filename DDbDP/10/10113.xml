@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0008;;230"
-     xml:id="chr.wilck.230"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0008;;230" xml:id="chr.wilck.230" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="10113" xml:lang="en">
-            <date>AD 303-306?</date>
-            <placeName>Arsinoite</placeName>
-            <ref n="p.amh;2;83" type="reprint-from">P.Amh. 2,83</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/chr.wilck/230">W.Chr. 230</ref> = <ref target="https://papyri.info/pub/p.amh/2/83">P.Amh. 2 83</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" quantity="8" unit="character"/><supplied reason="lost"> Κλωδίῳ </supplied><supplied reason="lost" cert="low">Κουλ</supplied><unclear>κι</unclear>ανῷ τῶ<supplied reason="lost">ι δ</supplied>ιαση<supplied reason="lost">μ</supplied>οτάτωι ἐπάρχωι Αἰγύπτου 
 

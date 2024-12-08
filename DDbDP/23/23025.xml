@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0195;2;107"
-     xml:id="p.rein.2.107"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0195;2;107" xml:id="p.rein.2.107" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,11 +43,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="23025" xml:lang="en">
-            <date>VI spc</date>
-            <placeName>Syene</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.rein/2/107">P.Rein. 2 107</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><g type="chirho"/> τῷ εὐαγεῖ μοναστηρίῳ Φελ<gap reason="illegible" quantity="3" unit="character"/>μο<gap reason="illegible" quantity="1" unit="character"/> ἀββᾶ Ἰακώβου τοῦ θεοφιλεστάτου πρεσβυτέρου καὶ ἡγουμένου τοῦ 
 
@@ -67,7 +59,7 @@
     <lb n="6"/>στοιχεῖ μοι ἡ ἀσφάλεια ὡς <expan>πρόκ<ex>ειται</ex></expan> <g type="stauros"/> <handShift new="m3"/> Θεόπεμπτος <expan>Χριστοφόρο<ex>υ</ex></expan> <expan>νομικ<ex>άριος</ex></expan> 
 
     <lb n="7"/>ἀπὸ <expan>Διοκλ<ex>ητιανοῦ</ex></expan> <expan>πόλ<ex>εως</ex></expan> μαρτυρῶ τῇ ἀσφαλείᾳ ἀκούσας παρὰ Εἰῶτ τοῦ καὶ θεμένου <g type="stauros"/> 
-</ab></div><div n="v" type="textpart"><ab>
+</ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="8"/><g type="stauros"/> ἀσφάλεια Ἀλλάμωνος ὁ καὶ Εἰῶτ υ<hi rend="diaeresis">ἱ</hi>ὸς Πρεπόσι<supplied reason="lost">τ</supplied>ος 
 

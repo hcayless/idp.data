@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0206;2;418v"
-     xml:id="p.tebt.2.418v"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0206;2;418v" xml:id="p.tebt.2.418v" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="31362b" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Tebtynis</placeName>
-         </head>
+         <head><ref>Tibiletti, Lettere private 14</ref> = <ref target="https://papyri.info/pub/p.tebt/2/418v">P.Tebt. 2 418 V</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
 
     <lb n="1"/>Ὠριγένει παρὰ Σωτηρίχου φίλου. 

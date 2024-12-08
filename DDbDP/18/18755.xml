@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0240;20;286"
-     xml:id="stud.pal.20.286"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;20;286" xml:id="stud.pal.20.286" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,10 +39,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="18755" xml:lang="en">
-            <date>ca. AD 398</date>
-            <placeName>?</placeName>
-         </head>
+         <head><ref>SPP XIV, S. 4, Tafel XI, 520</ref> = <ref>ChLA XLV 1329</ref> = <ref>CPL 199 b et c</ref> = <ref target="https://papyri.info/pub/stud.pal/20/286">SPP 20 286</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><foreign xml:lang="la"><abbr>d</abbr> quantum decimo <expan>Kall<ex>endas</ex></expan> <choice><reg><expan>easd<ex>em</ex></expan></reg><orig>easdd</orig></choice> duocene <app type="editorial"><lem resp="BL 9.351"><expan>r<ex>a</ex>ti<ex>one</ex></expan> <choice><reg><expan>Baby<ex>lonis</ex></expan></reg><orig>babe</orig></choice></lem><rdg>stibale</rdg></app> post <expan>cons<ex>ulatum</ex></expan> <expan>dom<ex>ini</ex></expan> 
 <expan>n<ex>ostri</ex></expan> honorii <expan>p<ex>erpetui</ex></expan> <expan>Aug<ex>usti</ex></expan> quater et 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;1;47b"
-     xml:id="p.flor.1.47b"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;1;47b" xml:id="p.flor.1.47b" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -51,10 +46,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="23561" xml:lang="en">
-            <date>AD 217</date>
-            <placeName>Hermoupolis Magna</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.flor/1/47b">P.Flor. 1 47 b</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
 
     <lb n="22"/><supplied reason="lost">Αὐρ</supplied>ήλιοι Ἑρμ<unclear>ο</unclear>δίδυμος Ἀνουβίωνος Ἀγαθοῦ Δαίμονος τοῦ καὶ Ἐπιμάχου καὶ <supplied reason="lost">Τιθοητίων ὁ καὶ Σαραπάμμων</supplied> 

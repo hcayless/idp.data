@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;2;254"
-     xml:id="p.flor.2.254"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;2;254" xml:id="p.flor.2.254" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,11 +45,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11140" xml:lang="en">
-            <date>AD 259</date>
-            <placeName>Theadelphia</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart"><ab>
+         <head><ref target="https://papyri.info/pub/p.flor/2/254">P.Flor. 2 254</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/>Σύρος Ἡρωνείνῳ τῷ <expan>φιλ<ex>τάτῳ</ex></expan> 
 
@@ -101,7 +93,7 @@
     <lb n="20"/><handShift new="m2"/> <choice><reg>ἔδειξεν</reg><orig>ἔδιξεν</orig></choice> δὲ ἀπὸ <expan>κτή<ex>ματος</ex></expan> Χρυσο
 
     <lb n="21" break="no"/>χόου αὐτῷ δοθῆναι 
-</ab></div><div n="r" type="textpart"><ab>
+</ab></div><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 2,254,r reprinted in <ref n="p.flor;1;88" type="reprint-in">PFlor 1,88</ref></note></ab></div></div>
       </body>

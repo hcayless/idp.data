@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;10;10262"
-     xml:id="sb.10.10262"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;10;10262" xml:id="sb.10.10262" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,11 +42,7 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>ca. 250 BC</date>
-            <placeName>Hibeh</placeName>
-            <ref type="reprint-from">PHib1,135</ref>
-         </head>
+         <head><ref>P.Brook. 11</ref> = <ref>SB VIII 9872</ref> = <ref target="https://papyri.info/pub/sb/10/10262">SB X 10262</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><note xml:lang="en">SB 10,10262 reprinted in PBrook 11 </note>
 

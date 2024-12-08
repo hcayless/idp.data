@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0001;13;2330"
-     xml:id="bgu.13.2330"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;13;2330" xml:id="bgu.13.2330" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="9721" xml:lang="en">
-            <date>AD 89</date>
-            <placeName>Soknopaiou Nesos</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/bgu/13/2330">BGU 13 2330</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><unclear>ἔ</unclear><supplied reason="lost">το</supplied><unclear>υ</unclear>ς <unclear>ὀγδ</unclear>όου ο<gap reason="illegible" quantity="1" unit="character"/> Αὐτοκρά<unclear>τορ</unclear><supplied reason="lost">ος</supplied> 
 

@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0111;3;338"
-     xml:id="p.flor.3.338"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0111;3;338" xml:id="p.flor.3.338" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,11 +41,8 @@
    </teiHeader>
    <text>
       <body>
-         <head n="11171" xml:lang="en">
-            <date>III spc</date>
-            <placeName>Arsinoite</placeName>
-         </head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart"><ab>
+         <head><ref>Sel. Pap. I 146</ref> = <ref target="https://papyri.info/pub/p.flor/3/338">P.Flor. 3 338</ref></head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/>Ὡρείων Κηλέᾳ τῷ ἀδελφῷ χαίρειν. 
 
@@ -89,7 +81,7 @@
     <lb n="18"/>ἐμοί· ἐμιάνθην γὰρ παρὰ πᾶσι. 
 
     <lb n="19"/><expan>ἐρρῶσ<ex>θαί</ex></expan> σʼ <expan>εὔχο<ex>μαι</ex></expan>. 
-</ab></div><div n="r" type="textpart"><ab>
+</ab></div><div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
     <lb n="1"/><note xml:lang="en">PFlor 3,338,r reprinted in <ref n="p.flor;1;21" type="reprint-in">PFlor 1,21</ref></note></ab></div></div>
       </body>

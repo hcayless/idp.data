@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0138;3;33"
-     xml:id="p.iand.3.33"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0138;3;33" xml:id="p.iand.3.33" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,10 +44,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="20184" xml:lang="en">
-            <date>AD 180-192</date>
-            <placeName>Herakleopolite</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/p.iand/3/33">P.Iand. 3 33</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1a"/><app type="editorial"><lem resp="BL 1.199"><gap reason="lost" extent="unknown" unit="character"/> 
 

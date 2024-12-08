@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0179;;13"
-     xml:id="p.oxy.descr.13"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0179;;13" xml:id="p.oxy.descr.13" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,11 +42,7 @@
    </teiHeader>
    <text>
       <body>
-         <head xml:lang="en">
-            <date>III spc</date>
-            <placeName>Oxyrhynchus</placeName>
-            <ref n="p.oxy;1;189" type="reprint-from">POxy1,189</ref>
-         </head>
+         <head><ref>SB 22 15361</ref> = <ref>P.Lond. III 773 descr.</ref> = <ref target="https://papyri.info/pub/p.oxy.descr/13">P.Oxy. I 189 descr.</ref> = <ref target="https://papyri.info/pub/p.oxy/1/189">P.Oxy. I 189 descr.</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/><expan>π<ex>αρὰ</ex></expan> Θεωνίλλης τῆς <expan>λ<unclear>αμ</unclear><ex>προτάτης</ex></expan> 
 

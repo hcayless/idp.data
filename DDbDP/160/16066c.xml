@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0239;12;10788c"
-     xml:id="sb.12.10788c"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;12;10788c" xml:id="sb.12.10788c" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -53,10 +48,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="16066c" xml:lang="en">
-            <date>AD 61</date>
-            <placeName>Oxyrhynchus?</placeName>
-         </head>
+         <head><ref target="https://papyri.info/pub/sb/12/10788c">SB 12 10788 C</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
 
     <lb n="45"/><handShift new="m7"/> <expan>Ἐλ<ex>ήφθη</ex></expan> <num value="10">ι</num> <expan><ex>ἔτους</ex></expan>, <expan>μη<ex>νὸς</ex></expan> Καισαρείου <num value="1">α</num> 

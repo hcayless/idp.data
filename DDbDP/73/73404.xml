@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0018;;58"
-     xml:id="o.cair.58"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0018;;58" xml:id="o.cair.58" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +40,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="73404" xml:lang="en">
-            <date>AD 114</date>
-            <placeName>Memnoneia</placeName>
-         </head>
+         <head><ref>O.Cair. Cat. 9583</ref> = <ref target="https://papyri.info/pub/o.cair/58">O.Cair. GPW 58</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Ἑριεῦς <expan>Παμών<ex>θου</ex></expan> <expan>πράκ<ex>τωρ</ex></expan> <expan>ἀργ<ex>υρικῶν</ex></expan> <expan>Μ<unclear>εμν</unclear>ο<ex>νείων</ex></expan> 
 

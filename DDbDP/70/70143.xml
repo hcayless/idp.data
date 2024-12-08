@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     n="0279;47;1446"
-     xml:id="chla.47.1446"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0279;47;1446" xml:id="chla.47.1446" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,26 +37,21 @@
    </teiHeader>
    <text>
       <body>
-         <head n="70143" xml:lang="en">
-            <date>AD 216</date>
-            <placeName>?</placeName>
-            <ref n="c.ep.lat;;191" type="reprint-from">C.Epist.Lat. 191,59</ref>
-            <ref n="chla;6;321" type="reprint-in">cf. Rom.Mil.Rec. 89; Ch.L.A. 6,321</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/chla/47/1446">ChLA 47 1446</ref> = <ref target="https://papyri.info/pub/c.ep.lat/191">ChLA 47 1446</ref></head>
          <div xml:lang="la" type="edition" xml:space="preserve"><ab><note xml:lang="en">full document: Rom.Mil.Rec. 89+Ch.L.A. 6,321+Ch.L.A. 47,1446</note>
-</ab><div n="FrA" type="textpart"><ab>
+</ab><div n="FrA" type="textpart" xml:id="_FrA"><head>FrA</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>rap<gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>erfil<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="line"/>
-</ab></div><div n="FrB" type="textpart"><ab>
+</ab></div><div n="FrB" type="textpart" xml:id="_FrB"><head>FrB</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ius</unclear><supplied reason="lost" cert="low">si </supplied><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
-</ab></div><div n="FrC" type="textpart"><ab>
+</ab></div><div n="FrC" type="textpart" xml:id="_FrC"><head>FrC</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>pos</unclear><gap reason="lost" extent="unknown" unit="character"/>

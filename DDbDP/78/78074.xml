@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,11 +45,7 @@
    </teiHeader>
    <text>
       <body>
-         <head n="78074" xml:lang="en">
-            <date>ca. AD 219</date>
-            <placeName>Didymoi</placeName>
-            <ref n="p.bingen;;108" type="reprint-from">P.Bingen 108</ref>
-         </head>
+         <head><ref target="https://papyri.info/pub/o.did/40">O.Did. 40</ref> = <ref target="https://papyri.info/pub/p.bingen/108">P.Bingen 108</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><ab>
     <lb n="1"/>Οὐαλερίῳ <space extent="unknown" unit="character"/> Ἀπολιναρίῳ ἐπιτρόπῳ
 
