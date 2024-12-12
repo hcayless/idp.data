@@ -59,25 +59,13 @@
                <additional>
                   <adminInfo>
                      <custodialHist>
-                        <custEvent type="imaged"
-                                   corresp="#FR12903"
-                                   xml:id="GR12903.01"
-                                   from="1970"
-                                   to="2015">
+                        <custEvent type="imaged" corresp="#FR12903" xml:id="GR12903.01" from="1970" to="2015">
                            <graphic url="http://ipap.csad.ox.ac.uk/Fayum-bw/300dpi/P.Fay.311br.jpg"/>
                         </custEvent>
-                        <custEvent type="imaged"
-                                   corresp="#FR12902"
-                                   xml:id="GR12902.01"
-                                   from="1970"
-                                   to="2015">
+                        <custEvent type="imaged" corresp="#FR12902" xml:id="GR12902.01" from="1970" to="2015">
                            <graphic url="http://ipap.csad.ox.ac.uk/Fayum-colour/300dpi/P.Fay.311r.jpg"/>
                         </custEvent>
-                        <custEvent type="imaged"
-                                   corresp="#FR12901"
-                                   xml:id="GR12901.01"
-                                   from="1970"
-                                   to="2015">
+                        <custEvent type="imaged" corresp="#FR12901" xml:id="GR12901.01" from="1970" to="2015">
                            <graphic url="http://ipap.csad.ox.ac.uk/Fayum-bw/300dpi/P.Fay.311ar.jpg"/>
                         </custEvent>
                      </custodialHist>

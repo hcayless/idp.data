@@ -91,7 +91,7 @@
             <p>This papyrus has been digitally edited by Marcel Moser and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
          </div>
          <div xml:lang="grc" type="edition" xml:space="preserve"> 
-<div n="1" subtype="column" type="textpart" corresp="#FR9013"><ab>
+<div n="1" subtype="column" type="textpart" corresp="#FR9013" xml:id="column_1"><head>Column 1</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><supplied reason="lost">ἔστη σκῆπτρον ἔχ</supplied><unclear>ων</unclear>, <supplied reason="lost">τὸ μὲν Ἥφαιστος κάμε τέυχων.</supplied>
 <lb n="2"/><supplied reason="lost">Ἥφαιστος μὲν δ</supplied><unclear>ῶ</unclear>κε Διὶ Κ<unclear>ρ</unclear><supplied reason="lost">ονίωνι ἄνακτι,</supplied>
@@ -160,9 +160,7 @@
             <listBibl>
                <bibl type="publication" subtype="ancient">
                   <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0012">Homerus</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/511">Ilias</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/511">Ilias</title>
                </bibl>
             </listBibl>
          </div>

@@ -51,10 +51,7 @@
                   </origin>
                   <provenance n="1" type="found">
                      <p>
-                        <placeName n="1"
-                                   type="ancient"
-                                   subtype="nome"
-                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName n="1" type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
                         <placeName n="2" type="ancient" subtype="region">Egypt</placeName>
                      </p>
                   </provenance>
@@ -88,31 +85,22 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-06-05T21:16:57-04:00"
-                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go </change>
-         <change when="2022-06-05T21:15:22-04:00"
-                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - Accept-Straight-to-Finalization - yes</change>
-         <change when="2022-06-05T21:14:40-04:00"
-                 who="http://papyri.info/editor/users/Mike%20Sampson">Submit - Typo in biblios</change>
-         <change when="2022-06-05T20:59:15-04:00"
-                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
-         <change when="2022-06-05T20:48:19-04:00"
-                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - Accept-Straight-to-Finalization - Yes.</change>
-         <change when="2022-06-05T20:47:43-04:00"
-                 who="http://papyri.info/editor/users/Mike%20Sampson">Submit - Initial entry, from Gallazzi 1988.</change>
-         <change when="2022-06-05T20:59:15-04:00"
-                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
-         <change when="2022-06-05T20:48:19-04:00"
-                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - Accept-Straight-to-Finalization - Yes.</change>
-         <change when="2022-06-05T20:47:43-04:00"
-                 who="http://papyri.info/editor/users/Mike%20Sampson">Submit - Initial entry, from Gallazzi 1988.</change>
+         <change when="2022-06-05T21:16:57-04:00" who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go </change>
+         <change when="2022-06-05T21:15:22-04:00" who="http://papyri.info/editor/users/Mike%20Sampson">Vote - Accept-Straight-to-Finalization - yes</change>
+         <change when="2022-06-05T21:14:40-04:00" who="http://papyri.info/editor/users/Mike%20Sampson">Submit - Typo in biblios</change>
+         <change when="2022-06-05T20:59:15-04:00" who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2022-06-05T20:48:19-04:00" who="http://papyri.info/editor/users/Mike%20Sampson">Vote - Accept-Straight-to-Finalization - Yes.</change>
+         <change when="2022-06-05T20:47:43-04:00" who="http://papyri.info/editor/users/Mike%20Sampson">Submit - Initial entry, from Gallazzi 1988.</change>
+         <change when="2022-06-05T20:59:15-04:00" who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2022-06-05T20:48:19-04:00" who="http://papyri.info/editor/users/Mike%20Sampson">Vote - Accept-Straight-to-Finalization - Yes.</change>
+         <change when="2022-06-05T20:47:43-04:00" who="http://papyri.info/editor/users/Mike%20Sampson">Submit - Initial entry, from Gallazzi 1988.</change>
          <change when="2014-12-10" who="DCLP">Crosswalked to EpiDoc XML</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><supplied reason="lost">χαλκεοθωρήκων· ἀτὰρ ἀσπίδες ὀμ</supplied>φαλόε<unclear>σ</unclear><supplied reason="lost">σαι</supplied>
 <lb n="2"/><supplied reason="lost">ἔπληντ’ ἀλλήλῃσι, πολὺς δ’ ὀρυμαγδὸς</supplied> ὀρώρ<unclear>ε</unclear><supplied reason="lost">ι.</supplied>
@@ -131,7 +119,7 @@
 <lb n="14"/><supplied reason="lost">αὐτὸς δ’ ἐξ Ἴδης μεγάλ’ ἔκτυπε, δαιόμε</supplied><unclear>νο</unclear><supplied reason="lost">ν δ</supplied><unclear>ὲ</unclear>
 <lb n="14"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
 <lb n="1"/>ἀλλὰ μέν’ ὄφρα γ<unclear>έ</unclear>ροντος ἀπώσομεν ἄ<supplied reason="lost">γριον ἄνδρα.</supplied>
 <lb n="2"/><add place="left"><expan>πο<ex>ιητής</ex></expan></add> ὣς ἔφατ’, οὐδ’ ἐσάκουσε πολύτλας δῖος Ὀ<unclear>δ</unclear><supplied reason="lost">υσσεύς,</supplied>
 <lb n="3"/>ἀλλὰ παρή<hi rend="diaeresis">ϊ</hi>ξε<unclear>ν</unclear> <unclear>κ</unclear>οίλας ἐ<unclear>π</unclear>ὶ νῆας Ἀχα<unclear>ι</unclear><supplied reason="lost">ῶν.</supplied>
@@ -158,11 +146,8 @@
          <div type="bibliography" subtype="ancientEdition">
             <listBibl>
                <bibl type="publication" subtype="ancient">
-                  <author xml:lang="grc"
-                          ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0012 http://cwkb.org/author/id/927/rdf">Homerus</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/511 http://cwkb.org/work/id/2815/rdf">Ilias</title>
+                  <author xml:lang="grc" ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0012 http://cwkb.org/author/id/927/rdf">Homerus</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/511 http://cwkb.org/work/id/2815/rdf">Ilias</title>
                   <biblScope n="1" unit="book">8</biblScope>
                   <biblScope n="2" unit="line" from="62" to="75">62-75</biblScope>
                   <biblScope n="3" unit="generic">and</biblScope>

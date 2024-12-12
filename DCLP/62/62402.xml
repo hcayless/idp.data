@@ -248,19 +248,14 @@
                         </origin>
                         <provenance type="found">
                             <p>
-                                <placeName type="ancient"
-                                           subtype="nome"
-                                           ref="https://www.trismegistos.org/place/481">Campania</placeName>
+                                <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/481">Campania</placeName>
                                 <placeName type="ancient" subtype="region">Italy</placeName>
                                 <placeName type="ancient" ref="https://www.trismegistos.org/place/3365">Herculaneum</placeName>
                             </p>
                         </provenance>
                         <provenance type="composed">
                             <p>
-                                <placeName type="ancient"
-                                           subtype="region"
-                                           ref="https://www.trismegistos.org/place/932"
-                                           cert="low">Italy</placeName>
+                                <placeName type="ancient" subtype="region" ref="https://www.trismegistos.org/place/932" cert="low">Italy</placeName>
                             </p>
                         </provenance>
                         <provenance type="stored">
@@ -274,115 +269,65 @@
                     <additional>
                         <adminInfo>
                             <custodialHist>
-                                <custEvent type="MSI"
-                                           corresp="#FR11407"
-                                           from="1999"
-                                           to="2015">
+                                <custEvent type="MSI" corresp="#FR11407" from="1999" to="2015">
                                     <graphic url="http://www.chartes.it/images/photo/PHerc 1613-CR01-FIL8-FS8-17079.jpg"/>
                                     <orgName>CPART, Brigham Young University</orgName>
                                 </custEvent>
-                                <custEvent type="MSI"
-                                           from="1999"
-                                           to="2015">
+                                <custEvent type="MSI" from="1999" to="2015">
                                     <graphic url="http://www.chartes.it/images/photo/PHerc 415b-CR01-11247-FS5.-FIL8.jpg"/>
                                     <orgName>CPART, Brigham Young University</orgName>
                                 </custEvent>
-                                <custEvent type="MSI"
-                                    from="1999"
-                                           to="2015">
+                                <custEvent type="MSI" from="1999" to="2015">
                                     <graphic url="http://www.chartes.it/images/photo/PHerc 896a-CR01-15034-FS5.6-FIL7.jpg"/>
                                     <orgName>CPART, Brigham Young University</orgName>
                                 </custEvent>
-                                <custEvent type="MSI"
-                                           corresp="#FR11400"
-                                           xml:id="GR11400.01"
-                                           from="1999"
-                                           to="2015">
+                                <custEvent type="MSI" corresp="#FR11400" xml:id="GR11400.01" from="1999" to="2015">
                                     <graphic url="http://www.chartes.it/images/photo/PHerc 465-CR01-FIL8-FS8-17799.jpg"/>
                                     <orgName>CPART, Brigham Young University</orgName>
                                 </custEvent>
-                                <custEvent type="MSI"
-                                           corresp="#FR11399"
-                                           xml:id="GR11399.01"
-                                           from="1999"
-                                           to="2015">
+                                <custEvent type="MSI" corresp="#FR11399" xml:id="GR11399.01" from="1999" to="2015">
                                     <graphic url="http://www.chartes.it/images/photo/PHerc 415b-CR01-11247-FS5.-FIL8.jpg"/>
                                     <orgName>CPART, Brigham Young University</orgName>
                                 </custEvent>
-                                <custEvent type="MSI"
-                                           corresp="#FR11398"
-                                           xml:id="GR11398.01"
-                                           from="1999"
-                                           to="2015">
+                                <custEvent type="MSI" corresp="#FR11398" xml:id="GR11398.01" from="1999" to="2015">
                                     <graphic url="http://www.chartes.it/images/photo/PHerc 253A-CR01-11226-FS5.-FIL8.jpg"/>
                                     <orgName>CPART, Brigham Young University</orgName>
                                 </custEvent>
-                                <custEvent type="MSI"
-                                           corresp="#FR11397"
-                                           xml:id="GR11397.01"
-                                           from="1999"
-                                           to="2015">
+                                <custEvent type="MSI" corresp="#FR11397" xml:id="GR11397.01" from="1999" to="2015">
                                     <graphic url="http://www.chartes.it/images/photo/PHerc 1613-CR01-FIL8-FS8-17079.jpg"/>
                                     <orgName>CPART, Brigham Young University</orgName>
                                 </custEvent>
-                                <custEvent type="MSI"
-                                           corresp="#FR11396"
-                                           xml:id="GR11396.01"
-                                           from="1999"
-                                           to="2015">
+                                <custEvent type="MSI" corresp="#FR11396" xml:id="GR11396.01" from="1999" to="2015">
                                     <graphic url="http://www.chartes.it/images/photo/PHerc 896a-CR01-15034-FS5.6-FIL7.jpg"/>
                                     <orgName>CPART, Brigham Young University</orgName>
                                 </custEvent>
-                                <custEvent type="MSI"
-                                           corresp="#FR11395"
-                                           xml:id="GR11395.01"
-                                           from="1999"
-                                           to="2015">
+                                <custEvent type="MSI" corresp="#FR11395" xml:id="GR11395.01" from="1999" to="2015">
                                     <graphic url="http://www.chartes.it/images/photo/PHerc 465-CR01-FIL8-FS8-17799.jpg"/>
                                     <orgName>CPART, Brigham Young University</orgName>
                                 </custEvent>
-                                <custEvent type="MSI"
-                                           corresp="#FR11394"
-                                           xml:id="GR11394.01"
-                                           from="1999"
-                                           to="2015">
+                                <custEvent type="MSI" corresp="#FR11394" xml:id="GR11394.01" from="1999" to="2015">
                                     <graphic url="http://www.chartes.it/images/photo/PHerc 415b-CR01-11247-FS5.-FIL8.jpg"/>
                                     <orgName>CPART, Brigham Young University</orgName>
                                 </custEvent>
-                                <custEvent type="MSI"
-                                           corresp="#FR11393"
-                                           xml:id="GR11393.01"
-                                           from="1999"
-                                           to="2015">
+                                <custEvent type="MSI" corresp="#FR11393" xml:id="GR11393.01" from="1999" to="2015">
                                     <graphic url="http://www.chartes.it/images/photo/PHerc 253A-CR01-11226-FS5.-FIL8.jpg"/>
                                     <orgName>CPART, Brigham Young University</orgName>
                                 </custEvent>
-                                <custEvent type="unrolled"
-                                           corresp="#FR4155 #FR4156 #FR4157 #FR4158 #FR4159 #FR4160 #FR4161 #FR4162 #FR4163 #FR4164 #FR4165 #FR4166 #FR4167 #FR4168 #FR4169 #FR4170 #FR4171 #FR4172 #FR4173 #FR4174 #FR4175 #FR4176 #FR4177 #FR4178 #FR4179 #FR4180 #FR4181 #FR4182 #FR4183 #FR4184 #FR4185 #FR4186 #FR4187 #FR4188 #FR4189 #FR4190 #FR4191 #FR4192 #FR4193 #FR4194 #FR4195 #FR4196"
-                                           when="1792"/>
-                                <custEvent type="unrolled"
-                                           corresp="#FR3244 #FR3245 #FR3246 #FR3247 #FR3248 #FR3249 #FR3250 #FR3251 #FR3252 #FR3253 #FR3254 #FR3255 #FR3256"
-                                           when="1830">
+                                <custEvent type="unrolled" corresp="#FR4155 #FR4156 #FR4157 #FR4158 #FR4159 #FR4160 #FR4161 #FR4162 #FR4163 #FR4164 #FR4165 #FR4166 #FR4167 #FR4168 #FR4169 #FR4170 #FR4171 #FR4172 #FR4173 #FR4174 #FR4175 #FR4176 #FR4177 #FR4178 #FR4179 #FR4180 #FR4181 #FR4182 #FR4183 #FR4184 #FR4185 #FR4186 #FR4187 #FR4188 #FR4189 #FR4190 #FR4191 #FR4192 #FR4193 #FR4194 #FR4195 #FR4196" when="1792"/>
+                                <custEvent type="unrolled" corresp="#FR3244 #FR3245 #FR3246 #FR3247 #FR3248 #FR3249 #FR3250 #FR3251 #FR3252 #FR3253 #FR3254 #FR3255 #FR3256" when="1830">
                                     <forename>Carlo</forename>
                                     <surname>Malesci</surname>
                                 </custEvent>
-                                <custEvent type="unrolled"
-                                           corresp="#FR1334 #FR1335 #FR3331 #FR3332 #FR3333 #FR3334 #FR3335 #FR3336 #FR3337 #FR3338 #FR3339 #FR3340 #FR3341 #FR3342"
-                                           when="1790"/>
+                                <custEvent type="unrolled" corresp="#FR1334 #FR1335 #FR3331 #FR3332 #FR3333 #FR3334 #FR3335 #FR3336 #FR3337 #FR3338 #FR3339 #FR3340 #FR3341 #FR3342" when="1790"/>
                                 <custEvent type="unrolled" corresp="#FR7613" from="1802" to="1848">
                                     <forename>Carlo</forename>
                                     <surname>Malesci</surname>
                                 </custEvent>
-                                <custEvent type="unrolled"
-                                           corresp="#FR3916 #FR3917 #FR3918 #FR3919 #FR3920 #FR3921 #FR3922 #FR3923 #FR3924 #FR3925 #FR3926 #FR3927 #FR3928 #FR3929"
-                                           when="1822">
+                                <custEvent type="unrolled" corresp="#FR3916 #FR3917 #FR3918 #FR3919 #FR3920 #FR3921 #FR3922 #FR3923 #FR3924 #FR3925 #FR3926 #FR3927 #FR3928 #FR3929" when="1822">
                                     <forename>Francesco</forename>
                                     <surname>Casanova</surname>
                                 </custEvent>
-                                <custEvent type="unrolled"
-                                           corresp="#FR7614 #FR7614 #FR7615 #FR7615 #FR7616 #FR7616 #FR7617 #FR7617 #FR7618 #FR7618 #FR7619 #FR7619 #FR7620 #FR7620 #FR7621 #FR7621 #FR7622 #FR7622 #FR7623 #FR7623 #FR7624 #FR7624 #FR7625 #FR7625 #FR7626 #FR7626 #FR7627 #FR7627 #FR7628 #FR7628 #FR7629 #FR7629 #FR7630 #FR7630 #FR7631 #FR7631"
-                                           from="1752"
-                                           to="1753">
+                                <custEvent type="unrolled" corresp="#FR7614 #FR7614 #FR7615 #FR7615 #FR7616 #FR7616 #FR7617 #FR7617 #FR7618 #FR7618 #FR7619 #FR7619 #FR7620 #FR7620 #FR7621 #FR7621 #FR7622 #FR7622 #FR7623 #FR7623 #FR7624 #FR7624 #FR7625 #FR7625 #FR7626 #FR7626 #FR7627 #FR7627 #FR7628 #FR7628 #FR7629 #FR7629 #FR7630 #FR7630 #FR7631 #FR7631" from="1752" to="1753">
                                     <forename>Camillo</forename>
                                     <surname>Paderni</surname>
                                 </custEvent>
@@ -835,7 +780,7 @@
             <p>This papyrus has been digitally edited by Christian Sailer and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
          </div>
             <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="1" corresp="#FR7613" subtype="fragment" type="textpart"><ab>
+<div n="1" corresp="#FR7613" subtype="fragment" type="textpart" xml:id="fragment_1"><head>Fragment 1</head><ab>
 <lb n="1"/><gap reason="illegible" quantity="5" unit="character"/>κειταιδεπο
 <lb n="2"/><gap reason="illegible" quantity="5" unit="character"/>νοικιασηδου
 <lb n="3"/>λιτικωναποφοι
@@ -858,26 +803,26 @@
 <lb n="20"/><gap reason="illegible" quantity="9" unit="character"/>φιλαργυροσ
 <lb n="21"/><gap reason="illegible" quantity="9" unit="character"/>νκαικατα
 </ab></div>
-<div n="subscriptio" subtype="title" type="textpart" corresp="#FR7614"><ab>
+<div n="subscriptio" subtype="title" type="textpart" corresp="#FR7614" xml:id="title_subscriptio"><head>Title subscriptio</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Φι</supplied>λοδήμου <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="1" subtype="fragment" type="textpart" corresp="#FR7615"><ab>
+<div n="1" subtype="fragment" type="textpart" corresp="#FR7615" xml:id="fragment_1"><head>Fragment 1</head><ab>
 <lb n="1"/><gap reason="lost" quantity="12" unit="line"/>
 <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">καθ<certainty match=".." locus="name"/></supplied>όλου<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="14"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="3" subtype="fragment" type="textpart" corresp="#FR7616"><ab>
+<div n="3" subtype="fragment" type="textpart" corresp="#FR7616" xml:id="fragment_3"><head>Fragment 3</head><ab>
 <lb n="1"/><gap reason="lost" quantity="7" unit="line"/>
 <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">φιλά</supplied><orig>ργυρ</orig><supplied reason="lost">ος <certainty match=".." locus="name"/></supplied><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="9"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="5" subtype="fragment" type="textpart" corresp="#FR7617"><ab>
+<div n="5" subtype="fragment" type="textpart" corresp="#FR7617" xml:id="fragment_5"><head>Fragment 5</head><ab>
 <lb n="1"/><gap reason="lost" quantity="10" unit="line"/>
 <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> ἀγαθῶν <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> μισθό<supplied reason="lost">ς <certainty match=".." locus="name"/></supplied><gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
-<div n="6" subtype="fragment" type="textpart" corresp="#FR7618"><ab>
+<div n="6" subtype="fragment" type="textpart" corresp="#FR7618" xml:id="fragment_6"><head>Fragment 6</head><ab>
 <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="illegible" quantity="4" unit="character"/> εἴδη <gap reason="illegible" quantity="3" unit="character"/> ἡλικ<supplied reason="lost">ία <certainty match=".." locus="name"/></supplied><gap reason="lost" quantity="4" unit="character"/>
 <lb n="2"/><gap reason="illegible" quantity="3" unit="character"/> ταῖς θανουμέν<supplied reason="lost">αις</supplied><gap reason="lost" quantity="5" unit="character"/>
@@ -885,36 +830,36 @@
 <lb n="4"/><supplied reason="lost">τοὺς</supplied> ἀνθρώπους <orig>ο</orig><gap reason="illegible" quantity="6" unit="character"/>
 <lb n="5"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="7" subtype="fragment" type="textpart" corresp="#FR7619"><ab>
+<div n="7" subtype="fragment" type="textpart" corresp="#FR7619" xml:id="fragment_7"><head>Fragment 7</head><ab>
 <lb n="1"/><gap reason="lost" quantity="15" unit="line"/>
 <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> περίφερε <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="13"/><gap reason="lost" quantity="3" unit="line"/>
 <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/> <orig>φιλαργυρ</orig><supplied reason="lost">ία <certainty match=".." locus="name"/></supplied><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="17"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="9" subtype="fragment" type="textpart" corresp="#FR7620"><ab>
+<div n="9" subtype="fragment" type="textpart" corresp="#FR7620" xml:id="fragment_9"><head>Fragment 9</head><ab>
 <lb n="1"/><gap reason="lost" quantity="2" unit="line"/>
 <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> ἄνθρ<supplied reason="lost">ωπος <certainty match=".." locus="name"/></supplied><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="11" subtype="fragment" type="textpart" corresp="#FR7621"><ab>
+<div n="11" subtype="fragment" type="textpart" corresp="#FR7621" xml:id="fragment_11"><head>Fragment 11</head><ab>
 <lb n="1"/><gap reason="lost" quantity="6" unit="line"/>
 <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> σπανίως <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="8"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="13" subtype="fragment" type="textpart" corresp="#FR7622"><ab>
+<div n="13" subtype="fragment" type="textpart" corresp="#FR7622" xml:id="fragment_13"><head>Fragment 13</head><ab>
 <lb n="1"/><gap reason="lost" quantity="8" unit="line"/>
 <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">φιλαρ</supplied><orig>γυρουν</orig><supplied reason="lost">τος <certainty match=".." locus="name"/></supplied><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="10"/><gap reason="lost" quantity="4" unit="line"/>
 <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/> συμβέ<supplied reason="lost">βη</supplied>κε <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="15"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="14" subtype="fragment" type="textpart" corresp="#FR7623"><ab>
+<div n="14" subtype="fragment" type="textpart" corresp="#FR7623" xml:id="fragment_14"><head>Fragment 14</head><ab>
 <lb n="1"/><gap reason="lost" quantity="9" unit="line"/>
 <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">φι</supplied><orig>λαργ</orig><supplied reason="lost">υρία</supplied><orig>ν</orig> <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="11"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="15" subtype="fragment" type="textpart" corresp="#FR7624"><ab>
+<div n="15" subtype="fragment" type="textpart" corresp="#FR7624" xml:id="fragment_15"><head>Fragment 15</head><ab>
 <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="illegible" quantity="4" unit="character"/> ἄλλον <supplied reason="lost">και<certainty match=".." locus="name"/></supplied>ρὸς ἡμέ<supplied reason="lost">τερος <certainty match=".." locus="name"/></supplied> <orig>νο</orig>
 <lb n="2"/><gap reason="illegible" quantity="2" unit="character"/><orig>ει</orig><gap reason="illegible" quantity="4" unit="character"/> ταρακτοτέρ<supplied reason="lost">α</supplied>ς <orig>δ</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ατε</orig><gap reason="illegible" quantity="2" unit="character"/>
@@ -923,7 +868,7 @@
 <lb n="5"/><orig>ε</orig><gap reason="illegible" quantity="4" unit="character"/> μηδὲ τὰς ἰδίας ἀδ<supplied reason="lost">ικ</supplied>ίας <orig>α</orig>
 <lb n="6"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="16" subtype="fragment" type="textpart" corresp="#FR7625"><ab>
+<div n="16" subtype="fragment" type="textpart" corresp="#FR7625" xml:id="fragment_16"><head>Fragment 16</head><ab>
 <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><supplied reason="lost">τῆν</supplied>
 <lb n="2"/><supplied reason="lost">συμ</supplied>παθίαν ἐνθυμ<supplied reason="lost">ούμεθα <certainty match=".." locus="name"/></supplied><gap reason="lost" quantity="2" unit="character"/>
@@ -935,35 +880,35 @@
 <lb n="12"/>τῆ<supplied reason="lost">ς</supplied> ἀφροσύνης
 <lb n="13"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="17" subtype="fragment" type="textpart" corresp="#FR7626"><ab>
+<div n="17" subtype="fragment" type="textpart" corresp="#FR7626" xml:id="fragment_17"><head>Fragment 17</head><ab>
 <lb n="1"/><gap reason="lost" quantity="7" unit="line"/>
 <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">μακα<certainty match=".." locus="name"/></supplied>ρίους <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="9"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="18" subtype="fragment" type="textpart" corresp="#FR7627"><ab>
+<div n="18" subtype="fragment" type="textpart" corresp="#FR7627" xml:id="fragment_18"><head>Fragment 18</head><ab>
 <lb n="1"/><gap reason="lost" quantity="12" unit="line"/>
 <lb n="13"/><orig>κατ</orig><supplied reason="lost">ὰ <certainty match=".." locus="name"/></supplied> <gap reason="illegible" quantity="3" unit="character"/> <orig>φιλαργ</orig><supplied reason="lost">υρ</supplied>
 <lb n="14" break="no"/><orig>ί</orig><supplied reason="lost">αν</supplied><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="15"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="19" subtype="fragment" type="textpart" corresp="#FR7628"><ab>
+<div n="19" subtype="fragment" type="textpart" corresp="#FR7628" xml:id="fragment_19"><head>Fragment 19</head><ab>
 <lb n="1"/><gap reason="lost" quantity="11" unit="line"/>
 <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> φευκτά <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="13"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="20" subtype="fragment" type="textpart" corresp="#FR7629"><ab>
+<div n="20" subtype="fragment" type="textpart" corresp="#FR7629" xml:id="fragment_20"><head>Fragment 20</head><ab>
 <lb n="1"/>φιλοδοξεῖν
 <lb n="2"/><gap reason="lost" quantity="3" unit="line"/>
 <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> συμφέρον <gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
-<div n="21" subtype="fragment" type="textpart" corresp="#FR7630"><ab>
+<div n="21" subtype="fragment" type="textpart" corresp="#FR7630" xml:id="fragment_21"><head>Fragment 21</head><ab>
 <lb n="1"/><gap reason="lost" quantity="7" unit="line"/>
 <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <orig>φ</orig><supplied reason="lost">ιλοδ</supplied><orig>οξίας</orig> <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="9"/><gap reason="lost" quantity="10" unit="line"/>
 <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">φιλάρ</supplied><orig>γυρ</orig><supplied reason="lost">ος <certainty match=".." locus="name"/></supplied><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="20"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="24" subtype="fragment" type="textpart" corresp="#FR7631"><ab>
+<div n="24" subtype="fragment" type="textpart" corresp="#FR7631" xml:id="fragment_24"><head>Fragment 24</head><ab>
 <lb n="1"/><gap reason="lost" quantity="10" unit="line"/>
 <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">φ</supplied><orig>ιλάργυρος</orig> <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="12"/><gap reason="lost" extent="unknown" unit="line"/>
@@ -1099,23 +1044,15 @@
             </div>
             <div type="bibliography" subtype="ancientEdition">
                 <listBibl>
-                    <bibl type="publication"
-                          subtype="ancient"
-                          corresp="#FR1334 #FR1335 #FR3244 #FR3245 #FR3246 #FR3247 #FR3248 #FR3249 #FR3250 #FR3251 #FR3252 #FR3253 #FR3254 #FR3255 #FR3256 #FR3331 #FR3332 #FR3333 #FR3334 #FR3335 #FR3336 #FR3337 #FR3338 #FR3339 #FR3340 #FR3341 #FR3342 #FR3916 #FR3917 #FR3918 #FR3919 #FR3920 #FR3921 #FR3922 #FR3923 #FR3924 #FR3925 #FR3926 #FR3927 #FR3928 #FR3929 #FR4155 #FR4156 #FR4157 #FR4158 #FR4159 #FR4160 #FR4161 #FR4162 #FR4163 #FR4164 #FR4165 #FR4166 #FR4167 #FR4168 #FR4169 #FR4170 #FR4171 #FR4172 #FR4173 #FR4174 #FR4175 #FR4176 #FR4177 #FR4178 #FR4179 #FR4180 #FR4181 #FR4182 #FR4183 #FR4184 #FR4185 #FR4186 #FR4187 #FR4188 #FR4189 #FR4190 #FR4191 #FR4192 #FR4193 #FR4194 #FR4195 #FR4196 #FR7613 #FR7614 #FR7615 #FR7616 #FR7617 #FR7618 #FR7619 #FR7620 #FR7621 #FR7622 #FR7623 #FR7624 #FR7625 #FR7626 #FR7627 #FR7628 #FR7629 #FR7630 #FR7631">
+                    <bibl type="publication" subtype="ancient" corresp="#FR1334 #FR1335 #FR3244 #FR3245 #FR3246 #FR3247 #FR3248 #FR3249 #FR3250 #FR3251 #FR3252 #FR3253 #FR3254 #FR3255 #FR3256 #FR3331 #FR3332 #FR3333 #FR3334 #FR3335 #FR3336 #FR3337 #FR3338 #FR3339 #FR3340 #FR3341 #FR3342 #FR3916 #FR3917 #FR3918 #FR3919 #FR3920 #FR3921 #FR3922 #FR3923 #FR3924 #FR3925 #FR3926 #FR3927 #FR3928 #FR3929 #FR4155 #FR4156 #FR4157 #FR4158 #FR4159 #FR4160 #FR4161 #FR4162 #FR4163 #FR4164 #FR4165 #FR4166 #FR4167 #FR4168 #FR4169 #FR4170 #FR4171 #FR4172 #FR4173 #FR4174 #FR4175 #FR4176 #FR4177 #FR4178 #FR4179 #FR4180 #FR4181 #FR4182 #FR4183 #FR4184 #FR4185 #FR4186 #FR4187 #FR4188 #FR4189 #FR4190 #FR4191 #FR4192 #FR4193 #FR4194 #FR4195 #FR4196 #FR7613 #FR7614 #FR7615 #FR7616 #FR7617 #FR7618 #FR7619 #FR7620 #FR7621 #FR7622 #FR7623 #FR7624 #FR7625 #FR7626 #FR7627 #FR7628 #FR7629 #FR7630 #FR7631">
                         <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1595">Philodemus</author>
-                        <title type="main"
-                               level="m"
-                               ref="http://www.trismegistos.org/authorwork/912">
+                        <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/912">
                         De vitiis
-                        <certainty cert="low"
-                                       locus="value"
-                                       target="#FR1334 #FR1335 #FR3244 #FR3245 #FR3246 #FR3247 #FR3248 #FR3249 #FR3250 #FR3251 #FR3252 #FR3253 #FR3254 #FR3255 #FR3256 #FR3916 #FR3917 #FR3918 #FR3919 #FR3920 #FR3921 #FR3922 #FR3923 #FR3924 #FR3925 #FR3926 #FR3927 #FR3928 #FR3929 #FR4155 #FR4156 #FR4157 #FR4158 #FR4159 #FR4160 #FR4161 #FR4162 #FR4163 #FR4164 #FR4165 #FR4166 #FR4167 #FR4168 #FR4169 #FR4170 #FR4171 #FR4172 #FR4173 #FR4174 #FR4175 #FR4176 #FR4177 #FR4178 #FR4179 #FR4180 #FR4181 #FR4182 #FR4183 #FR4184 #FR4185 #FR4186 #FR4187 #FR4188 #FR4189 #FR4190 #FR4191 #FR4192 #FR4193 #FR4194 #FR4195 #FR4196"/>
+                        <certainty cert="low" locus="value" target="#FR1334 #FR1335 #FR3244 #FR3245 #FR3246 #FR3247 #FR3248 #FR3249 #FR3250 #FR3251 #FR3252 #FR3253 #FR3254 #FR3255 #FR3256 #FR3916 #FR3917 #FR3918 #FR3919 #FR3920 #FR3921 #FR3922 #FR3923 #FR3924 #FR3925 #FR3926 #FR3927 #FR3928 #FR3929 #FR4155 #FR4156 #FR4157 #FR4158 #FR4159 #FR4160 #FR4161 #FR4162 #FR4163 #FR4164 #FR4165 #FR4166 #FR4167 #FR4168 #FR4169 #FR4170 #FR4171 #FR4172 #FR4173 #FR4174 #FR4175 #FR4176 #FR4177 #FR4178 #FR4179 #FR4180 #FR4181 #FR4182 #FR4183 #FR4184 #FR4185 #FR4186 #FR4187 #FR4188 #FR4189 #FR4190 #FR4191 #FR4192 #FR4193 #FR4194 #FR4195 #FR4196"/>
                         </title>
                         <biblScope unit="volume">
                         12
-                        <certainty cert="low"
-                                       locus="value"
-                                       target="#FR1334 #FR1335 #FR3244 #FR3245 #FR3246 #FR3247 #FR3248 #FR3249 #FR3250 #FR3251 #FR3252 #FR3253 #FR3254 #FR3255 #FR3256 #FR3916 #FR3917 #FR3918 #FR3919 #FR3920 #FR3921 #FR3922 #FR3923 #FR3924 #FR3925 #FR3926 #FR3927 #FR3928 #FR3929 #FR4155 #FR4156 #FR4157 #FR4158 #FR4159 #FR4160 #FR4161 #FR4162 #FR4163 #FR4164 #FR4165 #FR4166 #FR4167 #FR4168 #FR4169 #FR4170 #FR4171 #FR4172 #FR4173 #FR4174 #FR4175 #FR4176 #FR4177 #FR4178 #FR4179 #FR4180 #FR4181 #FR4182 #FR4183 #FR4184 #FR4185 #FR4186 #FR4187 #FR4188 #FR4189 #FR4190 #FR4191 #FR4192 #FR4193 #FR4194 #FR4195 #FR4196"/>
+                        <certainty cert="low" locus="value" target="#FR1334 #FR1335 #FR3244 #FR3245 #FR3246 #FR3247 #FR3248 #FR3249 #FR3250 #FR3251 #FR3252 #FR3253 #FR3254 #FR3255 #FR3256 #FR3916 #FR3917 #FR3918 #FR3919 #FR3920 #FR3921 #FR3922 #FR3923 #FR3924 #FR3925 #FR3926 #FR3927 #FR3928 #FR3929 #FR4155 #FR4156 #FR4157 #FR4158 #FR4159 #FR4160 #FR4161 #FR4162 #FR4163 #FR4164 #FR4165 #FR4166 #FR4167 #FR4168 #FR4169 #FR4170 #FR4171 #FR4172 #FR4173 #FR4174 #FR4175 #FR4176 #FR4177 #FR4178 #FR4179 #FR4180 #FR4181 #FR4182 #FR4183 #FR4184 #FR4185 #FR4186 #FR4187 #FR4188 #FR4189 #FR4190 #FR4191 #FR4192 #FR4193 #FR4194 #FR4195 #FR4196"/>
                         </biblScope>
                     </bibl>
                 </listBibl>

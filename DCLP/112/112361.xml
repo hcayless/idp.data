@@ -48,18 +48,14 @@
                   </origin>
                   <provenance type="found">
                      <p>
-                        <placeName type="ancient"
-                                   subtype="nome"
-                                   ref="https://www.trismegistos.org/place/2722">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2722">Oxyrhynchites</placeName>
                         <placeName type="ancient" subtype="region">Egypt</placeName>
                         <placeName type="ancient" ref="https://www.trismegistos.org/place/1524">Oxyrhynchos</placeName>
                      </p>
                   </provenance>
                   <provenance type="composed">
                      <p>
-                        <placeName type="ancient"
-                                   subtype="nome"
-                                   ref="https://www.trismegistos.org/place/2722">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2722">Oxyrhynchites</placeName>
                         <placeName type="ancient" subtype="region">Egypt</placeName>
                         <placeName type="ancient" ref="https://www.trismegistos.org/place/1524">Oxyrhynchos</placeName>
                      </p>
@@ -96,7 +92,7 @@
    <text>
       <body>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="v" type="textpart">
+<div n="v" type="textpart" xml:id="_v"><head>v</head>
 <ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" quantity="8" unit="character" precision="low"/> Πέ<supplied reason="lost">τρος καὶ εἵλκυσεν τὸ</supplied>
@@ -112,7 +108,7 @@
 <lb n="11"/><supplied reason="lost">ἐφανερώ</supplied>θη τοῖς μ<supplied reason="lost">αθηταῖς</supplied><gap reason="lost" extent="unknown" unit="character"/></lem><rdg><supplied reason="lost">τρίτον ὁ <expan>Ἰη<ex>σοῦ</ex>ς</expan></supplied><lb n="11"/><supplied reason="lost">ἐφανερώ</supplied>θη τοῖς μ<supplied reason="lost">αθηταῖς</supplied><gap reason="lost" extent="unknown" unit="character"/></rdg><rdg><supplied reason="lost">τρίτον</supplied><lb n="11"/><supplied reason="lost">ἐφανερώ</supplied>θη τοῖς μ<supplied reason="lost">αθηταῖς ὁ Ἰησοῦς</supplied></rdg></app>
 </ab>
 </div>
-<div n="r" type="textpart">
+<div n="r" type="textpart" xml:id="_r"><head>r</head>
 <ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" quantity="16" unit="character" precision="low"/><unclear>κ</unclear><gap reason="lost" quantity="8" unit="character" precision="low"/>
@@ -145,9 +141,7 @@
             <listBibl>
                <bibl type="publication" subtype="ancient">
                   <author>Testamentum Novum, Iohannes (Greek)</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/3062">Evangelium secundum Iohannem</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/3062">Evangelium secundum Iohannem</title>
                </bibl>
             </listBibl>
          </div>

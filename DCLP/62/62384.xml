@@ -82,19 +82,14 @@
                         </origin>
                         <provenance type="found">
                             <p>
-                                <placeName type="ancient"
-                                           subtype="nome"
-                                           ref="https://www.trismegistos.org/place/481">Campania</placeName>
+                                <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/481">Campania</placeName>
                                 <placeName type="ancient" subtype="region">Italy</placeName>
                                 <placeName type="ancient" ref="https://www.trismegistos.org/place/3365">Herculaneum</placeName>
                             </p>
                         </provenance>
                         <provenance type="composed">
                             <p>
-                                <placeName type="ancient"
-                                           subtype="region"
-                                           ref="https://www.trismegistos.org/place/932"
-                                           cert="low">Italy</placeName>
+                                <placeName type="ancient" subtype="region" ref="https://www.trismegistos.org/place/932" cert="low">Italy</placeName>
                             </p>
                         </provenance>
                         <provenance type="stored">
@@ -112,9 +107,7 @@
                                     <graphic url="http://www.chartes.it/images/photo/PHerc 89-CR01-10532-FS8-FIL8.jpg"/>
                                     <orgName>CPART, Brigham Young University</orgName>
                                 </custEvent>
-                                <custEvent type="unrolled"
-                                           corresp="#FR1560 #FR3515 #FR3516 #FR3517 #FR3518 #FR3519 #FR3520 #FR3521 #FR3522 #FR3523 #FR3524 #FR3525 #FR3526 #FR3527 #FR3528 #FR3529 #FR3530 #FR3531 #FR3532"
-                                           when="1805">
+                                <custEvent type="unrolled" corresp="#FR1560 #FR3515 #FR3516 #FR3517 #FR3518 #FR3519 #FR3520 #FR3521 #FR3522 #FR3523 #FR3524 #FR3525 #FR3526 #FR3527 #FR3528 #FR3529 #FR3530 #FR3531 #FR3532" when="1805">
                                     <forename>Giuseppe</forename>
                                     <surname>Paderni</surname>
                                 </custEvent>
@@ -251,7 +244,7 @@
             <p>This papyrus has been digitally edited by Marcel Moser and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
          </div>
             <div xml:lang="grc" type="edition" xml:space="preserve"> 
-<div n="subscriptio" type="textpart" subtype="title" corresp="#FR1560"><ab>
+<div n="subscriptio" type="textpart" subtype="title" corresp="#FR1560" xml:id="title_subscriptio"><head>Title subscriptio</head><ab>
 <lb n="1"/><supplied reason="lost">ΦΙΛΟΔ</supplied><unclear>Η</unclear>ΜΟΥ
 <lb n="2"/><supplied reason="lost">ΤΩΝΠΕΡΙΘΕ</supplied><unclear>Ω</unclear><supplied reason="lost">Ν</supplied><unclear>Υ</unclear>ΠΟΜΝΗΜΑ
 <lb n="3" break="no"/><supplied reason="lost">ΤΩΝΤΟ</supplied><gap reason="lost" quantity="1" unit="character"/><supplied reason="lost">ΕΣ</supplied><unclear>Τ</unclear>ΙΝΔΕ
@@ -285,13 +278,9 @@
             </div>
             <div type="bibliography" subtype="ancientEdition">
                 <listBibl>
-                    <bibl type="publication"
-                          subtype="ancient"
-                          corresp="#FR1560 #FR3515 #FR3516 #FR3517 #FR3518 #FR3519 #FR3520 #FR3521 #FR3522 #FR3523 #FR3524 #FR3525 #FR3526 #FR3527 #FR3528 #FR3529 #FR3530 #FR3531 #FR3532">
+                    <bibl type="publication" subtype="ancient" corresp="#FR1560 #FR3515 #FR3516 #FR3517 #FR3518 #FR3519 #FR3520 #FR3521 #FR3522 #FR3523 #FR3524 #FR3525 #FR3526 #FR3527 #FR3528 #FR3529 #FR3530 #FR3531 #FR3532">
                         <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1595">Philodemus</author>
-                        <title type="main"
-                               level="m"
-                               ref="http://www.trismegistos.org/authorwork/906">De dis</title>
+                        <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/906">De dis</title>
                     </bibl>
                 </listBibl>
             </div>

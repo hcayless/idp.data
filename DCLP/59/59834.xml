@@ -49,9 +49,7 @@
                   </origin>
                   <provenance type="found">
                      <p>
-                        <placeName type="ancient"
-                                   subtype="nome"
-                                   ref="https://www.trismegistos.org/place/2722">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2722">Oxyrhynchites</placeName>
                         <placeName type="ancient" subtype="region">Egypt</placeName>
                         <placeName type="ancient" ref="https://www.trismegistos.org/place/1524">Oxyrhynchos</placeName>
                      </p>
@@ -65,11 +63,7 @@
                <additional>
                   <adminInfo>
                      <custodialHist>
-                        <custEvent type="imaged"
-                                   corresp="#FR13150"
-                                   xml:id="GR13150.01"
-                                   from="1998"
-                                   to="2015">
+                        <custEvent type="imaged" corresp="#FR13150" xml:id="GR13150.01" from="1998" to="2015">
                            <graphic url="http://www.csad.ox.ac.uk/POxy/papyri/vol45/300dpi/3214_300.jpg"/>
                         </custEvent>
                      </custodialHist>
@@ -120,27 +114,19 @@
             <listBibl>
                <bibl type="publication" subtype="ancient">
                   <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0006">Euripides</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/764">Antiopa</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/764">Antiopa</title>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0006">Euripides</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/1433">Medea</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/1433">Medea</title>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0006">Euripides</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/1511">Protesilaos</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/1511">Protesilaos</title>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0006">Euripides</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/1607">Phoenix</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/1607">Phoenix</title>
                </bibl>
             </listBibl>
          </div>

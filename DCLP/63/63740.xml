@@ -58,18 +58,10 @@
                <additional>
                   <adminInfo>
                      <custodialHist>
-                        <custEvent type="imaged"
-                                   corresp="#FR11297"
-                                   xml:id="GR11297.01"
-                                   from="1996"
-                                   to="2015">
+                        <custEvent type="imaged" corresp="#FR11297" xml:id="GR11297.01" from="1996" to="2015">
                            <graphic url="http://sunsite.berkeley.edu/cgi-bin/apisdb/image/hires/AP01250a"/>
                         </custEvent>
-                        <custEvent type="imaged"
-                                   corresp="#FR11296"
-                                   xml:id="GR11296.01"
-                                   from="1996"
-                                   to="2015">
+                        <custEvent type="imaged" corresp="#FR11296" xml:id="GR11296.01" from="1996" to="2015">
                            <graphic url="http://sunsite.berkeley.edu/cgi-bin/apisdb/image/hires/AP00799a"/>
                         </custEvent>
                      </custodialHist>

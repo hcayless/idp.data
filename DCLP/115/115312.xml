@@ -92,81 +92,55 @@
             <listBibl>
                <bibl type="publication" subtype="ancient">
                   <author>Testamentum Novum, Matthaeus (Palestinian Aramaic)</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/3941">Evangelium secundum Matthaeum</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/3941">Evangelium secundum Matthaeum</title>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author>Testamentum Novum, Lucas (Palestinian Aramaic)</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/3943">Evangelium secundum Lucam</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/3943">Evangelium secundum Lucam</title>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author>Testamentum Vetus (Palestinian Aramaic)</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/3968">Exodus</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/3968">Exodus</title>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author>Testamentum Vetus (Palestinian Aramaic)</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/3970">Ieremias</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/3970">Ieremias</title>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author>Testamentum Vetus (Palestinian Aramaic)</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/3971">Isaias</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/3971">Isaias</title>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author>Testamentum Vetus (Palestinian Aramaic)</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/3983">Psalmi</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/3983">Psalmi</title>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author>Testamentum Vetus (Palestinian Aramaic)</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/3988">Iob</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/3988">Iob</title>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author>Testamentum Vetus (Palestinian Aramaic)</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/3989">1 Samuel</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/3989">1 Samuel</title>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author>Testamentum Vetus (Palestinian Aramaic)</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/3993">Leviticus</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/3993">Leviticus</title>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author>Testamentum Vetus (Palestinian Aramaic)</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/3994">Deuteronomium</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/3994">Deuteronomium</title>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author>Testamentum Vetus (Palestinian Aramaic)</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/4001">Proverbia</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/4001">Proverbia</title>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author>Testamentum Vetus (Palestinian Aramaic)</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/4007">Ioel</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/4007">Ioel</title>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author>Testamentum Vetus (Palestinian Aramaic)</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/4011">Micheas</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/4011">Micheas</title>
                </bibl>
             </listBibl>
          </div>

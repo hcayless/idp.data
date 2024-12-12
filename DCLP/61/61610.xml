@@ -43,9 +43,7 @@
                   </origin>
                   <provenance type="found">
                      <p>
-                        <placeName type="ancient"
-                                   subtype="nome"
-                                   ref="https://www.trismegistos.org/place/2720">Hermopolites</placeName>
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2720">Hermopolites</placeName>
                         <placeName type="ancient" subtype="region">Egypt</placeName>
                         <placeName type="ancient" ref="https://www.trismegistos.org/place/816">Hermopolis</placeName>
                      </p>
@@ -59,18 +57,10 @@
                <additional>
                   <adminInfo>
                      <custodialHist>
-                        <custEvent type="imaged"
-                                   corresp="#FR10228"
-                                   xml:id="GR10228.01"
-                                   from="2010"
-                                   to="2015">
+                        <custEvent type="imaged" corresp="#FR10228" xml:id="GR10228.01" from="2010" to="2015">
                            <graphic url="http://ww2.smb.museum/berlpap/Original/P_13282_V_001.jpg"/>
                         </custEvent>
-                        <custEvent type="imaged"
-                                   corresp="#FR10227"
-                                   xml:id="GR10227.01"
-                                   from="2010"
-                                   to="2015">
+                        <custEvent type="imaged" corresp="#FR10227" xml:id="GR10227.01" from="2010" to="2015">
                            <graphic url="http://ww2.smb.museum/berlpap/Original/P_13282_R_001.jpg"/>
                         </custEvent>
                      </custodialHist>
@@ -118,9 +108,7 @@
                </bibl>
                <bibl type="publication" n="2" subtype="ancientQuote">
                   <author xml:lang="grc" ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0012 http://cwkb.org/author/id/927/rdf">Homerus</author>
-                  <title type="main"
-                         level="m"
-                         ref="https://www.trismegistos.org/authorwork/511 http://cwkb.org/work/id/2815/rdf">Ilias</title>
+                  <title type="main" level="m" ref="https://www.trismegistos.org/authorwork/511 http://cwkb.org/work/id/2815/rdf">Ilias</title>
                </bibl>
             </listBibl>
          </div>

@@ -56,18 +56,10 @@
                <additional>
                   <adminInfo>
                      <custodialHist>
-                        <custEvent type="imaged"
-                                   corresp="#FR10747"
-                                   xml:id="GR10747.01"
-                                   from="2010"
-                                   to="2015">
+                        <custEvent type="imaged" corresp="#FR10747" xml:id="GR10747.01" from="2010" to="2015">
                            <graphic url="http://ww2.smb.museum/berlpap/Original/P_21249_V_3_001.jpg"/>
                         </custEvent>
-                        <custEvent type="imaged"
-                                   corresp="#FR10746"
-                                   xml:id="GR10746.01"
-                                   from="2010"
-                                   to="2015">
+                        <custEvent type="imaged" corresp="#FR10746" xml:id="GR10746.01" from="2010" to="2015">
                            <graphic url="http://ww2.smb.museum/berlpap/Original/P_21249_R_3_001.jpg"/>
                         </custEvent>
                      </custodialHist>

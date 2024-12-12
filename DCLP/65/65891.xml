@@ -57,10 +57,7 @@
                   </origin>
                   <provenance n="1" type="found">
                      <p>
-                        <placeName n="1"
-                                   type="ancient"
-                                   subtype="nome"
-                                   ref="https://www.trismegistos.org/place/2720">Hermopolites</placeName>
+                        <placeName n="1" type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2720">Hermopolites</placeName>
                         <placeName n="2" type="ancient" subtype="region">Egypt</placeName>
                         <placeName n="3" type="ancient" ref="https://www.trismegistos.org/place/2774">Antinoopolis</placeName>
                      </p>
@@ -96,19 +93,16 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2018-05-03T14:16:38+02:00"
-                 who="http://papyri.info/users/JuliaLougovaya-Ast">Finalized - Fine.</change>
-         <change when="2018-05-03T13:11:58+02:00"
-                 who="http://papyri.info/users/JuliaLougovaya-Ast">Vote - Accept-Straight-to-Finalization - R., 1: add space after the apostrophe; correct accentuation ἐνέργειάν; 7: correct apostrophe; 13: breathing over omicron. </change>
-         <change when="2018-04-18T12:40:56+02:00"
-                 who="http://papyri.info/users/AnnaArpaia">Submit - Done.</change>
+         <change when="2018-05-03T14:16:38+02:00" who="http://papyri.info/users/JuliaLougovaya-Ast">Finalized - Fine.</change>
+         <change when="2018-05-03T13:11:58+02:00" who="http://papyri.info/users/JuliaLougovaya-Ast">Vote - Accept-Straight-to-Finalization - R., 1: add space after the apostrophe; correct accentuation ἐνέργειάν; 7: correct apostrophe; 13: breathing over omicron. </change>
+         <change when="2018-04-18T12:40:56+02:00" who="http://papyri.info/users/AnnaArpaia">Submit - Done.</change>
           <change when="2014-12-10" who="DCLP">Crosswalked to EpiDoc XML</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart"><ab> 
+<div n="r" type="textpart" xml:id="_r"><head>r</head><ab> 
 <lb n="1"/>κατ’ ἐνέργειάν <unclear>ἐ</unclear><supplied reason="lost">στιν</supplied>
 <lb n="2"/>τέχνη εἰς γέν<supplied reason="lost">ε</supplied><unclear>σιν</unclear>
 <lb n="3"/><hi rend="diaeresis">ἰ</hi>οῦσα, ἧς τὰ ἀποτελ<unclear>έ</unclear>
@@ -124,7 +118,7 @@
 <lb n="12"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="3" unit="character"/><supplied reason="lost">τὸ καθ’ ὃ γί</supplied>
 </ab></div>
-<div n="v" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 <lb n="1" break="no"/><supplied reason="lost">γνε</supplied>ται  τὸ γιγνόμε
 <lb n="2" break="no"/><supplied reason="lost">ν</supplied><unclear>ον</unclear>, <unclear>ἔ</unclear>στιν τ<surplus>ρ</surplus>ε τὸ  <expan>ὄ<ex>ν</ex></expan>,
 <lb n="3"/><supplied reason="lost">ἔ</supplied><unclear>στ</unclear>αι τε τὸ ἐσόμε

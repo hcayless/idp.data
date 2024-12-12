@@ -56,18 +56,10 @@
                <additional>
                   <adminInfo>
                      <custodialHist>
-                        <custEvent type="imaged"
-                                   corresp="#FR10374"
-                                   xml:id="GR10374.01"
-                                   from="2010"
-                                   to="2015">
+                        <custEvent type="imaged" corresp="#FR10374" xml:id="GR10374.01" from="2010" to="2015">
                            <graphic url="http://ww2.smb.museum/berlpap/Original/P_09773_V_001.jpg"/>
                         </custEvent>
-                        <custEvent type="imaged"
-                                   corresp="#FR10373"
-                                   xml:id="GR10373.01"
-                                   from="2010"
-                                   to="2015">
+                        <custEvent type="imaged" corresp="#FR10373" xml:id="GR10373.01" from="2010" to="2015">
                            <graphic url="http://ww2.smb.museum/berlpap/Original/P_09773_R_001.jpg"/>
                         </custEvent>
                      </custodialHist>
@@ -110,30 +102,22 @@
             <listBibl>
                <bibl type="publication" subtype="ancient">
                   <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0006">Euripides</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/760">Hippolytus</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/760">Hippolytus</title>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0006">Euripides</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/1511">Protesilaos</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/1511">Protesilaos</title>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0410">Antiphanes</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/2103">Opus incertum</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/2103">Opus incertum</title>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0233">Hipponax</author>
                </bibl>
                <bibl type="publication" subtype="ancient">
                   <author>Anaxandrides</author>
-                  <title type="main"
-                         level="m"
-                         ref="http://www.trismegistos.org/authorwork/3694">opus incertum</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/3694">opus incertum</title>
                </bibl>
             </listBibl>
          </div>
