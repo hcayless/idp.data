@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,7 +49,7 @@ P.S. For any reason, in line ms 30 it shows not eleven, but only six dots.</chan
          <head><ref target="https://papyri.info/pub/sb/26/16706">SB 26 16706</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="a" subtype="fragment" type="textpart"><ab> 
+<div n="a" subtype="fragment" type="textpart" xml:id="fragment_a"><head>Fragment a</head><ab> 
 <lb n="1"/>κυρίᾳ μου ἀδελφῇ
 <lb n="2"/>Κλ<unclear>ο</unclear>μας Ταπιὰμ
 <lb n="3"/>χαίρειν. ἀσπάζομαί σε
@@ -64,7 +66,7 @@ P.S. For any reason, in line ms 30 it shows not eleven, but only six dots.</chan
 <lb n="13" break="no"/>δεμίαν <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="13"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="b" subtype="fragment" type="textpart"><ab> 
+<div n="b" subtype="fragment" type="textpart" xml:id="fragment_b"><head>Fragment b</head><ab> 
 <lb n="14"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="14"/>δηλω<unclear>σ</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="15"/><app type="editorial"><lem resp="F. Reiter to Rupprecht (photo)">ἁγίου</lem><rdg>α<unclear>υι</unclear>ου</rdg></app> ν<unclear>ο</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>

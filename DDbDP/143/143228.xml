@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -51,7 +53,7 @@ Moreover, what appears to be a huge <emph rend="italics">theta</emph> is placed 
 The alignment of the lines of the first four sections shows that the top-left part of the papyrus is slighlty shifted and needs to be moved one line (c. 0.7 cm) down. The readjustment does not affect the text on the recto, where the joint corresponds to the unwritten intercolumnium, except for the huge mark on the top discussed above.</p><p><note type="footnote" xml:lang="en">Work on this papyrus took place in two courses offered by Rodney Ast, Lajos Berkes, and James Cowey at the University of Heidelberg's Institute for Papyrology during summer semester 2014. The author expresses his gratitude to all involved in those classes for their assistance. This publication is also part of the project "Synopsis: Data Processing and State Management in Late Ptolemaic and Roman Egypt (150 BCE-300 CE)", conducted by Prof. Andrea Jӧrdens (University of Heidelberg) and Prof. Uri Yiftach-Firanko (University of Tel Aviv) under the auspices of the German-Israeli Foundation for Scientific Research and Development (grant no. G-38-111.4/2011). A revision of this possibly Arsinoitic papyrus has been conducted in the framework of the PRIN national project "Greek and Latin Literary Papyri from Graeco-Roman and Late Antique Fayum: Texts, Contexts, Readers" (P.I. Prof. Lucio Del Corso, University of Cassino), Research Unit of Parma (coordinator Prof. Nicola Reggiani)</note></p></div>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="1" subtype="column" type="textpart">
+<div n="1" subtype="column" type="textpart" xml:id="column_1"><head>Column 1</head>
 <ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
@@ -82,7 +84,7 @@ The alignment of the lines of the first four sections shows that the top-left pa
     <lb n="13" xml:id="div1-div1-lb14"/><supplied reason="lost"><gap reason="illegible" extent="unknown" unit="character"/> Διον</supplied><unclear>υ</unclear>σίου τοῦ <choice><reg>Κοννῶτος</reg><orig>Κονῶτος</orig></choice> <expan>μητ<ex>ρὸς</ex></expan> Τ<unclear>α</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="illegible" quantity="1" unit="character"/> <supplied reason="lost"><expan><ex>ἐτῶν</ex></expan></supplied> <num value="15">ιε</num>
 </ab>
 </div>
-<div n="2" subtype="column" type="textpart">
+<div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head>
 <ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
@@ -105,7 +107,7 @@ The alignment of the lines of the first four sections shows that the top-left pa
     <lb n="8"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab>
 </div>
-<div n="3" subtype="column" type="textpart">
+<div n="3" subtype="column" type="textpart" xml:id="column_3"><head>Column 3</head>
 <ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 

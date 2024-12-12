@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0053;;9" xml:id="p.achm.9" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0053;;9" xml:id="p.achm.9" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,7 +47,7 @@
          <head><ref target="https://papyri.info/pub/p.achm/9">P.Achm. 9</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="1" subtype="fragment" type="textpart" xml:id="fragment_1"><head>Fragment 1</head>
-<div n="1" subtype="column" type="textpart"><ab>
+<div n="1" subtype="column" type="textpart" xml:id="column_1"><head>Column 1</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/> <expan><gap reason="lost" extent="unknown" unit="character"/><unclear>μο</unclear><ex>υ</ex></expan>      <num value="11">ια</num> <gap reason="lost" extent="unknown" unit="character"/> 
@@ -126,7 +128,7 @@
 
     <lb n="37"/><gap reason="lost" extent="unknown" unit="line"/> 
 </ab></div>
-<div n="2" subtype="column" type="textpart"><ab>
+<div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head><ab>
     <lb n="37"/><expan>Ψενοβ<ex>άστιος</ex></expan> <unclear>Π</unclear>ε<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="38"/><expan>Πετεήσ<ex>ιος</ex></expan> <expan><ex>ὁμοίως</ex></expan> Ψαν<gap reason="lost" extent="unknown" unit="character"/> 
@@ -225,7 +227,7 @@
 
     <lb n="85"/><gap reason="lost" extent="unknown" unit="line"/> 
 </ab></div>
-<div n="3" subtype="column" type="textpart"><ab>
+<div n="3" subtype="column" type="textpart" xml:id="column_3"><head>Column 3</head><ab>
     <lb n="84"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="85"/><gap reason="lost" extent="unknown" unit="character"/>βης<gap reason="lost" extent="unknown" unit="character"/> 
@@ -306,10 +308,10 @@
 </ab></div>
 </div>
 <div n="2" subtype="fragment" type="textpart" xml:id="fragment_2"><head>Fragment 2</head>
-<div n="1" subtype="column" type="textpart"><ab>
+<div n="1" subtype="column" type="textpart" xml:id="column_1"><head>Column 1</head><ab>
     <lb n="1"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> 
 </ab></div>
-<div n="2" subtype="column" type="textpart"><ab>
+<div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head><ab>
     <lb n="119"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/>σαι<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="120"/><expan><supplied reason="lost">Σ</supplied>ενκολανθᾶτο<ex>ς</ex></expan> <expan>Ἀπόλλω<ex>νος</ex></expan> <expan>Ψανσν<supplied reason="lost">ῶ<ex>τος</ex></supplied></expan> <gap reason="lost" extent="unknown" unit="character"/>  
@@ -400,7 +402,7 @@
 
     <lb n="163"/><gap reason="lost" extent="unknown" unit="character"/><abbr><unclear>ει</unclear>εψι</abbr>   <num value="1/2">𐅵</num>       <num value="1"><expan><ex>ὀβολὸς</ex></expan></num> <expan><ex>χαλκοῦς 1</ex></expan><num value="1"/> 
 </ab></div>
-<div n="3" subtype="column" type="textpart"><ab>
+<div n="3" subtype="column" type="textpart" xml:id="column_3"><head>Column 3</head><ab>
     <lb n="163a"/><gap reason="lost" extent="unknown" unit="character"/>ς ἀδελφῆς <gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="164"/><gap reason="lost" extent="unknown" unit="character"/><abbr><gap reason="illegible" quantity="1" unit="character"/>μη</abbr> <expan>Διονυσί<ex>ου</ex></expan> 

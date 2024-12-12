@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0132;1;26" xml:id="p.hels.1.26" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0132;1;26" xml:id="p.hels.1.26" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,7 +50,7 @@
          <head><ref target="https://papyri.info/pub/p.hels/1/26">P.Hels. 1 26</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="A" type="textpart" xml:id="_A"><head>A</head>
-<div n="1" subtype="column" type="textpart"><ab>
+<div n="1" subtype="column" type="textpart" xml:id="column_1"><head>Column 1</head><ab>
 
     <lb n="1"/><handShift new="m3"/> <expan>ἐλ<ex>ήφθη</ex></expan> <expan><ex>ἔτους</ex></expan> <num value="19">ι<unclear>θ</unclear></num> <unclear>Μεσ</unclear><supplied reason="lost">ο</supplied><unclear>ρ</unclear><supplied reason="lost">ὴ</supplied> <num value="13"><unclear>ιγ</unclear></num> 
 
@@ -98,7 +100,7 @@
 
     <lb n="24"/><gap reason="lost" extent="unknown" unit="line"/> 
 </ab></div>
-<div n="2" subtype="column" type="textpart"><ab>
+<div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head><ab>
 
     <lb n="24"/><app type="editorial"><lem resp="BL 9.106"><expan>βα<ex>λανείων</ex></expan> <expan><ex>τρίτης</ex></expan></lem><rdg><expan>βα<ex>σιλικ  </ex></expan> <abbr><unclear>νι</unclear></abbr></rdg></app> Κωίτου Τοεμήσεως Λυσία<supplied reason="lost" cert="low">ς</supplied><gap reason="lost" quantity="2" unit="character"/> 
 
@@ -148,7 +150,7 @@
 </ab></div>
 </div>
 <div n="B" type="textpart" xml:id="_B"><head>B</head>
-<div n="1" subtype="column" type="textpart"><ab>
+<div n="1" subtype="column" type="textpart" xml:id="column_1"><head>Column 1</head><ab>
 
     <lb n="1"/><handShift new="m1"/> <gap reason="lost" extent="unknown" unit="character"/>  <num value="700">ψ</num> 
 
@@ -156,7 +158,7 @@
 
     <lb n="3"/><gap reason="lost" extent="unknown" unit="line"/> 
 </ab></div>
-<div n="2" subtype="column" type="textpart"><ab>
+<div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head><ab>
 
     <lb n="3"/>παντοπωλῶν Φεβίχεως 
 

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;1;4369b" xml:id="sb.1.4369b" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;1;4369b" xml:id="sb.1.4369b" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,7 +57,7 @@
          <head><ref target="https://papyri.info/pub/sb/1/4369b">SB 1 4369 b</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="B" subtype="fragment" type="textpart" xml:id="fragment_B"><head>Fragment B</head>
-<div n="A" subtype="column" type="textpart"><ab>
+<div n="A" subtype="column" type="textpart" xml:id="column_A"><head>Column A</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>η</unclear>νι 
 
     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> θηρευταῖς 
@@ -98,7 +100,7 @@
 
     <lb n="18" break="no"/><gap reason="lost" extent="unknown" unit="line"/> 
 </ab></div>
-<div n="B" subtype="column" type="textpart"><ab>
+<div n="B" subtype="column" type="textpart" xml:id="column_B"><head>Column B</head><ab>
     <lb n="18"/><num value="13">ιγ</num> 
 
     <lb n="19"/>Νουμηνίωι. καλῶς <expan>πο<ex>ιήσεις</ex></expan> παραγε<unclear>ν</unclear><supplied reason="lost">όμενος </supplied><gap reason="lost" extent="unknown" unit="character"/> 
@@ -151,7 +153,7 @@
 
     <lb n="41"/><gap reason="lost" extent="unknown" unit="line"/> 
 </ab></div>
-<div n="C" subtype="column" type="textpart"><ab>
+<div n="C" subtype="column" type="textpart" xml:id="column_C"><head>Column C</head><ab>
     <lb n="41"/>Σφίνει. τὰ Ἀντιόχου πρόβατα τ<supplied reason="lost">ὰ</supplied> ἐν <app type="editorial"><lem resp="BL 6.131">Ἑρμ<supplied reason="lost">οῦ πόλει </supplied><gap reason="lost" quantity="8" unit="character"/></lem><rdg>Ἑρμ<gap reason="lost" quantity="15" unit="character"/></rdg></app> 
 
     <lb n="42"/>μὴ ἀπέλθωσιν, οὗ δόντες μοι τὰ ς<gap reason="lost" quantity="15" unit="character"/> 

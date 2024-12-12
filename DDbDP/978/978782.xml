@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,7 +44,7 @@
          <head><ref target="https://papyri.info/pub/p.louvre/3/246">P.Louvre 3 246</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="a" subtype="document" type="textpart"><ab>
+<div n="a" subtype="document" type="textpart" xml:id="document_a"><head>Document a</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> <unclear>π</unclear>ραγμα<gap reason="lost" extent="unknown" unit="character"/>
@@ -61,7 +63,7 @@
 
     <lb n="7"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="b" subtype="document" type="textpart"><ab>
+<div n="b" subtype="document" type="textpart" xml:id="document_b"><head>Document b</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><gap reason="illegible" quantity="8" unit="line"><desc>vestiges</desc></gap>
@@ -79,7 +81,7 @@
 </div>
 
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="c" subtype="document" type="textpart"><ab>
+<div n="c" subtype="document" type="textpart" xml:id="document_c"><head>Document c</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> ἅ ἐστιν <abbr>Μεμφ</abbr> <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>

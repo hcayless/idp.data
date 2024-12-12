@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -63,7 +65,7 @@
     <lb n="9"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div> 
 <div n="v" type="textpart" xml:id="_v"><head>v</head> 
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>θ<gap reason="lost" quantity="9" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>
@@ -82,7 +84,7 @@
 
     <lb n="7"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="1"/><unclear>ο</unclear><gap reason="illegible" quantity="1" unit="character"/>ν<gap reason="lost" extent="unknown" unit="character"/>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -142,7 +144,7 @@
 <lb n="11"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
 <div n="6" subtype="fragment" type="textpart" xml:id="fragment_6"><head>Fragment 6</head>
-  <div n="i" subtype="column" type="textpart"><ab>
+  <div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
   <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <space extent="unknown" unit="character"/> 
 
   <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <space extent="unknown" unit="character"/> 
@@ -164,7 +166,7 @@
   <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <expan>νο<ex>μισματ  </ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
 
   <lb n="11"/><gap reason="lost" extent="unknown" unit="line"/> 
-</ab></div><div n="ii" subtype="column" type="textpart"><ab>
+</ab></div><div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
   <lb n="1"/><expan>π<ex>αρὰ</ex></expan> Πέτρου καὶ κ<supplied reason="lost">οινωνῶν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
 
   <lb n="2"/><expan>π<ex>αρὰ</ex></expan> Ἀπολ<unclear>λ</unclear><supplied reason="lost">ω</supplied><gap reason="lost" extent="unknown" unit="character"/>

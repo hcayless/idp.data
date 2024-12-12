@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0154;7;2188" xml:id="p.lond.7.2188" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0154;7;2188" xml:id="p.lond.7.2188" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -65,7 +67,7 @@ BL corr. ll. 324–5 &lt;:[ἐπὶ] 325. [τοῦ] π̣ατρὸς τῶν (β�
          <head><ref>P.Lond. III 610 (S. XIX; Descr.)</ref> = <ref target="https://papyri.info/pub/p.lond/7/2188">P.Lond. 7 2188</ref> = <ref target="https://papyri.info/pub/p.grenf/1/pg24">Z. 1-11: P.Grenf. I 10, S. 24</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="1" subtype="column" type="textpart"><ab>
+<div n="1" subtype="column" type="textpart" xml:id="column_1"><head>Column 1</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="1"/><unclear>του</unclear><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ρ<gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
@@ -110,7 +112,7 @@ BL corr. ll. 324–5 &lt;:[ἐπὶ] 325. [τοῦ] π̣ατρὸς τῶν (β�
 
     <lb n="21"/><gap reason="lost" extent="unknown" unit="line"/> 
 </ab></div>
-<div n="2" subtype="column" type="textpart"><ab>
+<div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head><ab>
     <lb n="20"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="21"/><gap reason="lost" extent="unknown" unit="character"/> <expan><ex cert="low">ἔτους</ex></expan> <num value="33">λγ</num>, Ἁθ<unclear>ὺρ</unclear> <gap reason="lost" extent="unknown" unit="character"/> 
@@ -171,7 +173,7 @@ BL corr. ll. 324–5 &lt;:[ἐπὶ] 325. [τοῦ] π̣ατρὸς τῶν (β�
 
     <lb n="47"/><gap reason="lost" extent="unknown" unit="line"/> 
 </ab></div>
-<div n="3" subtype="column" type="textpart"><ab>
+<div n="3" subtype="column" type="textpart" xml:id="column_3"><head>Column 3</head><ab>
     <lb n="46"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="47"/>το<supplied reason="lost">ῦ</supplied> <expan><unclear>Παθ</unclear>υ<ex>ρίτου</ex></expan> ἣν <unclear>κ</unclear><supplied reason="lost">α</supplied><unclear>ὶ</unclear> κα<supplied reason="lost">τ</supplied>ά τε <unclear>τὴν</unclear><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
@@ -240,7 +242,7 @@ BL corr. ll. 324–5 &lt;:[ἐπὶ] 325. [τοῦ] π̣ατρὸς τῶν (β�
 
     <lb n="79"/><gap reason="lost" extent="unknown" unit="line"/> 
 </ab></div>
-<div n="4" subtype="column" type="textpart"><ab>
+<div n="4" subtype="column" type="textpart" xml:id="column_4"><head>Column 4</head><ab>
     <lb n="78"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="79"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> 
@@ -319,7 +321,7 @@ BL corr. ll. 324–5 &lt;:[ἐπὶ] 325. [τοῦ] π̣ατρὸς τῶν (β�
 
     <lb n="116"/><gap reason="lost" extent="unknown" unit="line"/> 
 </ab></div>
-<div n="5" subtype="column" type="textpart"><ab>
+<div n="5" subtype="column" type="textpart" xml:id="column_5"><head>Column 5</head><ab>
     <lb n="115"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="116"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">      τῆς ἐπιδοθείσης ἐντε</supplied>ύξε<unclear>ω</unclear><supplied reason="lost">ς τῶι</supplied> 
@@ -392,7 +394,7 @@ BL corr. ll. 324–5 &lt;:[ἐπὶ] 325. [τοῦ] π̣ατρὸς τῶν (β�
 
     <lb n="149"/><supplied reason="lost">τρόπον μηδʼ ἑτέ</supplied><unclear>ρ</unclear>οις συ<unclear>ν</unclear>ισ<supplied reason="lost">τορης </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 </ab></div>
-<div n="6" subtype="column" type="textpart"><ab>
+<div n="6" subtype="column" type="textpart" xml:id="column_6"><head>Column 6</head><ab>
     <lb n="150"/><supplied reason="lost">Σαραπίωνι ἐπιστάτηι</supplied> 
 
     <lb n="151"/><supplied reason="lost">ἐπειδὴ ἐπὶ τοῦ γενομένου ἐν <choice><reg>Εἰλειθυίας</reg><orig>ἰλειθυίας</orig></choice> <expan>πό<ex>λει</ex></expan></supplied> <supplied reason="lost"><expan>χρη<ex>ματισμοῦ</ex></expan></supplied> 
@@ -469,7 +471,7 @@ BL corr. ll. 324–5 &lt;:[ἐπὶ] 325. [τοῦ] π̣ατρὸς τῶν (β�
 
     <lb n="187"/><gap reason="lost" extent="unknown" unit="line"/> 
 </ab></div>
-<div n="7" subtype="column" type="textpart"><ab>
+<div n="7" subtype="column" type="textpart" xml:id="column_7"><head>Column 7</head><ab>
     <lb n="186"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="187"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ρον<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
@@ -550,7 +552,7 @@ BL corr. ll. 324–5 &lt;:[ἐπὶ] 325. [τοῦ] π̣ατρὸς τῶν (β�
 
     <lb n="224"/><gap reason="lost" extent="unknown" unit="line"/> 
 </ab></div>
-<div n="8" subtype="column" type="textpart"><ab>
+<div n="8" subtype="column" type="textpart" xml:id="column_8"><head>Column 8</head><ab>
     <lb n="223"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="224"/><gap reason="lost" extent="unknown" unit="character"/> ἄνευ τῆς ἡμ<unclear>ετέρ</unclear><supplied reason="lost">ας </supplied><gap reason="lost" extent="unknown" unit="character"/> 
@@ -623,7 +625,7 @@ BL corr. ll. 324–5 &lt;:[ἐπὶ] 325. [τοῦ] π̣ατρὸς τῶν (β�
 
     <lb n="258"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">    ἐν μετ</supplied>εώρωι τὰ κατὰ τὸ προσγ<supplied reason="lost">ένημα </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 </ab></div>
-<div n="9" subtype="column" type="textpart"><ab>
+<div n="9" subtype="column" type="textpart" xml:id="column_9"><head>Column 9</head><ab>
     <lb n="258"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="259"/><gap reason="lost" extent="unknown" unit="character"/> μηδενὸς τ<gap reason="lost" extent="unknown" unit="character"/> 
@@ -694,7 +696,7 @@ BL corr. ll. 324–5 &lt;:[ἐπὶ] 325. [τοῦ] π̣ατρὸς τῶν (β�
 
     <lb n="292"/><supplied reason="lost">καταστ</supplied>αθῆναι ἐφʼ Ἱππάλο<supplied reason="lost">υ </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 </ab></div>
-<div n="10" subtype="column" type="textpart"><ab>
+<div n="10" subtype="column" type="textpart" xml:id="column_10"><head>Column 10</head><ab>
     <lb n="292"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="293"/><gap reason="lost" extent="unknown" unit="character"/>ης γεγονέν<unclear>αι</unclear> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
@@ -757,7 +759,7 @@ BL corr. ll. 324–5 &lt;:[ἐπὶ] 325. [τοῦ] π̣ατρὸς τῶν (β�
 </ab></div>
 </div>
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="11" subtype="column" type="textpart"><ab>
+<div n="11" subtype="column" type="textpart" xml:id="column_11"><head>Column 11</head><ab>
     <lb n="320"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="321"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ς</unclear> 

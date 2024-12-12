@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,8 +52,8 @@
     <lb n="5" rend="indent"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
 <div n="b" subtype="fragment" type="textpart" xml:id="fragment_b"><head>Fragment b</head>
-<div n="r" type="textpart">
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="r" type="textpart" xml:id="_r"><head>r</head>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
 
     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -86,7 +88,7 @@
 
     <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/> <expan><ex cert="low">γίνεται</ex></expan> <num value="3"><expan><ex>τριώβολον</ex></expan></num>
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
     <lb n="1"/><unclear>ἀπ</unclear><supplied reason="lost">όδομα</supplied> <gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="2"/>σεμι<supplied reason="lost">δάλεως</supplied> <gap reason="lost" extent="unknown" unit="character"/>
@@ -126,7 +128,7 @@
     <lb n="19" rend="indent"/><unclear>λ</unclear>ε<gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
 </div>
-<div n="v" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
     <lb n="1"/><gap reason="illegible" quantity="1" unit="character"/>
 
     <lb n="2"/><gap reason="lost" quantity="6" unit="character" precision="low"/>ν <num value="3"><expan><ex cert="low">τριώβολον</ex></expan></num> <gap reason="lost" extent="unknown" unit="character"/>

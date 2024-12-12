@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,7 +46,7 @@ l28: If I understand the edition correctly, all lines should be inverse after l.
          <head><ref>LDAB 64805</ref> = <ref target="https://papyri.info/pub/p.rain.unterricht/95">P.Rain. Unterricht 95</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head> 
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
 <lb n="1"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
 <lb n="2"/>ἀξιωματικῶν καὶ ναυαρχῶν Διόσκουρο<unclear>ς</unclear> <gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>ριχος 
 <lb n="3"/>μετὰ τὴν ὑπατείαν Φλαουίου Θεοδώρου
@@ -54,7 +56,7 @@ l28: If I understand the edition correctly, all lines should be inverse after l.
 <lb n="7" rend="inverse"/> <g type="slanting-stroke"/><g type="slanting-stroke"/> <num value="3">γ</num> <g type="symbol"/> <g type="slanting-stroke"/><g type="slanting-stroke"/> <expan>ἰνδ<ex>ικτίωνος</ex></expan>
  
 </ab></div> 
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
 <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>μισθω<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>ωμαι <num value="1">μίαν</num> δ<gap reason="lost" extent="unknown" unit="character"/>ν ἐπι<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="10"/>καὶ ναυαρχῶν <num value="515">φιε</num> <num value="3/4" rend="tick">𐅸</num>

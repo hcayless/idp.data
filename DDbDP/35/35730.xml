@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,7 +57,7 @@
          <head><ref target="https://papyri.info/pub/aegyptus/95/47">Aegyptus 95 (2015) S. 47</ref> = <ref target="https://papyri.info/pub/p.flor/1/78">P.Flor. 1 78</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="FrA" type="textpart" xml:id="_FrA"><head>FrA</head>
-<div n="r" type="textpart"><ab>
+<div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
     <lb n="1"/><num value="643">χμγ</num> <num value="99">ϙθ</num>
 
     <lb n="2"/><num value="1">α</num> <expan>φυ<ex>λή</ex></expan>. Ἀγαθαίη σιτολόγος
@@ -95,7 +97,7 @@
     <lb n="19"/><handShift new="m2"/>Καστωρᾶς <expan>Φοιβάμ<ex>μωνος</ex></expan> <expan><ex>δηνάρια</ex></expan> <num value="6500">Ϛφ</num>
 </ab></div>
 
-<div n="v" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
     <lb n="20"/><num value="2">β</num> <expan>φ<ex>υλή</ex></expan>.
 
     <lb n="21"/>Ἑρμα<hi rend="diaeresis">ί</hi>ωνος Ἑρμοφίλου <expan><ex>δηναρίων</ex></expan> <expan><ex>μυριάδες</ex></expan> <num value="3"><unclear>γ</unclear></num>

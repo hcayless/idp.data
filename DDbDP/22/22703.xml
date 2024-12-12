@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0154;3;897" xml:id="p.lond.3.897" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0154;3;897" xml:id="p.lond.3.897" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,10 +52,10 @@
          <head><ref target="https://papyri.info/pub/p.lond/3/897">P.Lond. 3 897 (S. 206)</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="1" subtype="column" type="textpart"><ab>
+<div n="1" subtype="column" type="textpart" xml:id="column_1"><head>Column 1</head><ab>
     <lb n="1"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> 
 </ab></div>
-<div n="2" subtype="column" type="textpart"><ab>
+<div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head><ab>
     <lb n="1"/>λαογραφίας τότε γὰρ ἐλασσωθεὶς ὑπὸ τοῦ προόντος κωμο
 
     <lb n="2" break="no"/>γραμματέως. ἐκ<supplied reason="lost">ε</supplied>ῖνος μὲν <supplied reason="lost">τ</supplied>ότε ἐψεύσατο, <choice><reg>νυνὶ</reg><orig>νυνεὶ</orig></choice> δὲ ὑμεῖ<unclear>ς</unclear> 

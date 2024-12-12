@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,7 +44,7 @@ Best regards</change>
          <head><ref target="https://papyri.info/pub/cpr/28/9">CPR 28 9</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="a" subtype="fragment" type="textpart" xml:id="fragment_a"><head>Fragment a</head> 
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/> <num value="120">ρκ</num>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>εφ</unclear><gap reason="illegible" quantity="1" unit="character"/> <num value="100">ρ</num>
 <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="5" unit="character"/><unclear>ς</unclear>
@@ -50,7 +52,7 @@ Best regards</change>
 <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <num value="220"><unclear>σκ</unclear></num>
 <lb n="5"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
 <lb n="1"/><num value="7"><hi rend="supraline">ζ</hi></num> <g type="x"/> Χ<unclear>αλα</unclear>χω<unclear>α</unclear>φ<unclear>ι</unclear>ς <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" atLeast="1" atMost="2" unit="character"/><abbr><gap reason="illegible" quantity="2" unit="character"/></abbr> <abbr><unclear>αι</unclear></abbr> <num value="220">σ<unclear>κ</unclear></num> <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><g type="x"/> Πᾶσις Τεχ<unclear>ω</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ς <num value="220">σκ</num> <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="3"/><g type="x"/> <unclear>Ὀα</unclear>φρῆς Σισό<unclear>ιτος</unclear> <num value="140">ρμ</num>
@@ -78,7 +80,7 @@ Best regards</change>
 </div>
 
 <div n="b" subtype="fragment" type="textpart" xml:id="fragment_b"><head>Fragment b</head> 
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>
@@ -95,7 +97,7 @@ Best regards</change>
 <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> <num value="220"><unclear>σκ</unclear></num>
 <lb n="13"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
 <lb n="14"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="14"/><unclear><g type="x"/></unclear> <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="15"/><g type="x"/> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -121,7 +123,7 @@ Best regards</change>
 
 
 <div n="d" subtype="fragment" type="textpart" xml:id="fragment_d"><head>Fragment d</head> 
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <num value="220">σκ</num>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ιος</unclear> <num value="220">σκ</num>
@@ -138,7 +140,7 @@ Best regards</change>
 <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/><num value="220"><unclear>σκ</unclear></num>
 <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/> <num value="100">ρ</num>
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
 <lb n="15"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="15"/><unclear><g type="x"/></unclear> <gap reason="lost" quantity="3" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="16"/><g type="x"/> <unclear>Πι</unclear>τ<unclear>ῶς</unclear> <gap reason="lost" quantity="2" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -152,7 +154,7 @@ Best regards</change>
 </div>
 
 <div n="e" subtype="fragment" type="textpart" xml:id="fragment_e"><head>Fragment e</head> 
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
 <lb n="1"/><gap reason="lost" quantity="21" unit="line" precision="low"/>
 <lb n="1"/><supplied reason="lost"><g type="x"/> </supplied><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/>
 <lb n="2"/><supplied reason="lost"><g type="x"/> </supplied><gap reason="lost" extent="unknown" unit="character"/><num value="220"><unclear>σκ</unclear></num>
@@ -166,7 +168,7 @@ Best regards</change>
 <lb n="10"/><supplied reason="lost"><g type="x"/> </supplied><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="11"/><supplied reason="lost"><g type="x"/> </supplied><gap reason="lost" extent="unknown" unit="character"/><unclear>σ</unclear><gap reason="illegible" quantity="2" unit="character"/><unclear>μ</unclear>
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
 <lb n="12"/><num value="11">ι<hi rend="supraline"><unclear>α</unclear></hi></num> <g type="x"/> Πε<unclear>β</unclear>αῦς <abbr><gap reason="illegible" quantity="3" unit="character"/><unclear>χ</unclear><gap reason="illegible" quantity="1" unit="character"/></abbr> <num value="220">σκ</num>
 <lb n="13"/><g type="x"/> Πασχειῦς <expan>χ<unclear>ω</unclear><ex cert="low">λός</ex></expan> <num value="120">ρκ</num>
 <lb n="14"/><g type="x"/> Ν<unclear>ε</unclear>κταν<unclear>οῦ</unclear>β<unclear>ις</unclear> <num value="220">σκ</num>
@@ -199,7 +201,7 @@ Best regards</change>
 <lb n="40"/><g type="x"/> Πετοσῖρις <unclear>Π</unclear>το<unclear>λ</unclear>ε<unclear>μίου</unclear> <num value="160">ρ<unclear>ξ</unclear></num>
 <lb n="41"/><g type="x"/> Θο<unclear>το</unclear>μ<unclear>οῦ</unclear><supplied reason="lost">ς</supplied> <gap reason="illegible" quantity="2" unit="character"/>ε<gap reason="illegible" quantity="4" unit="character"/>ος <num value="200">σ</num> <gap reason="illegible" quantity="3" unit="character"/><num value="5"><unclear>ε</unclear></num>
 </ab></div>
-<div n="iii" subtype="column" type="textpart"><ab>
+<div n="iii" subtype="column" type="textpart" xml:id="column_iii"><head>Column iii</head><ab>
 <lb n="42"/><g type="x"/> <unclear>Ἁρ</unclear>υώτης Ἁρυώτου <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="43"/><g type="x"/> Ψενα<unclear>μ</unclear><supplied reason="lost">οῦν</supplied><unclear>ι</unclear>ς <unclear>Ἁσ</unclear>ισμήφιος <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="44"/><g type="x"/> Τ<unclear>ο</unclear>θο<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" atLeast="2" atMost="3" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> Τεῶτος <gap reason="lost" extent="unknown" unit="character"/>
@@ -360,7 +362,7 @@ Best regards</change>
 
 
 <div n="q" subtype="fragment" type="textpart" xml:id="fragment_q"><head>Fragment q</head> 
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
 <lb n="1"/><unclear><g type="x"/></unclear> <unclear>Ψενα</unclear>μοῦνις <gap reason="illegible" quantity="5" unit="character"/><gap reason="lost" quantity="4" unit="character" precision="low"/> <num value="220"><unclear>σκ</unclear></num>
 <lb n="2"/><unclear><g type="x"/></unclear> Πα<unclear>ν</unclear>ῆσις Τε<unclear>ῶτος</unclear> <num><gap reason="lost" quantity="1" unit="character"/>ν</num>
 <lb n="3"/><unclear><g type="x"/></unclear> <unclear>Μαρρῆ</unclear>ς Σισόιτ<unclear>ος</unclear> <num><gap reason="lost" quantity="1" unit="character"/><unclear>κ</unclear></num>
@@ -381,7 +383,7 @@ Best regards</change>
 <lb n="17"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
 
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
 <lb n="18"/><gap reason="illegible" quantity="3" unit="character"/> <unclear>Ψ</unclear>ενοβάστ<unclear>ι</unclear>ς <expan>χ<unclear>η</unclear><ex cert="low">νοβοσκός</ex></expan> <num><gap reason="illegible" quantity="1" unit="character"/><unclear>μ</unclear></num>
 <lb n="19"/><g type="x"/> Π<unclear>ᾶ</unclear>σις κωφό<unclear>ς</unclear> <num value="20"><gap reason="illegible" quantity="1" unit="character"/>κ</num>
 <lb n="20"/><g type="x"/> Ἁσισμῆφις Ψε<unclear>ν</unclear>αμούνιο<supplied reason="lost">ς</supplied> <num value="220">σ<unclear>κ</unclear></num>

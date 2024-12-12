@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0154;4;1631" xml:id="p.lond.4.1631" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0154;4;1631" xml:id="p.lond.4.1631" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,7 +49,7 @@
          <head><ref target="https://papyri.info/pub/p.lond/4/1631">P.Lond. 4 1631</ref></head>
          <div xml:lang="cop" type="edition" xml:space="preserve"> 
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><unclear>ⲟ</unclear>ⲛ ⲛⲧⲁⲛϭⲛⲧϥ ϩⲛ<gap reason="lost" extent="unknown" unit="character"/><unclear>ⲙ</unclear>ⲱ ϩⲓⲧⲛ ⲓⲁⲕⲱⲃ <supplied reason="lost">ⲡ</supplied>ⲉ<choice><reg xml:lang="grc">προεστώς</reg><orig><expan>ⲡⲣⲟⲁⲥⲧⲟ<ex>ⲥ</ex></expan></orig></choice> <foreign xml:lang="grc"> <expan>γεν<ex>άμεν  </ex></expan> <expan>μ<ex>ηνὸς</ex></expan> <expan>Π<ex>α</ex>ῦ<ex>νι</ex></expan> <num value="1">α</num> <expan>ἰ<ex>ν</ex>δ<ex>ικτίονος</ex></expan> <num value="9">θ</num> </foreign>
@@ -70,7 +72,7 @@
 
     <lb n="10"/><gap reason="lost" quantity="1" unit="character"/> <gap reason="illegible" quantity="1" unit="character"/> ⲛ<choice><reg xml:lang="grc">θερμάριον</reg><orig><unclear>ⲑ</unclear>ⲉⲣⲙⲉⲣⲟⲛ</orig></choice> ⲛⲃ<supplied reason="lost">ⲉⲛⲓⲡⲉ</supplied>
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
     <lb n="1"/> <foreign xml:lang="grc"><expan>τόπ<ex>ου</ex></expan> <expan>Νεοκτ<ex>ήματος</ex></expan> 
 
     <lb n="2"/><expan>ἀμπ<ex cert="low">έ</ex>λ<ex>ου</ex></expan> <expan>ἄρου<ex>ρα</ex></expan> <num value="1">α</num> <abbr>χω</abbr> το<add place="above">ῦ</add> <expan><ex>καὶ</ex></expan> χα<unclear>ν</unclear><gap reason="lost" quantity="1" unit="character"/> <choice><reg>λάκκου</reg><orig><unclear>λ</unclear>άκ<unclear>ο</unclear>υ</orig></choice>  <num value="1">α</num> οργ<gap reason="lost" extent="unknown" unit="character"/><abbr><gap reason="illegible" quantity="1" unit="character"/>κη</abbr> <num value="24">κδ</num> <gap reason="lost" extent="unknown" unit="character"/> 
@@ -94,7 +96,7 @@
 </div>
 
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="iii" subtype="column" type="textpart"><ab>
+<div n="iii" subtype="column" type="textpart" xml:id="column_iii"><head>Column iii</head><ab>
     <lb n="1"/>ⲟⲩⲥⲟⲙⲁⲣ<unclear>ⲥ</unclear><gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="2"/><num value="17">ⲙⲏⲧⲥⲁϣϥ<unclear>ⲉ</unclear></num> <gap reason="lost" extent="unknown" unit="character"/>
@@ -123,7 +125,7 @@
 
     <lb n="14"/>ⲙ<unclear>ⲏ</unclear>ⲧ <unclear>ⲛ</unclear><gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
-<div n="iv" subtype="column" type="textpart"><ab>
+<div n="iv" subtype="column" type="textpart" xml:id="column_iv"><head>Column iv</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <num value="2">ⲥⲛⲁⲩ</num> ⲛ<choice><reg xml:lang="grc">ἀρτάβη</reg><orig>ⲉⲣⲧⲟϥ</orig></choice> ⲛϫⲓ<supplied reason="lost">ⲣ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ⲥⲙ</unclear>ⲓⲟⲩ <num value="17">ⲙⲏⲧⲥⲁ<unclear>ϣ</unclear><supplied reason="lost">ϥ</supplied></num> <gap reason="lost" extent="unknown" unit="character"/>
@@ -148,7 +150,7 @@
 
     <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="illegible" quantity="2" unit="character"/> ⲟⲥ ⲉϥ <gap reason="illegible" quantity="1" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
-<div n="v" subtype="column" type="textpart"><ab>
+<div n="v" subtype="column" type="textpart" xml:id="column_v"><head>Column v</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <num value="2">ⲥⲩⲛⲧⲉ</num> ⲛⲟⲓⲡ<supplied reason="lost">ⲉ</supplied> ⲛⲃⲉⲛⲉϣⲏⲩ
 
     <lb n="2"/>vacat<gap reason="illegible" extent="unknown" unit="character"/>
@@ -175,7 +177,7 @@
 
     <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> ⲟⲩ<unclear>ⲟ</unclear><gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
-<div n="vi" subtype="column" type="textpart"><ab>
+<div n="vi" subtype="column" type="textpart" xml:id="column_vi"><head>Column vi</head><ab>
     <lb n="1"/>ⲟⲩ<choice><reg xml:lang="grc">ξέστης</reg><orig><expan>ⲝⲉⲥⲧ<ex>ⲏⲥ</ex></expan></orig></choice> ⲛ<choice><reg xml:lang="grc">μαγνήσιον</reg><orig>ⲙⲁⲕⲛⲏⲥⲛ</orig></choice>
 
     <lb n="2"/>ⲟⲩⲕⲟⲩϫⲟⲩ ⲛⲃ<supplied reason="lost">ⲁ</supplied><unclear>ⲣ</unclear>ⲱⲧ ⲛⲧⲓ ⲛⲏϩ
@@ -204,7 +206,7 @@
 
     <lb n="14"/>ⲟⲩⲗ<gap reason="lost" quantity="8" unit="character"/><unclear>ⲓ</unclear>ⲙⲟ<unclear>ⲛ</unclear>
 </ab></div>
-<div n="vii" subtype="column" type="textpart"><ab>
+<div n="vii" subtype="column" type="textpart" xml:id="column_vii"><head>Column vii</head><ab>
     <lb n="1"/><num value="3">ϣⲟⲙⲏⲧ</num> ⲛ<choice><reg xml:lang="grc">ποτήριον</reg><orig>ⲡⲟⲇⲏⲣ<supplied reason="lost">ⲛ</supplied></orig></choice> <supplied reason="lost">ⲛ</supplied><choice><reg xml:lang="grc">μαγνήσιον</reg><orig><supplied reason="lost">ⲙⲁ</supplied>ⲕⲛⲏⲥⲓⲛ</orig></choice>
 
     <lb n="2"/>ⲟⲩⲕⲟⲩⲓ <choice><reg xml:lang="grc">λεκάνη</reg><orig>ⲗⲁⲕⲁⲛ<unclear>ⲏ</unclear></orig></choice> <supplied reason="lost">ⲛⲃⲁⲣⲱ</supplied>ⲧ
@@ -231,7 +233,7 @@
 
     <lb n="13"/>ⲟⲩ<gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
-<div n="viii" subtype="column" type="textpart"><ab>
+<div n="viii" subtype="column" type="textpart" xml:id="column_viii"><head>Column viii</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="2"/>ⲟⲩ<gap reason="lost" extent="unknown" unit="character"/>
@@ -252,7 +254,7 @@
 
     <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
-<div n="ix" subtype="column" type="textpart"><ab>
+<div n="ix" subtype="column" type="textpart" xml:id="column_ix"><head>Column ix</head><ab>
     <lb n="1"/>ⲟ<gap reason="lost" quantity="6" unit="character"/> ⲛⲉⲓ <gap reason="illegible" quantity="1" unit="character"/> ⲱ
 
     <lb n="2"/><num value="2">ⲥⲛⲁⲩ</num> ⲛⲟⲩⲟⲑ
@@ -273,7 +275,7 @@
 
     <lb n="10"/>ⲟⲩϩⲟⲗⲟ<gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
-<div n="x" subtype="column" type="textpart"><ab>
+<div n="x" subtype="column" type="textpart" xml:id="column_x"><head>Column x</head><ab>
     <lb n="1" rend="perpendicular"/> ⲉⲩϭⲁⲗⲏⲩ ⲉⲡⲡⲁⲡⲁ ⲫⲟⲓⲃⲁⲙⲱⲛ <choice><reg xml:lang="grc">προεστώς</reg><orig><expan>ⲡⲣⲟⲉⲥⲧⲱ<ex>ⲥ</ex></expan></orig></choice> ⲛⲡ<choice><reg xml:lang="grc">τόπος</reg><orig>ⲧⲟⲡ<supplied reason="lost">ⲟⲥ</supplied></orig></choice> <gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="2" rend="perpendicular"/> <gap reason="illegible" quantity="3" unit="line"/>

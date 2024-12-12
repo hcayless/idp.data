@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,11 +43,11 @@
          <head><ref target="https://papyri.info/pub/aegyptus/96/30_2">Aegyptus 96 (2016) S. 30 Nr. 2</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="a" subtype="document" type="textpart"><ab>
+<div n="a" subtype="document" type="textpart" xml:id="document_a"><head>Document a</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <abbr><unclear>ὑπ</unclear><supplied reason="lost">ο</supplied>θ</abbr> <expan><ex>ἀρουρῶν</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="525">φκε</num>
 </ab></div>
 
-<div n="b" subtype="document" type="textpart"><ab>
+<div n="b" subtype="document" type="textpart" xml:id="document_b"><head>Document b</head><ab>
     <lb n="1"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> 
 
     <lb n="2"/><abbr><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>λ<unclear>ο</unclear></abbr> <expan><ex>δραχμ- </ex></expan> <unclear>φ</unclear><gap reason="lost" extent="unknown" unit="character"/>

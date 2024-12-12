@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;16;12403" xml:id="sb.16.12403" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;16;12403" xml:id="sb.16.12403" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -84,7 +86,7 @@
 <milestone rend="horizontal-rule" unit="undefined"/>
 </ab></div>
 <div n="2" subtype="table" type="textpart" xml:id="table_2"><head>Table 2</head>
-<div n="1" type="textpart"><ab>
+<div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 
     <lb n="1"/>Ἀνδρέας 
 
@@ -111,7 +113,7 @@
     <lb n="12"/>Ζαχαρίας 
 
   <lb n="13"/>Ἠλί<supplied reason="lost">α</supplied>ς 
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 
     <lb n="13"/>Θωμᾶς 
 
@@ -138,7 +140,7 @@
     <lb n="24"/>Νεστόριος 
 
     <lb n="25"/>Ὀνωφρί<unclear>ο</unclear>υ 
-</ab></div><div n="3" type="textpart"><ab>
+</ab></div><div n="3" type="textpart" xml:id="_3"><head>3</head><ab>
 
     <lb n="27"/>Παῦλος 
 
@@ -163,7 +165,7 @@
     <lb n="37"/>Χριστοφόρι 
 
     <lb n="38"/>Χρ<unclear>ό</unclear>νιος 
-</ab></div><div n="4" type="textpart"><ab>
+</ab></div><div n="4" type="textpart" xml:id="_4"><head>4</head><ab>
 
     <lb n="39"/><choice><reg>Ὡρίων</reg><orig>Ὡρίωνος</orig></choice> 
 

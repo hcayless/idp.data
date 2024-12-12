@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,7 +46,7 @@
          <head><ref target="https://papyri.info/pub/p.tarich/14">P.Tarich. 14</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="a" subtype="fragment" type="textpart" xml:id="fragment_a"><head>Fragment a</head>
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ατ<unclear>ω</unclear>μθι<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>του<gap reason="illegible" quantity="2" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">μητ</supplied>ρὸς Σπνοβά<unclear>στ</unclear><supplied reason="lost">ιος</supplied><gap reason="illegible" quantity="5" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -62,7 +64,7 @@
 <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">μ</supplied><unclear>η</unclear>τρὸς <unclear>νε</unclear><gap reason="illegible" quantity="5" unit="character"/>
 <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ι τ<unclear>ε</unclear><gap reason="illegible" quantity="1" unit="character"/><del rend="erasure"><gap reason="illegible" quantity="1" unit="character"/></del>
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>τ<unclear>ε</unclear><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>σα</unclear>γ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>

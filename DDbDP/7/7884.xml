@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0163;18;781" xml:id="p.mich.18.781" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0163;18;781" xml:id="p.mich.18.781" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,7 +48,7 @@
          <head><ref target="https://papyri.info/pub/p.mich/18/781">P.Mich. 18 781</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="1" subtype="column" type="textpart"><ab>
+<div n="1" subtype="column" type="textpart" xml:id="column_1"><head>Column 1</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><unclear>α</unclear> <unclear>ου</unclear><gap reason="illegible" quantity="3" unit="character"/>
@@ -79,7 +81,7 @@
 
     <lb n="14"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="2" subtype="column" type="textpart"><ab>
+<div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head><ab>
     <lb n="15"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="15"/>Ὠφελίων Παρμενίω<unclear>ν</unclear><supplied reason="lost">ος </supplied><gap reason="lost" extent="unknown" unit="character"/>
@@ -110,7 +112,7 @@
 
     <lb n="27"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="3" subtype="column" type="textpart"><ab>
+<div n="3" subtype="column" type="textpart" xml:id="column_3"><head>Column 3</head><ab>
     <lb n="28"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="28"/><g type="unintelligible"/> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -129,7 +131,7 @@
 </ab></div>
 </div>
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="3" subtype="column" type="textpart"><ab>
+<div n="3" subtype="column" type="textpart" xml:id="column_3"><head>Column 3</head><ab>
     <lb n="34"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="34"/><gap reason="lost" extent="unknown" unit="character"/><unclear>α</unclear>ς
@@ -154,7 +156,7 @@
 
     <lb n="43"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="2" subtype="column" type="textpart"><ab>
+<div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head><ab>
     <lb n="44"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="44"/>τοῦ <num value="20">κ</num> <supplied reason="lost"><expan><ex cert="low">ἔτους</ex></expan></supplied>
@@ -185,7 +187,7 @@
 
     <lb n="56"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="3" subtype="column" type="textpart"><ab>
+<div n="3" subtype="column" type="textpart" xml:id="column_3"><head>Column 3</head><ab>
     <lb n="56"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="56"/><g type="unintelligible"/> <gap reason="lost" extent="unknown" unit="character"/>

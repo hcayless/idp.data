@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,7 +48,7 @@ Some reg-s I've added could be included alternatively in the commentary.</change
          <head><ref>ZPE 199 (2016) S. 156</ref> = <ref>LDAB 64742</ref> = <ref target="https://papyri.info/pub/sb/26/16607">SB 26 16607</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="i" subtype="column" type="textpart"><ab> 
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab> 
     <lb n="1"/>χμγ
 
     <lb n="1"/><g type="stauros"/> Ἡλι<unclear>ού</unclear>πο<unclear>λι</unclear>ς
@@ -92,7 +94,7 @@ Some reg-s I've added could be included alternatively in the commentary.</change
     <lb n="21"/><choice><reg>Καισάρει<supplied reason="lost">α</supplied></reg><orig>Κ<unclear>α</unclear>ισ<unclear>άρι</unclear><supplied reason="lost">α</supplied></orig></choice> <app type="alternative"><lem>Φιλίππ<unclear>ου</unclear></lem><rdg>Φίλιππ<unclear>ος</unclear></rdg></app>
 </ab></div>
 
-<div n="ii" subtype="column" type="textpart"><ab> 
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab> 
     <lb n="22"/><choice><reg>Δώρα</reg><orig>Δορ<supplied reason="lost">ί</supplied>νη</orig></choice>
 
     <lb n="23"/><choice><reg>Πορφυρέων</reg><orig><supplied reason="lost">Π</supplied>ορφυροῦν</orig></choice>
@@ -134,7 +136,7 @@ Some reg-s I've added could be included alternatively in the commentary.</change
 </div>
 
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="i" subtype="column" type="textpart"><ab> 
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab> 
     <lb n="41"/><choice><reg>Κούρικος</reg><orig>Κούρι<unclear>κ</unclear>κος</orig></choice>
 
     <lb n="42"/><choice><reg>Μοψουεστία</reg><orig>Μαμ<unclear>ψυεσδ</unclear>έ<unclear>α</unclear></orig></choice>
@@ -178,7 +180,7 @@ Some reg-s I've added could be included alternatively in the commentary.</change
     <lb n="61"/>Απάμε<unclear>α</unclear> τῆς <choice><reg>Κιβωτοῦ</reg><orig>Κιβ<unclear>ιτο</unclear><supplied reason="lost">ῦ</supplied></orig></choice>
 </ab></div>
 
-<div n="ii" subtype="column" type="textpart"><ab> 
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab> 
     <lb n="63"/>Ἀ<unclear>ντ</unclear>ι<unclear>όχια</unclear> <unclear>τ</unclear>ῆ<unclear>ς</unclear> <choice><reg>Πισιδίας</reg><orig>Πε<unclear>σ</unclear>δ<unclear>ίας</unclear></orig></choice>
 </ab></div>
 </div></div>

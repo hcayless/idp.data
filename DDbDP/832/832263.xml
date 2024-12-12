@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,7 +49,7 @@ Verso text written downwards, across the fibres (ed.). Verso l.2 indented with �
          <head><ref target="https://papyri.info/pub/p.oxy/84/5473">P.Oxy. 84 5473</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="1" subtype="fragment" type="textpart"><ab>
+<div n="1" subtype="fragment" type="textpart" xml:id="fragment_1"><head>Fragment 1</head><ab>
     <lb n="1"/><g type="stauros"/> βασιλείας τοῦ θειοτάτου καὶ εὐσεβεστάτου ἡμῶν δεσπότου Φλαου<hi rend="diaeresis">ί</hi>ου <hi rend="diaeresis">Ἰ</hi>ουστινιανοῦ
 
     <lb n="2"/>τοῦ αἰωνίου Αὐγούστου καὶ Αὐτοκράτορος ἔτους <num value="34"><hi rend="supraline">λ</hi>δ</num>, τοῖς τὸ <num value="19">ι<hi rend="supraline">θ</hi></num> μετὰ τὴν 
@@ -108,7 +110,7 @@ Verso text written downwards, across the fibres (ed.). Verso l.2 indented with �
 
     <lb n="30"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="2" subtype="fragment" type="textpart"><ab>
+<div n="2" subtype="fragment" type="textpart" xml:id="fragment_2"><head>Fragment 2</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>

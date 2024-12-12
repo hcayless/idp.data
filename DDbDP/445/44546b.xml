@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,8 +51,8 @@
          <head><ref target="https://papyri.info/pub/p.louvre/3/174">P.Louvre 3 174</ref> = <ref target="https://papyri.info/pub/sb/26/16642">SB XXVI 16642</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="II" type="textpart" xml:id="_II"><head>II</head>
-<div n="r" type="textpart">
-<div n="ii" subtype="column" type="textpart"><ab> 
+<div n="r" type="textpart" xml:id="_r"><head>r</head>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab> 
     <lb n="1"/>Θεόδωρος <expan>στρ<ex>ατηγὸς</ex></expan> <expan><unclear>Ἀρσι</unclear><ex>νοίτου</ex></expan> <expan><supplied reason="lost">Ἡρ</supplied><unclear>α</unclear><supplied reason="lost">κ</supplied>λ<ex>είδου</ex></expan> <expan>μερίδο<ex>ς</ex></expan>. <unclear>ἐ</unclear>ξ <expan>ἐπιστολ<ex>ῆς</ex></expan>
     
     <lb n="2"/>γραφείσης μοι ὑπὸ το<unclear>ῦ</unclear> <expan>λα<unclear>μ</unclear><supplied reason="lost">πρ<ex>οτάτου</ex></supplied></expan> <expan>ἡγε<unclear>μ</unclear><ex>όνος</ex></expan> <expan>Σεμ<ex>πρωνίου</ex></expan> <expan>Λιβερ<ex>άλιος</ex></expan>
@@ -111,8 +113,8 @@
 </div>
 
 <div n="III" type="textpart" xml:id="_III"><head>III</head>
-<div n="v" type="textpart">
-<div n="i" subtype="column" type="textpart"><ab>  
+<div n="v" type="textpart" xml:id="_v"><head>v</head>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>  
     <lb n="28"/><unclear>ἐ</unclear>πὶ τῇ <gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="2" unit="character"/> <choice><reg><supplied reason="lost">αἱ</supplied>ρέσει</reg><orig><supplied reason="lost">αἱ</supplied><unclear>ρέ</unclear>σι</orig></choice> παραδίδοσθαι· τὴν γ<unclear>ὰρ</unclear>
 
     <lb n="29"/>ἐλάττονο<unclear>ς</unclear> ἐπιδεχομένην ἀκόλουθόν

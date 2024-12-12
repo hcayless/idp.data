@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,7 +42,7 @@
          <head><ref target="https://papyri.info/pub/apf/62/44">APF 62 (2016) S. 44</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><num value="2">β</num> <num value="1/2">𐅵</num>
 
     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><g rend="extension" type="filler"/>
@@ -56,7 +58,7 @@
     <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <abbr><unclear>π</unclear>α</abbr> <num value="100"><unclear>ρ</unclear></num>
 </ab></div>
 
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
     <lb n="1"/><num value="4"><hi rend="supraline">δ</hi></num> <gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="2"/><g rend="extension" type="filler"/>
@@ -76,7 +78,7 @@
 </div>
 
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <num value="2">β</num> ἀπὸ <expan>ἀργυ<ex>ρίου</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num> <expan><ex>γίνεται</ex></expan> <expan>χα<ex>λκοῦ</ex></expan>
 
     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <num value="1950">Αϡν</num>
@@ -88,7 +90,7 @@
     <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <num value="12"><hi rend="supraline">ιβ</hi></num> <num value="310">τι</num> <num value="14">ι<hi rend="supraline">δ</hi></num> <num value="310">τι</num> <expan><ex>γίνεται</ex></expan> <num value="800">ω</num>
 </ab></div>
 
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
     <lb n="1"/><num value="14">ι<hi rend="supraline">δ</hi></num> <num value="315">τιε</num>
 
     <lb n="2"/><num value="15">ι<hi rend="supraline">ε</hi></num> <num value="300">τ</num><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,7 @@ Lines 2 and 15 are indented, please use correct markup.</change>
          <head><ref target="https://papyri.info/pub/p.bastianini/22">P.Bastianini 22</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head> 
-<div n="a" subtype="fragment" type="textpart"><ab> 
+<div n="a" subtype="fragment" type="textpart" xml:id="fragment_a"><head>Fragment a</head><ab> 
     <lb n="1"/><supplied reason="lost">Σαρ</supplied>απᾶς Θρακίδᾳ τῶι
 
     <lb n="2" rend="indent"/> κυρίῳ ἀδελφῷ χαίρειν.
@@ -54,7 +56,7 @@ Lines 2 and 15 are indented, please use correct markup.</change>
 
     <lb n="6"/><gap reason="lost" quantity="22" unit="character" precision="low"/> <supplied reason="lost">πα</supplied>
     </ab></div> 
-    <div n="b" subtype="fragment" type="textpart"><ab> 
+    <div n="b" subtype="fragment" type="textpart" xml:id="fragment_b"><head>Fragment b</head><ab> 
 
     <lb n="7" break="no"/><unclear>ρακαλ</unclear><gap reason="lost" quantity="5" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="10" unit="character" precision="low"/>
 

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;16;2646" xml:id="bgu.16.2646" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;16;2646" xml:id="bgu.16.2646" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,7 +54,7 @@
          <head><ref target="https://papyri.info/pub/bgu/16/2646">BGU 16 2646</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="1" subtype="column" type="textpart"><ab>
+<div n="1" subtype="column" type="textpart" xml:id="column_1"><head>Column 1</head><ab>
     <lb n="1"/><gap reason="lost" quantity="6" unit="character"/><supplied reason="lost"> Ἀθηνοδώρωι τῶι</supplied> γλυκυτάτωι
 
     <lb n="2"/><gap reason="lost" quantity="16" unit="character"/> <choice><reg>μετεωριτός</reg><orig>μετεωριτοσις</orig></choice>
@@ -99,7 +101,7 @@
 
     <lb n="23"/><expan>ἔρρω<supplied reason="lost"><ex>σο</ex></supplied></expan> <expan><ex>ἔτους</ex></expan> <num value="27">κζ</num> Καίσαρος Παχὼν <num value="17">ιζ</num>
 </ab></div>
-<div n="2" subtype="column" type="textpart"><ab>
+<div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head><ab>
     <lb n="24"/>ἔγραψά σοι <choice><reg>πρὸ τούτων τῶν χρόνων</reg><orig>προ  των</orig></choice> ἐπιστολὰς πώς σοι καὶ ἄνῃ
 
     <lb n="25"/>Ἀφινίωι δοῦναι τὴν ἐπιστολὴν καὶ τὴν

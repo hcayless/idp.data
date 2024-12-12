@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,7 +50,7 @@
          <head><ref target="https://papyri.info/pub/p.koeln/15/600">P.Köln 15 600</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="a" subtype="fragment" type="textpart">
+<div n="a" subtype="fragment" type="textpart" xml:id="fragment_a"><head>Fragment a</head>
 <ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
@@ -95,7 +97,7 @@
 <lb n="20"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab>
 </div>
-<div n="b" subtype="fragment" type="textpart">
+<div n="b" subtype="fragment" type="textpart" xml:id="fragment_b"><head>Fragment b</head>
 <ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
@@ -112,8 +114,8 @@
 </div>
 </div>
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="a" subtype="fragment" type="textpart">
-<div n="i" subtype="column" type="textpart">
+<div n="a" subtype="fragment" type="textpart" xml:id="fragment_a"><head>Fragment a</head>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head>
 <ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
@@ -128,7 +130,7 @@
 <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab>
 </div>
-<div n="ii" subtype="column" type="textpart">
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head>
 <ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
@@ -163,7 +165,7 @@
 <lb n="15"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab>
 </div>
-<div n="iii" subtype="column" type="textpart">
+<div n="iii" subtype="column" type="textpart" xml:id="column_iii"><head>Column iii</head>
 <ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
@@ -199,7 +201,7 @@
 </ab>
 </div>
 </div>
-<div n="b" subtype="fragment" type="textpart">
+<div n="b" subtype="fragment" type="textpart" xml:id="fragment_b"><head>Fragment b</head>
 <ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 

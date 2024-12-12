@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;5;7521" xml:id="sb.5.7521" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;5;7521" xml:id="sb.5.7521" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,7 +46,7 @@
       <body>
          <head><ref>Sel. Pap. I 184</ref> = <ref target="https://papyri.info/pub/sb/5/7521">SB 5 7521</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
 
     <lb n="1"/>ἔτους <num value="3">γ</num>, λόγος ἐνοικίων, ὧν ἔχομεν 
 
@@ -78,7 +80,7 @@
 
     <lb n="16"/>ἄλλας τὸ λοιπὸν τοῦ ἕως Μεσορὴ <num value="50">ν</num>. </ab></div>
 
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
 
     <lb n="17"/>Δημητρία φέρουσα τοῦ μηνὸς <expan><ex>δραχμὰς</ex></expan> <num value="100">ρ</num> 
 

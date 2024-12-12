@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -170,11 +172,11 @@
 </ab></div>
 
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="v1" subtype="fragment" type="textpart"><ab>
+<div n="v1" subtype="fragment" type="textpart" xml:id="fragment_v1"><head>Fragment v1</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>εκχωρησεως <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/>κου αι <gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
-<div n="v2" subtype="fragment" type="textpart"><ab>
+<div n="v2" subtype="fragment" type="textpart" xml:id="fragment_v2"><head>Fragment v2</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>λε<unclear>υ</unclear>ει αν<gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
 </div></div>

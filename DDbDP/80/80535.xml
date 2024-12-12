@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,7 +42,7 @@
          <head><ref target="https://papyri.info/pub/o.heid/329">O.Heid. 329</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="A" subtype="fragment" type="textpart" xml:id="fragment_A"><head>Fragment A</head>
-    <div n="i" subtype="column" type="textpart"><ab> 
+    <div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab> 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/> <num value="1/2">𐅵</num> <num value="1/3">γ</num>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <num value="1/3">γ</num>
@@ -66,7 +68,7 @@
 <lb n="22"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><expan><ex>ἀρταβ </ex></expan> <num value="1/2">𐅵</num> <del rend="erasure"><gap reason="illegible" quantity="1" unit="character"/></del><gap reason="illegible" quantity="1" unit="character"/>
 <lb n="22"/><gap reason="lost" extent="unknown" unit="line"/>
     </ab></div> 
-    <div n="ii" subtype="column" type="textpart"><ab>
+    <div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
 <lb n="23"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="23"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="24"/><supplied reason="lost">Κ</supplied>αβῖρις <expan>Πα<unclear>μή</unclear><ex>ους</ex></expan>
@@ -92,12 +94,12 @@
 <lb n="44"/><expan>ἕκαστ<ex>ος</ex></expan> <expan><ex>δραχμ </ex></expan> <num value="5">ε</num>
 <lb n="44"/><gap reason="lost" extent="unknown" unit="line"/>
     </ab></div> 
-<div n="iii" subtype="column" type="textpart"><ab>
+<div n="iii" subtype="column" type="textpart" xml:id="column_iii"><head>Column iii</head><ab>
 <lb n="45"/><gap reason="illegible" quantity="7" unit="line"><desc>vestiges</desc></gap>
     </ab></div>
     </div>
     <div n="B" subtype="fragment" type="textpart" xml:id="fragment_B"><head>Fragment B</head> 
-  <div n="i" subtype="column" type="textpart"><ab> 
+  <div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab> 
 <lb n="1"/><gap reason="illegible" quantity="1" unit="line"/>
 <lb n="2"/><expan><ex cert="low">δραχμ </ex></expan> <num value="5"><unclear>ε</unclear></num> <num value="3"><expan><ex cert="low">τριώβολον</ex></expan></num>
 <lb n="3"/> <gap reason="illegible" quantity="4" unit="line"/>
@@ -105,7 +107,7 @@
 <lb n="8"/><gap reason="illegible" quantity="2" unit="line"/>
 <lb n="10"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμ </ex></expan> <num value="100">ρ</num><num><gap reason="illegible" quantity="1" unit="character"/></num><num value="7">ζ</num>  <num value="3"><expan><ex cert="low">τριώβολον</ex></expan></num>
 </ab></div> 
-    <div n="ii" subtype="column" type="textpart"><ab>
+    <div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
 <lb n="11"/><gap reason="illegible" atLeast="11" atMost="12" unit="line"/>
 <lb n="24"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμ </ex></expan> <num value="100">ρ</num> <num value="50">ν</num> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 </ab></div> 

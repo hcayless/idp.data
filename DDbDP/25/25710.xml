@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0097;;23" xml:id="p.corn.23" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0097;;23" xml:id="p.corn.23" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,7 +52,7 @@ A.I. Blasco-Torres, ZPE 204 (2017) 188</change>
          <head><ref target="https://papyri.info/pub/p.corn/23">P.Corn. 23</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="A" subtype="fragment" type="textpart" xml:id="fragment_A"><head>Fragment A</head>
-<div n="1" subtype="column" type="textpart"><ab>
+<div n="1" subtype="column" type="textpart" xml:id="column_1"><head>Column 1</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>σεβ<gap reason="illegible" quantity="4" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> 
 
@@ -78,7 +80,7 @@ A.I. Blasco-Torres, ZPE 204 (2017) 188</change>
 
     <lb n="12"/><gap reason="illegible" quantity="12" unit="line"/> 
 </ab></div>
-<div n="2" subtype="column" type="textpart"><ab>
+<div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head><ab>
     <lb n="25"/><expan>Μύσθ<ex>ας</ex></expan>   Ἁτρίους <abbr>Τλεμοργο</abbr> 
 
     <lb n="26"/><g type="check"/> Ἁρφαῆσις   <choice><reg>Ὀννώφριος</reg><orig>Ὀννωφριον</orig></choice> 
@@ -125,7 +127,7 @@ A.I. Blasco-Torres, ZPE 204 (2017) 188</change>
 
     <lb n="47"/><handShift new="m2"/> <abbr><unclear>απε</unclear></abbr>  <handShift new="m1"/> Ψενατῦμις  <expan>Πνεφερῶ<ex>τος</ex></expan> 
 </ab></div>
-<div n="3" subtype="column" type="textpart"><ab>
+<div n="3" subtype="column" type="textpart" xml:id="column_3"><head>Column 3</head><ab>
     <lb n="48"/><gap reason="lost" extent="unknown" unit="character"/> Δῖος <gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="49"/><handShift new="m2"/> <abbr>απ<unclear>ε</unclear></abbr> <handShift new="m1"/> Πνε<supplied reason="lost" cert="low">φερῶς </supplied><gap reason="lost" extent="unknown" unit="character"/>  

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -63,7 +65,7 @@ Visualization difficulties: Fragment B col. II  l. 3, 11</change>
 <lb n="14"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
  <div n="B" subtype="fragment" type="textpart" xml:id="fragment_B"><head>Fragment B</head>
-<div n="I" subtype="column" type="textpart"><ab>
+<div n="I" subtype="column" type="textpart" xml:id="column_I"><head>Column I</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>η<unclear>τ</unclear><gap reason="illegible" quantity="1" unit="character"/><unclear>ρ</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ιδ<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><g type="slanting-stroke"/><g type="slanting-stroke"/> <gap reason="illegible" quantity="1" unit="character"/> <expan>γί<ex cert="low">ν</ex></expan> <num><hi rend="supraline"><gap reason="illegible" quantity="3" unit="character"/></hi></num> <gap reason="lost" extent="unknown" unit="character"/>
@@ -83,7 +85,7 @@ Visualization difficulties: Fragment B col. II  l. 3, 11</change>
 <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/> ξ <gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="17"/><gap reason="lost" extent="unknown" unit="line"/> 
  </ab></div>
-<div n="II" subtype="column" type="textpart"><ab>
+<div n="II" subtype="column" type="textpart" xml:id="column_II"><head>Column II</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>μαυ</unclear><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><g type="slanting-stroke"/> <unclear>μ</unclear><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear>δ</unclear><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -100,7 +102,7 @@ Visualization difficulties: Fragment B col. II  l. 3, 11</change>
 <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="12"/><gap reason="lost" extent="unknown" unit="line"/> 
  </ab></div>
-<div n="III" subtype="column" type="textpart"><ab>
+<div n="III" subtype="column" type="textpart" xml:id="column_III"><head>Column III</head><ab>
 <lb n="1"/><expan>γί<ex>ν </ex></expan> τοῦ <expan>ἀ<unclear>ν</unclear><supplied reason="lost">α</supplied>λώ<ex>ματος</ex></expan> <gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <num value="9"><hi rend="supraline">θ</hi></num> <num value="12">ιβ</num> <expan><ex>ἔτους</ex></expan> <abbr>διχω</abbr> <num value="19">ι<unclear>θ</unclear></num> <gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <abbr><gap reason="lost" extent="unknown" unit="character"/><unclear>γ</unclear>ενη</abbr> <num value="11">ια</num> <expan><ex>ἔτους</ex></expan> <abbr>διχω</abbr> <gap reason="illegible" quantity="2" unit="character"/>

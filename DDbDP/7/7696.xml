@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0187;3;106r" xml:id="p.petr.3.106r" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0187;3;106r" xml:id="p.petr.3.106r" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,7 +46,7 @@
          <head><ref target="https://papyri.info/pub/p.petr/3/106r">P.Petr. 3 106 R (a) + (b)</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="a" subtype="part" type="textpart"><ab>
+<div n="a" subtype="part" type="textpart" xml:id="part_a"><head>Part a</head><ab>
     <lb n="1"/><num value="13">ιγ</num> <gap reason="illegible" quantity="3" unit="character"/>
 
     <lb n="2"/>καὶ ἐν αὐτῆι <expan>πυρ<ex>ῶν</ex></expan> <num value="85">πε</num> <num value="1/4" rend="tick">δ</num> <expan>κ<ex>ριθῶν</ex></expan> <num value="903">ϡγ</num>
@@ -83,7 +85,7 @@
 
     <lb n="19"/><supplied reason="lost">κα</supplied>ὶ ἐν τῆι Δίννυος <expan><ex>πυρῶν</ex></expan> <num value="1832">Αωλβ</num> <num value="1/6" rend="tick">ϛ</num> <expan>κ<ex>ριθῶν</ex></expan> <num value="1937">Αϡλζ</num> <num value="1/2">𐅵</num> <num value="1/3" rend="tick">γ</num>
 </ab></div>
-<div n="b" subtype="part" type="textpart"><ab>
+<div n="b" subtype="part" type="textpart" xml:id="part_b"><head>Part b</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="00"/><expan><ex>γίνονται</ex></expan> ἐν αὐτῆι <expan>πυρ<ex>οῦ</ex></expan> <num value="4">δ</num><gap reason="lost" quantity="3" unit="character"/>

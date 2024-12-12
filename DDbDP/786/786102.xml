@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,7 +45,7 @@
          <head><ref target="https://papyri.info/pub/psi/17/1682">PSI 17 1682</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="A" subtype="text" type="textpart">
+<div n="A" subtype="text" type="textpart" xml:id="text_A"><head>Text A</head>
 <ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
@@ -59,7 +61,7 @@
 </ab>
 </div></div>
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="B" subtype="text" type="textpart">
+<div n="B" subtype="text" type="textpart" xml:id="text_B"><head>Text B</head>
 <ab>
     <lb n="1"/><handShift new="m2"/>Πατρὴ κάτω <expan>ἐννομ<ex>ίου</ex></expan> <expan>ὑπ<ex>ὲρ</ex></expan> <expan>Νεάρχ<ex>ου</ex></expan>
 
@@ -85,7 +87,7 @@
 </ab>
 </div></div>
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="C" subtype="text" type="textpart">
+<div n="C" subtype="text" type="textpart" xml:id="text_C"><head>Text C</head>
 <ab>
     <lb n="1"/><note xml:lang="en">written upside down in relation to text A, following text B on the verso</note>
 

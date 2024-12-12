@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0205;2;88" xml:id="p.stras.2.88" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0205;2;88" xml:id="p.stras.2.88" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,7 +58,7 @@
       <body>
          <head><ref target="https://papyri.info/pub/p.stras/2/88">P.Strasb. 2 88</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="r" type="textpart" xml:id="_r"><head>r</head><div n="int,1" type="textpart"><ab>
+<div n="r" type="textpart" xml:id="_r"><head>r</head><div n="int,1" type="textpart" xml:id="_int_1"><head>int,1</head><ab>
 
     <lb n="1"/><handShift new="m2"/> ἔτους <num value="12">ιβ</num> τοῦ καὶ <num value="9">θ</num>, 
 
@@ -86,7 +88,7 @@
 
     <lb n="14"/><expan>χα<ex>λκοῦ</ex></expan> νομίσματος <expan><ex>ταλάντων</ex></expan> <num value="2">β</num>. 
 <milestone rend="paragraphos" unit="undefined"/>
-    <lb n="15"/></ab></div><div n="ext,2" type="textpart"><ab>
+    <lb n="15"/></ab></div><div n="ext,2" type="textpart" xml:id="_ext_2"><head>ext,2</head><ab>
 
     <lb n="15"/><handShift new="m1"/> βασιλευόντων βασιλίσσης Κλεοπάτ<unclear>ρ</unclear>ας καὶ βασιλέως Πτολεμαίου <choice><reg>ἐπικαλουμένου</reg><orig>ἐπικαλομένου</orig></choice> Ἀλεξάνδρου θεῶν Φιλομητόρων ἔτους <num value="12">ιβ</num> τοῦ καὶ <num value="9">θ</num>, 
 
@@ -111,7 +113,7 @@
     <lb n="25"/>καὶ τῶν ἀδελφῶν, λιβὸς τὸ περίχωμα, ἢ οἳ ἂν ὦσιν γείτονες πάντων πάντοθεν. ἐπρίατο Πετεαρσεμθεὺς Πανεβχούνιος Πέρσου 
 
     <lb n="26"/>ὡς ἐτῶν <num value="36">λϛ</num> μέσος μελίχρως ὑπόκλαστος μακροπρόσωπος εὐθύριν καὶ οἱ τούτου ἀδελφοὶ Πετεσοῦχος καὶ Φαγώνιος 
-</ab></div><div n="ext,3" type="textpart"><ab>
+</ab></div><div n="ext,3" type="textpart" xml:id="_ext_3"><head>ext,3</head><ab>
 
     <lb n="26"/>καὶ Ψεννῆσις οἱ <num value="4">τέσσαρες</num> Πέρσαι τῆς ἐπιγονῆς 
 

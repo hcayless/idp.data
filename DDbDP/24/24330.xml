@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0247;;69" xml:id="p.hever.69" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0247;;69" xml:id="p.hever.69" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,8 +48,8 @@
    <text>
       <body>
          <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="a" subtype="fragment" type="textpart">
-<div n="Text" subtype="Inner" type="textpart"><ab>
+<div n="a" subtype="fragment" type="textpart" xml:id="fragment_a"><head>Fragment a</head>
+<div n="Text" subtype="Inner" type="textpart" xml:id="Inner_Text"><head>Inner Text</head><ab>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>αθαι ε<gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 
@@ -55,7 +57,7 @@
 
     <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="5" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="4" unit="character"/>ναι λέγω <space extent="unknown" unit="character"/>
 </ab></div>
-<div n="Text" subtype="Outer" type="textpart"><ab>
+<div n="Text" subtype="Outer" type="textpart" xml:id="Outer_Text"><head>Outer Text</head><ab>
     <del rend="cross-strokes"><lb n="1"/>ἔτους <choice><reg>τεσσερεσκαιδεκάτου</reg><orig>τεσερεσκαιδεκάτο<unclear>υ</unclear></orig></choice> Α<unclear>ὐτ</unclear><supplied reason="lost">ο</supplied>κράτ<unclear>ορ</unclear>ο<unclear>ς</unclear> <unclear>Τραι</unclear><supplied reason="lost">ανοῦ Ἁδριανοῦ Καίσαρος Σεβαστοῦ ἐπὶ ὑπά</supplied>
 
     <lb n="2" break="no"/>τ<unclear>ω</unclear>ν Μάρκου Φλα<supplied reason="omitted">ου</supplied><unclear>ί</unclear>ου Ἄπ<unclear>ρ</unclear>ου <unclear>κ</unclear>αὶ Κ<unclear>ο</unclear>ί<unclear>ν</unclear>τ<surplus>ι</surplus>ου Φαβ<unclear>ίου</unclear> <supplied reason="lost">Κατουλλίνου</supplied> <gap reason="lost" quantity="19" unit="character"/>
@@ -89,7 +91,7 @@
     <lb n="16"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap></del>
 </ab></div>
 </div>
-<div n="b" subtype="fragment" type="textpart"><ab>
+<div n="b" subtype="fragment" type="textpart" xml:id="fragment_b"><head>Fragment b</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ν μ<gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -106,7 +108,7 @@
 
     <lb n="6"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="c" subtype="fragment" type="textpart"><ab>
+<div n="c" subtype="fragment" type="textpart" xml:id="fragment_c"><head>Fragment c</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/>α<gap reason="illegible" quantity="5" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -121,7 +123,7 @@
 
     <lb n="6"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="d" subtype="fragment" type="textpart"><ab>
+<div n="d" subtype="fragment" type="textpart" xml:id="fragment_d"><head>Fragment d</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
@@ -134,7 +136,7 @@
 
     <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="e" subtype="fragment" type="textpart"><ab>
+<div n="e" subtype="fragment" type="textpart" xml:id="fragment_e"><head>Fragment e</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="5" unit="character"/>ρ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -155,7 +157,7 @@
 
     <lb n="8"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="f" subtype="fragment" type="textpart"><ab>
+<div n="f" subtype="fragment" type="textpart" xml:id="fragment_f"><head>Fragment f</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ωιμ<gap reason="illegible" quantity="2" unit="character"/>θω<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -166,7 +168,7 @@
 </ab></div>
 </div>
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="a" subtype="fragment" type="textpart"><ab>
+<div n="a" subtype="fragment" type="textpart" xml:id="fragment_a"><head>Fragment a</head><ab>
     <lb n="1"/>Ιωσηπο<unclear>ς</unclear> <unclear>Σ</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><unclear>δ</unclear>εμωνος μά<unclear>ρ</unclear><supplied reason="lost">τυς</supplied>
 
     <lb n="2"/>Σου<gap reason="illegible" quantity="3" unit="character"/>ος Ε<supplied reason="lost">λεαζ</supplied>αρου μάρ<supplied reason="lost">τυς</supplied>

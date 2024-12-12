@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,7 +41,7 @@
       <body>
          <head><ref target="https://papyri.info/pub/basp/58/122_31">BASP 58 (2021) S. 122 Nr. 31</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="convex" subtype="side" type="textpart" xml:id="side_convex"><head>Side convex</head><div n="i" subtype="column" type="textpart"><ab>
+<div n="convex" subtype="side" type="textpart" xml:id="side_convex"><head>Side convex</head><div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
     <lb n="1"/>Κουλ<g type="diastole"/> Ταα<g type="slanting-stroke"/>
 
     <lb n="2"/><unclear>Χ</unclear>άρης <expan>Λωιτο<ex>ς</ex></expan> ἐκ
@@ -52,7 +54,7 @@
     
     <lb n="6"/><gap reason="illegible" quantity="1" unit="line"><desc>vestiges</desc></gap>
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
     <lb n="1"/>Παμύρωνος
 
     <lb n="2"/>Μουν <expan>Σαρα<unclear>π</unclear>ίω<ex>νος</ex></expan>

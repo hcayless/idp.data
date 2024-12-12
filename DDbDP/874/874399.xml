@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,7 +42,7 @@
          <head><ref target="https://papyri.info/pub/p.giss/2/128">P.Giss. 2 128</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="1" subtype="page" type="textpart" xml:id="page_1"><head>Page 1</head> 
-<div n="A" subtype="sheet" type="textpart"><ab>
+<div n="A" subtype="sheet" type="textpart" xml:id="sheet_A"><head>Sheet A</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><g type="slanting-stroke"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/>Α<gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -65,7 +67,7 @@
 </ab></div>
 </div>
 <div n="2" subtype="page" type="textpart" xml:id="page_2"><head>Page 2</head>
-<div n="A" subtype="sheet" type="textpart"><ab>
+<div n="A" subtype="sheet" type="textpart" xml:id="sheet_A"><head>Sheet A</head><ab>
 <lb n="21"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="21"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="22"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ι</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -89,7 +91,7 @@
 </ab></div>
 </div>
 <div n="3" subtype="page" type="textpart" xml:id="page_3"><head>Page 3</head>
-<div n="B" subtype="sheet" type="textpart"><ab>
+<div n="B" subtype="sheet" type="textpart" xml:id="sheet_B"><head>Sheet B</head><ab>
 <lb n="40"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="40"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="41"/><unclear><g type="check"/></unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="2" unit="character"/><unclear>ν</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><unclear>ς</unclear>
@@ -113,7 +115,7 @@
 </ab></div>
 </div>
 <div n="4" subtype="page" type="textpart" xml:id="page_4"><head>Page 4</head>
-<div n="B" subtype="sheet" type="textpart"><ab>
+<div n="B" subtype="sheet" type="textpart" xml:id="sheet_B"><head>Sheet B</head><ab>
 <lb n="59"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="59"/><gap reason="lost" quantity="10" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="5" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="60"/><gap reason="lost" quantity="10" unit="character"/><gap reason="illegible" quantity="5" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><unclear>ου</unclear><gap reason="lost" extent="unknown" unit="character"/>
@@ -136,7 +138,7 @@
 </ab></div>
 </div>
 <div n="5" subtype="page" type="textpart" xml:id="page_5"><head>Page 5</head>
-<div n="C" subtype="sheet" type="textpart"><ab>
+<div n="C" subtype="sheet" type="textpart" xml:id="sheet_C"><head>Sheet C</head><ab>
 <lb n="77"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="77"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="78"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>ι</unclear><gap reason="illegible" quantity="1" unit="character"/><unclear>ο</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -161,7 +163,7 @@
 </ab></div>
 </div>
 <div n="6" subtype="page" type="textpart" xml:id="page_6"><head>Page 6</head>
-<div n="C" subtype="sheet" type="textpart"><ab>
+<div n="C" subtype="sheet" type="textpart" xml:id="sheet_C"><head>Sheet C</head><ab>
 <lb n="97"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="97"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="5" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="98"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -181,7 +183,7 @@
 </ab></div>
 </div>
 <div n="7" subtype="page" type="textpart" xml:id="page_7"><head>Page 7</head>
-<div n="D" subtype="sheet" type="textpart"><ab>
+<div n="D" subtype="sheet" type="textpart" xml:id="sheet_D"><head>Sheet D</head><ab>
 <lb n="112"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="112"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low"><expan>κεφ<ex>αλ </ex></expan></supplied>
 <lb n="113"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>  <supplied reason="lost" cert="low"><expan>κεφ<ex>αλ </ex></expan></supplied>
@@ -210,7 +212,7 @@
 </ab></div>
 </div>
 <div n="8" subtype="page" type="textpart" xml:id="page_8"><head>Page 8</head>
-<div n="D" subtype="sheet" type="textpart"><ab>
+<div n="D" subtype="sheet" type="textpart" xml:id="sheet_D"><head>Sheet D</head><ab>
 <lb n="136"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="136"/><gap reason="lost" quantity="7" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>ς <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low"><expan>κεφ<ex>αλ </ex></expan></supplied><gap reason="illegible" quantity="1" unit="character"/>
 <lb n="137"/><gap reason="lost" quantity="5" unit="character"/><supplied reason="lost">Πολυδ</supplied><unclear>ε</unclear>ύκους <supplied reason="lost" cert="low"><expan>κεφ<ex>αλ </ex></expan></supplied><gap reason="illegible" quantity="1" unit="character"/>
@@ -236,7 +238,7 @@
 </ab></div>
 </div>
 <div n="9" subtype="page" type="textpart" xml:id="page_9"><head>Page 9</head>
-<div n="E" subtype="sheet" type="textpart"><ab>
+<div n="E" subtype="sheet" type="textpart" xml:id="sheet_E"><head>Sheet E</head><ab>
 <lb n="157"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="157"/><gap reason="lost" quantity="7" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low"><expan>κεφ<ex>αλ </ex></expan></supplied>
 <lb n="158"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="6" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>α<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low"><expan>κεφ<ex>αλ </ex></expan></supplied>
@@ -264,7 +266,7 @@
 </ab></div>
 </div>
 <div n="10" subtype="page" type="textpart" xml:id="page_10"><head>Page 10</head>
-<div n="E" subtype="sheet" type="textpart"><ab>
+<div n="E" subtype="sheet" type="textpart" xml:id="sheet_E"><head>Sheet E</head><ab>
 <lb n="180"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="180"/><gap reason="lost" quantity="10" unit="character"/><gap reason="illegible" quantity="2" unit="character"/> <expan><unclear>κεφ</unclear><ex>αλὴ</ex></expan> <num value="1">α</num>
 <lb n="181"/><gap reason="lost" quantity="6" unit="character"/><unclear>κ</unclear><gap reason="illegible" quantity="2" unit="character"/> <expan>Φο<unclear>ι</unclear>β<ex>άμμωνος</ex></expan> <expan>κεφ<ex>αλαὶ</ex></expan> <num value="2">β</num>
@@ -288,12 +290,12 @@
 </ab></div>
 </div>
 <div n="11" subtype="page" type="textpart" xml:id="page_11"><head>Page 11</head>
-<div n="E" subtype="sheet" type="textpart"><ab>
+<div n="E" subtype="sheet" type="textpart" xml:id="sheet_E"><head>Sheet E</head><ab>
 <lb n="1"/><note xml:lang="en">the extant part is blank</note>
 </ab></div>
 </div>
 <div n="12" subtype="page" type="textpart" xml:id="page_12"><head>Page 12</head>
-<div n="F" subtype="sheet" type="textpart"><ab>
+<div n="F" subtype="sheet" type="textpart" xml:id="sheet_F"><head>Sheet F</head><ab>
 <lb n="199"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="199"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="200"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -314,17 +316,17 @@
 </ab></div>
 </div>
 <div n="13" subtype="page" type="textpart" xml:id="page_13"><head>Page 13</head>
-<div n="F" subtype="sheet" type="textpart"><ab>
+<div n="F" subtype="sheet" type="textpart" xml:id="sheet_F"><head>Sheet F</head><ab>
 <lb n="1"/><note xml:lang="en">lost of not present at all</note>
 </ab></div>
 </div>
 <div n="14" subtype="page" type="textpart" xml:id="page_14"><head>Page 14</head>
-<div n="F" subtype="sheet" type="textpart"><ab>
+<div n="F" subtype="sheet" type="textpart" xml:id="sheet_F"><head>Sheet F</head><ab>
 <lb n="1"/><note xml:lang="en">lost of not present at all</note>
 </ab></div>
 </div>
 <div n="15" subtype="page" type="textpart" xml:id="page_15"><head>Page 15</head>
-<div n="E" subtype="sheet" type="textpart"><ab>
+<div n="E" subtype="sheet" type="textpart" xml:id="sheet_E"><head>Sheet E</head><ab>
 <lb n="213"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="213"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">κ</supplied><expan><unclear>εφ</unclear><ex>αλὴ</ex></expan> <num value="1"><unclear>α</unclear></num>
 <lb n="214"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">κ</supplied><expan><unclear>εφ</unclear><ex>αλὴ</ex></expan> <num value="1"><unclear>α</unclear></num>
@@ -358,7 +360,7 @@
 </ab></div> 
 </div>
 <div n="16" subtype="page" type="textpart" xml:id="page_16"><head>Page 16</head>
-<div n="E" subtype="sheet" type="textpart"><ab>
+<div n="E" subtype="sheet" type="textpart" xml:id="sheet_E"><head>Sheet E</head><ab>
 <lb n="242"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="242"/><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low"><expan><ex>ταλαντ </ex></expan></supplied>
 <lb n="243"/>Πα<unclear>κ</unclear>ῦσις <unclear>Χ</unclear><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low"><expan><ex>ταλαντ </ex></expan></supplied>
@@ -385,7 +387,7 @@
 </ab></div> 
 </div>
 <div n="17" subtype="page" type="textpart" xml:id="page_17"><head>Page 17</head>
-<div n="D" subtype="sheet" type="textpart"><ab>
+<div n="D" subtype="sheet" type="textpart" xml:id="sheet_D"><head>Sheet D</head><ab>
 <lb n="262"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="262"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ε</unclear><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"><expan>νο<ex>μισματ </ex></expan> </supplied>
 <lb n="263"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"><expan>νο<ex>μισματ </ex></expan> </supplied>
@@ -411,7 +413,7 @@
 </ab></div> 
 </div>
 <div n="18" subtype="page" type="textpart" xml:id="page_18"><head>Page 18</head>
-<div n="D" subtype="sheet" type="textpart"><ab>
+<div n="D" subtype="sheet" type="textpart" xml:id="sheet_D"><head>Sheet D</head><ab>
 <lb n="281"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="281"/><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"><expan><ex>ταλαντ </ex></expan> </supplied>
 <lb n="282"/><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"><expan><ex>ταλαντ </ex></expan> </supplied>
@@ -446,7 +448,7 @@
 </ab></div>
 </div>
 <div n="19" subtype="page" type="textpart" xml:id="page_19"><head>Page 19</head>
-<div n="C" subtype="sheet" type="textpart"><ab>
+<div n="C" subtype="sheet" type="textpart" xml:id="sheet_C"><head>Sheet C</head><ab>
 <lb n="311"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="311"/><gap reason="lost" quantity="7" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><expan><ex>ταλαντ </ex></expan></supplied>
 <lb n="312"/><gap reason="lost" quantity="6" unit="character"/><unclear>σ</unclear><gap reason="illegible" quantity="6" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><expan><ex>ταλαντ </ex></expan></supplied>
@@ -457,22 +459,22 @@
 </ab></div>
 </div>
 <div n="20" subtype="page" type="textpart" xml:id="page_20"><head>Page 20</head>
-<div n="C" subtype="sheet" type="textpart"><ab>
+<div n="C" subtype="sheet" type="textpart" xml:id="sheet_C"><head>Sheet C</head><ab>
 <lb n="1"/><note xml:lang="en">the extant part is blank</note>
 </ab></div>
 </div>
 <div n="21" subtype="page" type="textpart" xml:id="page_21"><head>Page 21</head>
-<div n="B" subtype="sheet" type="textpart"><ab>
+<div n="B" subtype="sheet" type="textpart" xml:id="sheet_B"><head>Sheet B</head><ab>
 <lb n="1"/><note xml:lang="en">lost</note>
 </ab></div>
 </div>
 <div n="22" subtype="page" type="textpart" xml:id="page_22"><head>Page 22</head>
-<div n="B" subtype="sheet" type="textpart"><ab>
+<div n="B" subtype="sheet" type="textpart" xml:id="sheet_B"><head>Sheet B</head><ab>
 <lb n="1"/><note xml:lang="en">lost</note>
 </ab></div>
 </div>
 <div n="23" subtype="page" type="textpart" xml:id="page_23"><head>Page 23</head>
-<div n="A" subtype="sheet" type="textpart"><ab>
+<div n="A" subtype="sheet" type="textpart" xml:id="sheet_A"><head>Sheet A</head><ab>
 <lb n="317"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="317"/><gap reason="lost" extent="unknown" unit="character"/> <expan><ex>ταλάντων</ex></expan> <num value="6000"><unclear>ς</unclear></num>
 <lb n="318"/> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><expan><ex>ταλάντων</ex></expan></supplied>  <num value="6000"><unclear>ς</unclear></num>
@@ -488,7 +490,7 @@
 </ab></div>
 </div>
 <div n="24" subtype="page" type="textpart" xml:id="page_24"><head>Page 24</head>
-<div n="A" subtype="sheet" type="textpart"><ab>
+<div n="A" subtype="sheet" type="textpart" xml:id="sheet_A"><head>Sheet A</head><ab>
 <lb n="327"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="327"/><unclear>Πελλ</unclear><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low"><expan><ex>ταλαντ </ex></expan> </supplied>
 <lb n="328"/><supplied reason="lost">Π</supplied>αχῦμ<unclear>ι</unclear><supplied reason="lost">ς<gap reason="illegible" extent="unknown" unit="character"/></supplied> <supplied reason="lost" cert="low"><expan><ex>ταλαντ </ex></expan> </supplied>

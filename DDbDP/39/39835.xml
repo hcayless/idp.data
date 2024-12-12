@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0154;4;1562" xml:id="p.lond.4.1562" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0154;4;1562" xml:id="p.lond.4.1562" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,7 +58,7 @@ Switch to Coptic as main language on the verso?; lin10=&gt; add 10. lost.?lin; �
          <head><ref target="https://papyri.info/pub/p.lond/4/1562">P.Lond. 4 1562</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="1" subtype="column" type="textpart"><ab>
+<div n="1" subtype="column" type="textpart" xml:id="column_1"><head>Column 1</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="1"/><space extent="unknown" unit="character"/> 
@@ -77,7 +79,7 @@ Switch to Coptic as main language on the verso?; lin10=&gt; add 10. lost.?lin; �
 
     <lb n="9"/><expan>δ<ex>ιὰ</ex></expan> <gap reason="lost" quantity="3" unit="character"/>αμο<gap reason="lost" extent="unknown" unit="character"/> 
 </ab></div>
-<div n="2" subtype="column" type="textpart"><ab>
+<div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
 
     <lb n="1"/><expan>δ<ex>ιὰ</ex></expan> <expan>Ἑρμαῶ<ex>τος</ex></expan> Ἀπατηρ <expan>νο<ex>μίσματος</ex></expan> <num value="1/6" rend="tick">ϛ</num> <gap reason="lost" extent="unknown" unit="character"/> 

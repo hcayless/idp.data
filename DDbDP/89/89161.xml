@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -65,7 +67,7 @@
 <lb n="7"/><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>υφορος
 </ab></div> 
 <div n="1back" subtype="fragment" type="textpart" xml:id="fragment_1back"><head>Fragment 1back</head>
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>α<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>α<gap reason="illegible" quantity="1" unit="character"/>ασαις
 <lb n="3"/><unclear>με</unclear>θαις 
@@ -73,7 +75,7 @@
 <lb n="5"/><supplied reason="lost">Κ</supplied><unclear>έ</unclear>ρδων
 <lb n="6"/><gap reason="illegible" quantity="2" unit="character"/><unclear>θ</unclear>αις
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab> 
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab> 
 <lb n="1"/>Αρ<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/>α<gap reason="lost" extent="unknown" unit="character"/>
 </ab></div> 

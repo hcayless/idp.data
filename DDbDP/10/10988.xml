@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0205;1;32" xml:id="p.stras.1.32" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0205;1;32" xml:id="p.stras.1.32" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,7 +46,7 @@
       <body>
          <head><ref target="https://papyri.info/pub/p.stras/1/32">P.Strasb. I 32</ref> = <ref target="https://papyri.info/pub/p.flor/2/134">P.Flor. 2 134 **</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
-<div n="v" type="textpart" xml:id="_v"><head>v</head> <div n="1" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head> <div n="1" type="textpart" xml:id="_1"><head>1</head><ab>
 <lb n="1"/><handShift new="m1"/> <expan>π<ex>αρὰ</ex></expan> Ἀλυπίου. 
 <lb n="2"/>Μάξιμον τὸν φροντιστὴν τοῦ <app type="editorial"><lem>Πάκι</lem><rdg><gap reason="lost" quantity="1" unit="character"/>πα<unclear>κ</unclear>ι<gap reason="lost" quantity="1" unit="character"/></rdg></app> ἀπέστει<unclear>λ</unclear>α πρὸς σέ, 
 <lb n="3"/>ἵνα αὐτῷ ἄροτρον γένηται καθʼ ἃ ἔγραψα καὶ Ἑρμᾷ, ἔπεμ
@@ -57,7 +59,7 @@
 <lb n="10" break="no"/>σχεν, ἵνα οὕτως αὐτῷ ἐνλογηθῇ. σπουδὴ δέ σοι γενέ
 <lb n="11" break="no"/>σθω καὶ τὴν <supplied reason="lost">ὑ</supplied>πηρεσίαν τῷ φροντι<supplied reason="lost">στ</supplied>ῇ παρασχεῖν σὺν ᾧ 
 <lb n="12"/>ἐπάγεται κτηνυδρίῳ, καὶ ζυγὸν δὲ ἐνάγων παρά σοι 
-</ab></div><div n="2" type="textpart"><ab>
+</ab></div><div n="2" type="textpart" xml:id="_2"><head>2</head><ab>
 <lb n="13"/>τὸν ἐπιτηδειότερον αὐτῷ παρά
 <lb n="14" break="no"/>σχες, τὸν ἴσον σεαυτῷ ποιήσας 
 <lb n="15"/>εἰς τὰ παρά σοι ἔργα — ἀλλὰ μὴ 

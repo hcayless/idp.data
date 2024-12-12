@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,7 +47,7 @@
          <head><ref target="https://papyri.info/pub/p.sijp/36">P.Sijp. 36</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <expan><unclear>κ</unclear><ex>εράτια</ex></expan> <num value="7">ζ</num> <num value="1/4">δ</num> <g type="slanting-stroke"/>
 <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <expan>νο<ex>μίσματα</ex></expan> <num value="2">β</num> <expan>κ<ex>εράτια</ex></expan> <num value="11">ια</num>   
@@ -72,7 +74,7 @@
 <lb n="24"/><gap reason="lost" extent="unknown" unit="character"/> <num value="4"><unclear>δ</unclear></num> <g type="slanting-stroke"/>
 <lb n="25"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
 <lb n="26"/><gap reason="lost" quantity="4" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="27"/><gap reason="lost" quantity="4" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/> <expan>διάκονο<ex>ς</ex></expan> <gap reason="illegible" quantity="3" unit="character"/> <expan>κ<ex>εράτια</ex></expan> <num value="7">ζ</num> <num value="1/2">𐅵 </num> <num value="1/4">δ</num> <g type="slanting-stroke"/>
 <lb n="28"/><app type="editorial"><lem resp="N. Gonis, AnalPap 30 (2018) 208"><expan><unclear>Ἀ</unclear>βρ<supplied reason="lost"><ex>αὰμ</ex></supplied></expan></lem><rdg><app type="alternative"><lem>Ὧρ</lem><rdg><expan>Ὥρ<supplied reason="lost"><add place="above">ο</add><ex>υ</ex></supplied></expan></rdg></app></rdg></app> <expan>σαμιάτωρο<ex>ς</ex></expan> <expan><unclear>κ</unclear><ex>εράτια</ex></expan> <num value="15">ιε</num> <num value="1/2">𐅵<unclear> </unclear></num> <num value="1/4"><unclear>δ</unclear></num> <g type="slanting-stroke"/>
@@ -102,7 +104,7 @@
 <lb n="52"/><expan>Γε<ex>ωργίου</ex></expan> ῥάπτου <g type="slanting-stroke"/><g type="slanting-stroke"/> <expan>κ<ex>εράτια</ex></expan> <num><gap reason="lost" extent="unknown" unit="character"/></num>
 <lb n="53"/><expan>γαμε<ex>τὴ</ex></expan> <expan><unclear>Γ</unclear>ε<ex>ωργίου</ex></expan> <gap reason="illegible" quantity="3" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
-<div n="iii" subtype="column" type="textpart"><ab>
+<div n="iii" subtype="column" type="textpart" xml:id="column_iii"><head>Column iii</head><ab>
 <lb n="54"/><gap reason="lost" extent="unknown" unit="character"/> <num value="19"><gap reason="lost" quantity="1" unit="character"/>θ<certainty match="../@value" locus="value"/></num>
 <lb n="55"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> Θεοδώρου <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> <expan>νο<ex>μίσματα</ex></expan> <num value="13">ιγ</num> <expan>κ<ex>εράτιον</ex></expan> <num value="1/2">𐅵 </num>
 <lb n="56"/><expan>γαμε<ex>τὴ</ex></expan> <expan><unclear>Κύρ</unclear><ex>ου</ex></expan> <app type="alternative"><lem><abbr>μαγίστ<gap reason="lost" extent="unknown" unit="character"/></abbr></lem><rdg>μαγίστρου</rdg><rdg>μαγιστριανοῦ</rdg></app> <expan>νό<ex>μισμα</ex></expan> <num value="1">α</num> <expan>κ<ex>εράτιον</ex></expan> <num value="1/2">𐅵 </num>

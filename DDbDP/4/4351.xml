@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -75,7 +77,7 @@ Ch. Armoni, ZPE 216 (2020) 197</change>
     <lb n="11"/>τραχήλωι ἐὰν Νικάνωρ <unclear>ἢ</unclear> <unclear>Θε</unclear>ό<unclear>φ</unclear><supplied reason="lost">ιλος</supplied> ἐπέλθ<supplied reason="lost">ωσιν ἐ</supplied>πὶ τοὺ<unclear>ς</unclear> <unclear>τόπο</unclear>υ<unclear>ς</unclear>. ἔρρωσο, <expan><ex>ἔτους</ex></expan> <num value="38">λη</num> ἐπ<unclear>αγομένων</unclear> <num value="1">α</num>.
 
 </ab></div><div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
 
     <lb n="12"/>παρὰ ἀρχιτέκτονος 
 
@@ -84,7 +86,7 @@ Ch. Armoni, ZPE 216 (2020) 197</change>
     <lb n="14" break="no"/>δωρ ἐπὶ τὴν <gap reason="illegible" quantity="5" unit="character"/>  Ἀρ<supplied reason="lost">ιστά</supplied>ρχ<supplied reason="lost">ωι</supplied> 
 
     <lb n="15"/>σπειαρωμι ἄγειν </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
     <lb n="14"/>Ἀρ<supplied reason="lost">ιστά</supplied>ρχ<supplied reason="lost">ωι</supplied> 
 </ab></div>
 </div></div>

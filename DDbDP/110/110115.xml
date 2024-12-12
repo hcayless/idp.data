@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -53,7 +55,7 @@
 </ab></div>
 
 <div n="B" subtype="fragment" type="textpart" xml:id="fragment_B"><head>Fragment B</head> 
-<div n="I" subtype="column" type="textpart"><ab>
+<div n="I" subtype="column" type="textpart" xml:id="column_I"><head>Column I</head><ab>
 <lb n="8"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>π<gap reason="illegible" quantity="4" unit="character"/>
 <lb n="9"/><space extent="unknown" unit="character"/>
@@ -68,7 +70,7 @@
 <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/>ωι
 <lb n="18"/><gap reason="lost" extent="unknown" unit="character"/> ἔλασσον <abbr>χ</abbr> <num value="4">δ</num>
 </ab></div>
-<div n="II" subtype="column" type="textpart"><ab>
+<div n="II" subtype="column" type="textpart" xml:id="column_II"><head>Column II</head><ab>
 <lb n="19"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="19"/><space extent="unknown" unit="character"/> 
 <lb n="19"/>Ἀρτεμ<gap reason="lost" extent="unknown" unit="character"/>
@@ -84,7 +86,7 @@
 </div>
 
 <div n="C" subtype="fragment" type="textpart" xml:id="fragment_C"><head>Fragment C</head> 
-<div n="I" subtype="column" type="textpart"><ab>
+<div n="I" subtype="column" type="textpart" xml:id="column_I"><head>Column I</head><ab>
 <lb n="28"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="28"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="29"/><gap reason="lost" extent="unknown" unit="character"/>ιππο<supplied reason="lost">ς </supplied><gap reason="lost" extent="unknown" unit="character"/>
@@ -94,7 +96,7 @@
 <lb n="33"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>Π</unclear>λάτων
 <lb n="34"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> Ἀ</supplied><unclear>κά</unclear>μαντι
 </ab></div>
-<div n="II" subtype="column" type="textpart"><ab>
+<div n="II" subtype="column" type="textpart" xml:id="column_II"><head>Column II</head><ab>
 <lb n="35"/><unclear>Κ</unclear>τήσωνι <space extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="36"/><add place="left">απο<gap reason="illegible" quantity="2" unit="character"/></add> <gap reason="illegible" quantity="2" unit="character"/><unclear>ε</unclear>νωι <space extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="37"/><gap reason="illegible" quantity="3" unit="character"/>ωι <space extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>

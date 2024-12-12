@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0198;2;87" xml:id="p.ryl.2.87" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0198;2;87" xml:id="p.ryl.2.87" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,10 +47,10 @@
       <body>
          <head><ref target="https://papyri.info/pub/p.ryl/2/87">P.Ryl. 2 87</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
     <lb n="9/11"/><unclear>Ι</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="2" unit="character"/><unclear>ων</unclear> Σωτηρίχου καὶ <expan>Διονύσιο<ex>ς</ex></expan> ἀδελφὸς Φ<gap reason="illegible" quantity="4" unit="character"/><unclear>ας</unclear> <expan>ὑπολ<ex>όγου</ex></expan> προσόδου <expan>ὑπαρχόντ<ex>ων</ex></expan> <expan><ex>πρότερον</ex></expan> Ἡρ<gap reason="illegible" quantity="3" unit="character"/> 
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
     <lb n="00"/>Ἀλιλᾶις 
     <lb n="00"/>Θμοιναχή 
 </ab></div></div>

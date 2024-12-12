@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;10;75" xml:id="stud.pal.10.75" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;10;75" xml:id="stud.pal.10.75" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,7 +54,7 @@
          <head><ref target="https://papyri.info/pub/stud.pal/10/75">SPP 10 75</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="A" subtype="part" type="textpart"><ab> 
+<div n="A" subtype="part" type="textpart" xml:id="part_A"><head>Part A</head><ab> 
     <lb n="1"/><expan>δ<ex>ιὰ</ex></expan> Κοσμᾶ <choice><reg>φανάπτου</reg><orig>φανατ<add place="above">η</add></orig></choice> <expan>Ἁγί<ex>ου</ex></expan> Μ<gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="2"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> 
@@ -69,7 +71,7 @@
 
     <lb n="8"/><expan><ex>καὶ</ex></expan> <expan>δ<ex>ιὰ</ex></expan> Μηνᾶ <choice><reg>φανάπτου</reg><orig>φανατ<add place="above">η</add></orig></choice> τοῦ <expan>Ἁγίο<ex>υ</ex></expan> <expan>Ἰωσ<ex>ὴφ</ex></expan> <g type="unintelligible"/> <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> <expan>κ<supplied reason="lost">ν<ex>ί</ex>δ<ex>ιον</ex></supplied></expan> <num value="1">α</num> 
 </ab></div>
-<div n="B" subtype="part" type="textpart"><ab> 
+<div n="B" subtype="part" type="textpart" xml:id="part_B"><head>Part B</head><ab> 
     <lb n="1"/><handShift new="m2"/> <g type="rho-cross"/> ἐκκλησίας τοῦ Ἁγίου Ἀποστόλου κοληφάνι
 
     <lb n="2" break="no"/>α <num value="12">ιβ</num> εἰς <choice><reg>δένδρια</reg><orig>τέντρι<lb n="9" break="no"/>α</orig></choice> <num value="120">ρκ</num> ἐκκλησία τοῦ Ἁγίου 
@@ -82,7 +84,7 @@
     </ab></div>
 </div> 
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="C" subtype="part" type="textpart"><ab> 
+<div n="C" subtype="part" type="textpart" xml:id="part_C"><head>Part C</head><ab> 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> ἐκκ</supplied>λ<supplied reason="lost">ησ</supplied>ίας τ<supplied reason="lost">οῦ </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> εἰς <choice><reg>δένδρια</reg><orig>τένδρια</orig></choice> <num value="102">ρβ</num> <gap reason="lost" extent="unknown" unit="character"/> 

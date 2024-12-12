@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,7 +47,7 @@
          <head><ref target="https://papyri.info/pub/sb/26/16763col2">SB 26 16763 Kol. II</ref> = <ref target="https://papyri.info/pub/p.vind.bosw/14">P.Vindob. Bosw. 14</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
     <lb n="12"/><expan>ἀ<ex>ντίγραφον</ex></expan>·  
     <lb n="13"/>τὴν ὑπηρεσίαν τῶν ἐπὶ τῆς Μέμφιδος καὶ Βαβυλῶ<unclear>νος</unclear> κα<unclear>θεστη</unclear>
     <lb n="14" break="no"/>κότων πολυκώπων ἀναγκαίαν εἶναι οὐδὲ αὐτὸς ἀμφιβάλλεις. 

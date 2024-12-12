@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,7 +47,7 @@
          <head><ref target="https://papyri.info/pub/p.iand.zen/36">P.Iand. Zen. 36</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head> 
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>τ</unclear>ου <app type="alternative"><lem><gap reason="illegible" quantity="2" unit="character"/>ου<unclear>κ</unclear><gap reason="lost" extent="unknown" unit="character"/></lem><rdg><unclear>νέ</unclear>ου <unclear>κ</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg></app>
@@ -61,7 +63,7 @@
 <lb n="12"/><supplied reason="lost">τ</supplied><unclear>ῆς</unclear> πίσσης τῶν <unclear>ἀχρεί</unclear><supplied reason="lost">ω</supplied><unclear>ν</unclear> <unclear>γ</unclear>ενομένων τελέως.
 </ab></div>
 
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
 <lb n="13"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="13"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
 <lb n="14"/>παρα<gap reason="lost" extent="unknown" unit="character"/>
@@ -73,7 +75,7 @@
 </div>
 
 <div n="v" type="textpart" xml:id="_v"><head>v</head> 
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>γ<unclear>ω</unclear>γ<unclear>η</unclear><gap reason="illegible" quantity="1" unit="character"/>ου
 <lb n="2"/><space extent="unknown" unit="character"/>
@@ -85,7 +87,7 @@
 
 </ab></div>
  
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
 <lb n="7"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="7"/>κ<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="8"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>

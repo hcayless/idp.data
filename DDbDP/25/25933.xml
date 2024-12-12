@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;22;15708" xml:id="sb.22.15708" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;22;15708" xml:id="sb.22.15708" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -53,7 +55,7 @@
          <head><ref>P.Oxy. XVIII 2190</ref> = <ref target="https://papyri.info/pub/sb/22/15708">SB 22 15708</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="1" subtype="column" type="textpart"><ab>
+<div n="1" subtype="column" type="textpart" xml:id="column_1"><head>Column 1</head><ab>
     <lb n="1"/><gap reason="lost" quantity="10" unit="character"/><supplied reason="lost"> Θ</supplied>έωνι τῶι κυρίωι πατρὶ
 
     <lb n="2"/><gap reason="lost" atLeast="10" atMost="12" unit="character"/><supplied reason="lost"> </supplied> <space extent="unknown" unit="character"/> χαίρειν.
@@ -112,7 +114,7 @@
 
     <lb n="29"/>ἔρχεσθ<unclear>αι</unclear> οὗ<unclear>το</unclear>ς, ὃς ἐπὶ τῆς χώρας <unclear>κ</unclear>αθηγεῖτο.
 </ab></div>
-<div n="2" subtype="column" type="textpart"><ab>
+<div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head><ab>
     <lb n="30"/>τοῦτο οὖν εἰδώς - ὅτι, πλὴν τοῦ μάτην μισθοὺς πλείονας
 
     <lb n="31"/>τελεῖν, ἀπὸ καθηγητοῦ οὐδὲν ὄφελος, ἀλλὰ ἀπʼ ἐμαυτοῦ

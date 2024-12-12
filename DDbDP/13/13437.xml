@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0205;8;731" xml:id="p.stras.8.731" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0205;8;731" xml:id="p.stras.8.731" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,11 +42,11 @@
    <text>
       <body>
          <head><ref target="https://papyri.info/pub/p.stras/8/731">P.Strasb. 8 731</ref></head>
-         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><div n="a" type="textpart"><ab>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head><div n="a" type="textpart" xml:id="_a"><head>a</head><ab>
 
-    <lb n="1" rend="inverse"/> <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>  <num value="112">ριβ</num> </ab></div><div n="b" type="textpart"><ab>
+    <lb n="1" rend="inverse"/> <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>  <num value="112">ριβ</num> </ab></div><div n="b" type="textpart" xml:id="_b"><head>b</head><ab>
 
-    <lb n="1" rend="inverse"/> <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> </ab></div><div n="c" type="textpart"><ab>
+    <lb n="1" rend="inverse"/> <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> </ab></div><div n="c" type="textpart" xml:id="_c"><head>c</head><ab>
 
     <lb n="1"/><unclear>π</unclear>α<unclear>ρὰ</unclear> <expan><unclear>Αὐ</unclear><supplied reason="lost">ρ<ex>ηλίων</ex></supplied></expan> Δίων<unclear>ος</unclear> <unclear>καὶ</unclear> <supplied reason="lost">Διο</supplied>σκόρου κ<unclear>α</unclear>ὶ 
 
@@ -69,7 +71,7 @@
     <lb n="11"/>κατ<gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="12"/><unclear>κο</unclear>ν<gap reason="lost" extent="unknown" unit="character"/></ab></div>
-<div n="v" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><gap reason="illegible" quantity="8" unit="line"/> 
 

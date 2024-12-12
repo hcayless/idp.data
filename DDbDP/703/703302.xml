@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -89,7 +91,7 @@
     <lb n="22"/> <gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>φ<gap reason="illegible" quantity="1" unit="character"/><unclear>τρ</unclear><gap reason="illegible" quantity="1" unit="character"/>
@@ -112,7 +114,7 @@
 
     <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><unclear>κων</unclear> <unclear>σ</unclear><gap reason="illegible" quantity="1" unit="character"/><abbr>α</abbr>
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>φ<gap reason="illegible" quantity="2" unit="character"/>ω<unclear>ν</unclear> <abbr>Ἀσκλη</abbr>
 
     <lb n="2"/>ἀλλοφύλλων <num value="800"><unclear>ω</unclear></num>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,8 +47,8 @@
          <head><ref target="https://papyri.info/pub/p.louvre/3/173">P.Louvre 3 173</ref> = <ref target="https://papyri.info/pub/sb/26/16641">SB XXVI 16641</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="I" type="textpart" xml:id="_I"><head>I</head>
-<div n="r" type="textpart">
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="r" type="textpart" xml:id="_r"><head>r</head>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
     <lb n="1"/>Σεμπρώ<supplied reason="lost">νιος Λιβερᾶλις στρατηγοῖς</supplied> <num value="9">ζ</num> νομῶν κ<unclear>αὶ</unclear> <expan><supplied reason="lost">Ἀ</supplied><unclear>ρ</unclear>σι<ex>νοίτου</ex></expan> <expan>χ<ex>αίρειν</ex></expan>.
 
     <lb n="2"/>Πολλ<unclear>ά</unclear><supplied reason="lost">κις ἐνέτυχόν μοί τινες αἰτι</supplied><unclear>ώ</unclear>μενοι τ<supplied reason="lost">ο</supplied>ὺς πρά<unclear>κ</unclear>τορας

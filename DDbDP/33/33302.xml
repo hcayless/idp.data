@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0143;1;12" xml:id="p.kell.1.12" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0143;1;12" xml:id="p.kell.1.12" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,7 +54,7 @@
          <head><ref target="https://papyri.info/pub/p.kell/1/12">P.Kell. 1 12</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="1" subtype="fragment" type="textpart" xml:id="fragment_1"><head>Fragment 1</head>
-<div n="r" type="textpart"><ab>
+<div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
     <lb n="1"/>τῶι κυρίωι μου πατρὶ <supplied reason="lost">Τιθοῆτι</supplied> 
 
     <lb n="2"/><space extent="unknown" unit="character"/> Σαμοῦν χαίρειν. πρὸ π<unclear>α</unclear><supplied reason="lost">ντὸς</supplied> 
@@ -137,7 +139,7 @@
     <lb n="34"/><space extent="unknown" unit="character"/> πάτερ, πολλοῖς <supplied reason="lost">χρόνοις</supplied>. 
 </ab></div>
 <div n="1" subtype="fragment" type="textpart" xml:id="fragment_1"><head>Fragment 1</head>
-<div n="v" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
     <lb n="35"/>τῶι κυρίωι μου <g type="x"/> Τι<supplied reason="lost">θοῆτι</supplied> 
 
     <lb n="36"/>πατρὶ <g type="x"/> Σ<unclear>αμ</unclear><supplied reason="lost">οῦν</supplied> 

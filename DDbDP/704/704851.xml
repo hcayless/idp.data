@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,7 +46,7 @@
          <head><ref target="https://papyri.info/pub/p.koeln/15/595v">P.Köln 15 595 V</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="A" subtype="fragment" type="textpart">
+<div n="A" subtype="fragment" type="textpart" xml:id="fragment_A"><head>Fragment A</head>
 <ab>
 <lb n="1"/><handShift new="m2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Μεχ</supplied><unclear>ε</unclear>ὶρ <num value="12"><hi rend="supraline"><unclear>ιβ</unclear></hi></num>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>ε<gap reason="illegible" quantity="1" unit="character"/> <num value="18">ιη</num>
@@ -56,7 +58,7 @@
 <lb n="7"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab>
 </div>
-<div n="B" subtype="fragment" type="textpart">
+<div n="B" subtype="fragment" type="textpart" xml:id="fragment_B"><head>Fragment B</head>
 <ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>

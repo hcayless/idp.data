@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,7 +48,7 @@ Please check symbols and strokes. Please add indentations and outdentations when
          <div type="commentary" subtype="frontmatter" xml:space="preserve"/>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1" rend="outdent"/>ἐπαρχί<supplied reason="lost">ας</supplied> <supplied reason="lost"><space extent="unknown" unit="character"/></supplied> <supplied reason="lost">Ἀ</supplied><unclear>ρ</unclear><supplied reason="lost">κα</supplied><unclear>δ</unclear><supplied reason="lost">ίας</supplied>
@@ -79,7 +81,7 @@ Please check symbols and strokes. Please add indentations and outdentations when
 
     <lb n="14"/><supplied reason="lost">ὑπ</supplied><unclear>ὲρ</unclear> <unclear>Θ</unclear><supplied reason="lost">έω</supplied>νος καὶ Μακαρίου <expan>δι<ex>ὰ</ex></expan> <expan>κλ<ex>ηρονόμων</ex></expan> <expan>μόδ<ex>ιοι</ex></expan> <num value="1500">Αφ</num>
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><gap reason="lost" quantity="8" unit="character" precision="low"/>
@@ -96,7 +98,7 @@ Please check symbols and strokes. Please add indentations and outdentations when
 </ab></div>
 </div>
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><supplied reason="lost">ὑπὲρ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><expan>μόδ<ex>ιοι</ex></expan></supplied> <num atLeast="9"><gap reason="lost" extent="unknown" unit="character"/><unclear>θ</unclear></num>
@@ -133,7 +135,7 @@ Please check symbols and strokes. Please add indentations and outdentations when
 
    <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><expan>μόδ<ex>ιοι</ex></expan></supplied> <num atLeast="500"><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>φ</num>
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="1"/><gap reason="lost" quantity="23" unit="character" precision="low"/> <supplied reason="lost"><expan>μόδ<ex>ιοι</ex></expan></supplied> <num value="1500"><unclear>Aφ</unclear></num>

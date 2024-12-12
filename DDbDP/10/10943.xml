@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,7 +56,7 @@ Please check if line 51 should start with *check*.</change>
          <head><ref target="https://papyri.info/pub/p.messeri/39">P.Messeri 39</ref> = <ref target="https://papyri.info/pub/p.flor/1/100">P.Flor. I 100</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="1" subtype="column" type="textpart"><ab>
+<div n="1" subtype="column" type="textpart" xml:id="column_1"><head>Column 1</head><ab>
     <lb n="1"/><supplied reason="lost"><expan>Αὐρηλ<ex>ίᾳ</ex></expan> Δημητρίᾳ Ποσιδωνίᾳ ματ</supplied>ρώνᾳ στολάτᾳ <expan>θυγ<ex>ατρὶ</ex></expan> Αὐρηλίου 
 
     <lb n="2"/><supplied reason="lost">Ποσιδωνίου <expan>γενομ<ex>ένου</ex></expan> <expan>ὑπομνημ<ex>ατογράφου</ex></expan> καὶ ὡς</supplied> <expan><supplied reason="lost">χρ</supplied>η<ex>ματίζει</ex></expan> διὰ τοῦ ἀνδρὸς <expan>Αὐρηλ<ex>ίου</ex></expan> Ἀπιανοῦ
@@ -119,7 +121,7 @@ Please check if line 51 should start with *check*.</change>
 
     <lb n="31" break="no"/><gap reason="lost" quantity="20" unit="character" precision="low"/><unclear>εσ</unclear>τη τῷ <expan><ex>πρότερον</ex></expan> μηνὶ <expan>μέτ<ex>ρα</ex></expan> <num value="3"><hi rend="supraline">γ</hi></num> 
 </ab></div>
-<div n="2" subtype="column" type="textpart"><ab>
+<div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head><ab>
     <lb n="32"/><g type="check"/> Κιννάμ<unclear>ῳ</unclear><gap reason="lost" extent="unknown" unit="character"/> 
 
     <lb n="33"/><g type="check"/> Ζωσίμῳ <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 

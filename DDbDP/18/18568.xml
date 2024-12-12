@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;4;1151" xml:id="bgu.4.1151" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0001;4;1151" xml:id="bgu.4.1151" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -53,7 +55,7 @@
          <head><ref>C.Pap.Jud. II 143</ref> = <ref>BGU 4 1151 I Z. 19 - 25</ref> = <ref>C.Pap.Jud. II 143</ref> = <ref>BGU 4 1151 II Z. 26 - 48</ref> = <ref>BGU 4 1151 II Z. 49 - 55</ref> = <ref target="https://papyri.info/pub/bgu/4/1151">BGU 4 1151 I Z. 1 - 18</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="1" type="textpart" xml:id="_1"><head>1</head>
-<div n="v" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
     <lb n="1"/><handShift new="m2" cert="low"/> <expan>κόλ<ex>λημα</ex></expan> 
 
     <lb n="2"/><handShift new="m1"/> Πρωτάρχωι 
@@ -90,7 +92,7 @@
 <milestone rend="paragraphos" unit="undefined"/>
     <lb n="18"/><expan><ex>ἔτους</ex></expan> <num value="17">ιζ</num> Καίσαρος <expan>Φαρμο<ex>ῦθι</ex></expan> <num value="17"><unclear>ιζ</unclear></num> 
 </ab></div>
-<div n="r" type="textpart"><ab>
+<div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
     <lb n="19"/>Ἀλέξανδρος Νικοδήμου 
 
     <lb n="20"/>Διονυσία Ἀρίστωνος 
@@ -107,7 +109,7 @@
 </ab></div>
 </div>
 <div n="2" type="textpart" xml:id="_2"><head>2</head>
-<div n="v" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
     <lb n="26"/><expan>Πρωτάρχ<ex>ωι</ex></expan> 
 
     <lb n="27"/>παρὰ <expan>Γαίο<ex>υ</ex></expan> <expan>Ἰουλίο<ex>υ</ex></expan> <expan>Φιλίο<ex>υ</ex></expan> καὶ <expan>π<ex>αρὰ</ex></expan> Ἀγαθοκλέους <supplied reason="lost">τοῦ</supplied> <add place="above">Σαρα<unclear>σινου</unclear></add> <del rend="erasure"><gap reason="illegible" quantity="6" unit="character"/></del> καὶ Λυ<unclear>κα</unclear><supplied reason="lost">ρίωνος</supplied> 
@@ -156,7 +158,7 @@
 <milestone rend="paragraphos" unit="undefined"/>
     <lb n="49"/><expan><ex>ἔτους</ex></expan> <num value="17">ιζ</num> Καίσαρος <expan>Φαρμο<ex>ῦθι</ex></expan> <num value="17"><unclear>ιζ</unclear></num> 
 </ab></div>
-<div n="r" type="textpart"><ab>
+<div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
     <lb n="49"/><gap reason="illegible" quantity="15" unit="character"/> 
 
     <lb n="50"/>καὶ Λυκαρίων <gap reason="illegible" quantity="7" unit="character"/> 

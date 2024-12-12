@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,7 +54,7 @@
          <head><ref target="https://papyri.info/pub/o.claud/4/849">O.Claud. 4 849</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="A" subtype="fragment" type="textpart" xml:id="fragment_A"><head>Fragment A</head> 
-<div n="1" subtype="part" type="textpart"><ab>
+<div n="1" subtype="part" type="textpart" xml:id="part_1"><head>Part 1</head><ab>
 <lb n="1"/><expan>Ἀντ<ex>ωνίῳ</ex></expan> Φλα<supplied reason="lost">ουιανῷ</supplied> <expan><supplied reason="lost">ἐ</supplied><unclear>π</unclear>άρχ<ex>ῳ</ex></expan> <supplied reason="lost">παρὰ τῶν</supplied>
 <lb n="2"/>ἐργα<unclear>ζομ</unclear>έ<supplied reason="lost">ν</supplied>ων ἐν <supplied reason="lost">μετάλλῳ Κλαυδια</supplied>
 <lb n="3" break="no"/>νῷ <supplied reason="lost">τῷ</supplied> κυρίῳ <space extent="unknown" unit="character"/> <expan><unclear>χ</unclear><ex>αίρειν</ex></expan><supplied reason="lost">. εὐαγγε</supplied>
@@ -62,7 +64,7 @@
 <lb n="7"/><expan>συνεπισχυσάντ<ex>ων</ex></expan> ἡμῖν <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="7"/><space extent="unknown" unit="line"/>
 </ab></div> 
-<div n="2" subtype="part" type="textpart"><ab>
+<div n="2" subtype="part" type="textpart" xml:id="part_2"><head>Part 2</head><ab>
 <lb n="8"/><del rend="erasure">ε <gap reason="illegible" quantity="13" unit="character" precision="low"/></del> <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="9"/>ἀπηρτι <gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
 <lb n="10"/>των <num value="21"><hi rend="supraline">κα</hi></num> ε<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -58,7 +60,7 @@
 
 </ab></div>
 <div n="3" subtype="fragment" type="textpart" xml:id="fragment_3"><head>Fragment 3</head>
-<div n="r" type="textpart"><ab>
+<div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 
 <lb n="5"/><gap reason="lost" extent="unknown" unit="line"/>
 
@@ -113,7 +115,7 @@
 <lb n="29"/><expan>γί<ex>νεται</ex></expan> <num value="20"><unclear>κ</unclear></num>
 </ab></div>
 
-<div n="v" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 <lb n="30"/><unclear><g type="stauros"/></unclear> <expan>κ<unclear>α</unclear>τα<unclear>γ</unclear>ρ<unclear>α</unclear><ex>φὴ</ex></expan> <expan>τῶ<ex>ν</ex></expan> <expan>π<unclear>εμ</unclear>φ<unclear>θ</unclear><ex>έντων</ex></expan> <supplied reason="lost"><expan>γαιδ<ex>αρίων</ex></expan> <expan><ex>καὶ</ex></expan></supplied> <gap reason="lost" extent="unknown" unit="character"/> <expan><unclear>ὀν</unclear><ex>α</ex>δ<ex>ίων</ex></expan> <num value="20">κ</num>
 </ab></div></div>
 

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,7 +45,7 @@
          <head><ref target="https://papyri.info/pub/p.count/1">P.Count 1</ref> = <ref target="https://papyri.info/pub/p.lille/1/10">P.Lille I 10</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="1" subtype="fragment" type="textpart"><ab>
+<div n="1" subtype="fragment" type="textpart" xml:id="fragment_1"><head>Fragment 1</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/> <expan><ex>γίνονται</ex></expan> <gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> τοῦ νομοῦ <gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="3"/><supplied reason="lost"><expan>ἀρσε<ex>νικὰ</ex></expan> </supplied><num value="23614">μυριάδες <num value="2"><supplied reason="lost">β</supplied></num> <num value="3614"><supplied reason="lost">Γχ</supplied>ι<unclear>δ</unclear></num></num> <expan>θη<ex>λυκὰ</ex></expan> <num value="25970">μυριάδες <num value="2">β</num><num value="5970"><unclear>Ε</unclear><supplied reason="lost">ϡ</supplied>ο</num> </num> <expan><ex>γίνονται</ex></expan> <num value="49584">μυριάδες <num value="4">δ</num> <num value="9584"><supplied reason="lost">Θ</supplied><unclear>φ</unclear><supplied reason="lost">πδ</supplied></num> </num>
@@ -75,11 +77,11 @@
 <lb n="29"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <expan>ἀρσε<ex>νικὰ</ex></expan> <num value="2">β</num> <expan>θη<ex>λυκὰ</ex></expan> <num value="2">β</num> <expan><ex>γίνονται</ex></expan> <num value="4">δ</num>
 <lb n="29"/><space extent="unknown" unit="line"/>
 </ab></div>
-<div n="2" subtype="fragment" type="textpart"><ab>
+<div n="2" subtype="fragment" type="textpart" xml:id="fragment_2"><head>Fragment 2</head><ab>
 <lb n="30"/><gap reason="lost" extent="unknown" unit="character"/> <expan><ex>γίνονται</ex></expan> <num value="195">ρϙε</num>
 <lb n="31"/><gap reason="lost" extent="unknown" unit="character"/> <expan><ex>γίνονται</ex></expan> <num value="14">ι<unclear>δ</unclear></num>
 </ab></div>
-<div n="3" subtype="fragment" type="textpart"><ab>
+<div n="3" subtype="fragment" type="textpart" xml:id="fragment_3"><head>Fragment 3</head><ab>
 <lb n="32"/><space extent="unknown" unit="line"/>
 <lb n="32"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> ἐ</supplied>ν τοῖς περὶ <app type="editorial"><lem>πόλιν</lem><rdg><expan>Λιμν<ex>αῖον</ex></expan></rdg></app>  καὶ <unclear>τ</unclear><supplied reason="lost">ῆς <expan>Ἡρ<ex>ακλείδου</ex></expan> <expan>με<ex>ρίδος</ex></expan></supplied>
 <lb n="33"/><supplied reason="lost"><expan>ἀρσενι<ex>κὰ</ex></expan> <num value="1760">Αψξ</num> </supplied><expan><supplied reason="lost">θ</supplied><unclear>ηλ</unclear>υ<ex>κὰ</ex></expan> <num value="1630">Αχλ</num> <expan><ex>γίνονται</ex></expan> <num atLeast="3390" atMost="3399">Γτϙ<gap reason="lost" extent="unknown" unit="character"/></num>
@@ -100,7 +102,7 @@
 <lb n="46"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"> προσ</supplied><unclear>γ</unclear>ε<unclear>γραμμ</unclear><supplied reason="lost">ένα</supplied>
 <lb n="46"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="4" subtype="fragment" type="textpart"><ab>
+<div n="4" subtype="fragment" type="textpart" xml:id="fragment_4"><head>Fragment 4</head><ab>
 <lb n="47"/><space extent="unknown" unit="line"/>
 <lb n="47"/>καὶ τῶν μισθοφόρων ἱππέ<unclear>ω</unclear><supplied reason="lost">ν </supplied><gap reason="lost" extent="unknown" unit="character"/> 
 <lb n="48"/>Ἑρμοκράτης ὁ γραμματε<supplied reason="lost">ὺς </supplied><gap reason="lost" extent="unknown" unit="character"/> 
@@ -118,7 +120,7 @@
 </ab></div>
 </div>
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="1" subtype="fragment" type="textpart"><ab>
+<div n="1" subtype="fragment" type="textpart" xml:id="fragment_1"><head>Fragment 1</head><ab>
 <lb n="59"/>Χρύσ<supplied reason="lost">ιππος </supplied><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="60"/>χαίρειν.
 <lb n="61"/><num atLeast="1000" atMost="1999">Α<gap reason="lost" extent="unknown" unit="character"/></num> <gap reason="lost" extent="unknown" unit="character"/>

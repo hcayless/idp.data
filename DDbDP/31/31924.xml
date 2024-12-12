@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0246;1;96" xml:id="p.bodl.1.96" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0246;1;96" xml:id="p.bodl.1.96" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,12 +45,12 @@
          <head><ref target="https://papyri.info/pub/p.bodl/1/96">P.Bodl. 1 96</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="FrA" type="textpart" xml:id="_FrA"><head>FrA</head>
-<div n="r" type="textpart"><ab>
+<div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> κακὰ τῶν πρε<supplied reason="lost" cert="low">βυτέρων </supplied><gap reason="lost" extent="unknown" unit="character"/>
 </ab></div>
 </div>
 <div n="FrB" type="textpart" xml:id="_FrB"><head>FrB</head>
-<div n="r" type="textpart"><ab>
+<div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
     <lb n="1"/><gap reason="illegible" quantity="6" unit="line"/>
 
     <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <abbr>ἐπαρχ</abbr> τὰ πραχθέντα
@@ -65,7 +67,7 @@
 
     <lb n="13"/><gap reason="illegible" quantity="2" unit="line"/>
 </ab></div>
-<div n="v" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 
     <lb n="1"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap> </ab></div>
 </div></div>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0092;1;59076" xml:id="p.cair.zen.1.59076" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0092;1;59076" xml:id="p.cair.zen.1.59076" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -66,7 +68,7 @@
 
     <lb n="7"/>ἔρρωσο.  <expan><ex>ἔτους</ex></expan> <num value="29">κθ</num>, Ξανδικοῦ <num value="10">ι</num>.
 </ab>
-    <div n="i" subtype="column" type="textpart"><ab> 
+    <div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab> 
     <lb n="8"/>Αἶμος ὡς <expan><ex>ἔτους</ex></expan> <num value="10">ι</num>
 
     <lb n="9"/>μελαγχρὴς
@@ -82,7 +84,7 @@
     <lb n="14"/>δεξιᾶι ἀπερίτμητος.
 </ab></div> 
 
-    <div n="ii" subtype="column" type="textpart"><ab> 
+    <div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab> 
     <lb n="8"/> Ἀτίκος ὡς <expan><ex>ἔτους</ex></expan> <num value="8">η</num> 
 
     <lb n="9"/>μελίχρους
@@ -98,7 +100,7 @@
     <lb n="14"/>δεξιὸν ἀπερίτμητος.
 </ab></div> 
 
-    <div n="iii" subtype="column" type="textpart"><ab>
+    <div n="iii" subtype="column" type="textpart" xml:id="column_iii"><head>Column iii</head><ab>
     <lb n="8"/>Ἀυδομος ὡς <expan><ex>ἔτους</ex></expan> <num value="10">ι</num>
 
     <lb n="9"/>μελανόφθαλμος
@@ -112,7 +114,7 @@
     <lb n="13"/>περιτετμημένος.
 </ab></div> 
 
-        <div n="iv" subtype="column" type="textpart"><ab>
+        <div n="iv" subtype="column" type="textpart" xml:id="column_iv"><head>Column iv</head><ab>
     <lb n="8"/>Ὀκαιμος ὡς <expan><ex>ἔτους</ex></expan> <num value="7">ζ</num>
 
     <lb n="9"/>τρογγυλοπρόσωπος

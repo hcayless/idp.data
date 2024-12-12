@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0198;4;625" xml:id="p.ryl.4.625" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0198;4;625" xml:id="p.ryl.4.625" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,7 +45,7 @@
       <body>
          <head><ref target="https://papyri.info/pub/p.ryl/4/625">P.Ryl. 4 625</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
 <lb n="1"/>Θεοφάνης     Ἀνυσίῳ 
 <lb n="2"/><app type="editorial"><lem resp="BL 6.124"><supplied reason="lost">υἱ</supplied>ῷ</lem><rdg><supplied reason="lost">τῶ κυρί</supplied>ῳ</rdg></app>  <supplied reason="lost">χαίρε</supplied><unclear>ι</unclear>ν·
 <lb n="3"/>ὁ <app type="editorial"><lem resp="BL 6.124">πάτ<supplied reason="lost">ρων</supplied></lem><rdg>πατ<supplied reason="lost">ήρ μο</supplied><unclear>υ</unclear></rdg></app> Διονύσιος <app type="editorial"><lem resp="BL 6.124"><supplied reason="lost">τῶ</supplied>ν ἄκτων</lem><rdg><supplied reason="lost">ἀγα</supplied>νακτῶν</rdg></app>
@@ -62,7 +64,7 @@
 <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 <lb n="17"/><gap reason="lost" extent="unknown" unit="line"/> 
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab> 
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab> 
 <lb n="17"/><unclear>κ</unclear>αὶ πρὸ τού<supplied reason="lost">το</supplied>υ
 <lb n="18"/><unclear>Σ</unclear>ιλβαν<supplied reason="lost">ῷ</supplied><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="19"/>φροντι<supplied reason="lost">στῇ</supplied><gap reason="lost" extent="unknown" unit="character"/>

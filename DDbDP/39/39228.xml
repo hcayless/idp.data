@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,14 +42,14 @@
          <head><ref target="https://papyri.info/pub/p.rain.unterricht/52">P.Rain. Unterricht 52</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head> 
-<div n="i" subtype="column" type="textpart"><ab> 
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab> 
 <lb n="1"/><choice><reg><expan>χωρ<ex>ίον</ex></expan></reg><orig><expan>χορ<ex>ίον</ex></expan></orig></choice> Πασββ<add place="above">ουου</add>
 <lb n="2"/>Πανση
 <lb n="3"/>κατ κρ<del rend="erasure"><gap reason="illegible" quantity="2" unit="character"/></del>
 <lb n="4"/><choice><reg><expan>χωρ<ex>ίον</ex></expan></reg><orig><expan>χορ<ex>ίον</ex></expan></orig></choice> <expan>χωρ<ex>ίον</ex></expan> <expan>Ὀν<ex>ν</ex>ιτῶ<ex>ν</ex></expan>
 <lb n="5"/>χ<gap reason="illegible" quantity="1" unit="character"/>
 </ab></div> 
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
 <lb n="6"/><expan>χωρ<ex>ίον</ex></expan> <gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="7"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="8"/>Ποῦσι <expan>Νειλάμμω<ex>νος</ex></expan>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;10;25" xml:id="stud.pal.10.25" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0240;10;25" xml:id="stud.pal.10.25" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,7 +50,7 @@
          <head><ref target="https://papyri.info/pub/stud.pal/10/25">SPP 10 25</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve"><div n="A" type="textpart" xml:id="_A"><head>A</head>
 
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
 
     <lb n="1"/><app type="editorial"><lem resp="A. Benaissa, Tyche 25 (2010) 206-207"><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap></lem><rdg/></app> 
 
@@ -118,7 +120,7 @@
   
     </ab></div>
 
-<div n="ii" subtype="column" type="textpart"><ab> 
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab> 
    <lb n="1"/><app type="editorial"><lem resp="A. Benaissa, Tyche 25 (2010) 206-207"><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
     <lb n="2"/><unclear>σι</unclear> <gap reason="lost" extent="unknown" unit="character"/>
     <lb n="3"/>τι

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,7 +41,7 @@
          <head><ref target="https://papyri.info/pub/bacps/27/71_6">BACPS 27 (2010) S. 71 Nr. 6</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="i" subtype="column" type="textpart"><ab> 
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab> 
     <lb n="1"/><expan>πραγµ<ex>ατεία</ex></expan> Μακαρί<supplied reason="lost">ο</supplied>υ Ἐλουρίωνος
 
     <lb n="2"/>∆εµᾶς Ἄµµωνος
@@ -62,7 +64,7 @@
 
     <lb n="11,md" rend="perpendicular"/> Μαρῖνος Θέωνος
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab> 
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab> 
     <lb n="1"/><expan>ἀσή<ex>µου</ex></expan> <expan>λί<ex>τραι</ex></expan> <num value="3">γ</num> <expan>ο<ex>ὐ</ex>γ<ex>κίαι</ex></expan> <num value="8">η</num>
 
     <lb n="2"/><expan>ἀσή<ex>µου</ex></expan> <expan>ο<ex>ὐ</ex>γ<ex>κίαι</ex></expan> <num value="10">ι</num>
@@ -87,7 +89,7 @@
 </ab></div>
 </div>
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
     <lb n="1"/><gap reason="illegible" quantity="8" unit="character"/>ο<gap reason="illegible" quantity="1" unit="character"/>ο<unclear>ις</unclear>
 
     <lb n="2"/><gap reason="illegible" quantity="1" unit="character"/><unclear>ε</unclear>µ<gap reason="illegible" quantity="1" unit="character"/>α αµ<unclear>µ</unclear>ω<gap reason="illegible" quantity="1" unit="character"/>ρ<gap reason="illegible" quantity="1" unit="character"/>
@@ -100,7 +102,7 @@
 
     <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
     <lb n="1"/><expan>ἀσή<ex>µου</ex></expan> <expan>ο<ex>ὐ</ex>γ<ex>κίαι</ex></expan>
 
     <lb n="2"/><expan>ἀσή<ex>µου</ex></expan> <expan>ο<ex>ὐ</ex>γ<ex>κίαι</ex></expan>

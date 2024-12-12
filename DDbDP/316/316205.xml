@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -45,7 +47,7 @@
          <head><ref target="https://papyri.info/pub/bgu/20/2841">BGU 20 2841</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="1" subtype="column" type="textpart">
+<div n="1" subtype="column" type="textpart" xml:id="column_1"><head>Column 1</head>
 <ab>
 <lb n="1"/><handShift new="m2"/>εγεν<unclear>ο</unclear><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" quantity="1" unit="character"/><unclear>υν</unclear><gap reason="lost" extent="unknown" unit="character"/>
@@ -63,7 +65,7 @@
 <lb n="14"/>εἰς τ<supplied reason="omitted">ὸ</supplied> <expan>βα<ex cert="low">σιλικὸν</ex></expan> <abbr>κα</abbr>
 </ab>
 </div>
-<div n="2" subtype="column" type="textpart">
+<div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head>
 <ab>
 <lb n="1"/><handShift new="m2" cert="low"/><expan><ex>ἔτους</ex></expan> <unclear>ς</unclear> <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><handShift new="m1"/>Σπ<supplied reason="lost">άρτακος</supplied> Σεμθεῖ <unclear>χα</unclear>ί<unclear>ρ</unclear>ει<unclear>ν</unclear>. ἐ<unclear>π</unclear><supplied reason="lost">ε</supplied><unclear>ὶ</unclear> επ<gap reason="illegible" quantity="2" unit="character"/>ση<gap reason="lost" quantity="6" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><add place="above">κ</add>ε <gap reason="lost" extent="unknown" unit="character"/>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,7 +42,7 @@
          <head><ref target="https://papyri.info/pub/o.krok/2/174">O.Krok. 2 174</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="convex" subtype="side" type="textpart" xml:id="side_convex"><head>Side convex</head>
-<div n="b" subtype="fragment" type="textpart"><ab>
+<div n="b" subtype="fragment" type="textpart" xml:id="fragment_b"><head>Fragment b</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <choice><reg>πλεῖσ<lb n="2" break="no"/><supplied reason="lost">τα</supplied></reg><orig>πλῖσ
 <lb n="2" break="no"/><supplied reason="lost">τα</supplied></orig></choice> <supplied reason="lost">χαίρειν.</supplied> <gap reason="lost" extent="unknown" unit="character"/><unclear>ε</unclear>νεισ
 <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> ὑμᾶς
@@ -48,7 +50,7 @@
 <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ιστε</unclear> <unclear>επι</unclear>
 <lb n="5" break="no"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="a" subtype="fragment" type="textpart"><ab>
+<div n="a" subtype="fragment" type="textpart" xml:id="fragment_a"><head>Fragment a</head><ab>
 <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/> αὐ
 <lb n="7" break="no"/>τῆς. <choice><reg>ἀσπάζονται</reg><orig>ἀσπάζο<unclear>υ</unclear>τε</orig></choice> ὑμ
 <lb n="8" break="no"/>ᾶς Ἡγεμονὶς καὶ <choice><reg>Σκνί<lb n="9" break="no"/>ψ</reg><orig>Σκίν
@@ -57,13 +59,13 @@
 </ab></div>
 </div>
 <div n="concave" subtype="side" type="textpart" xml:id="side_concave"><head>Side concave</head>
-<div n="b" subtype="fragment" type="textpart"><ab>
+<div n="b" subtype="fragment" type="textpart" xml:id="fragment_b"><head>Fragment b</head><ab>
 <lb n="1"/>ὁπο<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/>ταδ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="3"/>αν<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="3"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="a" subtype="fragment" type="textpart"><ab>
+<div n="a" subtype="fragment" type="textpart" xml:id="fragment_a"><head>Fragment a</head><ab>
 <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <expan><unclear>ἔρρω</unclear><ex>σο</ex></expan>.
 </ab></div>
 </div>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -97,7 +99,7 @@
     <lb n="22"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab>
 
-<div n="a" subtype="fragment" type="textpart"><ab>
+<div n="a" subtype="fragment" type="textpart" xml:id="fragment_a"><head>Fragment a</head><ab>
     <lb n="23"/><gap reason="lost" extent="unknown" unit="line"/>
 
     <lb n="23"/><gap reason="lost" extent="unknown" unit="character"/>ης <unclear>ὁπ</unclear>ότ<unclear>α</unclear>ν <unclear>ἀπο</unclear><gap reason="lost" extent="unknown" unit="character"/>

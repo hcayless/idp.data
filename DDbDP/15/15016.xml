@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,7 +51,7 @@ lin30: =&gt; &lt;:&lt;#μη  '=148#&gt;|ed|μβ:&gt;
          <head><ref>SPP XX 231</ref> = <ref target="https://papyri.info/pub/basp/58/391">BASP 58 (2021) S. 391</ref> = <ref target="https://papyri.info/pub/stud.pal/20/231">BASP 58 (2021) S. 391</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
     <lb n="1" rend="outdent"/> <g type="stauros"/> <expan>λόγ<ex>ος</ex></expan> <app type="editorial"><lem><expan>κυρ<ex>ί</ex>ου</expan></lem><rdg>κυροῦ</rdg></app> Ἡλία <expan>ζυγο<ex>στάτου</ex></expan> 
 
     <lb n="2"/><expan>οὕ<ex>τως</ex></expan>· 
@@ -102,7 +104,7 @@ lin30: =&gt; &lt;:&lt;#μη  '=148#&gt;|ed|μβ:&gt;
 
     <lb n="26"/><expan>π<ex>ιττάκιον</ex></expan> <num value="1">α</num> <expan><ex>κεράτια</ex></expan> <num value="15"><hi rend="diaeresis">ι</hi>ε</num> 
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
     <lb n="27"/>τοῦ <expan>αὐτ<ex>οῦ</ex></expan> 
 
     <lb n="28"/><app type="editorial"><lem><expan>οὕ<ex>τως</ex></expan>·</lem><rdg/></app>

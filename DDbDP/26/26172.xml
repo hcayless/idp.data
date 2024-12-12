@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0193;;1" xml:id="p.quseir.1" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0193;;1" xml:id="p.quseir.1" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,7 +48,7 @@
          <head><ref>SB 20 14248</ref> = <ref target="https://papyri.info/pub/p.quseir/1">P.Quseir 1</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="A" subtype="fragment" type="textpart" xml:id="fragment_A"><head>Fragment A</head>
-<div n="1" subtype="column" type="textpart"><ab>
+<div n="1" subtype="column" type="textpart" xml:id="column_1"><head>Column 1</head><ab>
     <lb n="1"/><num value="18"><supplied reason="lost">ι</supplied><unclear>η</unclear></num> οἱ αὐτοὶ ἄνδρες <num value="25">κε</num> 
 
     <lb n="2"/><supplied reason="lost"><num value="19">ιθ</num></supplied>  <unclear>ο</unclear>ἱ αὐτοὶ ἄνδρες <num value="25">κε</num> 
@@ -91,7 +93,7 @@
 
     <lb n="22"/><gap reason="lost" extent="unknown" unit="line"/> 
 </ab></div>
-<div n="2" subtype="column" type="textpart"><ab>
+<div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head><ab>
 
     <lb n="22"/><num value="23">κγ</num>    Ἰσίων Νεμερίου    <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
 

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -65,7 +67,7 @@
  </ab></div> 
 
  <div n="b" subtype="part" type="textpart" xml:id="part_b"><head>Part b</head>  
-<div n="1" subtype="col" type="textpart"><ab>
+<div n="1" subtype="col" type="textpart" xml:id="col_1"><head>Col 1</head><ab>
 <lb n="1"/><note xml:lang="en">vacat 10 cm</note>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>νιε<gap reason="illegible" quantity="1" unit="character"/> 
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -73,7 +75,7 @@
 <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <num value="50">ν</num> 
 <lb n="4"/><note xml:lang="en">vacat 15.5 cm</note>
 </ab></div> 
-<div n="2" subtype="col" type="textpart"><ab>
+<div n="2" subtype="col" type="textpart" xml:id="col_2"><head>Col 2</head><ab>
 <lb n="1"/><expan>ἀγό<ex>ρ </ex></expan> <abbr><unclear>ἀ</unclear><supplied reason="lost">ργ</supplied><unclear>υ</unclear></abbr> <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><g type="check"/> <num value="4">δ</num> <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="3"/><g type="check"/> <num value="20">κ</num> <gap reason="lost" extent="unknown" unit="character"/>

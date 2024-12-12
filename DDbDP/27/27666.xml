@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;18;13167" xml:id="sb.18.13167" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0239;18;13167" xml:id="sb.18.13167" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,11 +56,11 @@
          <head><ref>Tyche 26 (2011) S. 200</ref> = <ref target="https://papyri.info/pub/sb/18/13167">SB 18 13167</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
 
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
     <lb n="1"/><gap reason="illegible" quantity="3" unit="character"/><unclear>ο</unclear><gap reason="illegible" quantity="1" unit="character"/>μένων σου ἑτέρων ἐπ<supplied reason="lost">ι</supplied>τρ<unclear>ό</unclear>πων ἢ φροντιστῶν καὶ στήσας
 
     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>δ</unclear>ώσω <choice><reg>καμηλίτηι</reg><orig>καμηλείτηι</orig></choice> ἀ<unclear>ξι</unclear>οχρ<unclear>έ</unclear>ωι πρὸς ἐπίθεσιν τῆς εἰς Κόπτον
@@ -112,7 +114,7 @@
     <lb n="26"/><supplied reason="lost">τ</supplied>ε καὶ πλεονάσματος πρὸς ἐμὲ τὸν δεδανεισμένον κ<unclear>αὶ</unclear> ὑποτεθει-
 </ab></div>
 
-<div n="iii" subtype="column" type="textpart"><ab>
+<div n="iii" subtype="column" type="textpart" xml:id="column_iii"><head>Column iii</head><ab>
     <lb n="27"/><supplied reason="lost">μένον ὄντος</supplied> <gap reason="lost" extent="unknown" unit="character"/>
 
     <lb n="28"/><gap reason="lost" extent="unknown" unit="line"/>
@@ -120,7 +122,7 @@
 </div>
 
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><expan><ex>τάλαντα</ex></expan></supplied> <gap reason="lost" extent="unknown" unit="character"/> <expan>μν<ex>αῖ</ex></expan> <num value="59">νθ</num>
 
     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><expan><ex>τάλαντα</ex></expan></supplied> <gap reason="lost" extent="unknown" unit="character"/> <expan>μν<ex>αῖ</ex></expan> <num value="14"><unclear>ι</unclear>δ</num> <num value="3/4" rend="tick">𐅸</num>
@@ -178,7 +180,7 @@
     <lb n="28"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/>ν
 </ab></div>
 
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
     <lb n="1"/>νάρδου Γανγιτικῆς κιστῶν <num value="60">ξ</num> ὧν ὁμοίως
 
     <lb n="2"/>τιμὴ λογίζεται ὡς τῆς κίστης <expan><ex>δραχμῶν</ex></expan> <num value="4500">Δφ</num> ἀργυρί

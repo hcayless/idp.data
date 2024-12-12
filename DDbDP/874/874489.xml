@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,7 +45,7 @@
          <head><ref target="https://papyri.info/pub/bifao/117/105_4">BIFAO 117 (2017) S. 105 Nr. 4</ref></head>
          <div xml:lang="cop" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="A" subtype="fragment" type="textpart"><ab>
+<div n="A" subtype="fragment" type="textpart" xml:id="fragment_A"><head>Fragment A</head><ab>
 <lb n="1"/><g type="stauros"/> <hi rend="supraline">ⲛ</hi>ⲧⲉⲣⲓⲧⲛⲛⲟⲟⲩ <choice><reg xml:lang="grc">νόμισμα</reg><orig><expan>ⲛⲟ<ex>ⲙⲓⲥⲙⲁ</ex></expan></orig></choice> <num value="36">ⲗⲋ</num> ⲛⲧⲉⲧⲛ<choice><reg xml:lang="grc">ἐνδοξότης </reg><orig><expan>ⲉⲛⲇⲟⲝ<ex>ⲟⲧⲏⲥ</ex></expan></orig></choice> ⲛϫⲟ<supplied reason="lost">ⲉⲓⲥ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><choice><reg xml:lang="grc">φυλακή</reg><orig>ⲫ<unclear>ⲩ</unclear>ⲗⲗⲁⲅⲏ</orig></choice> ϫⲓⲛ ⲡⲕⲟⲩⲓ ϣⲁ ⲡⲛⲟϭ ⲉϣⲱⲡⲉ <unclear>ⲉ</unclear><supplied reason="lost">ⲕϣⲁⲛ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
 <lb n="3"/><choice><reg xml:lang="grc">κελεύειν</reg><orig>ⲕⲉⲗⲉⲩⲉ</orig></choice> ⲁⲩⲱ ⲟⲛ ⲉϣⲱⲡⲉ ⲉⲕϣⲁⲛ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -62,7 +64,7 @@
 <lb n="16"/><gap reason="lost" quantity="5" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="16"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="B" subtype="fragment" type="textpart"><ab>
+<div n="B" subtype="fragment" type="textpart" xml:id="fragment_B"><head>Fragment B</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/>ⲛⲧⲉⲧ<unclear>ⲛⲥ</unclear>ⲱⲟⲩ<unclear>ϩ</unclear> <gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/>ⲟⲩ ⲧⲉ ⲧⲉ<choice><reg xml:lang="grc">χρεία</reg><orig>ⲭⲣⲉⲓ<unclear>ⲁ</unclear></orig></choice> <choice><reg xml:lang="grc">οὖν</reg><orig>ⲟⲩⲛ</orig></choice> ⲛⲛⲉⲓ<choice><reg xml:lang="grc">διαστροφή</reg><orig>ⲇⲓⲁⲥⲧⲣⲟⲫⲏ</orig></choice> ⲛϯⲙⲓⲛ<supplied reason="lost">ⲉ</supplied> <gap reason="lost" extent="unknown" unit="character"/>

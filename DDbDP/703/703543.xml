@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,7 +42,7 @@
          <head><ref target="https://papyri.info/pub/p.oxyrhyncha/19">P.Oxyrhyncha 19</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="a" subtype="fragment" type="textpart" xml:id="fragment_a"><head>Fragment a</head>
-<div n="r" type="textpart"><ab>
+<div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
     <lb n="1"/><unclear>Δημήτριος</unclear> <unclear>Θ</unclear>εοδώρωι <space extent="unknown" unit="character"/> χαίρει<unclear>ν</unclear>. <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">γέ</supplied><unclear>γ</unclear>ραφε<unclear>ν</unclear> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Ὀ</supplied>
 
     <lb n="2" break="no"/>ξυρύγχω<unclear>ν</unclear> <gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><unclear>τα</unclear> γεωργούμ<unclear>εν</unclear>α περ<unclear>ὶ</unclear> <supplied reason="lost">Ὀ</supplied><unclear>ξύ</unclear><supplied reason="lost">ρυγχα</supplied> <gap reason="lost" extent="unknown" unit="character"/>     
@@ -59,7 +61,7 @@
 
     <lb n="8"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>  
-<div n="v" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
     <lb n="1"/>Θεοδώρωι
 </ab></div>
 </div>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,8 +42,8 @@
          <head><ref target="https://papyri.info/pub/p.count/17">P.Count 17</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="2" subtype="fragment" type="textpart" xml:id="fragment_2"><head>Fragment 2</head> 
-<div n="r" type="textpart"> 
-<div n="1" subtype="column" type="textpart"><ab>
+<div n="r" type="textpart" xml:id="_r"><head>r</head> 
+<div n="1" subtype="column" type="textpart" xml:id="column_1"><head>Column 1</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="1"/>Στοτόη<unclear>τ</unclear><supplied reason="lost">ις </supplied><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><g type="filler"/>Κήδι<supplied reason="lost">ππος </supplied><gap reason="lost" extent="unknown" unit="character"/>
@@ -64,7 +66,7 @@
 <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/>ς <expan>γυ<ex>νή</ex></expan> <num value="1">α</num> <num value="1/2"><expan><ex>ἡμιώβελιον</ex></expan></num>
 <lb n="19"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
-<div n="2" subtype="column" type="textpart"><ab>
+<div n="2" subtype="column" type="textpart" xml:id="column_2"><head>Column 2</head><ab>
 <lb n="20"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="20"/><g type="middot"/> Δαβρέ<unclear>α</unclear><supplied reason="lost">ς </supplied><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="21"/><g type="middot"/> Ὄννωφρι<supplied reason="lost">ς </supplied><gap reason="lost" extent="unknown" unit="character"/>
@@ -76,7 +78,7 @@
 <lb n="26"/><gap reason="lost" extent="unknown" unit="line"/>
 </ab></div>
 </div>
-<div n="v" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 <lb n="27"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="27"/>Μίκκη κα<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="28"/><gap reason="illegible" quantity="2" unit="line"><desc>vestiges</desc></gap>
@@ -86,7 +88,7 @@
 </ab></div>
 </div>
 <div n="b" subtype="fragment" type="textpart" xml:id="fragment_b"><head>Fragment b</head>
-<div n="r" type="textpart"><ab>
+<div n="r" type="textpart" xml:id="_r"><head>r</head><ab>
 <lb n="32"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="32"/><gap reason="lost" extent="unknown" unit="character"/> Ἁρμιύσιος
 <lb n="33"/><gap reason="lost" extent="unknown" unit="character"/>ις <expan>γυ<ex>νή</ex></expan> <num value="4"><expan><ex>τετρώβολον</ex></expan></num> <num value="1/2"><expan><ex>ἡμιώβελιον</ex></expan></num>
@@ -98,7 +100,7 @@
 <lb n="39"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <expan>γυ<ex>νή</ex></expan> <num value="1">α</num> <expan><ex>γίνεται</ex></expan> <num value="27">κζ</num>
 <lb n="39"/><space extent="unknown" unit="line"/>
 </ab></div>
-<div n="v" type="textpart"><ab>
+<div n="v" type="textpart" xml:id="_v"><head>v</head><ab>
 <lb n="40"/><gap reason="lost" extent="unknown" unit="line"/>
 <lb n="40"/>Πετέσουχος Α<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="41"/>Ἅυγχις μή<supplied reason="lost" cert="low">τηρ</supplied> <gap reason="lost" extent="unknown" unit="character"/>

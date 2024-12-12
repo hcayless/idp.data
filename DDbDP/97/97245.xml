@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,7 +52,7 @@
          <head><ref target="https://papyri.info/pub/sb/26/16524">SB 26 16524</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="r" type="textpart" xml:id="_r"><head>r</head>
-<div n="a" subtype="document" type="textpart"><ab>
+<div n="a" subtype="document" type="textpart" xml:id="document_a"><head>Document a</head><ab>
 <lb n="1"/><supplied reason="lost">Πεσοῦρις Ἡρακλείδει χαίρειν.</supplied> <gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="8" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ιη<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ο<gap reason="illegible" quantity="1" unit="character"/><unclear>κ</unclear>ο<gap reason="illegible" quantity="1" unit="character"/><unclear>σ</unclear><gap reason="lost" quantity="8" unit="character" precision="low"/>ια<gap reason="lost" quantity="1" unit="character"/>αι<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
 <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" quantity="6" unit="character" precision="low"/><unclear>ρ</unclear><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ο<gap reason="illegible" quantity="1" unit="character"/><unclear>ε</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -63,7 +65,7 @@
 <lb n="10"/>τοῦ λόγου ἐσομένου. <space extent="unknown" unit="character"/> ἔρρωσο. <expan><ex>ἔτους</ex></expan> <num value="33">λ<unclear>γ</unclear></num> Τῦβι <num value="26"><hi rend="supraline">κϛ</hi></num>.
 <lb n="10"/><space quantity="1" unit="line"/>
 </ab></div>
-<div n="b" subtype="document" type="textpart"><ab>
+<div n="b" subtype="document" type="textpart" xml:id="document_b"><head>Document b</head><ab>
 <lb n="11"/><unclear>Ἀν</unclear><supplied reason="lost">τ</supplied><unclear>ίπατρ</unclear>ος Πεσούρει χαίρειν. Ἡρακλείωι Διονυσίου <surplus>κ</surplus> <supplied reason="omitted">Μ</supplied>ακεδόνι τῶι προσειλημμένωι δι’ ἡμῶν
 <lb n="12"/><unclear>εἰ</unclear><supplied reason="lost">ς</supplied> <unclear>τὴ</unclear>ν κατοικίαν καταμετρηθήτωσαν ἀπὸ τῆς ἐπικεχωρημένης χέρσου κατὰ τὰ
 <lb n="13"/>προστεταγμένα <expan><ex>ἄρουραι</ex></expan> <num value="30">λ</num>, ἐὰν καὶ σοὶ <choice><reg>ἀνθομολογήσηται</reg><orig>ἀνθωμολογήσηται</orig></choice> Δωρίων ὁ τραπεζίτης διαγεγράφθαι

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -71,13 +73,13 @@
     <lb n="10"/>ὅπως ἐπὶ τ<supplied reason="lost">οῦ</supplied> <unclear>κ</unclear>α<unclear>θ</unclear><supplied reason="lost">ήκοντος κριτ</supplied>ηρίου <unclear>δ</unclear><supplied reason="lost">ια</supplied><unclear>κριθ</unclear>ῶσιν. <supplied reason="lost"><expan><ex>ἔτους</ex></expan> </supplied><supplied reason="lost"><gap reason="illegible" extent="unknown" unit="character"/> </supplied> 
 </ab></div>
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="i" subtype="column" type="textpart"><ab>
+<div n="i" subtype="column" type="textpart" xml:id="column_i"><head>Column i</head><ab>
 
     <lb n="11"/>Θαυῆς <expan>πρ<ex>ὸς</ex></expan> 
 
     <lb n="12"/><unclear>Ὧρο</unclear>ν. 
 </ab></div>
-<div n="ii" subtype="column" type="textpart"><ab>
+<div n="ii" subtype="column" type="textpart" xml:id="column_ii"><head>Column ii</head><ab>
     <lb n="11"/>Δημητρίωι
 </ab></div>
 </div></div>

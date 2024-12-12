@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="0187;3;106v" xml:id="p.petr.3.106v" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="0187;3;106v" xml:id="p.petr.3.106v" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,7 +46,7 @@
          <head><ref target="https://papyri.info/pub/p.petr/3/106v">P.Petr. 3 106 V (a) + (b)</ref></head>
          <div xml:lang="grc" type="edition" xml:space="preserve">
 <div n="v" type="textpart" xml:id="_v"><head>v</head>
-<div n="a" subtype="part" type="textpart"><ab>
+<div n="a" subtype="part" type="textpart" xml:id="part_a"><head>Part a</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καὶ κεχειρογ</supplied>ραφήκασιν τὸν εἰθι<supplied reason="lost">σμέ</supplied>
 <lb n="2" break="no"/><supplied reason="lost">νον ὅρκον τοσούτου</supplied> μεμισθῶ<supplied reason="lost">σθα</supplied>ι. ἀπομετρηθήτω <supplied reason="lost">οὖν</supplied>
 <lb n="3"/><supplied reason="lost">εἰς τὸ βασιλικὸν</supplied> τὸ προγεγρ<supplied reason="lost">α</supplied>μμένον ἐκ<supplied reason="lost">φόριον</supplied>
@@ -58,7 +60,7 @@
 <lb n="11"/>ὅρκον τοσούτου μεμισθῶσθαι. ἀπομε<supplied reason="lost">τρηθήτω οὖν</supplied> 
 <lb n="12"/>εἰς τὸ <expan>βα<ex>σιλικὸν</ex></expan> τὸ προγεγραμμένον ἐκφόριον 
 </ab></div>
-<div n="b" subtype="part" type="textpart"><ab>
+<div n="b" subtype="part" type="textpart" xml:id="part_b"><head>Part b</head><ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><num value="1">α</num> 
 <lb n="2"/><supplied reason="lost">Ἀχοά</supplied>πει. τοῦ Λυσιμάχου <supplied reason="lost"><expan><ex>ἑκατονταρούρου</ex></expan> <expan>κλ<ex>ήρου</ex></expan> τοῦ ἀ</supplied>νειλ<supplied reason="lost">η</supplied>μμένου 
 <lb n="3"/>εἰς τὸ <expan>βα<ex>σιλικὸν</ex></expan> μετὰ τὸν σπόρ<supplied reason="lost">ον τοῦ <num value="4">δ</num> <expan><ex>ἔτους</ex></expan></supplied> πε<supplied reason="lost">ρὶ</supplied> Ἡφαιστιάδα 
